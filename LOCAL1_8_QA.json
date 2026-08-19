@@ -1,0 +1,651 @@
+{
+  "total": 161,
+  "passed": 161,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "homepage loads isolated 1.8 integration stylesheet",
+      "passed": true
+    },
+    {
+      "name": "global nav contains one Local entry",
+      "passed": true
+    },
+    {
+      "name": "global Local nav entry uses site-integration campaign",
+      "passed": true
+    },
+    {
+      "name": "existing Start a review nav item remains",
+      "passed": true
+    },
+    {
+      "name": "existing Professional programs nav item remains",
+      "passed": true
+    },
+    {
+      "name": "existing Contact Dylan nav item remains",
+      "passed": true
+    },
+    {
+      "name": "existing header Call Dylan action remains",
+      "passed": true
+    },
+    {
+      "name": "homepage still has exactly one general CoverageFit launch",
+      "passed": true
+    },
+    {
+      "name": "primary CoverageFit launch appears before Local module",
+      "passed": true
+    },
+    {
+      "name": "Local module is below CoverageFit story",
+      "passed": true
+    },
+    {
+      "name": "Local module is below professional programs",
+      "passed": true
+    },
+    {
+      "name": "Local module is before agent/contact closeout",
+      "passed": true
+    },
+    {
+      "name": "Local module has exact 408FARMERS Local label",
+      "passed": true
+    },
+    {
+      "name": "Local module describes program as separate",
+      "passed": true
+    },
+    {
+      "name": "Local module carries no-insurance requirement language",
+      "passed": true
+    },
+    {
+      "name": "Local module includes Eat & Drink category",
+      "passed": true
+    },
+    {
+      "name": "Local module includes Home category",
+      "passed": true
+    },
+    {
+      "name": "Local module includes Auto category",
+      "passed": true
+    },
+    {
+      "name": "Local module has one consumer explore CTA",
+      "passed": true
+    },
+    {
+      "name": "Local module has separate merchant join CTA",
+      "passed": true
+    },
+    {
+      "name": "homepage Local module contains no insurance form",
+      "passed": true
+    },
+    {
+      "name": "homepage Local module contains no CoverageFit launcher",
+      "passed": true
+    },
+    {
+      "name": "homepage Local module contains no insurance savings promise",
+      "passed": true
+    },
+    {
+      "name": "homepage footer uses Local-integrated responsive grid",
+      "passed": true
+    },
+    {
+      "name": "homepage footer includes dedicated Local column",
+      "passed": true
+    },
+    {
+      "name": "footer keeps Coverage Reviews column",
+      "passed": true
+    },
+    {
+      "name": "footer keeps Professional Programs column",
+      "passed": true
+    },
+    {
+      "name": "footer keeps Contact column",
+      "passed": true
+    },
+    {
+      "name": "footer Local consumer link uses homepage_footer surface",
+      "passed": true
+    },
+    {
+      "name": "footer Local merchant link remains separate",
+      "passed": true
+    },
+    {
+      "name": "integration CSS is explicitly versioned 1.8",
+      "passed": true
+    },
+    {
+      "name": "homepage Local module CSS exists",
+      "passed": true
+    },
+    {
+      "name": "post-submit module CSS exists",
+      "passed": true
+    },
+    {
+      "name": "consumer Local CTA maintains 50px touch target",
+      "passed": true
+    },
+    {
+      "name": "post-submit Local CTA maintains 48px touch target",
+      "passed": true
+    },
+    {
+      "name": "footer adapts to two columns",
+      "passed": true
+    },
+    {
+      "name": "footer adapts to one mobile column",
+      "passed": true
+    },
+    {
+      "name": "homepage module collapses to one column",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html:loads integration CSS",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html:contains exactly one post-submit Local module",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html:Local module comes after request receipt",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html:Local module comes after existing next steps",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html:Local module says separate from insurance request",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html:Local module says no quote or purchase required",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html:Local link uses intended surface",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html:post-submit Local module has no form",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html:post-submit Local module has no CoverageFit launch",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html:loads integration CSS",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html:contains exactly one post-submit Local module",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html:Local module comes after request receipt",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html:Local module comes after existing next steps",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html:Local module says separate from insurance request",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html:Local module says no quote or purchase required",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html:Local link uses intended surface",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html:post-submit Local module has no form",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html:post-submit Local module has no CoverageFit launch",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html:loads integration CSS",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html:contains exactly one post-submit Local module",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html:Local module comes after request receipt",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html:Local module comes after existing next steps",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html:Local module says separate from insurance request",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html:Local module says no quote or purchase required",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html:Local link uses intended surface",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html:post-submit Local module has no form",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html:post-submit Local module has no CoverageFit launch",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html:loads integration CSS",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html:contains exactly one post-submit Local module",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html:Local module comes after request receipt",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html:Local module comes after existing next steps",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html:Local module says separate from insurance request",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html:Local module says no quote or purchase required",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html:Local link uses intended surface",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html:post-submit Local module has no form",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html:post-submit Local module has no CoverageFit launch",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html:loads integration CSS",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html:contains exactly one post-submit Local module",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html:Local module comes after request receipt",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html:Local module comes after existing next steps",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html:Local module says separate from insurance request",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html:Local module says no quote or purchase required",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html:Local link uses intended surface",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html:post-submit Local module has no form",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html:post-submit Local module has no CoverageFit launch",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html:loads integration CSS",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html:contains exactly one post-submit Local module",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html:Local module comes after request receipt",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html:Local module comes after existing next steps",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html:Local module says separate from insurance request",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html:Local module says no quote or purchase required",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html:Local link uses intended surface",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html:post-submit Local module has no form",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html:post-submit Local module has no CoverageFit launch",
+      "passed": true
+    },
+    {
+      "name": "buyer/thank-you.html:loads integration CSS",
+      "passed": true
+    },
+    {
+      "name": "buyer/thank-you.html:contains exactly one post-submit Local module",
+      "passed": true
+    },
+    {
+      "name": "buyer/thank-you.html:Local module comes after request receipt",
+      "passed": true
+    },
+    {
+      "name": "buyer/thank-you.html:Local module says separate from insurance request",
+      "passed": true
+    },
+    {
+      "name": "buyer/thank-you.html:Local module says no quote or purchase required",
+      "passed": true
+    },
+    {
+      "name": "buyer/thank-you.html:Local link uses intended surface",
+      "passed": true
+    },
+    {
+      "name": "buyer/thank-you.html:post-submit Local module has no form",
+      "passed": true
+    },
+    {
+      "name": "buyer/thank-you.html:post-submit Local module has no CoverageFit launch",
+      "passed": true
+    },
+    {
+      "name": "buyer completion copy does not imply policy coverage has started",
+      "passed": true
+    },
+    {
+      "name": "buyer completion uses request-received wording",
+      "passed": true
+    },
+    {
+      "name": "Life receipt intentionally has no Local module",
+      "passed": true
+    },
+    {
+      "name": "home/index.html:unchanged from 1.7 source",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html:unchanged from 1.7 source",
+      "passed": true
+    },
+    {
+      "name": "buyer/index.html:unchanged from 1.7 source",
+      "passed": true
+    },
+    {
+      "name": "healthcare/index.html:unchanged from 1.7 source",
+      "passed": true
+    },
+    {
+      "name": "teachers/index.html:unchanged from 1.7 source",
+      "passed": true
+    },
+    {
+      "name": "tech/index.html:unchanged from 1.7 source",
+      "passed": true
+    },
+    {
+      "name": "engineers/index.html:unchanged from 1.7 source",
+      "passed": true
+    },
+    {
+      "name": "life/index.html:unchanged from 1.7 source",
+      "passed": true
+    },
+    {
+      "name": "life/thank-you.html:unchanged from 1.7 source",
+      "passed": true
+    },
+    {
+      "name": "shared/script.js:unchanged from 1.7 source",
+      "passed": true
+    },
+    {
+      "name": "shared/coveragefit-launch.js:unchanged from 1.7 source",
+      "passed": true
+    },
+    {
+      "name": "shared/local-attribution.js:unchanged from 1.7 source",
+      "passed": true
+    },
+    {
+      "name": "shared/local-merchant.js:unchanged from 1.7 source",
+      "passed": true
+    },
+    {
+      "name": "shared/local-directory.js:unchanged from 1.7 source",
+      "passed": true
+    },
+    {
+      "name": "shared/local-data-model.js:unchanged from 1.7 source",
+      "passed": true
+    },
+    {
+      "name": "shared/local-join.js:unchanged from 1.7 source",
+      "passed": true
+    },
+    {
+      "name": "_worker.js:unchanged from 1.7 source",
+      "passed": true
+    },
+    {
+      "name": "local/data/catalog.json:unchanged from 1.7 source",
+      "passed": true
+    },
+    {
+      "name": "local/data/catalog.schema.json:unchanged from 1.7 source",
+      "passed": true
+    },
+    {
+      "name": "Local directory shell advances to 1.8 marker",
+      "passed": true
+    },
+    {
+      "name": "Local detail shell advances to 1.8 marker",
+      "passed": true
+    },
+    {
+      "name": "Local join remains independently versioned at 1.5",
+      "passed": true
+    },
+    {
+      "name": "Local directory content otherwise unchanged from 1.7",
+      "passed": true
+    },
+    {
+      "name": "Local detail content otherwise unchanged from 1.7",
+      "passed": true
+    },
+    {
+      "name": "all fixture merchants remain draft/non-public",
+      "passed": true
+    },
+    {
+      "name": "all fixture perks remain draft/non-public",
+      "passed": true
+    },
+    {
+      "name": "1.8 contract build is exact",
+      "passed": true
+    },
+    {
+      "name": "contract says global nav Local is integrated",
+      "passed": true
+    },
+    {
+      "name": "contract says lower-page module is integrated",
+      "passed": true
+    },
+    {
+      "name": "contract says footer Local is integrated",
+      "passed": true
+    },
+    {
+      "name": "contract says primary insurance CTA was not replaced",
+      "passed": true
+    },
+    {
+      "name": "contract says active form steps unchanged",
+      "passed": true
+    },
+    {
+      "name": "contract says buyer intake unchanged",
+      "passed": true
+    },
+    {
+      "name": "contract says no Local lead form added",
+      "passed": true
+    },
+    {
+      "name": "contract says no automatic CoverageFit launch added",
+      "passed": true
+    },
+    {
+      "name": "contract says quote not required",
+      "passed": true
+    },
+    {
+      "name": "contract says purchase not required",
+      "passed": true
+    },
+    {
+      "name": "contract says insurance economics unchanged",
+      "passed": true
+    },
+    {
+      "name": "contract reuses 1.6 attribution engine",
+      "passed": true
+    },
+    {
+      "name": "contract adds no analytics event names",
+      "passed": true
+    },
+    {
+      "name": "contract adds no analytics PII",
+      "passed": true
+    },
+    {
+      "name": "contract says no catalog mutation",
+      "passed": true
+    },
+    {
+      "name": "contract says no real merchant activation",
+      "passed": true
+    },
+    {
+      "name": "contract says Worker unchanged",
+      "passed": true
+    },
+    {
+      "name": "contract locks next sprint to 1.9",
+      "passed": true
+    },
+    {
+      "name": "roadmap current build advances to 1.8",
+      "passed": true
+    },
+    {
+      "name": "roadmap marks 1.8 complete",
+      "passed": true
+    },
+    {
+      "name": "roadmap continuation locks 1.9",
+      "passed": true
+    },
+    {
+      "name": "root roadmap marks 1.8 complete",
+      "passed": true
+    },
+    {
+      "name": "root roadmap leaves 1.9 incomplete",
+      "passed": true
+    },
+    {
+      "name": "CHANGELOG starts with 1.8",
+      "passed": true
+    },
+    {
+      "name": "README identifies 1.8 as current Local release",
+      "passed": true
+    },
+    {
+      "name": "VERSION advances to 1.8",
+      "passed": true
+    },
+    {
+      "name": "sprint documentation is substantive",
+      "passed": true
+    },
+    {
+      "name": "release certification identifies 1.8",
+      "passed": true
+    },
+    {
+      "name": "release certification locks next sprint to 1.9",
+      "passed": true
+    },
+    {
+      "name": "release certification records no active form UI change",
+      "passed": true
+    },
+    {
+      "name": "release certification records no real merchant activation",
+      "passed": true
+    }
+  ]
+}

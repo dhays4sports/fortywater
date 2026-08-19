@@ -1,0 +1,391 @@
+{
+  "total": 96,
+  "passed": 96,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "Local attribution build is 1.6",
+      "passed": true
+    },
+    {
+      "name": "Local attribution schema is versioned",
+      "passed": true
+    },
+    {
+      "name": "Local event schema is versioned",
+      "passed": true
+    },
+    {
+      "name": "Local context retention is exactly 30 days",
+      "passed": true
+    },
+    {
+      "name": "event endpoint is same-origin Local endpoint",
+      "passed": true
+    },
+    {
+      "name": "five minimum event names are exact",
+      "passed": true
+    },
+    {
+      "name": "canonical context includes required Local identifiers",
+      "passed": true
+    },
+    {
+      "name": "canonical context includes standard UTMs",
+      "passed": true
+    },
+    {
+      "name": "token accepts campaign-safe identifier",
+      "passed": true
+    },
+    {
+      "name": "token rejects free-form name-like value",
+      "passed": true
+    },
+    {
+      "name": "token rejects email-shaped value",
+      "passed": true
+    },
+    {
+      "name": "token rejects URL-shaped value",
+      "passed": true
+    },
+    {
+      "name": "token rejects address-like value",
+      "passed": true
+    },
+    {
+      "name": "capture forces truthful Local source",
+      "passed": true
+    },
+    {
+      "name": "capture retains merchant partner id",
+      "passed": true
+    },
+    {
+      "name": "capture retains perk id",
+      "passed": true
+    },
+    {
+      "name": "capture retains merchant slug",
+      "passed": true
+    },
+    {
+      "name": "capture retains physical surface",
+      "passed": true
+    },
+    {
+      "name": "capture retains Local campaign",
+      "passed": true
+    },
+    {
+      "name": "capture retains variant",
+      "passed": true
+    },
+    {
+      "name": "capture retains UTM source",
+      "passed": true
+    },
+    {
+      "name": "stored record is versioned",
+      "passed": true
+    },
+    {
+      "name": "stored record contains no obvious PII keys",
+      "passed": true
+    },
+    {
+      "name": "stored record expires 30 days after capture",
+      "passed": true
+    },
+    {
+      "name": "insurance URL carries source=local",
+      "passed": true
+    },
+    {
+      "name": "insurance URL carries partner",
+      "passed": true
+    },
+    {
+      "name": "insurance URL carries perk",
+      "passed": true
+    },
+    {
+      "name": "insurance URL carries merchant slug",
+      "passed": true
+    },
+    {
+      "name": "insurance URL carries physical surface",
+      "passed": true
+    },
+    {
+      "name": "insurance URL carries campaign",
+      "passed": true
+    },
+    {
+      "name": "insurance URL carries variant",
+      "passed": true
+    },
+    {
+      "name": "insurance URL carries campaign_id compatibility field",
+      "passed": true
+    },
+    {
+      "name": "insurance URL carries campaign_variant compatibility field",
+      "passed": true
+    },
+    {
+      "name": "insurance URL carries standard UTMs",
+      "passed": true
+    },
+    {
+      "name": "event payload builds",
+      "passed": true
+    },
+    {
+      "name": "event contains UUID event id",
+      "passed": true
+    },
+    {
+      "name": "event contains UUID session id",
+      "passed": true
+    },
+    {
+      "name": "event name preserved",
+      "passed": true
+    },
+    {
+      "name": "event route is Local-only path",
+      "passed": true
+    },
+    {
+      "name": "event contains origin surface",
+      "passed": true
+    },
+    {
+      "name": "event does not include consumer identity",
+      "passed": true
+    },
+    {
+      "name": "event does not include offer text or redemption detail",
+      "passed": true
+    },
+    {
+      "name": "event pushes to dataLayer",
+      "passed": true
+    },
+    {
+      "name": "dataLayer payload remains identifier-only",
+      "passed": true
+    },
+    {
+      "name": "directory page advances to 1.6",
+      "passed": true
+    },
+    {
+      "name": "merchant detail advances to 1.6",
+      "passed": true
+    },
+    {
+      "name": "directory loads attribution runtime before directory runtime",
+      "passed": true
+    },
+    {
+      "name": "merchant detail loads attribution before merchant runtime",
+      "passed": true
+    },
+    {
+      "name": "directory insurance links are explicitly marked",
+      "passed": true
+    },
+    {
+      "name": "detail insurance links are explicitly marked",
+      "passed": true
+    },
+    {
+      "name": "merchant join flow remains separate and does not load consumer attribution runtime",
+      "passed": true
+    },
+    {
+      "name": "directory-generated merchant links expose bounded attribution data attributes",
+      "passed": true
+    },
+    {
+      "name": "directory decorates rendered merchant links",
+      "passed": true
+    },
+    {
+      "name": "merchant page attaches confirmed merchant context",
+      "passed": true
+    },
+    {
+      "name": "merchant page emits merchant_view",
+      "passed": true
+    },
+    {
+      "name": "merchant page emits perk_open",
+      "passed": true
+    },
+    {
+      "name": "redemption click emits perk_redeem_intent",
+      "passed": true
+    },
+    {
+      "name": "shared lead runtime accepts source and Local IDs",
+      "passed": true
+    },
+    {
+      "name": "shared lead runtime restores bounded Local storage context",
+      "passed": true
+    },
+    {
+      "name": "shared lead runtime only restores Local when no explicit attribution exists",
+      "passed": true
+    },
+    {
+      "name": "shared lead runtime creates missing hidden attribution fields",
+      "passed": true
+    },
+    {
+      "name": "shared lead runtime generates compatible Local campaign id",
+      "passed": true
+    },
+    {
+      "name": "CoverageFit launcher passes Local identifiers",
+      "passed": true
+    },
+    {
+      "name": "CoverageFit launcher restores Local storage when current page has no explicit campaign",
+      "passed": true
+    },
+    {
+      "name": "CoverageFit launcher preserves source=local",
+      "passed": true
+    },
+    {
+      "name": "CoverageFit launcher explicit current query wins",
+      "passed": true
+    },
+    {
+      "name": "worker declares Local event endpoint",
+      "passed": true
+    },
+    {
+      "name": "worker declares exact five Local events",
+      "passed": true
+    },
+    {
+      "name": "worker defines dedicated Local D1 table",
+      "passed": true
+    },
+    {
+      "name": "worker supports preferred Local analytics binding",
+      "passed": true
+    },
+    {
+      "name": "worker requires Local event version header",
+      "passed": true
+    },
+    {
+      "name": "worker validates JSON only",
+      "passed": true
+    },
+    {
+      "name": "worker exact-key validates Local payload",
+      "passed": true
+    },
+    {
+      "name": "worker does not add IP or user-agent columns",
+      "passed": true
+    },
+    {
+      "name": "worker analytics failure is non-blocking",
+      "passed": true
+    },
+    {
+      "name": "worker fetch routes Local events before asset handling",
+      "passed": true
+    },
+    {
+      "name": "CoverageFit runtime actually restores Local partner from storage",
+      "passed": true
+    },
+    {
+      "name": "CoverageFit runtime actually restores Local surface from storage",
+      "passed": true
+    },
+    {
+      "name": "CoverageFit runtime actually sends source=local",
+      "passed": true
+    },
+    {
+      "name": "CoverageFit runtime actually sends partner/perk/surface",
+      "passed": true
+    },
+    {
+      "name": "1.5 catalog hash remains preserved",
+      "passed": true
+    },
+    {
+      "name": "1.5 schema hash remains preserved",
+      "passed": true
+    },
+    {
+      "name": "1.5 merchant join page remains byte-for-byte preserved",
+      "passed": true
+    },
+    {
+      "name": "contract build is 1.6",
+      "passed": true
+    },
+    {
+      "name": "contract has exact five events",
+      "passed": true
+    },
+    {
+      "name": "contract says consumer identity is forbidden",
+      "passed": true
+    },
+    {
+      "name": "contract says analytics never gate redemption",
+      "passed": true
+    },
+    {
+      "name": "contract says explicit current campaign wins",
+      "passed": true
+    },
+    {
+      "name": "contract next sprint is 1.7",
+      "passed": true
+    },
+    {
+      "name": "roadmap marks 1.6 complete",
+      "passed": true
+    },
+    {
+      "name": "roadmap current build is 1.6",
+      "passed": true
+    },
+    {
+      "name": "roadmap continuation locks 1.7",
+      "passed": true
+    },
+    {
+      "name": "VERSION advanced to 1.6",
+      "passed": true
+    },
+    {
+      "name": "sprint documentation is substantive",
+      "passed": true
+    },
+    {
+      "name": "directory renderer still exposes function",
+      "passed": true
+    },
+    {
+      "name": "merchant renderer still exposes function",
+      "passed": true
+    }
+  ]
+}

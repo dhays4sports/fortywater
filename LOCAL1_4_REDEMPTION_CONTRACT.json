@@ -1,0 +1,76 @@
+{
+  "sprint": "408-LOCAL-1.4",
+  "name": "Merchant Perk Detail + Redemption",
+  "canonicalRoute": "/local/{merchant-slug}/",
+  "detailAsset": "/local/detail/",
+  "catalog": "local/data/catalog.json",
+  "dataModel": "shared/local-data-model.js",
+  "directoryRuntime": "shared/local-directory.js",
+  "merchantRuntime": "shared/local-merchant.js",
+  "routing": {
+    "trailingSlashCanonical": true,
+    "oneSegmentMerchantSlugOnly": true,
+    "reservedSlugs": [
+      "data",
+      "detail",
+      "join"
+    ],
+    "reusableDetailShell": true,
+    "unknownMerchantFailsClosed": true
+  },
+  "publicMerchant": {
+    "merchantMustBeActive": true,
+    "fixturesExcluded": true,
+    "merchantWithoutActivePerkMayRemainVisible": true,
+    "imageLogoSupport": true,
+    "categoryNeighborhood": true,
+    "merchantDescriptions": true,
+    "websiteLink": true,
+    "instagramLink": true,
+    "directionsLink": true
+  },
+  "perk": {
+    "mustBeActiveAndInWindowToRedeem": true,
+    "scheduledRedeemable": false,
+    "expiredRedeemable": false,
+    "pausedRedeemable": false,
+    "draftRedeemable": false,
+    "inactiveRedeemable": false,
+    "merchantTermsVisibleBeforeRedemption": true,
+    "independentOfferLanguageVisible": true
+  },
+  "redemption": {
+    "method": "show_screen_mvp",
+    "action": "Use This Perk",
+    "screenIncludesMerchantName": true,
+    "screenIncludesCurrentOffer": true,
+    "screenIncludesTerms": true,
+    "screenIncludesIndependentOfferLanguage": true,
+    "readyToShowState": true,
+    "accountRequired": false,
+    "identityRequired": false,
+    "posIntegration": false,
+    "singleUseToken": false,
+    "serverRedemptionWrite": false,
+    "supportedOnlineMethod": "show_screen",
+    "unsupportedConfiguredMethodsFailClosed": true
+  },
+  "boundaries": {
+    "insurancePurchaseRequired": false,
+    "insuranceQuoteRequired": false,
+    "insuranceLeadRequired": false,
+    "coverageFitAssessmentRequired": false,
+    "consumerIdentityCollected": false,
+    "merchantEndorsementImplied": false,
+    "insurancePricingAffected": false,
+    "insuranceEligibilityAffected": false
+  },
+  "productionCatalogState": {
+    "realMerchantsActivated": 0,
+    "fixtureMerchants": 3,
+    "fixturesPubliclyRendered": false,
+    "livePerksActivated": 0
+  },
+  "nextSprint": "408-LOCAL-1.5",
+  "roadmap": "408-LOCAL-ROADMAP.md"
+}

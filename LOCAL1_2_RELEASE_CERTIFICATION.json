@@ -1,0 +1,88 @@
+{
+  "sprint": "408-LOCAL-1.2",
+  "status": "deployable_source_certified",
+  "releaseType": "source_deployable_data_model",
+  "publicRoute": "/local/",
+  "scope": [
+    "versioned merchant/perk catalog",
+    "merchant/perk JSON Schema",
+    "storage-neutral Local data-model runtime helper",
+    "merchant/perk lifecycle and temporal availability rules",
+    "stable canonical merchant URL construction",
+    "independent-offer language enforcement",
+    "merchant no-endorsement guardrails",
+    "three non-public pilot-category fixture records",
+    "reusable fixture rendering certification",
+    "roadmap advancement to 408-LOCAL-1.3"
+  ],
+  "runtimeBehaviorChanged": false,
+  "publicLocalUiChanged": false,
+  "insuranceAcquisitionFlowsChanged": false,
+  "coverageFitChanged": false,
+  "merchantOffersActivated": false,
+  "merchantDirectoryActivated": false,
+  "fixtures": {
+    "count": 3,
+    "categories": ["eat-drink", "home", "auto"],
+    "allDraft": true,
+    "publiclyRendered": false
+  },
+  "qa": {
+    "localMerchantModel": {
+      "passed": 48,
+      "failed": 0,
+      "artifact": "LOCAL1_2_QA.json"
+    },
+    "localFoundationRegression": {
+      "passed": 30,
+      "failed": 0,
+      "artifact": "LOCAL1_1_QA.json"
+    },
+    "staticRegression": {
+      "passed": 296,
+      "failed": 0,
+      "artifact": "B1_2D_QA.json"
+    },
+    "internalLinks": {
+      "checked": 341,
+      "broken": 0
+    },
+    "advancedModeRouting": {
+      "passed": 10,
+      "failed": 0
+    },
+    "homeDeepRouteRouting": {
+      "passed": 16,
+      "failed": 0
+    }
+  },
+  "nextSprint": "408-LOCAL-1.3",
+  "roadmap": "408-LOCAL-ROADMAP.md",
+  "sourceHashes": {
+    "local/data/catalog.json": "54b0bf57f630d68c803c8a81085f4f743df3fabdef2b7454facd7d0ed48c1663",
+    "local/data/catalog.schema.json": "a56f9a6c37878b139c52a9948bbe012d7186a0664c116039cb2bd60e8583b72d",
+    "local/data/README.md": "27771382414369d7f4b5fd559274d11a21fdfcece9ea2d9327c0a9ad745df2b4",
+    "shared/local-data-model.js": "ff06f29c256d85adc4d8813187719a640c918a3cb7381b43c24d4469149fa17e",
+    "LOCAL1_2_DATA_CONTRACT.json": "359f0c1e34e8b3da0b1e806751581b40f1cb9e03855f94f8aac7752a5a158d39",
+    "SPRINT-408-LOCAL-1.2.md": "973f63142b24638e22a588347bbe6131f76d8061a029911e21dd0219584a845c",
+    "408-LOCAL-ROADMAP.md": "a103a9dd06a19fe253881d817653e47b141231cfb3ef44a9d9dfc4480aa757c6",
+    "ROADMAP.md": "37ffbdf5cf0772ce53736f46a088f1bcbe5f8e45ccb50c49a81335148ed31ed4",
+    "qa/test-408-local-1.2.js": "7e5de45ba93fefa88ee4d88fd20ba832ee0b7bd092f5a93c5dc0eccaf71424eb",
+    "LOCAL1_2_QA.json": "4d19b8679db4dcd176f1acaac8bdaa52fbe50561fa7e37491924b3e5add6051c"
+  },
+  "preservedPublicHashes": {
+    "local/index.html": "6b2dfb68840f5488ce18188c344d55fc8be336ca0bd59a7e57224aa899c2f3c7",
+    "shared/local.css": "e1e30c75156ccc5c346051348699a5f215fe75c1bfa409aaa569021ea6235bdd",
+    "_worker.js": "7d0505a352968d1bcfb1f103cd24f50687d358624705cef5bd4b4996327136e4"
+  },
+  "changeBoundary": {
+    "existingPublicLocalHtmlChanged": false,
+    "existingLocalCssChanged": false,
+    "workerChanged": false,
+    "existingInsuranceHtmlChanged": false,
+    "existingInsuranceJavascriptChanged": false,
+    "coverageFitChanged": false,
+    "newPublicMerchantRoutes": false,
+    "newPublicMerchantOffers": false
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "sprint": "408-UI-3.13.1C",
+  "name": "Core Insurance Humanization",
+  "status": "COMPLETE",
+  "input_baseline": "408-UI-3.13.1B — Professional Programs Humanization",
+  "principle": "Modern system underneath. Human relationship on the surface.",
+  "routes": [
+    "/",
+    "/home/",
+    "/auto-bundle/",
+    "/buyer/"
+  ],
+  "intensity": {
+    "homepage": "moderate",
+    "home": "restrained",
+    "home_auto": "restrained",
+    "buyer": "moderate"
+  },
+  "implemented": {
+    "homepage": [
+      "first-person review framing",
+      "compact Dylan Human Trust Signature in place of abstract hero trust chips",
+      "warmer CoverageFit explanation while retaining CoverageFit as the organizing layer"
+    ],
+    "home": [
+      "warmer review proposition",
+      "restrained early Dylan signature beside the review explanation",
+      "de-chromed benefit list while preserving the flagship form and campaign-aware hero"
+    ],
+    "home_auto": [
+      "consultative household framing",
+      "early Dylan signature instead of pill-heavy hero trust cues",
+      "simplified pre-form explanation",
+      "removed redundant long-form Meet Dylan block inside the conversion card"
+    ],
+    "buyer": [
+      "light concierge closing tone",
+      "early Dylan signature",
+      "warmer property/closing visual card",
+      "less card-heavy review promise list"
+    ]
+  },
+  "protected": [
+    "all form field names and required semantics",
+    "Formspree and Cloudflare endpoints",
+    "Workers and _routes.json",
+    "Home and Bundle branching",
+    "Buyer referral and closing logic",
+    "Campaign Entry Registry and attribution",
+    "Professional Programs 3.13.1B treatment",
+    "Life and Life Ops",
+    "Local",
+    "CoverageFit handoff",
+    "SMS/contact destinations",
+    "consent",
+    "pricing and underwriting behavior"
+  ],
+  "next_sprint": "408-UI-3.13.1D — Relationship + Completion Humanization"
+}

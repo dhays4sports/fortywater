@@ -1,0 +1,371 @@
+{
+  "total": 91,
+  "passed": 91,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "1.7 bridge renderer is exported",
+      "passed": true
+    },
+    {
+      "name": "bridge renders only for merchant with active view-model perk",
+      "passed": true
+    },
+    {
+      "name": "bridge does not render when merchant perk is unavailable",
+      "passed": true
+    },
+    {
+      "name": "full merchant detail has no bridge without active perk",
+      "passed": true
+    },
+    {
+      "name": "bridge identifies itself as optional insurance review",
+      "passed": true
+    },
+    {
+      "name": "bridge homeowner headline is exact",
+      "passed": true
+    },
+    {
+      "name": "bridge explicitly says insurance review is separate from perk",
+      "passed": true
+    },
+    {
+      "name": "bridge says perk is already available",
+      "passed": true
+    },
+    {
+      "name": "bridge says using or skipping review does not change offer",
+      "passed": true
+    },
+    {
+      "name": "bridge repeats no quote or purchase requirement",
+      "passed": true
+    },
+    {
+      "name": "bridge contains Home + Auto route",
+      "passed": true
+    },
+    {
+      "name": "bridge contains Home-only route",
+      "passed": true
+    },
+    {
+      "name": "Home + Auto route uses certified attribution CTA marker",
+      "passed": true
+    },
+    {
+      "name": "Home + Auto route uses auto_bundle destination token",
+      "passed": true
+    },
+    {
+      "name": "Home-only route uses certified attribution CTA marker",
+      "passed": true
+    },
+    {
+      "name": "Home-only route uses home destination token",
+      "passed": true
+    },
+    {
+      "name": "bridge contains no form",
+      "passed": true
+    },
+    {
+      "name": "bridge contains no input controls",
+      "passed": true
+    },
+    {
+      "name": "bridge contains no CoverageFit launcher",
+      "passed": true
+    },
+    {
+      "name": "bridge contains no rate/savings promise",
+      "passed": true
+    },
+    {
+      "name": "merchant perk renders before bridge",
+      "passed": true
+    },
+    {
+      "name": "redemption action renders before bridge",
+      "passed": true
+    },
+    {
+      "name": "merchant terms render before bridge",
+      "passed": true
+    },
+    {
+      "name": "independent-offer language renders before bridge",
+      "passed": true
+    },
+    {
+      "name": "explicit Local/insurance boundary renders before bridge",
+      "passed": true
+    },
+    {
+      "name": "program boundary says Local perks do not affect insurance economics",
+      "passed": true
+    },
+    {
+      "name": "bundle bridge can carry source=local",
+      "passed": true
+    },
+    {
+      "name": "bundle bridge can carry partner id",
+      "passed": true
+    },
+    {
+      "name": "bundle bridge can carry perk id",
+      "passed": true
+    },
+    {
+      "name": "bundle bridge can carry merchant slug",
+      "passed": true
+    },
+    {
+      "name": "bundle bridge can carry physical surface",
+      "passed": true
+    },
+    {
+      "name": "bundle bridge can carry campaign/variant",
+      "passed": true
+    },
+    {
+      "name": "bundle bridge can carry UTM context",
+      "passed": true
+    },
+    {
+      "name": "home bridge can carry same Local origin",
+      "passed": true
+    },
+    {
+      "name": "attribution event set remains unchanged from 1.6",
+      "passed": true
+    },
+    {
+      "name": "bridge uses existing insurance click event rather than new event",
+      "passed": true
+    },
+    {
+      "name": "directory shell advances to 1.7 marker",
+      "passed": true
+    },
+    {
+      "name": "merchant detail shell advances to 1.7 marker",
+      "passed": true
+    },
+    {
+      "name": "merchant join remains independently versioned at 1.5",
+      "passed": true
+    },
+    {
+      "name": "directory does not add dedicated 1.7 bridge",
+      "passed": true
+    },
+    {
+      "name": "detail still loads Local attribution before merchant runtime",
+      "passed": true
+    },
+    {
+      "name": "merchant detail header keeps prominent action inside Local",
+      "passed": true
+    },
+    {
+      "name": "merchant detail header has no pre-value insurance CTA marker",
+      "passed": true
+    },
+    {
+      "name": "bridge styling exists",
+      "passed": true
+    },
+    {
+      "name": "bridge has responsive mobile layout",
+      "passed": true
+    },
+    {
+      "name": "bridge actions maintain at least 48px touch targets",
+      "passed": true
+    },
+    {
+      "name": "Local attribution runtime unchanged from certified 1.6",
+      "passed": true
+    },
+    {
+      "name": "directory runtime unchanged from certified 1.6",
+      "passed": true
+    },
+    {
+      "name": "shared insurance lead runtime unchanged from certified 1.6",
+      "passed": true
+    },
+    {
+      "name": "CoverageFit launcher unchanged from certified 1.6",
+      "passed": true
+    },
+    {
+      "name": "Cloudflare Worker unchanged from certified 1.6",
+      "passed": true
+    },
+    {
+      "name": "merchant catalog unchanged from certified 1.6",
+      "passed": true
+    },
+    {
+      "name": "merchant catalog schema unchanged from certified 1.6",
+      "passed": true
+    },
+    {
+      "name": "Local data model unchanged from certified 1.6",
+      "passed": true
+    },
+    {
+      "name": "merchant join page unchanged from certified 1.6",
+      "passed": true
+    },
+    {
+      "name": "merchant join runtime unchanged from certified 1.6",
+      "passed": true
+    },
+    {
+      "name": "all fixture merchants remain draft/non-public",
+      "passed": true
+    },
+    {
+      "name": "all fixture perks remain draft/non-public",
+      "passed": true
+    },
+    {
+      "name": "contract build is 1.7",
+      "passed": true
+    },
+    {
+      "name": "contract says merchant value first",
+      "passed": true
+    },
+    {
+      "name": "contract keeps merchant-detail header action inside Local",
+      "passed": true
+    },
+    {
+      "name": "contract forbids insurance CTA before merchant value",
+      "passed": true
+    },
+    {
+      "name": "contract placement is after perk/terms/redemption/boundary",
+      "passed": true
+    },
+    {
+      "name": "contract requires an active perk",
+      "passed": true
+    },
+    {
+      "name": "contract contains exactly two certified destinations",
+      "passed": true
+    },
+    {
+      "name": "contract points only to existing Home and Home + Auto routes",
+      "passed": true
+    },
+    {
+      "name": "contract says no Local lead form was added",
+      "passed": true
+    },
+    {
+      "name": "contract says no duplicate lead capture",
+      "passed": true
+    },
+    {
+      "name": "contract says existing insurance forms only",
+      "passed": true
+    },
+    {
+      "name": "contract says no automatic CoverageFit launch",
+      "passed": true
+    },
+    {
+      "name": "contract says quote not required for perk",
+      "passed": true
+    },
+    {
+      "name": "contract says purchase not required for perk",
+      "passed": true
+    },
+    {
+      "name": "contract says lead submission not required for perk",
+      "passed": true
+    },
+    {
+      "name": "contract says CoverageFit not required for perk",
+      "passed": true
+    },
+    {
+      "name": "contract says insurance review cannot change perk",
+      "passed": true
+    },
+    {
+      "name": "contract says catalog unchanged",
+      "passed": true
+    },
+    {
+      "name": "contract says no real merchant activation",
+      "passed": true
+    },
+    {
+      "name": "contract locks next sprint as 1.8",
+      "passed": true
+    },
+    {
+      "name": "roadmap marks 1.7 complete",
+      "passed": true
+    },
+    {
+      "name": "roadmap current build is 1.7",
+      "passed": true
+    },
+    {
+      "name": "roadmap continuation locks 1.8",
+      "passed": true
+    },
+    {
+      "name": "root roadmap marks 1.7 complete",
+      "passed": true
+    },
+    {
+      "name": "root roadmap leaves 1.8 incomplete",
+      "passed": true
+    },
+    {
+      "name": "CHANGELOG starts with 1.7",
+      "passed": true
+    },
+    {
+      "name": "README identifies 1.7 as current Local release",
+      "passed": true
+    },
+    {
+      "name": "VERSION advanced to 1.7",
+      "passed": true
+    },
+    {
+      "name": "sprint documentation is substantive",
+      "passed": true
+    },
+    {
+      "name": "merchant renderer invokes bridge after program boundary",
+      "passed": true
+    },
+    {
+      "name": "bridge renderer explicitly requires perk",
+      "passed": true
+    },
+    {
+      "name": "bridge does not bind a new submit handler",
+      "passed": true
+    },
+    {
+      "name": "existing attribution decoration still happens after merchant render",
+      "passed": true
+    }
+  ]
+}

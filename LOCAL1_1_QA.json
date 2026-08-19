@@ -1,0 +1,128 @@
+{
+  "sprint": "408-LOCAL-1.1",
+  "total": 30,
+  "passed": 30,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "build fingerprint",
+      "passed": true
+    },
+    {
+      "name": "canonical local URL",
+      "passed": true
+    },
+    {
+      "name": "Local title",
+      "passed": true
+    },
+    {
+      "name": "primary positioning",
+      "passed": true
+    },
+    {
+      "name": "no insurance purchase required visible",
+      "passed": true
+    },
+    {
+      "name": "no quote required visible",
+      "passed": true
+    },
+    {
+      "name": "insurance pricing boundary visible",
+      "passed": true
+    },
+    {
+      "name": "no consumer form on foundation page",
+      "passed": true
+    },
+    {
+      "name": "no CoverageFit launcher on foundation page",
+      "passed": true
+    },
+    {
+      "name": "no live merchant claims",
+      "passed": true
+    },
+    {
+      "name": "Eat & Drink category",
+      "passed": true
+    },
+    {
+      "name": "Home category",
+      "passed": true
+    },
+    {
+      "name": "Auto category",
+      "passed": true
+    },
+    {
+      "name": "merchant pilot contact exists",
+      "passed": true
+    },
+    {
+      "name": "license displayed",
+      "passed": true
+    },
+    {
+      "name": "privacy link exists",
+      "passed": true
+    },
+    {
+      "name": "Local CSS loaded",
+      "passed": true
+    },
+    {
+      "name": "Local CSS scoped",
+      "passed": true
+    },
+    {
+      "name": "mobile breakpoint",
+      "passed": true
+    },
+    {
+      "name": "reduced-motion handling",
+      "passed": true
+    },
+    {
+      "name": "worker canonical Local directory",
+      "passed": true
+    },
+    {
+      "name": "roadmap contains all MVP sprints",
+      "passed": true
+    },
+    {
+      "name": "roadmap contains expansion generations",
+      "passed": true
+    },
+    {
+      "name": "contract route",
+      "passed": true
+    },
+    {
+      "name": "contract no purchase gate",
+      "passed": true
+    },
+    {
+      "name": "contract no quote gate",
+      "passed": true
+    },
+    {
+      "name": "contract next sprint",
+      "passed": true
+    },
+    {
+      "name": "worker redirects /local once",
+      "passed": true
+    },
+    {
+      "name": "redirect does not fetch asset",
+      "passed": true
+    },
+    {
+      "name": "worker serves /local/ directly",
+      "passed": true
+    }
+  ]
+}

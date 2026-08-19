@@ -1,0 +1,455 @@
+{
+  "total": 112,
+  "passed": 112,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "Local directory build marker advanced to 1.5",
+      "passed": true
+    },
+    {
+      "name": "join page has 1.5 build marker",
+      "passed": true
+    },
+    {
+      "name": "thank-you page has 1.5 build marker",
+      "passed": true
+    },
+    {
+      "name": "VERSION advanced to 1.5",
+      "passed": true
+    },
+    {
+      "name": "join canonical route declared",
+      "passed": true
+    },
+    {
+      "name": "join page is indexable",
+      "passed": true
+    },
+    {
+      "name": "thank-you page is noindex",
+      "passed": true
+    },
+    {
+      "name": "directory business CTA routes to join flow",
+      "passed": true
+    },
+    {
+      "name": "directory footer For businesses routes to join flow",
+      "passed": true
+    },
+    {
+      "name": "join form contains required field business_name",
+      "passed": true
+    },
+    {
+      "name": "join form contains required field category",
+      "passed": true
+    },
+    {
+      "name": "join form contains required field business_location",
+      "passed": true
+    },
+    {
+      "name": "join form contains required field contact_name",
+      "passed": true
+    },
+    {
+      "name": "join form contains required field email",
+      "passed": true
+    },
+    {
+      "name": "join form contains required field phone",
+      "passed": true
+    },
+    {
+      "name": "join form contains required field proposed_perk",
+      "passed": true
+    },
+    {
+      "name": "join form contains required field authorized_ack",
+      "passed": true
+    },
+    {
+      "name": "join form contains required field separation_ack",
+      "passed": true
+    },
+    {
+      "name": "business name uses organization autocomplete",
+      "passed": true
+    },
+    {
+      "name": "contact email uses email input",
+      "passed": true
+    },
+    {
+      "name": "contact phone uses tel input",
+      "passed": true
+    },
+    {
+      "name": "website/social field is optional URL input",
+      "passed": true
+    },
+    {
+      "name": "notes field is optional",
+      "passed": true
+    },
+    {
+      "name": "category supports three pilot groups",
+      "passed": true
+    },
+    {
+      "name": "category supports other/not sure without expanding public directory categories",
+      "passed": true
+    },
+    {
+      "name": "proposed perk field has bounded length",
+      "passed": true
+    },
+    {
+      "name": "notes field has bounded length",
+      "passed": true
+    },
+    {
+      "name": "honeypot is present",
+      "passed": true
+    },
+    {
+      "name": "form uses direct Formspree fallback action",
+      "passed": true
+    },
+    {
+      "name": "form declares dedicated same-origin proxy endpoint",
+      "passed": true
+    },
+    {
+      "name": "form declares branded success route",
+      "passed": true
+    },
+    {
+      "name": "merchant application uses unique form ID",
+      "passed": true
+    },
+    {
+      "name": "merchant application does not load consumer shared form controller",
+      "passed": true
+    },
+    {
+      "name": "join runtime is loaded",
+      "passed": true
+    },
+    {
+      "name": "join page says no cost to apply",
+      "passed": true
+    },
+    {
+      "name": "join page says accepted pilot participation is free",
+      "passed": true
+    },
+    {
+      "name": "join page says separate from insurance",
+      "passed": true
+    },
+    {
+      "name": "join page says no commercial insurance requirement",
+      "passed": true
+    },
+    {
+      "name": "join page says no guaranteed referrals or lead volume",
+      "passed": true
+    },
+    {
+      "name": "join page says no sales promise",
+      "passed": true
+    },
+    {
+      "name": "join page says no endorsement/certification implication",
+      "passed": true
+    },
+    {
+      "name": "join page says application does not guarantee placement",
+      "passed": true
+    },
+    {
+      "name": "join page says nothing publishes automatically",
+      "passed": true
+    },
+    {
+      "name": "join page says merchant controls perk",
+      "passed": true
+    },
+    {
+      "name": "join page says merchant remains responsible for public offer",
+      "passed": true
+    },
+    {
+      "name": "join page does not ask for current insurance carrier",
+      "passed": true
+    },
+    {
+      "name": "join page does not ask for insurance premium or renewal date",
+      "passed": true
+    },
+    {
+      "name": "join page does not request an insurance quote",
+      "passed": true
+    },
+    {
+      "name": "join page has Privacy and Terms links",
+      "passed": true
+    },
+    {
+      "name": "join footer carries producer license",
+      "passed": true
+    },
+    {
+      "name": "authorization acknowledgment is required",
+      "passed": true
+    },
+    {
+      "name": "insurance-separation acknowledgment is required",
+      "passed": true
+    },
+    {
+      "name": "form includes merchant-contact purpose language",
+      "passed": true
+    },
+    {
+      "name": "form includes standard UTM fields",
+      "passed": true
+    },
+    {
+      "name": "form includes landing and submission timestamps",
+      "passed": true
+    },
+    {
+      "name": "form remains browser-validatable without JS",
+      "passed": true
+    },
+    {
+      "name": "client runtime build is 1.5",
+      "passed": true
+    },
+    {
+      "name": "client runtime required fields match contract",
+      "passed": true
+    },
+    {
+      "name": "client validation accepts complete merchant application",
+      "passed": true
+    },
+    {
+      "name": "client validation rejects invalid email",
+      "passed": true
+    },
+    {
+      "name": "client validation rejects invalid phone",
+      "passed": true
+    },
+    {
+      "name": "client validation rejects missing separation acknowledgment",
+      "passed": true
+    },
+    {
+      "name": "client validation rejects honeypot completion",
+      "passed": true
+    },
+    {
+      "name": "runtime stamps submitted_at",
+      "passed": true
+    },
+    {
+      "name": "runtime maps all standard UTM fields",
+      "passed": true
+    },
+    {
+      "name": "runtime posts to same-origin proxy",
+      "passed": true
+    },
+    {
+      "name": "runtime only direct-fallbacks on delivery/server failure",
+      "passed": true
+    },
+    {
+      "name": "runtime announces submission state",
+      "passed": true
+    },
+    {
+      "name": "runtime disables submit while sending",
+      "passed": true
+    },
+    {
+      "name": "runtime contains no public analytics events",
+      "passed": true
+    },
+    {
+      "name": "worker declares dedicated merchant application API path",
+      "passed": true
+    },
+    {
+      "name": "worker routes dedicated merchant application endpoint",
+      "passed": true
+    },
+    {
+      "name": "worker limits merchant application body size",
+      "passed": true
+    },
+    {
+      "name": "worker checks same-origin merchant application",
+      "passed": true
+    },
+    {
+      "name": "worker checks merchant application content type",
+      "passed": true
+    },
+    {
+      "name": "worker rejects honeypot",
+      "passed": true
+    },
+    {
+      "name": "worker allowlists supported merchant categories",
+      "passed": true
+    },
+    {
+      "name": "worker validates both acknowledgments",
+      "passed": true
+    },
+    {
+      "name": "worker has dedicated Formspree environment override",
+      "passed": true
+    },
+    {
+      "name": "worker preserves existing Formspree fallback config",
+      "passed": true
+    },
+    {
+      "name": "worker sets merchant application subject server-side",
+      "passed": true
+    },
+    {
+      "name": "worker records 1.5 application build server-side",
+      "passed": true
+    },
+    {
+      "name": "worker does not log merchant application PII",
+      "passed": true
+    },
+    {
+      "name": "worker canonicalizes /local/join to trailing slash",
+      "passed": true
+    },
+    {
+      "name": "worker leaves canonical static join route to Pages assets",
+      "passed": true
+    },
+    {
+      "name": "worker still canonicalizes merchant no-slash route",
+      "passed": true
+    },
+    {
+      "name": "worker still serves merchant route through detail shell",
+      "passed": true
+    },
+    {
+      "name": "worker does not treat join as a merchant slug",
+      "passed": true
+    },
+    {
+      "name": "1.2 catalog unchanged from 1.4",
+      "passed": true
+    },
+    {
+      "name": "1.2 catalog schema unchanged from 1.4",
+      "passed": true
+    },
+    {
+      "name": "Local data model unchanged from 1.4",
+      "passed": true
+    },
+    {
+      "name": "directory runtime unchanged from 1.4",
+      "passed": true
+    },
+    {
+      "name": "merchant detail runtime unchanged from 1.4",
+      "passed": true
+    },
+    {
+      "name": "all fixture merchants remain draft and non-public",
+      "passed": true
+    },
+    {
+      "name": "all fixture perks remain draft and non-public",
+      "passed": true
+    },
+    {
+      "name": "join form controls meet mobile 16px rule",
+      "passed": true
+    },
+    {
+      "name": "join submit retains 56px mobile target",
+      "passed": true
+    },
+    {
+      "name": "checkbox control is at least 20px",
+      "passed": true
+    },
+    {
+      "name": "join form has visible focus treatment",
+      "passed": true
+    },
+    {
+      "name": "thank-you confirms no automatic publication",
+      "passed": true
+    },
+    {
+      "name": "thank-you confirms no insurance obligation",
+      "passed": true
+    },
+    {
+      "name": "thank-you links back to Local",
+      "passed": true
+    },
+    {
+      "name": "contract build is 1.5",
+      "passed": true
+    },
+    {
+      "name": "contract says no commercial insurance requirement",
+      "passed": true
+    },
+    {
+      "name": "contract says no guaranteed referrals",
+      "passed": true
+    },
+    {
+      "name": "contract says no catalog mutation",
+      "passed": true
+    },
+    {
+      "name": "contract says no consumer Local events added",
+      "passed": true
+    },
+    {
+      "name": "contract next sprint is 1.6",
+      "passed": true
+    },
+    {
+      "name": "roadmap marks 1.5 complete",
+      "passed": true
+    },
+    {
+      "name": "roadmap current build is 1.5",
+      "passed": true
+    },
+    {
+      "name": "roadmap locks 1.6 as continuation",
+      "passed": true
+    },
+    {
+      "name": "sprint documentation is substantive",
+      "passed": true
+    }
+  ]
+}

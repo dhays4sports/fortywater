@@ -1,0 +1,80 @@
+{
+  "sprint": "408-UI-3.13.1A",
+  "principle": "Modern system underneath. Human relationship on the surface.",
+  "life_excluded": true,
+  "foundation_stylesheet": "/shared/human-trust.css?v=408-UI-3.13.1A",
+  "accent_policy": {
+    "primary_action": "Farmers red remains the sitewide primary conversion color",
+    "professional_programs": "restrained warm gold may be used for identity emphasis, rules, and large/strong text; never as a replacement for required contrast or primary CTA red",
+    "life": "unchanged UI-3.7 campaign mode"
+  },
+  "surface_intensity": {
+    "homepage": "moderate",
+    "home": "restrained",
+    "home_auto": "restrained",
+    "buyer": "moderate",
+    "professional_programs": "strong",
+    "local": "moderate",
+    "completion": "strong",
+    "contact_utility": "moderate",
+    "life": "excluded"
+  },
+  "components": [
+    {
+      "class": "ht-signature",
+      "purpose": "Reusable Dylan identity/signature with optional direct contact actions",
+      "default_headshot": "/shared/images/dylan-headshot-160.webp",
+      "not_a_card": true
+    },
+    {
+      "class": "ht-editorial-intro",
+      "purpose": "Warm editorial support copy without a container"
+    },
+    {
+      "class": "ht-human-note",
+      "purpose": "Quiet contextual reassurance with a red editorial rule"
+    },
+    {
+      "class": "ht-photo-frame",
+      "purpose": "Context/occupation photography frame; essential copy must remain HTML text"
+    },
+    {
+      "class": "ht-professional-accent",
+      "purpose": "Professional Programs selective gold identity accent"
+    },
+    {
+      "class": "ht-professional-rule",
+      "purpose": "Professional Programs subtle campaign callback"
+    },
+    {
+      "class": "ht-local-cue",
+      "purpose": "Neighborhood/community context while preserving Local/insurance separation"
+    },
+    {
+      "class": "ht-personal-receipt",
+      "purpose": "First-person post-submit acknowledgement hierarchy"
+    },
+    {
+      "class": "ht-unboxed",
+      "purpose": "Explicit opt-in helper for removing unnecessary container chrome"
+    }
+  ],
+  "next_sprint": "408-UI-3.13.1D \u2014 Relationship + Completion Humanization",
+  "current_sprint": "408-UI-3.13.1C \u2014 Core Insurance Humanization",
+  "professional_programs_applied": true,
+  "professional_programs_stylesheet": "/shared/professional-programs-human.css?v=408-UI-3.13.1B",
+  "professional_program_photos": {
+    "healthcare": "/shared/images/professional-healthcare-480.webp",
+    "teachers": "/shared/images/professional-teachers-480.webp",
+    "tech": "/shared/images/professional-tech-480.webp",
+    "engineers": "/shared/images/professional-engineers-480.webp"
+  },
+  "core_insurance_applied": true,
+  "core_insurance_stylesheet": "/shared/core-insurance-human.css?v=408-UI-3.13.1C",
+  "core_routes": [
+    "/",
+    "/home/",
+    "/auto-bundle/",
+    "/buyer/"
+  ]
+}

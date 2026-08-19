@@ -1,0 +1,48 @@
+{
+  "build": "408-LOCAL-1.5",
+  "route": "/local/join/",
+  "successRoute": "/local/join/thank-you.html",
+  "apiRoute": "/api/local/merchant-application",
+  "purpose": "repeatable South Bay merchant pilot application",
+  "requiredFields": [
+    "business_name",
+    "category",
+    "business_location",
+    "contact_name",
+    "email",
+    "phone",
+    "proposed_perk",
+    "authorized_ack",
+    "separation_ack"
+  ],
+  "optionalFields": ["website_social", "notes"],
+  "merchantBoundaries": {
+    "insurancePurchaseRequired": false,
+    "insuranceQuoteRequired": false,
+    "commercialInsurancePlacementRequired": false,
+    "directoryAcceptanceGuaranteed": false,
+    "referralsGuaranteed": false,
+    "leadVolumeGuaranteed": false,
+    "salesGuaranteed": false,
+    "merchantEndorsementClaim": false,
+    "offerOwnedByMerchant": true
+  },
+  "delivery": {
+    "primary": "same-origin Cloudflare relay to Formspree",
+    "proxyEndpoint": "/api/local/merchant-application",
+    "directFormFallback": true,
+    "defaultEndpointPreserved": true,
+    "dedicatedEnvironmentOverride": "LOCAL_MERCHANT_FORMSPREE_ENDPOINT",
+    "piiLogging": false,
+    "honeypot": true,
+    "serverFieldAllowlist": true
+  },
+  "analyticsBoundary": {
+    "merchantApplicationLandingContext": ["landing_page", "utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"],
+    "consumerLocalEventsAdded": false,
+    "merchantContactDataAllowedInPublicAnalytics": false
+  },
+  "catalogMutation": false,
+  "realMerchantActivation": false,
+  "nextSprint": "408-LOCAL-1.6"
+}

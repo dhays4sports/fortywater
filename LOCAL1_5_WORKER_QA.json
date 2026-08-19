@@ -1,0 +1,87 @@
+{
+  "total": 20,
+  "passed": 20,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "valid merchant application returns 200",
+      "passed": true
+    },
+    {
+      "name": "valid response identifies Formspree delivery",
+      "passed": true
+    },
+    {
+      "name": "valid request performs one upstream delivery",
+      "passed": true
+    },
+    {
+      "name": "default upstream uses production Formspree endpoint",
+      "passed": true
+    },
+    {
+      "name": "server fixes merchant application subject",
+      "passed": true
+    },
+    {
+      "name": "server adds application build",
+      "passed": true
+    },
+    {
+      "name": "server preserves business/contact/perk fields",
+      "passed": true
+    },
+    {
+      "name": "server preserves no-insurance acknowledgment",
+      "passed": true
+    },
+    {
+      "name": "server supplies Local join referrer",
+      "passed": true
+    },
+    {
+      "name": "cross-origin request is rejected",
+      "passed": true
+    },
+    {
+      "name": "GET request is rejected",
+      "passed": true
+    },
+    {
+      "name": "honeypot request is rejected",
+      "passed": true
+    },
+    {
+      "name": "unsupported category is rejected",
+      "passed": true
+    },
+    {
+      "name": "invalid email is rejected",
+      "passed": true
+    },
+    {
+      "name": "invalid phone is rejected",
+      "passed": true
+    },
+    {
+      "name": "missing insurance-separation acknowledgment is rejected",
+      "passed": true
+    },
+    {
+      "name": "unsafe website scheme is rejected",
+      "passed": true
+    },
+    {
+      "name": "dedicated merchant Formspree endpoint override is honored",
+      "passed": true
+    },
+    {
+      "name": "upstream delivery failure fails closed",
+      "passed": true
+    },
+    {
+      "name": "upstream delivery failure returns bounded error",
+      "passed": true
+    }
+  ]
+}

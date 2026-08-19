@@ -1,0 +1,64 @@
+{
+  "sprint": "408-LOCAL-1.2",
+  "name": "Merchant Data Model",
+  "schemaVersion": "408-local-merchant-v1",
+  "catalog": "local/data/catalog.json",
+  "jsonSchema": "local/data/catalog.schema.json",
+  "runtimeHelper": "shared/local-data-model.js",
+  "canonicalMerchantRoute": "/local/{slug}/",
+  "collections": {
+    "merchants": {
+      "primaryKey": "merchant_id",
+      "routeKey": "slug",
+      "fields": [
+        "merchant_id", "name", "slug", "category", "neighborhood", "city", "address_display",
+        "description_short", "description_long", "website_url", "instagram_url", "image", "logo",
+        "status", "featured", "sort_order"
+      ],
+      "statuses": ["draft", "active", "paused", "inactive"]
+    },
+    "perks": {
+      "primaryKey": "perk_id",
+      "foreignKey": "merchant_id",
+      "fields": [
+        "perk_id", "merchant_id", "headline", "summary", "terms", "start_at", "end_at",
+        "evergreen", "status", "redemption_method", "independent_offer_text"
+      ],
+      "statuses": ["draft", "active", "paused", "inactive"],
+      "redemptionMethods": ["show_screen", "merchant_code", "merchant_instruction"]
+    }
+  },
+  "renderability": {
+    "merchantMustBeActive": true,
+    "perkMustBeActive": true,
+    "honorStartAt": true,
+    "honorEndAt": true,
+    "expiredCannotRenderActive": true,
+    "pausedCannotRenderActive": true,
+    "draftCannotRenderActive": true
+  },
+  "boundaries": {
+    "insurancePurchaseRequired": false,
+    "insuranceQuoteRequired": false,
+    "insuranceLeadRequired": false,
+    "coverageFitAssessmentRequired": false,
+    "merchantEndorsementImplied": false,
+    "requiredIndependentOfferSentence": "No insurance purchase or quote required."
+  },
+  "storageMigration": {
+    "storageNeutral": true,
+    "stableMerchantIds": true,
+    "stablePerkIds": true,
+    "stableConsumerSlugContract": true,
+    "futureCloudflareCompatible": true,
+    "consumerUrlChangeRequired": false
+  },
+  "fixtures": {
+    "count": 3,
+    "categories": ["eat-drink", "home", "auto"],
+    "publiclyActivated": false,
+    "allDraft": true
+  },
+  "nextSprint": "408-LOCAL-1.3",
+  "roadmap": "408-LOCAL-ROADMAP.md"
+}

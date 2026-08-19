@@ -1,0 +1,415 @@
+{
+  "total": 102,
+  "passed": 102,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "Local directory build marker advanced to 1.4",
+      "passed": true
+    },
+    {
+      "name": "merchant detail shell has 1.4 build marker",
+      "passed": true
+    },
+    {
+      "name": "merchant detail route shell exists",
+      "passed": true
+    },
+    {
+      "name": "merchant detail runtime exists",
+      "passed": true
+    },
+    {
+      "name": "detail shell loads Local data model before merchant runtime",
+      "passed": true
+    },
+    {
+      "name": "detail shell exposes merchant detail mount",
+      "passed": true
+    },
+    {
+      "name": "detail shell has accessible loading live region",
+      "passed": true
+    },
+    {
+      "name": "detail shell remains account-free",
+      "passed": true
+    },
+    {
+      "name": "detail shell remains consumer-form-free",
+      "passed": true
+    },
+    {
+      "name": "detail shell says no purchase or quote required",
+      "passed": true
+    },
+    {
+      "name": "detail footer carries producer license",
+      "passed": true
+    },
+    {
+      "name": "directory copy now tells visitor full perk is available on merchant page",
+      "passed": true
+    },
+    {
+      "name": "directory runtime now creates canonical merchant links",
+      "passed": true
+    },
+    {
+      "name": "directory runtime still does not render Use This Perk directly on cards",
+      "passed": true
+    },
+    {
+      "name": "1.2 catalog remains valid",
+      "passed": true
+    },
+    {
+      "name": "1.2 catalog dataset version remains stable",
+      "passed": true
+    },
+    {
+      "name": "catalog unchanged from 1.3",
+      "passed": true
+    },
+    {
+      "name": "catalog schema unchanged from 1.3",
+      "passed": true
+    },
+    {
+      "name": "data model unchanged from 1.3",
+      "passed": true
+    },
+    {
+      "name": "all production merchants remain draft fixtures",
+      "passed": true
+    },
+    {
+      "name": "all production perks remain draft fixtures",
+      "passed": true
+    },
+    {
+      "name": "production fixture slug cannot become public detail model",
+      "passed": true
+    },
+    {
+      "name": "canonical merchant slug parser accepts merchant path",
+      "passed": true
+    },
+    {
+      "name": "slug parser accepts canonicalizable no-slash merchant path",
+      "passed": true
+    },
+    {
+      "name": "slug parser rejects Local root",
+      "passed": true
+    },
+    {
+      "name": "slug parser rejects data infrastructure route",
+      "passed": true
+    },
+    {
+      "name": "slug parser rejects detail infrastructure route",
+      "passed": true
+    },
+    {
+      "name": "slug parser rejects join reserved route",
+      "passed": true
+    },
+    {
+      "name": "slug parser rejects nested paths",
+      "passed": true
+    },
+    {
+      "name": "slug parser rejects traversal-like input",
+      "passed": true
+    },
+    {
+      "name": "synthetic active catalog validates",
+      "passed": true
+    },
+    {
+      "name": "active non-fixture merchant resolves to canonical detail model",
+      "passed": true
+    },
+    {
+      "name": "detail model preserves canonical merchant URL",
+      "passed": true
+    },
+    {
+      "name": "detail model resolves current active perk",
+      "passed": true
+    },
+    {
+      "name": "detail model includes program relationship boundary",
+      "passed": true
+    },
+    {
+      "name": "discovery card links to canonical merchant route",
+      "passed": true
+    },
+    {
+      "name": "active discovery card uses View Local perk label",
+      "passed": true
+    },
+    {
+      "name": "discovery card does not redeem inline",
+      "passed": true
+    },
+    {
+      "name": "detail renders merchant name",
+      "passed": true
+    },
+    {
+      "name": "detail renders category",
+      "passed": true
+    },
+    {
+      "name": "detail renders neighborhood",
+      "passed": true
+    },
+    {
+      "name": "detail renders short merchant description",
+      "passed": true
+    },
+    {
+      "name": "detail renders long merchant description",
+      "passed": true
+    },
+    {
+      "name": "detail renders merchant area/address",
+      "passed": true
+    },
+    {
+      "name": "detail renders website link",
+      "passed": true
+    },
+    {
+      "name": "detail renders Instagram link",
+      "passed": true
+    },
+    {
+      "name": "detail renders Directions link",
+      "passed": true
+    },
+    {
+      "name": "detail renders current perk headline",
+      "passed": true
+    },
+    {
+      "name": "detail renders current perk summary",
+      "passed": true
+    },
+    {
+      "name": "detail renders merchant-specific terms",
+      "passed": true
+    },
+    {
+      "name": "detail renders Use This Perk action",
+      "passed": true
+    },
+    {
+      "name": "detail explicitly says no account or insurance form required",
+      "passed": true
+    },
+    {
+      "name": "detail renders independent-offer language",
+      "passed": true
+    },
+    {
+      "name": "detail renders relationship no-endorsement boundary",
+      "passed": true
+    },
+    {
+      "name": "detail does not contain a consumer form",
+      "passed": true
+    },
+    {
+      "name": "detail does not contain identity capture fields",
+      "passed": true
+    },
+    {
+      "name": "redemption uses native dialog surface",
+      "passed": true
+    },
+    {
+      "name": "redemption tells customer to show screen at merchant",
+      "passed": true
+    },
+    {
+      "name": "redemption repeats merchant name",
+      "passed": true
+    },
+    {
+      "name": "redemption repeats exact current perk headline",
+      "passed": true
+    },
+    {
+      "name": "redemption repeats exact merchant terms",
+      "passed": true
+    },
+    {
+      "name": "redemption repeats independent-offer language",
+      "passed": true
+    },
+    {
+      "name": "redemption has visible ready-to-show state",
+      "passed": true
+    },
+    {
+      "name": "redemption has explicit close controls",
+      "passed": true
+    },
+    {
+      "name": "redemption does not contain account gate",
+      "passed": true
+    },
+    {
+      "name": "redemption does not contain insurance lead form",
+      "passed": true
+    },
+    {
+      "name": "redemption runtime uses showModal with a safe fallback",
+      "passed": true
+    },
+    {
+      "name": "redemption runtime returns focus to Use This Perk control",
+      "passed": true
+    },
+    {
+      "name": "non-show-screen redemption method fails closed for online redemption",
+      "passed": true
+    },
+    {
+      "name": "non-show-screen method does not create redemption dialog",
+      "passed": true
+    },
+    {
+      "name": "active merchant metadata runtime promotes valid page from noindex to index",
+      "passed": true
+    },
+    {
+      "name": "active merchant can remain on detail page while perk paused",
+      "passed": true
+    },
+    {
+      "name": "paused offer never shows Use This Perk",
+      "passed": true
+    },
+    {
+      "name": "paused offer renders no-active-offer state",
+      "passed": true
+    },
+    {
+      "name": "paused offer headline is not leaked as current",
+      "passed": true
+    },
+    {
+      "name": "expired perk cannot become redeemable",
+      "passed": true
+    },
+    {
+      "name": "paused merchant cannot render public detail",
+      "passed": true
+    },
+    {
+      "name": "unknown merchant slug cannot render public detail",
+      "passed": true
+    },
+    {
+      "name": "directions URL encodes merchant address safely",
+      "passed": true
+    },
+    {
+      "name": "directions URL is HTTPS Google Maps search",
+      "passed": true
+    },
+    {
+      "name": "empty address does not create directions URL",
+      "passed": true
+    },
+    {
+      "name": "asset helper rejects javascript URI",
+      "passed": true
+    },
+    {
+      "name": "external URL helper rejects http URL",
+      "passed": true
+    },
+    {
+      "name": "detail renderer escapes merchant HTML",
+      "passed": true
+    },
+    {
+      "name": "detail renderer escapes perk HTML",
+      "passed": true
+    },
+    {
+      "name": "detail renderer escapes terms HTML",
+      "passed": true
+    },
+    {
+      "name": "worker redirects no-slash merchant route to canonical trailing slash",
+      "passed": true
+    },
+    {
+      "name": "worker serves canonical merchant route through reusable detail asset",
+      "passed": true
+    },
+    {
+      "name": "worker does not treat Local data path as merchant",
+      "passed": true
+    },
+    {
+      "name": "worker protects internal detail route with redirect",
+      "passed": true
+    },
+    {
+      "name": "worker preserves canonical Local root behavior",
+      "passed": true
+    },
+    {
+      "name": "worker leaves canonical Local directory asset to Pages",
+      "passed": true
+    },
+    {
+      "name": "worker leaves nested Local paths out of merchant routing",
+      "passed": true
+    },
+    {
+      "name": "detail CSS provides mobile 44px close target",
+      "passed": true
+    },
+    {
+      "name": "detail CSS provides responsive one-column layout",
+      "passed": true
+    },
+    {
+      "name": "detail CSS provides mobile full-width Use This Perk",
+      "passed": true
+    },
+    {
+      "name": "redemption dialog has modal backdrop treatment",
+      "passed": true
+    },
+    {
+      "name": "reduced motion disables detail loading shimmer",
+      "passed": true
+    },
+    {
+      "name": "roadmap marks 1.4 complete",
+      "passed": true
+    },
+    {
+      "name": "roadmap locks 1.5 as next sprint",
+      "passed": true
+    },
+    {
+      "name": "1.4 sprint documentation exists",
+      "passed": true
+    },
+    {
+      "name": "1.4 contract identifies no identity collection",
+      "passed": true
+    }
+  ]
+}

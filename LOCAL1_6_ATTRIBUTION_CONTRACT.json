@@ -1,0 +1,67 @@
+{
+  "build": "408-LOCAL-1.6",
+  "schema": "408-local-attribution-v1",
+  "eventSchema": "408-local-event-v1",
+  "eventEndpoint": "/api/local/event",
+  "retentionDays": 30,
+  "source": "local",
+  "contextFields": [
+    "source",
+    "partner_id",
+    "perk_id",
+    "merchant_slug",
+    "surface",
+    "campaign",
+    "variant",
+    "utm_source",
+    "utm_medium",
+    "utm_campaign",
+    "utm_content",
+    "utm_term"
+  ],
+  "events": [
+    "local_view",
+    "merchant_view",
+    "perk_open",
+    "perk_redeem_intent",
+    "insurance_cta_click"
+  ],
+  "persistence": {
+    "browserStorageKey": "408farmers_local_attribution_v1",
+    "browserContainsPII": false,
+    "preferredD1Binding": "LOCAL_ANALYTICS_DB",
+    "fallbackD1Binding": "LIFE_QUEUE_DB",
+    "databaseTable": "local_attribution_events",
+    "analyticsFailureBlocksUX": false
+  },
+  "privacyBoundary": {
+    "consumerIdentityAllowed": false,
+    "merchantApplicationContactDataAllowed": false,
+    "propertyAddressAllowed": false,
+    "insuranceAnswersAllowed": false,
+    "policyPremiumCarrierDataAllowed": false,
+    "redemptionDetailsAllowed": false,
+    "ipAddressStored": false,
+    "userAgentStored": false,
+    "freeFormContextAllowed": false
+  },
+  "insuranceContinuity": {
+    "localContextDecoratesInsuranceLinks": true,
+    "localContextCanRestoreIntoLeadFormWithoutQuery": true,
+    "explicitCurrentCampaignWins": true,
+    "localSourcePreservedIntoCoverageFit": true,
+    "duplicateLeadCaptureAdded": false,
+    "automaticCoverageFitLaunchAdded": false,
+    "dedicatedInsuranceBridgeAdded": false
+  },
+  "merchantValueBoundary": {
+    "insurancePurchaseRequired": false,
+    "insuranceQuoteRequired": false,
+    "insuranceLeadRequiredForRedemption": false,
+    "analyticsRequiredForRedemption": false,
+    "analyticsRequiredForDirectory": false
+  },
+  "catalogMutation": false,
+  "realMerchantActivation": false,
+  "nextSprint": "408-LOCAL-1.7"
+}

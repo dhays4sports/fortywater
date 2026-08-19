@@ -1,0 +1,200 @@
+{
+  "sprint": "408-LOCAL-1.2",
+  "total": 48,
+  "passed": 48,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "catalog schema version",
+      "passed": true
+    },
+    {
+      "name": "catalog dataset version",
+      "passed": true
+    },
+    {
+      "name": "JSON Schema identifies canonical model",
+      "passed": true
+    },
+    {
+      "name": "runtime helper identifies canonical model",
+      "passed": true
+    },
+    {
+      "name": "catalog validates with zero model errors",
+      "passed": true
+    },
+    {
+      "name": "merchant schema contains roadmap fields",
+      "passed": true
+    },
+    {
+      "name": "perk schema contains roadmap fields",
+      "passed": true
+    },
+    {
+      "name": "independent-offer field is required",
+      "passed": true
+    },
+    {
+      "name": "exactly three fixture merchants",
+      "passed": true
+    },
+    {
+      "name": "fixture merchant categories cover pilot",
+      "passed": true
+    },
+    {
+      "name": "fixture merchants remain non-public draft records",
+      "passed": true
+    },
+    {
+      "name": "exactly three fixture perks",
+      "passed": true
+    },
+    {
+      "name": "fixture perks remain non-public draft records",
+      "passed": true
+    },
+    {
+      "name": "each fixture merchant has one perk",
+      "passed": true
+    },
+    {
+      "name": "every perk carries independent-offer language",
+      "passed": true
+    },
+    {
+      "name": "program carries no-endorsement relationship language",
+      "passed": true
+    },
+    {
+      "name": "all three fixtures join through one model pipeline",
+      "passed": true
+    },
+    {
+      "name": "fixture order follows sort_order",
+      "passed": true
+    },
+    {
+      "name": "draft fixture perks do not render active",
+      "passed": true
+    },
+    {
+      "name": "same renderer produces all three fixture cards",
+      "passed": true
+    },
+    {
+      "name": "rendered fixture output contains each unique merchant",
+      "passed": true
+    },
+    {
+      "name": "rendered fixture output uses stable canonical merchant URLs",
+      "passed": true
+    },
+    {
+      "name": "route builder rejects unsafe slug",
+      "passed": true
+    },
+    {
+      "name": "active evergreen perk is renderable",
+      "passed": true
+    },
+    {
+      "name": "future perk is not active",
+      "passed": true
+    },
+    {
+      "name": "expired perk is not active",
+      "passed": true
+    },
+    {
+      "name": "paused perk cannot render active",
+      "passed": true
+    },
+    {
+      "name": "inactive merchant excluded from active view models",
+      "passed": true
+    },
+    {
+      "name": "endorsement implication rejected",
+      "passed": true
+    },
+    {
+      "name": "duplicate merchant IDs rejected",
+      "passed": true
+    },
+    {
+      "name": "orphan perk rejected",
+      "passed": true
+    },
+    {
+      "name": "perk without no-quote language rejected",
+      "passed": true
+    },
+    {
+      "name": "non-https merchant URL rejected",
+      "passed": true
+    },
+    {
+      "name": "non-evergreen perk requires end date",
+      "passed": true
+    },
+    {
+      "name": "public Local page remains foundation-only",
+      "passed": true
+    },
+    {
+      "name": "public Local page still has no merchant consumer form",
+      "passed": true
+    },
+    {
+      "name": "public Local page still makes no live merchant claims",
+      "passed": true
+    },
+    {
+      "name": "public Local HTML unchanged from 1.1",
+      "passed": true
+    },
+    {
+      "name": "Local CSS unchanged from 1.1",
+      "passed": true
+    },
+    {
+      "name": "Worker unchanged from 1.1",
+      "passed": true
+    },
+    {
+      "name": "contract canonical merchant route",
+      "passed": true
+    },
+    {
+      "name": "contract storage-neutral migration",
+      "passed": true
+    },
+    {
+      "name": "contract no insurance purchase gate",
+      "passed": true
+    },
+    {
+      "name": "contract no quote gate",
+      "passed": true
+    },
+    {
+      "name": "contract no merchant endorsement",
+      "passed": true
+    },
+    {
+      "name": "contract next sprint",
+      "passed": true
+    },
+    {
+      "name": "roadmap marks 1.2 complete",
+      "passed": true
+    },
+    {
+      "name": "roadmap leaves 1.3 as next directory sprint",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "sprint": "408-LOCAL-1.6",
+  "suite": "worker",
+  "total": 29,
+  "passed": 29,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "valid Local event returns 202",
+      "passed": true
+    },
+    {
+      "name": "valid response reports 1.6 and persistence",
+      "passed": true
+    },
+    {
+      "name": "Local event schema is ensured",
+      "passed": true
+    },
+    {
+      "name": "Local event insert uses dedicated table",
+      "passed": true
+    },
+    {
+      "name": "Local event insert binds 23 bounded fields",
+      "passed": true
+    },
+    {
+      "name": "Local event insert binds partner/perk/surface",
+      "passed": true
+    },
+    {
+      "name": "Local event insert retains route and destination",
+      "passed": true
+    },
+    {
+      "name": "GET is rejected",
+      "passed": true
+    },
+    {
+      "name": "cross-origin event is rejected",
+      "passed": true
+    },
+    {
+      "name": "missing event protocol version is rejected",
+      "passed": true
+    },
+    {
+      "name": "non-JSON content type is rejected",
+      "passed": true
+    },
+    {
+      "name": "unknown event name is rejected",
+      "passed": true
+    },
+    {
+      "name": "PII-like free text cannot enter partner ID",
+      "passed": true
+    },
+    {
+      "name": "non-Local source is rejected",
+      "passed": true
+    },
+    {
+      "name": "non-Local route is rejected",
+      "passed": true
+    },
+    {
+      "name": "extra context keys are rejected",
+      "passed": true
+    },
+    {
+      "name": "extra top-level keys are rejected",
+      "passed": true
+    },
+    {
+      "name": "insurance CTA cannot use destination other",
+      "passed": true
+    },
+    {
+      "name": "insurance CTA accepts certified home destination",
+      "passed": true
+    },
+    {
+      "name": "insurance CTA accepts certified home-auto destination",
+      "passed": true
+    },
+    {
+      "name": "analytics route remains nonblocking without D1 binding",
+      "passed": true
+    },
+    {
+      "name": "analytics route remains nonblocking on D1 failure",
+      "passed": true
+    },
+    {
+      "name": "LIFE_QUEUE_DB can serve as optional Local analytics fallback",
+      "passed": true
+    },
+    {
+      "name": "duplicate event ID is accepted idempotently without claiming new persistence",
+      "passed": true
+    },
+    {
+      "name": "local_view is accepted",
+      "passed": true
+    },
+    {
+      "name": "merchant_view is accepted",
+      "passed": true
+    },
+    {
+      "name": "perk_open is accepted",
+      "passed": true
+    },
+    {
+      "name": "perk_redeem_intent is accepted",
+      "passed": true
+    },
+    {
+      "name": "oversized payload is rejected",
+      "passed": true
+    }
+  ]
+}

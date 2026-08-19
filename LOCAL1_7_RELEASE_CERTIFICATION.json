@@ -1,0 +1,186 @@
+{
+  "sprint": "408-LOCAL-1.7",
+  "status": "deployable_source_certified",
+  "releaseType": "root_deployable_local_insurance_conversion_bridge",
+  "publicDirectoryRoute": "/local/",
+  "merchantDetailRoute": "/local/{merchant-slug}/",
+  "scope": [
+    "post-merchant-value optional homeowner insurance bridge on active-perk merchant pages",
+    "merchant-detail prominent header action remains inside Local before merchant value",
+    "existing Home + Auto and Home-only 408FARMERS journeys only",
+    "certified 1.6 Local attribution reused for bridge links and insurance_cta_click events",
+    "no Local insurance lead form and no duplicate lead capture",
+    "no automatic CoverageFit launch from Local",
+    "bridge suppressed when no active merchant perk exists",
+    "roadmap advancement to 408-LOCAL-1.8"
+  ],
+  "runtimeBehaviorChanged": true,
+  "publicLocalUiChanged": true,
+  "merchantDetailUiChanged": true,
+  "localDirectoryUiChanged": false,
+  "cloudflareRoutingChanged": false,
+  "localEventTransportChanged": false,
+  "attributionRuntimeChanged": false,
+  "insuranceAcquisitionFormsChanged": false,
+  "insurancePricingEligibilityCoverageChanged": false,
+  "coverageFitSenderChanged": false,
+  "coverageFitAssessmentScoringChanged": false,
+  "merchantJoinFlowChanged": false,
+  "merchantOffersActivated": false,
+  "realMerchantsActivated": 0,
+  "livePerksActivated": 0,
+  "bridge": {
+    "headline": "Own a home in the South Bay?",
+    "placement": "after_merchant_perk_terms_redemption_and_program_boundary",
+    "requiresActivePerk": true,
+    "merchantDetailHeaderAction": "local_directory",
+    "insuranceCtaBeforeMerchantValue": false,
+    "destinations": [
+      {
+        "path": "/auto-bundle/",
+        "label": "Review home + auto",
+        "destinationToken": "auto_bundle"
+      },
+      {
+        "path": "/home/",
+        "label": "Review my home only",
+        "destinationToken": "home"
+      }
+    ],
+    "dedicatedInsuranceCtas": 2,
+    "localLeadFormAdded": false,
+    "automaticCoverageFitLaunch": false
+  },
+  "attribution": {
+    "engineBuild": "408-LOCAL-1.6",
+    "schema": "408-local-attribution-v1",
+    "eventSchema": "408-local-event-v1",
+    "event": "insurance_cta_click",
+    "merchantPerkSurfaceOriginCarried": true,
+    "newAnalyticsEventAdded": false,
+    "analyticsPrivacyBoundaryChanged": false
+  },
+  "merchantValueBoundary": {
+    "merchantProfileBeforeBridge": true,
+    "perkBeforeBridge": true,
+    "redemptionActionBeforeBridge": true,
+    "merchantTermsBeforeBridge": true,
+    "independentOfferLanguageBeforeBridge": true,
+    "programBoundaryBeforeBridge": true,
+    "perkRequiresInsuranceQuote": false,
+    "perkRequiresInsurancePurchase": false,
+    "perkRequiresLeadSubmission": false,
+    "perkRequiresCoverageFit": false,
+    "insuranceReviewChangesPerk": false
+  },
+  "qa": {
+    "local17": {
+      "passed": 91,
+      "failed": 0,
+      "artifact": "LOCAL1_7_QA.json"
+    },
+    "local16WorkerRegression": {
+      "passed": 29,
+      "failed": 0,
+      "artifact": "LOCAL1_6_WORKER_QA.json"
+    },
+    "merchantApplicationWorkerRegression": {
+      "passed": 20,
+      "failed": 0,
+      "artifact": "LOCAL1_5_WORKER_QA.json"
+    },
+    "staticRegression": {
+      "passed": 296,
+      "failed": 0,
+      "artifact": "B1_2D_QA.json"
+    },
+    "internalLinks": {
+      "checked": 410,
+      "broken": 0
+    },
+    "advancedModeRedirectLoopHotfix": {
+      "passed": 10,
+      "failed": 0
+    },
+    "advancedModePrettyPathRouting": {
+      "passed": 16,
+      "failed": 0
+    },
+    "homeDeepRouteAssets": {
+      "passed": 12,
+      "failed": 0
+    },
+    "javascriptSyntax": {
+      "passed": 6,
+      "failed": 0
+    }
+  },
+  "nextSprint": "408-LOCAL-1.8",
+  "roadmap": "408-LOCAL-ROADMAP.md",
+  "sourceHashes": {
+    "local/index.html": "0b0c216153ee7746a6dd8633b75ab762131b6c76cbc407094077a2811ecf51d6",
+    "local/detail/index.html": "45ec1e236059e83ac402ef5ecc1a9620ddd678d4f68c221b0f0a93aa6c534640",
+    "shared/local-merchant.js": "806940982132e48d21284a5983a5c02fc535efb79a9a87cb98d2605795e0c55f",
+    "shared/local.css": "d5d697f575698e89b831622bfecef1ba0129f93499479b3d1ca1caa96a4272fb",
+    "SPRINT-408-LOCAL-1.7.md": "90a22abe4e36fb0145c8bb604d607a1028a470811de08bfa17bee385d5ced2e4",
+    "LOCAL1_7_BRIDGE_CONTRACT.json": "2992b7b16255de28d82612076ee2490ea698d1b22ce7edf0fd5976adb7ffae4d",
+    "qa/test-408-local-1.7.js": "6c79537239a9aaabb75373c592de45d0520255caa74c2e9e518ddfa9ad3327d1",
+    "LOCAL1_7_QA.json": "0d6b703a777158b71e6698d14c1b6063e85a61398ae1a60c94bfac68fd7f660a",
+    "408-LOCAL-ROADMAP.md": "ee6aa8f6f16ad65e4a2a774ae7865ff4d1638dac6240bc37747282e12413d533",
+    "ROADMAP.md": "e43e6e7e6bea3ed6e471df05a8c0743725814ec06faafe3a3501778f98116316",
+    "CHANGELOG.md": "63fcb03ea68bc89c384caa560de6a5702cc8b2c6f3b857ac42dd5302ecf6a5dd",
+    "README.txt": "091bd657dda4e6a4dc5d30a5ae8c0d7055e01ad20a61fbcc20bed468259d1c85",
+    "VERSION": "cc478475a0e162e814da9374546ae19e478e13463d01f846d30bafb72db3c095"
+  },
+  "preservedCoreHashes": {
+    "local/data/catalog.json": "54b0bf57f630d68c803c8a81085f4f743df3fabdef2b7454facd7d0ed48c1663",
+    "local/data/catalog.schema.json": "a56f9a6c37878b139c52a9948bbe012d7186a0664c116039cb2bd60e8583b72d",
+    "shared/local-data-model.js": "ff06f29c256d85adc4d8813187719a640c918a3cb7381b43c24d4469149fa17e",
+    "local/join/index.html": "dbff1cf8c44bd646b6d13967cecc8d48a0dd944820a22920f2eeeb74c32fdd70",
+    "local/join/thank-you.html": "1de6dd5c1478dd65a7700f7355eaa918c77f493f05d2506822352e8667b122bc",
+    "shared/local-join.js": "69f4a0f5aeb772b4bd98ee6629d527c0510a26d37c1c0c874399127c704dcce0",
+    "shared/local-attribution.js": "f9e04b4214e36805c5443ea88bff4f7978878f414295c960d4787d1c653ea7fe",
+    "shared/local-directory.js": "aeee96922378d235b177d229d1949220f17518927c3b4383c1964bdb12bfbb8c",
+    "shared/script.js": "5a5f19a43d237e44b9599fbd6536b228b0e71682cfe5d22a7b77fcdbd3acf6d7",
+    "shared/coveragefit-launch.js": "0656746d83b8b54f5b322cd530e9150a9b2fe5274ae865b4808919ccd62191b9",
+    "_worker.js": "fff94d29593f23a15765e66b6627e0339480e0ca394ad86086b06026392d2690"
+  },
+  "preservedFrom1_6": {
+    "local/data/catalog.json": true,
+    "local/data/catalog.schema.json": true,
+    "shared/local-data-model.js": true,
+    "local/join/index.html": true,
+    "local/join/thank-you.html": true,
+    "shared/local-join.js": true,
+    "shared/local-attribution.js": true,
+    "shared/local-directory.js": true,
+    "shared/script.js": true,
+    "shared/coveragefit-launch.js": true,
+    "_worker.js": true
+  },
+  "changeBoundary": {
+    "merchantDetailHeaderChangedToLocalNavigation": true,
+    "merchantRuntimeChangedForPostValueBridge": true,
+    "localCssChangedForBridge": true,
+    "directoryRuntimeChanged": false,
+    "attributionRuntimeChanged": false,
+    "sharedLeadControllerChanged": false,
+    "coverageFitLauncherChanged": false,
+    "workerChanged": false,
+    "merchantJoinPageChanged": false,
+    "catalogChanged": false,
+    "catalogSchemaChanged": false,
+    "dataModelChanged": false,
+    "realMerchantClaimsAdded": false,
+    "newInsuranceOfferOrDiscountAdded": false
+  },
+  "productionState": {
+    "directoryExpectedStateUntilPilotActivation": "empty_pilot_directory",
+    "insuranceBridgeRuntimeReady": true,
+    "bridgeVisibleOnlyOnActivePerkMerchantPages": true,
+    "merchantApplicationPublishesAutomatically": false,
+    "activeFixtureVisible": false,
+    "insuranceGateRequired": false,
+    "loginRequired": false
+  }
+}

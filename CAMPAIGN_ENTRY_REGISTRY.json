@@ -1,0 +1,106 @@
+{
+  "build": "408-UI-3.11.1",
+  "presentation_context_rule": "Only explicit current-entry URL/path context may select campaign presentation. Persisted attribution never selects hero copy.",
+  "unknown_context_behavior": "Evergreen route presentation",
+  "entries": [
+    {
+      "id": "stevies_coaster_home_front",
+      "route": "/home/",
+      "family": "home",
+      "visual_mode": "ui3_home",
+      "match": "campaign_id=stevies_coaster_home_front OR utm_source=stevies + utm_medium=coaster + utm_content=home_front",
+      "headline": "Own a Home in the South Bay?",
+      "cta": "Start My Coverage Review"
+    },
+    {
+      "id": "stevies_coaster_bundle_back",
+      "route": "/auto-bundle/",
+      "family": "home_auto",
+      "visual_mode": "ui3_bundle",
+      "match": "campaign_id=stevies_coaster_bundle_back OR utm_source=stevies + utm_medium=coaster + utm_content=bundle_back",
+      "headline": "Own the Home. Drive the Cars.",
+      "cta": "Start My Home + Auto Review"
+    },
+    {
+      "id": "occupation_tech_meta_v1",
+      "route": "/tech/",
+      "family": "professional",
+      "visual_mode": "ui3_professional",
+      "headline": "Work in Tech?",
+      "cta": "Check My Eligibility"
+    },
+    {
+      "id": "occupation_teacher_meta_v1",
+      "route": "/teachers/",
+      "family": "professional",
+      "visual_mode": "ui3_professional",
+      "headline": "Are You a Teacher?",
+      "cta": "Check My Eligibility"
+    },
+    {
+      "id": "occupation_engineer_meta_v1",
+      "route": "/engineers/",
+      "family": "professional",
+      "visual_mode": "ui3_professional",
+      "headline": "Are You an Engineer?",
+      "cta": "Check My Eligibility"
+    },
+    {
+      "id": "occupation_healthcare_meta_v1",
+      "route": "/healthcare/",
+      "family": "professional",
+      "visual_mode": "ui3_professional",
+      "headline": "Work in Healthcare?",
+      "cta": "Check My Eligibility"
+    },
+    {
+      "id": "realtor_buyer_card",
+      "route": "/buyer/",
+      "family": "buyer",
+      "visual_mode": "ui3_buyer",
+      "match": "campaign_id=realtor_buyer_card OR explicit realtor/partner context OR utm_medium=partner_card",
+      "headline": "Need Coverage for Your Closing?",
+      "cta": "Start My Buyer Review"
+    },
+    {
+      "id": "life_before_changes",
+      "route": "/life/",
+      "family": "life",
+      "visual_mode": "life_campaign",
+      "variant": "before_anything_changes",
+      "headline": "Before Anything Changes."
+    },
+    {
+      "id": "life_this_is_the_time",
+      "route": "/life/",
+      "family": "life",
+      "visual_mode": "life_campaign",
+      "variant": "this_is_the_time",
+      "headline": "This Is the Time."
+    },
+    {
+      "id": "life_20_minutes",
+      "route": "/life/",
+      "family": "life",
+      "visual_mode": "life_campaign",
+      "variant": "20_minutes",
+      "headline": "20:00."
+    },
+    {
+      "id": "life_financial_picture",
+      "route": "/life/",
+      "family": "life",
+      "visual_mode": "life_campaign",
+      "variant": "financial_picture",
+      "headline": "Your health is part of your financial picture."
+    }
+  ],
+  "delegated_families": [
+    {
+      "id": "home_flyer_dynamic",
+      "routes": "/home/qr/<ZIP>/(rate|fit)/ and /home/campaign/<ZIP>/(rate|fit)/",
+      "renderer": "Farmers408FlyerCampaign",
+      "reason": "Existing dynamic ZIP flyer message matching remains canonical."
+    }
+  ]
+}

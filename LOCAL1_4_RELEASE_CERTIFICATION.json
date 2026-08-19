@@ -1,0 +1,126 @@
+{
+  "sprint": "408-LOCAL-1.4",
+  "status": "deployable_source_certified",
+  "releaseType": "root_deployable_merchant_detail_redemption",
+  "publicDirectoryRoute": "/local/",
+  "publicMerchantRoutePattern": "/local/{merchant-slug}/",
+  "scope": [
+    "canonical one-segment merchant detail routes with trailing-slash normalization",
+    "one reusable catalog-driven merchant detail shell",
+    "directory-to-merchant canonical links",
+    "merchant image/logo, category, neighborhood, descriptions, website/Instagram/directions presentation",
+    "current active perk detail with merchant-specific terms and independent-offer language",
+    "Use This Perk show-your-screen MVP redemption",
+    "fail-closed scheduled/expired/paused/draft/inactive perk behavior",
+    "fail-closed draft/paused/inactive/fixture merchant behavior",
+    "no account, consumer identity, insurance quote, or insurance purchase required",
+    "roadmap advancement to 408-LOCAL-1.5"
+  ],
+  "runtimeBehaviorChanged": true,
+  "publicLocalUiChanged": true,
+  "cloudflareRoutingChanged": true,
+  "insuranceAcquisitionFlowsChanged": false,
+  "coverageFitChanged": false,
+  "merchantOffersActivated": false,
+  "merchantDetailRoutesActivated": true,
+  "redemptionFrameworkActivated": true,
+  "realMerchantsActivated": 0,
+  "livePerksActivated": 0,
+  "redemption": {
+    "onlineMethod": "show_screen",
+    "unsupportedMethodsFailClosed": true,
+    "identityCollected": false,
+    "accountRequired": false,
+    "serverWrite": false,
+    "posIntegration": false
+  },
+  "fixtures": {
+    "count": 3,
+    "categories": [
+      "eat-drink",
+      "home",
+      "auto"
+    ],
+    "allDraft": true,
+    "publiclyRendered": false,
+    "publicDetailResolvable": false
+  },
+  "qa": {
+    "localMerchantDetailRedemption": {
+      "passed": 102,
+      "failed": 0,
+      "artifact": "LOCAL1_4_QA.json"
+    },
+    "staticRegression": {
+      "passed": 296,
+      "failed": 0,
+      "artifact": "B1_2D_QA.json"
+    },
+    "internalLinks": {
+      "checked": 367,
+      "broken": 0
+    },
+    "advancedModeRouting": {
+      "passed": 10,
+      "failed": 0
+    },
+    "homeWorkerRouting": {
+      "passed": 16,
+      "failed": 0
+    },
+    "homeDeepRouteAssets": {
+      "passed": 12,
+      "failed": 0
+    }
+  },
+  "nextSprint": "408-LOCAL-1.5",
+  "roadmap": "408-LOCAL-ROADMAP.md",
+  "sourceHashes": {
+    "local/index.html": "58bdc3863c4069838038ac77758b7b257d8d50b63538a763ce6ce387e6334ed0",
+    "local/detail/index.html": "0e0d3ea616c4ec1e97e994bae1dda9c76df56eebaad24a21ca906d19b4e908c9",
+    "shared/local.css": "73c25fe19d30aad7a2d3fe1ba05b1c6b0c548aef3051da537ff4c2a63de247cb",
+    "shared/local-directory.js": "eca2968113f776d25e59460485474257f9ab8b2fad491c4e067a25815568177d",
+    "shared/local-merchant.js": "ff22de4738474107916a562431d4cae8dba1b70fc9a5481a289a3c8e5ff6856b",
+    "_worker.js": "b06aa13b672a66bdab0b6845367588c75d3efb8053b4d6d59b5af9385a064884",
+    "LOCAL1_4_REDEMPTION_CONTRACT.json": "0acfdb47ab0e781ce9601211930560ce8f0278e0d955f6ba6994e007ad568a8d",
+    "SPRINT-408-LOCAL-1.4.md": "0edcaa26438b8ad11c4321f767caf8b63305489b3785babf882e34b7337f50c6",
+    "408-LOCAL-ROADMAP.md": "4f9a5358f44ff0305b5b18706baed532428fa21faa640600e379c0f5c51f33e3",
+    "ROADMAP.md": "166b167f482a5b7f45350098d7614784d12edde90cc8fce6ad71a731637a5bc4",
+    "CHANGELOG.md": "f29a32dbb9dca666fa1266963712a60af123859fbf072c9016e5050c35359c15",
+    "README.txt": "9a65164e8f7595b7d06a866f50ce018a1f3b98da0c1bb433c2c3094baa1e2d6b",
+    "VERSION": "f7fa77bc206bad84abb2043ac6b98d62d657720c1cce4b4f891a28662e417923",
+    "local/data/README.md": "9adc876a37aa8cf1b60dd9c061a016c89e00d9a7c52af4bc0e1eff379b710878",
+    "qa/test-408-local-1.4.js": "777919a7ef09e615722a22ce17e85277b6276f77c07bbc08707c02741fdf68e2",
+    "LOCAL1_4_QA.json": "9e0791df9901f00e15f43cf4dee0971b042a1d3a5e14b6764a641ea4a6f25f74"
+  },
+  "preservedCoreHashes": {
+    "local/data/catalog.json": "54b0bf57f630d68c803c8a81085f4f743df3fabdef2b7454facd7d0ed48c1663",
+    "local/data/catalog.schema.json": "a56f9a6c37878b139c52a9948bbe012d7186a0664c116039cb2bd60e8583b72d",
+    "shared/local-data-model.js": "ff06f29c256d85adc4d8813187719a640c918a3cb7381b43c24d4469149fa17e"
+  },
+  "changeBoundary": {
+    "localIndexChanged": true,
+    "localCssChanged": true,
+    "directoryRuntimeChanged": true,
+    "merchantRuntimeAdded": true,
+    "merchantDetailShellAdded": true,
+    "workerChangedForLocalMerchantRouting": true,
+    "catalogChanged": false,
+    "catalogSchemaChanged": false,
+    "dataModelChanged": false,
+    "existingInsuranceHtmlChanged": false,
+    "existingInsuranceJavascriptChanged": false,
+    "coverageFitChanged": false,
+    "realMerchantClaimsAdded": false,
+    "consumerFormAdded": false,
+    "consumerIdentityCaptureAdded": false
+  },
+  "productionState": {
+    "directoryExpectedStateUntilPilotActivation": "empty_pilot_directory",
+    "canonicalMerchantFrameworkReady": true,
+    "activeFixtureVisible": false,
+    "insuranceGateRequired": false,
+    "loginRequired": false,
+    "liveRedemptionPossibleBeforeRealMerchantActivation": false
+  }
+}

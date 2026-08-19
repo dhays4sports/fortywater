@@ -1,0 +1,45 @@
+{
+  "build": "408-LOCAL-1.7",
+  "contract": "408-local-insurance-bridge-v1",
+  "merchantValueFirst": true,
+  "bridgePlacement": "after_merchant_perk_terms_redemption_and_program_boundary",
+  "requiresActivePerk": true,
+  "headline": "Own a home in the South Bay?",
+  "destinations": [
+    {
+      "label": "Review home + auto",
+      "path": "/auto-bundle/",
+      "destinationToken": "auto_bundle"
+    },
+    {
+      "label": "Review my home only",
+      "path": "/home/",
+      "destinationToken": "home"
+    }
+  ],
+  "attribution": {
+    "engineBuild": "408-LOCAL-1.6",
+    "usesExistingInsuranceCtaContract": true,
+    "event": "insurance_cta_click",
+    "localOriginContinuity": true,
+    "newAnalyticsEventAdded": false
+  },
+  "leadBoundary": {
+    "localLeadFormAdded": false,
+    "duplicateLeadCaptureAdded": false,
+    "existingInsuranceFormsOnly": true,
+    "automaticCoverageFitLaunch": false
+  },
+  "perkBoundary": {
+    "quoteRequired": false,
+    "purchaseRequired": false,
+    "leadSubmissionRequired": false,
+    "coverageFitRequired": false,
+    "insuranceReviewChangesPerk": false
+  },
+  "catalogMutation": false,
+  "realMerchantActivation": false,
+  "nextSprint": "408-LOCAL-1.8",
+  "merchantDetailHeaderAction": "local_directory",
+  "insuranceCtaBeforeMerchantValue": false
+}

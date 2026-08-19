@@ -1,0 +1,43 @@
+{
+  "sprint": "408-LOCAL-1.1",
+  "name": "Local Perks Foundation",
+  "runtime": "408-LOCAL-1.1",
+  "route": "/local/",
+  "canonicalUrl": "https://408farmers.com/local/",
+  "programType": "public_local_merchant_discovery",
+  "insuranceBoundary": {
+    "insurancePurchaseRequired": false,
+    "insuranceQuoteRequired": false,
+    "insuranceLeadRequired": false,
+    "coverageFitAssessmentRequired": false,
+    "affectsInsurancePricing": false,
+    "affectsInsuranceDiscounts": false,
+    "affectsInsuranceEligibility": false,
+    "affectsInsuranceCoverage": false,
+    "affectsUnderwriting": false
+  },
+  "foundationScope": [
+    "public Local route",
+    "Local brand shell",
+    "pilot category architecture",
+    "program explanation",
+    "consumer-facing insurance/perk boundary",
+    "merchant pilot interest CTA",
+    "responsive and accessibility baseline",
+    "Cloudflare canonical route normalization"
+  ],
+  "deferred": [
+    "merchant data model",
+    "merchant directory",
+    "dynamic merchant detail routes",
+    "redemption engine",
+    "merchant join form",
+    "Local attribution engine",
+    "insurance conversion bridge",
+    "global site integration",
+    "real merchant activation",
+    "final conversion and compliance certification"
+  ],
+  "nextSprint": "408-LOCAL-1.2",
+  "roadmap": "408-LOCAL-ROADMAP.md"
+}

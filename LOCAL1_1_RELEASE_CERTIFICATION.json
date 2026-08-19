@@ -1,0 +1,60 @@
+{
+  "sprint": "408-LOCAL-1.1",
+  "status": "deployable_source_certified",
+  "releaseType": "source_deployable_foundation",
+  "route": "/local/",
+  "scope": [
+    "public Local foundation route",
+    "Local visual system",
+    "program and category architecture",
+    "merchant pilot interest surface",
+    "explicit insurance/perk separation",
+    "Cloudflare canonical route normalization",
+    "detailed future sprint roadmap"
+  ],
+  "runtimeBehaviorChanged": true,
+  "insuranceAcquisitionFlowsChanged": false,
+  "coverageFitChanged": false,
+  "merchantOffersActivated": false,
+  "qa": {
+    "localFoundation": {
+      "passed": 30,
+      "failed": 0,
+      "artifact": "LOCAL1_1_QA.json"
+    },
+    "staticRegression": {
+      "passed": 296,
+      "failed": 0,
+      "artifact": "B1_2D_QA.json"
+    },
+    "internalLinks": {
+      "checked": 341,
+      "broken": 0
+    },
+    "advancedModeRouting": {
+      "passed": 10,
+      "failed": 0
+    },
+    "homeDeepRouteRouting": {
+      "passed": 16,
+      "failed": 0
+    }
+  },
+  "nextSprint": "408-LOCAL-1.2",
+  "roadmap": "408-LOCAL-ROADMAP.md",
+  "sourceHashes": {
+    "local/index.html": "6b2dfb68840f5488ce18188c344d55fc8be336ca0bd59a7e57224aa899c2f3c7",
+    "shared/local.css": "e1e30c75156ccc5c346051348699a5f215fe75c1bfa409aaa569021ea6235bdd",
+    "_worker.js": "7d0505a352968d1bcfb1f103cd24f50687d358624705cef5bd4b4996327136e4",
+    "408-LOCAL-ROADMAP.md": "8fd2a89dba4a9ab33d8121febda60e33be3e7dbecef804e0e2561f4cf636b212",
+    "LOCAL1_1_FOUNDATION_CONTRACT.json": "2d53d1fb095471193c8abb71d18c790d824ef066cf8d4b764d45411292c8a878",
+    "SPRINT-408-LOCAL-1.1.md": "f0dfd3dd9b1081813dfac2bdd2894a0efa8f7e4944698f87f3236171e45435bd"
+  },
+  "changeBoundary": {
+    "existingInsuranceHtmlChanged": false,
+    "existingInsuranceJavascriptChanged": false,
+    "coverageFitChanged": false,
+    "workerChange": "Adds /local to canonical directory normalization only",
+    "newPublicRoute": "/local/"
+  }
+}

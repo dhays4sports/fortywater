@@ -1,0 +1,42 @@
+{
+  "sprint": "408-INFRA-1.1",
+  "title": "Pages Function Invocation Boundary Hotfix",
+  "baseline": "408-UI-3.12 End-to-End Functional Regression",
+  "incident_evidence": {
+    "pages_function_requests_24h": 84611,
+    "pages_function_subrequests_24h": 84546,
+    "web_analytics_page_views_24h": 9,
+    "observed_pattern": "approximately one malformed crawler GET per second",
+    "example": "/contact/healthcare/teachers/shared/tech/auto-bundle/..."
+  },
+  "root_cause": "Cloudflare Pages Advanced Mode _worker.js was deployed without _routes.json, causing all incoming requests, including static pages and crawler 404 traffic, to invoke the Worker before env.ASSETS.fetch().",
+  "change_scope": {
+    "new_runtime_file": "_routes.json",
+    "preexisting_runtime_files_modified": 0,
+    "behavior_freeze_preserved": true,
+    "product_freeze_preserved": true
+  },
+  "function_routes": [
+    "/api/*",
+    "/home", "/contact", "/buyer", "/life", "/life-ops", "/neighbor", "/score", "/auto-bundle", "/healthcare", "/teachers", "/tech", "/engineers", "/local",
+    "/home/Wowindex.html",
+    "/home/qr/*",
+    "/home/campaign/*",
+    "/neighbor/r/*",
+    "/local/*"
+  ],
+  "certification": {
+    "infra_boundary_qa": "22/22 PASS",
+    "ui3_12_behavior_freeze": "73/73 PASS",
+    "ui3_12_product_freeze": "160/160 PASS",
+    "ui3_12_source_qa": "137/137 PASS",
+    "ui3_12_e2e": "59/59 PASS",
+    "home_2_7_worker_routing": "16/16 PASS",
+    "home_2_7_deep_route_assets": "12/12 PASS",
+    "advanced_mode_redirect_loop": "10/10 PASS",
+    "local_1_5_worker": "20/20 PASS",
+    "local_1_6_worker": "29/29 PASS",
+    "formspree_reliability": "18/18 PASS"
+  },
+  "post_deploy_expected_result": "Malformed/static crawler requests bypass Pages Functions and no longer consume Workers request quota; genuine API and intentional dynamic routes continue invoking _worker.js."
+}
