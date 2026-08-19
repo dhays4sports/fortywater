@@ -1,0 +1,31 @@
+{
+  "sprint": "408-UI-3.7",
+  "suite": "browser_rendering",
+  "passed": 23,
+  "failed": 0,
+  "checks": [
+    "desktop no runtime errors",
+    "UI37 body hook",
+    "universal header enhanced",
+    "universal footer enhanced",
+    "default campaign headline message matched",
+    "default campaign lead message matched",
+    "default campaign support message matched",
+    "campaign family image loads",
+    "campaign continuity copy visible",
+    "hero canvas visually dark",
+    "hero headline renders white",
+    "application section visually dark",
+    "application working surface is white",
+    "why-now section dark",
+    "desktop no horizontal overflow",
+    "mobile no runtime errors",
+    "mobile no horizontal overflow",
+    "mobile campaign visual visible",
+    "mobile menu button >=44px",
+    "step 1 continue enables",
+    "step 2 visible",
+    "application input font size >=16",
+    "Life measurement calls stay on dedicated API"
+  ]
+}

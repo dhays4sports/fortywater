@@ -1,0 +1,42 @@
+{
+  "build": "408-UI-3.3",
+  "name": "Home Conversion Experience",
+  "status": "CERTIFIED",
+  "baseline": "408-UI-3.2",
+  "route": "/home/",
+  "deepEntryCoverage": "Existing Advanced Mode mapping preserves /home/qr/*, /home/campaign/*, and supported /home/* paths on the canonical Home asset.",
+  "sourceContract": {
+    "passed": 191,
+    "total": 191,
+    "brokenInternalLinks": 0,
+    "internalLinksChecked": 134
+  },
+  "browserRendering": {
+    "passed": 108,
+    "total": 108,
+    "viewports": ["320x800", "390x844", "768x1024", "1440x900"]
+  },
+  "regressions": {
+    "existingStatic": "296/296",
+    "hiddenRequiredSubmitHotfix": "12/12",
+    "homePrettyPathRouting": "16/16",
+    "homeDeepRouteAssets": "12/12",
+    "flow2_4Runtime": "5/5",
+    "merchantJoinWorker": "20/20",
+    "localAttributionWorker": "29/29",
+    "logoIntegration": "14/14",
+    "homepageBrowserRendering": "77/77",
+    "localBrowserRendering": "210/210",
+    "sharedJavaScriptSyntax": "37/37"
+  },
+  "protectedRuntimeChanged": false,
+  "homeFieldInventoryChanged": false,
+  "homeRuntimeScriptInventoryChanged": false,
+  "workerChanged": false,
+  "campaignRoutingChanged": false,
+  "submissionChanged": false,
+  "postLeadBehaviorChanged": false,
+  "coverageFitHandoffChanged": false,
+  "localPilotStatus": "LOCAL-1.10 remains technically certified with planned three-merchant pilot NO-GO pending real Auto + Home merchants and external closeout.",
+  "nextSprint": "408-UI-3.4 — Home + Auto Conversion Experience"
+}

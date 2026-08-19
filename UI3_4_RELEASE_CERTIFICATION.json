@@ -1,0 +1,48 @@
+{
+  "build": "408-UI-3.4",
+  "name": "Home + Auto Conversion Experience",
+  "status": "CERTIFIED_ROOT_DEPLOYABLE",
+  "baseline": "408-UI-3.2.1 + 408-UI-3.3",
+  "route": "/auto-bundle/",
+  "sourceContract": {
+    "passed": 170,
+    "total": 170,
+    "brokenInternalLinks": 0,
+    "internalLinksChecked": 137
+  },
+  "browserRendering": {
+    "passed": 99,
+    "total": 99,
+    "viewports": [
+      "320x800",
+      "390x844",
+      "768x1024",
+      "1440x900"
+    ]
+  },
+  "regressions": {
+    "existingStatic": "296/296",
+    "homeHiddenRequiredSubmitHotfix": "12/12",
+    "homePrettyPathRouting": "16/16",
+    "homeDeepRouteAssets": "12/12",
+    "advancedModeRedirectLoop": "10/10",
+    "merchantJoinWorker": "20/20",
+    "localAttributionWorker": "29/29",
+    "logoIntegration": "14/14",
+    "homepageIdentityBrowser": "93/93",
+    "homeConversionBrowser": "108/108",
+    "localBrowser": "210/210",
+    "runtimeJavaScriptSyntax": "38/38"
+  },
+  "protectedRuntimeChanged": false,
+  "bundleFieldInventoryChanged": false,
+  "bundleRuntimeScriptInventoryChanged": false,
+  "workerChanged": false,
+  "submissionChanged": false,
+  "housingBranchChanged": false,
+  "renterDestinationChanged": false,
+  "postLeadBehaviorChanged": false,
+  "coverageFitHandoffChanged": false,
+  "localPilotStatus": "LOCAL-1.10 remains technically certified with planned three-merchant pilot NO-GO pending real Auto + Home merchants and external closeout.",
+  "nextSprint": "408-UI-3.5 \u2014 Buyer Experience Redesign"
+}

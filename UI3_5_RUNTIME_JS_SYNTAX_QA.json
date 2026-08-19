@@ -1,0 +1,199 @@
+{
+  "sprint": "408-UI-3.5",
+  "suite": "runtime_javascript_syntax",
+  "total": 38,
+  "passed": 38,
+  "failed": 0,
+  "checks": [
+    {
+      "file": "_worker.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/accessibility.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/address-autocomplete.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/buyer-flow.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/buyer-referral.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/campaign.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/config.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/contact-choice.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/coveragefit-invitation.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/coveragefit-launch.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/flyer-campaign.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/home-baseline.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/home-certification.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/home-confirmation.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/home-continuity.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/home-engagement.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/home-form-first.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/home-journey-contract.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/home-lead-progressive.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/homepage-optimization.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/life-campaign.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/life-conversion.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/life-intake.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/life-ops.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/life-secure-submit.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/local-attribution.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/local-data-model.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/local-directory.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/local-join.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/local-merchant.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/motion.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/post-lead-engagement.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/progressive-intake.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/prospect-profile.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/referral-bridge.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/score.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/script.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "shared/ui-3-foundation.js",
+      "passed": true,
+      "stderr": ""
+    }
+  ]
+}

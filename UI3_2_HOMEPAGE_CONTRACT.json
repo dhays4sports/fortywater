@@ -1,0 +1,54 @@
+{
+  "build": "408-UI-3.2",
+  "status": "complete",
+  "baseline": "408-UI-3.1",
+  "scope": "homepage_platform_redesign",
+  "route": "/",
+  "visualSystem": "408-UI-3.1",
+  "sections": [
+    "platform_hero",
+    "primary_product_routes",
+    "additional_needs",
+    "review_triggers",
+    "professional_programs",
+    "coveragefit_method",
+    "408farmers_local",
+    "producer_agency_credibility"
+  ],
+  "primaryRoutes": {
+    "home": "/home/",
+    "homeAuto": "/auto-bundle/",
+    "buyer": "/buyer/",
+    "life": "/life/"
+  },
+  "preservedLegacyDestinations": [
+    "https://coveragefit.com/home/",
+    "/buyer/",
+    "/score/",
+    "/auto-bundle/",
+    "/contact/?intent=business",
+    "/contact/?intent=landlord",
+    "/life/",
+    "/healthcare/",
+    "/teachers/",
+    "/tech/",
+    "/engineers/",
+    "/local/",
+    "/local/join/"
+  ],
+  "protectedBehavior": [
+    "homepage analytics delegation",
+    "CoverageFit hero launcher attributes",
+    "all pre-existing tracked anchor contracts",
+    "Workers and submission endpoints",
+    "campaign and QR routing",
+    "Local attribution and redemption",
+    "Buyer/realtor context",
+    "Life secure submission",
+    "CoverageFit handoff contracts"
+  ],
+  "addedAssets": [
+    "shared/homepage-platform.css"
+  ],
+  "nextSprint": "408-UI-3.3 — Home Conversion Experience"
+}

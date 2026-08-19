@@ -1,0 +1,29 @@
+{
+  "build": "408-UI-3.2",
+  "name": "Homepage Platform Redesign",
+  "status": "CERTIFIED",
+  "baseline": "408-UI-3.1",
+  "route": "/",
+  "sourceContract": {
+    "passed": 133,
+    "total": 133,
+    "brokenInternalLinks": 0
+  },
+  "browserRendering": {
+    "passed": 77,
+    "total": 77
+  },
+  "regressions": {
+    "existingStatic": "296/296",
+    "merchantJoinWorker": "20/20",
+    "localAttributionWorker": "29/29",
+    "advancedModeRedirectLoop": "10/10",
+    "homeDeepRouteAssets": "12/12",
+    "logoIntegration": "14/14",
+    "localBrowserRendering": "210/210"
+  },
+  "protectedRuntimeChanged": false,
+  "homepageTrackedDestinationsPreserved": true,
+  "localPilotStatus": "LOCAL-1.10 remains technically certified with planned three-merchant pilot NO-GO pending real Auto + Home merchants and external closeout.",
+  "nextSprint": "408-UI-3.3 \u2014 Home Conversion Experience"
+}

@@ -1,0 +1,56 @@
+{
+  "build": "408-UI-3.6",
+  "name": "Professional Programs Convergence",
+  "status": "CERTIFIED_ROOT_DEPLOYABLE",
+  "baseline": "408-UI-3.5 + 408-UI-3.2.1",
+  "routes": [
+    "/healthcare/",
+    "/teachers/",
+    "/tech/",
+    "/engineers/"
+  ],
+  "sourceContract": {
+    "passed": 263,
+    "total": 263,
+    "brokenInternalLinks": 0,
+    "internalLinksChecked": 153
+  },
+  "browserRendering": {
+    "passed": 452,
+    "total": 452,
+    "viewports": [
+      "320x800",
+      "390x844",
+      "768x1024",
+      "1440x900"
+    ]
+  },
+  "regressions": {
+    "existingStatic": "296/296",
+    "homeHiddenRequiredSubmitHotfix": "12/12",
+    "homePrettyPathRouting": "16/16",
+    "homeDeepRouteAssets": "12/12",
+    "advancedModeRedirectLoop": "10/10",
+    "merchantJoinWorker": "20/20",
+    "localAttributionWorker": "29/29",
+    "logoIntegration": "14/14",
+    "homepageIdentityBrowser": "93/93",
+    "homeConversionBrowser": "108/108",
+    "homeAutoConversionBrowser": "99/99",
+    "buyerBrowser": "115/115",
+    "localBrowser": "210/210",
+    "runtimeJavaScriptSyntax": "38/38"
+  },
+  "protectedRuntimeChanged": false,
+  "professionalFormMarkupChanged": false,
+  "professionalFieldInventoryChanged": false,
+  "occupationOptionsChanged": false,
+  "conditionalEligibilityLanguageChanged": false,
+  "submissionChanged": false,
+  "postLeadBehaviorChanged": false,
+  "coverageFitHandoffChanged": false,
+  "workerChanged": false,
+  "professionalFallbackPagesChanged": false,
+  "localPilotStatus": "LOCAL-1.10 remains technically certified with planned three-merchant pilot NO-GO pending real Auto + Home merchants and external closeout.",
+  "nextSprint": "408-UI-3.7 — Life Experience Alignment"
+}

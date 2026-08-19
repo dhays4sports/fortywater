@@ -1,0 +1,940 @@
+{
+  "sprint": "408-UI-3.10",
+  "suite": "source_contract",
+  "total": 232,
+  "passed": 232,
+  "failed": 0,
+  "public_pages": 27,
+  "internal_links_checked": 156,
+  "broken_links": [],
+  "checks": [
+    {
+      "name": "sprint doc exists",
+      "passed": true
+    },
+    {
+      "name": "contract exists",
+      "passed": true
+    },
+    {
+      "name": "mobile stylesheet exists",
+      "passed": true
+    },
+    {
+      "name": "mobile css contains safe-area-inset-top",
+      "passed": true
+    },
+    {
+      "name": "mobile css contains safe-area-inset-bottom",
+      "passed": true
+    },
+    {
+      "name": "mobile css contains 100dvh",
+      "passed": true
+    },
+    {
+      "name": "mobile css contains pointer:coarse",
+      "passed": true
+    },
+    {
+      "name": "mobile css contains touch-action:manipulation",
+      "passed": true
+    },
+    {
+      "name": "mobile css contains font-size:16px",
+      "passed": true
+    },
+    {
+      "name": "mobile css contains scroll-margin-top",
+      "passed": true
+    },
+    {
+      "name": "mobile css contains scroll-margin-bottom",
+      "passed": true
+    },
+    {
+      "name": "mobile css contains overscroll-behavior:contain",
+      "passed": true
+    },
+    {
+      "name": "mobile css contains max-height:540px",
+      "passed": true
+    },
+    {
+      "name": "mobile css contains orientation:landscape",
+      "passed": true
+    },
+    {
+      "name": "mobile css contains professional-program-switcher",
+      "passed": true
+    },
+    {
+      "name": "mobile css contains local-filter-scroll",
+      "passed": true
+    },
+    {
+      "name": "mobile css contains local-redemption-dialog",
+      "passed": true
+    },
+    {
+      "name": "mobile css contains min-height:44px",
+      "passed": true
+    },
+    {
+      "name": "no sticky submit overlay",
+      "passed": true
+    },
+    {
+      "name": "life ops excluded",
+      "passed": true
+    },
+    {
+      "name": "404.html exists",
+      "passed": true
+    },
+    {
+      "name": "404.html ui mobile marker",
+      "passed": true
+    },
+    {
+      "name": "404.html mobile css linked",
+      "passed": true
+    },
+    {
+      "name": "404.html viewport fit",
+      "passed": true
+    },
+    {
+      "name": "404.html foundation preserved",
+      "passed": true
+    },
+    {
+      "name": "404.html foundation runtime preserved",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html exists",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html ui mobile marker",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html mobile css linked",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html viewport fit",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html foundation preserved",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html foundation runtime preserved",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html exists",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html ui mobile marker",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html mobile css linked",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html viewport fit",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html foundation preserved",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html foundation runtime preserved",
+      "passed": true
+    },
+    {
+      "name": "buyer/index.html exists",
+      "passed": true
+    },
+    {
+      "name": "buyer/index.html ui mobile marker",
+      "passed": true
+    },
+    {
+      "name": "buyer/index.html mobile css linked",
+      "passed": true
+    },
+    {
+      "name": "buyer/index.html viewport fit",
+      "passed": true
+    },
+    {
+      "name": "buyer/index.html foundation preserved",
+      "passed": true
+    },
+    {
+      "name": "buyer/index.html foundation runtime preserved",
+      "passed": true
+    },
+    {
+      "name": "buyer/thank-you.html exists",
+      "passed": true
+    },
+    {
+      "name": "buyer/thank-you.html ui mobile marker",
+      "passed": true
+    },
+    {
+      "name": "buyer/thank-you.html mobile css linked",
+      "passed": true
+    },
+    {
+      "name": "buyer/thank-you.html viewport fit",
+      "passed": true
+    },
+    {
+      "name": "buyer/thank-you.html foundation preserved",
+      "passed": true
+    },
+    {
+      "name": "buyer/thank-you.html foundation runtime preserved",
+      "passed": true
+    },
+    {
+      "name": "contact/index.html exists",
+      "passed": true
+    },
+    {
+      "name": "contact/index.html ui mobile marker",
+      "passed": true
+    },
+    {
+      "name": "contact/index.html mobile css linked",
+      "passed": true
+    },
+    {
+      "name": "contact/index.html viewport fit",
+      "passed": true
+    },
+    {
+      "name": "contact/index.html foundation preserved",
+      "passed": true
+    },
+    {
+      "name": "contact/index.html foundation runtime preserved",
+      "passed": true
+    },
+    {
+      "name": "engineers/index.html exists",
+      "passed": true
+    },
+    {
+      "name": "engineers/index.html ui mobile marker",
+      "passed": true
+    },
+    {
+      "name": "engineers/index.html mobile css linked",
+      "passed": true
+    },
+    {
+      "name": "engineers/index.html viewport fit",
+      "passed": true
+    },
+    {
+      "name": "engineers/index.html foundation preserved",
+      "passed": true
+    },
+    {
+      "name": "engineers/index.html foundation runtime preserved",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html exists",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html ui mobile marker",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html mobile css linked",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html viewport fit",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html foundation preserved",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html foundation runtime preserved",
+      "passed": true
+    },
+    {
+      "name": "healthcare/index.html exists",
+      "passed": true
+    },
+    {
+      "name": "healthcare/index.html ui mobile marker",
+      "passed": true
+    },
+    {
+      "name": "healthcare/index.html mobile css linked",
+      "passed": true
+    },
+    {
+      "name": "healthcare/index.html viewport fit",
+      "passed": true
+    },
+    {
+      "name": "healthcare/index.html foundation preserved",
+      "passed": true
+    },
+    {
+      "name": "healthcare/index.html foundation runtime preserved",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html exists",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html ui mobile marker",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html mobile css linked",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html viewport fit",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html foundation preserved",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html foundation runtime preserved",
+      "passed": true
+    },
+    {
+      "name": "home/index.html exists",
+      "passed": true
+    },
+    {
+      "name": "home/index.html ui mobile marker",
+      "passed": true
+    },
+    {
+      "name": "home/index.html mobile css linked",
+      "passed": true
+    },
+    {
+      "name": "home/index.html viewport fit",
+      "passed": true
+    },
+    {
+      "name": "home/index.html foundation preserved",
+      "passed": true
+    },
+    {
+      "name": "home/index.html foundation runtime preserved",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html exists",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html ui mobile marker",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html mobile css linked",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html viewport fit",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html foundation preserved",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html foundation runtime preserved",
+      "passed": true
+    },
+    {
+      "name": "index.html exists",
+      "passed": true
+    },
+    {
+      "name": "index.html ui mobile marker",
+      "passed": true
+    },
+    {
+      "name": "index.html mobile css linked",
+      "passed": true
+    },
+    {
+      "name": "index.html viewport fit",
+      "passed": true
+    },
+    {
+      "name": "index.html foundation preserved",
+      "passed": true
+    },
+    {
+      "name": "index.html foundation runtime preserved",
+      "passed": true
+    },
+    {
+      "name": "life/index.html exists",
+      "passed": true
+    },
+    {
+      "name": "life/index.html ui mobile marker",
+      "passed": true
+    },
+    {
+      "name": "life/index.html mobile css linked",
+      "passed": true
+    },
+    {
+      "name": "life/index.html viewport fit",
+      "passed": true
+    },
+    {
+      "name": "life/index.html foundation preserved",
+      "passed": true
+    },
+    {
+      "name": "life/index.html foundation runtime preserved",
+      "passed": true
+    },
+    {
+      "name": "life/thank-you.html exists",
+      "passed": true
+    },
+    {
+      "name": "life/thank-you.html ui mobile marker",
+      "passed": true
+    },
+    {
+      "name": "life/thank-you.html mobile css linked",
+      "passed": true
+    },
+    {
+      "name": "life/thank-you.html viewport fit",
+      "passed": true
+    },
+    {
+      "name": "life/thank-you.html foundation preserved",
+      "passed": true
+    },
+    {
+      "name": "life/thank-you.html foundation runtime preserved",
+      "passed": true
+    },
+    {
+      "name": "local/detail/index.html exists",
+      "passed": true
+    },
+    {
+      "name": "local/detail/index.html ui mobile marker",
+      "passed": true
+    },
+    {
+      "name": "local/detail/index.html mobile css linked",
+      "passed": true
+    },
+    {
+      "name": "local/detail/index.html viewport fit",
+      "passed": true
+    },
+    {
+      "name": "local/detail/index.html foundation preserved",
+      "passed": true
+    },
+    {
+      "name": "local/detail/index.html foundation runtime preserved",
+      "passed": true
+    },
+    {
+      "name": "local/index.html exists",
+      "passed": true
+    },
+    {
+      "name": "local/index.html ui mobile marker",
+      "passed": true
+    },
+    {
+      "name": "local/index.html mobile css linked",
+      "passed": true
+    },
+    {
+      "name": "local/index.html viewport fit",
+      "passed": true
+    },
+    {
+      "name": "local/index.html foundation preserved",
+      "passed": true
+    },
+    {
+      "name": "local/index.html foundation runtime preserved",
+      "passed": true
+    },
+    {
+      "name": "local/join/index.html exists",
+      "passed": true
+    },
+    {
+      "name": "local/join/index.html ui mobile marker",
+      "passed": true
+    },
+    {
+      "name": "local/join/index.html mobile css linked",
+      "passed": true
+    },
+    {
+      "name": "local/join/index.html viewport fit",
+      "passed": true
+    },
+    {
+      "name": "local/join/index.html foundation preserved",
+      "passed": true
+    },
+    {
+      "name": "local/join/index.html foundation runtime preserved",
+      "passed": true
+    },
+    {
+      "name": "local/join/thank-you.html exists",
+      "passed": true
+    },
+    {
+      "name": "local/join/thank-you.html ui mobile marker",
+      "passed": true
+    },
+    {
+      "name": "local/join/thank-you.html mobile css linked",
+      "passed": true
+    },
+    {
+      "name": "local/join/thank-you.html viewport fit",
+      "passed": true
+    },
+    {
+      "name": "local/join/thank-you.html foundation preserved",
+      "passed": true
+    },
+    {
+      "name": "local/join/thank-you.html foundation runtime preserved",
+      "passed": true
+    },
+    {
+      "name": "neighbor/index.html exists",
+      "passed": true
+    },
+    {
+      "name": "neighbor/index.html ui mobile marker",
+      "passed": true
+    },
+    {
+      "name": "neighbor/index.html mobile css linked",
+      "passed": true
+    },
+    {
+      "name": "neighbor/index.html viewport fit",
+      "passed": true
+    },
+    {
+      "name": "neighbor/index.html foundation preserved",
+      "passed": true
+    },
+    {
+      "name": "neighbor/index.html foundation runtime preserved",
+      "passed": true
+    },
+    {
+      "name": "privacy.html exists",
+      "passed": true
+    },
+    {
+      "name": "privacy.html ui mobile marker",
+      "passed": true
+    },
+    {
+      "name": "privacy.html mobile css linked",
+      "passed": true
+    },
+    {
+      "name": "privacy.html viewport fit",
+      "passed": true
+    },
+    {
+      "name": "privacy.html foundation preserved",
+      "passed": true
+    },
+    {
+      "name": "privacy.html foundation runtime preserved",
+      "passed": true
+    },
+    {
+      "name": "score/index.html exists",
+      "passed": true
+    },
+    {
+      "name": "score/index.html ui mobile marker",
+      "passed": true
+    },
+    {
+      "name": "score/index.html mobile css linked",
+      "passed": true
+    },
+    {
+      "name": "score/index.html viewport fit",
+      "passed": true
+    },
+    {
+      "name": "score/index.html foundation preserved",
+      "passed": true
+    },
+    {
+      "name": "score/index.html foundation runtime preserved",
+      "passed": true
+    },
+    {
+      "name": "teachers/index.html exists",
+      "passed": true
+    },
+    {
+      "name": "teachers/index.html ui mobile marker",
+      "passed": true
+    },
+    {
+      "name": "teachers/index.html mobile css linked",
+      "passed": true
+    },
+    {
+      "name": "teachers/index.html viewport fit",
+      "passed": true
+    },
+    {
+      "name": "teachers/index.html foundation preserved",
+      "passed": true
+    },
+    {
+      "name": "teachers/index.html foundation runtime preserved",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html exists",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html ui mobile marker",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html mobile css linked",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html viewport fit",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html foundation preserved",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html foundation runtime preserved",
+      "passed": true
+    },
+    {
+      "name": "tech/index.html exists",
+      "passed": true
+    },
+    {
+      "name": "tech/index.html ui mobile marker",
+      "passed": true
+    },
+    {
+      "name": "tech/index.html mobile css linked",
+      "passed": true
+    },
+    {
+      "name": "tech/index.html viewport fit",
+      "passed": true
+    },
+    {
+      "name": "tech/index.html foundation preserved",
+      "passed": true
+    },
+    {
+      "name": "tech/index.html foundation runtime preserved",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html exists",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html ui mobile marker",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html mobile css linked",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html viewport fit",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html foundation preserved",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html foundation runtime preserved",
+      "passed": true
+    },
+    {
+      "name": "terms.html exists",
+      "passed": true
+    },
+    {
+      "name": "terms.html ui mobile marker",
+      "passed": true
+    },
+    {
+      "name": "terms.html mobile css linked",
+      "passed": true
+    },
+    {
+      "name": "terms.html viewport fit",
+      "passed": true
+    },
+    {
+      "name": "terms.html foundation preserved",
+      "passed": true
+    },
+    {
+      "name": "terms.html foundation runtime preserved",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html form contract preserved",
+      "passed": true
+    },
+    {
+      "name": "buyer/index.html form contract preserved",
+      "passed": true
+    },
+    {
+      "name": "engineers/index.html form contract preserved",
+      "passed": true
+    },
+    {
+      "name": "healthcare/index.html form contract preserved",
+      "passed": true
+    },
+    {
+      "name": "home/index.html form contract preserved",
+      "passed": true
+    },
+    {
+      "name": "life/index.html form contract preserved",
+      "passed": true
+    },
+    {
+      "name": "local/join/index.html form contract preserved",
+      "passed": true
+    },
+    {
+      "name": "teachers/index.html form contract preserved",
+      "passed": true
+    },
+    {
+      "name": "tech/index.html form contract preserved",
+      "passed": true
+    },
+    {
+      "name": "_worker.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/accessibility.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/address-autocomplete.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/buyer-flow.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/buyer-referral.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/campaign.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/config.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/contact-choice.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/coveragefit-invitation.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/coveragefit-launch.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/flyer-campaign.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/home-baseline.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/home-certification.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/home-confirmation.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/home-continuity.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/home-engagement.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/home-form-first.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/home-journey-contract.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/home-lead-progressive.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/homepage-optimization.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/life-campaign.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/life-conversion.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/life-intake.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/life-ops.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/life-secure-submit.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/local-attribution.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/local-data-model.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/local-directory.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/local-join.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/local-merchant.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/motion.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/post-lead-engagement.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/progressive-intake.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/prospect-profile.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/referral-bridge.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/score.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/script.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "shared/ui-3-foundation.js runtime hash",
+      "passed": true
+    },
+    {
+      "name": "local/data/catalog.json runtime hash",
+      "passed": true
+    },
+    {
+      "name": "local/data/catalog.schema.json runtime hash",
+      "passed": true
+    },
+    {
+      "name": "internal links have no broken targets",
+      "passed": true
+    }
+  ]
+}

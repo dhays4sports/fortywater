@@ -1,0 +1,271 @@
+{
+  "sprint": "408-UI-3.8",
+  "suite": "source_contract",
+  "total": 65,
+  "passed": 65,
+  "failed": 0,
+  "internal_links_checked": 153,
+  "broken_links": [],
+  "checks": [
+    {
+      "name": "visual convergence css exists",
+      "passed": true
+    },
+    {
+      "name": "sprint doc exists",
+      "passed": true
+    },
+    {
+      "name": "contract exists",
+      "passed": true
+    },
+    {
+      "name": "roadmap exists",
+      "passed": true
+    },
+    {
+      "name": "local/index.html UI38 meta",
+      "passed": true
+    },
+    {
+      "name": "local/index.html UI38 css",
+      "passed": true
+    },
+    {
+      "name": "local/index.html UI31 retained",
+      "passed": true
+    },
+    {
+      "name": "local/index.html body hook",
+      "passed": true
+    },
+    {
+      "name": "local/detail/index.html UI38 meta",
+      "passed": true
+    },
+    {
+      "name": "local/detail/index.html UI38 css",
+      "passed": true
+    },
+    {
+      "name": "local/detail/index.html UI31 retained",
+      "passed": true
+    },
+    {
+      "name": "local/detail/index.html body hook",
+      "passed": true
+    },
+    {
+      "name": "local/join/index.html UI38 meta",
+      "passed": true
+    },
+    {
+      "name": "local/join/index.html UI38 css",
+      "passed": true
+    },
+    {
+      "name": "local/join/index.html UI31 retained",
+      "passed": true
+    },
+    {
+      "name": "local/join/index.html body hook",
+      "passed": true
+    },
+    {
+      "name": "directory follows hero",
+      "passed": true
+    },
+    {
+      "name": "compact Local identity",
+      "passed": true
+    },
+    {
+      "name": "directory filters retained",
+      "passed": true
+    },
+    {
+      "name": "no insurance purchase boundary retained",
+      "passed": true
+    },
+    {
+      "name": "no quote boundary retained",
+      "passed": true
+    },
+    {
+      "name": "_worker.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/local-data-model.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/local-directory.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/local-merchant.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/local-attribution.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/local-join.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "local/data/catalog.json byte-identical",
+      "passed": true
+    },
+    {
+      "name": "local/pilot/pilot-launch.json byte-identical",
+      "passed": true
+    },
+    {
+      "name": "local/pilot/stevies-qr-campaigns.json byte-identical",
+      "passed": true
+    },
+    {
+      "name": "merchant join form contract unchanged",
+      "passed": true
+    },
+    {
+      "name": "no distance UI",
+      "passed": true
+    },
+    {
+      "name": "no ratings UI",
+      "passed": true
+    },
+    {
+      "name": "no browser geolocation",
+      "passed": true
+    },
+    {
+      "name": "no fake map surface",
+      "passed": true
+    },
+    {
+      "name": "Stevies imagery not fabricated",
+      "passed": true
+    },
+    {
+      "name": "Stevies remains active real pilot",
+      "passed": true
+    },
+    {
+      "name": "Auto fixture remains non-public",
+      "passed": true
+    },
+    {
+      "name": "Home fixture remains non-public",
+      "passed": true
+    },
+    {
+      "name": "CSS selector .local-directory-grid",
+      "passed": true
+    },
+    {
+      "name": "CSS selector .local-merchant-card",
+      "passed": true
+    },
+    {
+      "name": "CSS selector .local-detail-perk",
+      "passed": true
+    },
+    {
+      "name": "CSS selector .local-redemption-dialog",
+      "passed": true
+    },
+    {
+      "name": "CSS selector .local-insurance-bridge",
+      "passed": true
+    },
+    {
+      "name": "CSS selector .local-join-form-card",
+      "passed": true
+    },
+    {
+      "name": "CSS selector .local-filter.is-active",
+      "passed": true
+    },
+    {
+      "name": "Farmers red active filters",
+      "passed": true
+    },
+    {
+      "name": "restrained radius",
+      "passed": true
+    },
+    {
+      "name": "phone breakpoint",
+      "passed": true
+    },
+    {
+      "name": "tablet breakpoint",
+      "passed": true
+    },
+    {
+      "name": "short landscape support",
+      "passed": true
+    },
+    {
+      "name": "reduced motion support",
+      "passed": true
+    },
+    {
+      "name": "forced colors support",
+      "passed": true
+    },
+    {
+      "name": "mobile 16px controls",
+      "passed": true
+    },
+    {
+      "name": "index.html non-Local unchanged",
+      "passed": true
+    },
+    {
+      "name": "home/index.html non-Local unchanged",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html non-Local unchanged",
+      "passed": true
+    },
+    {
+      "name": "buyer/index.html non-Local unchanged",
+      "passed": true
+    },
+    {
+      "name": "life/index.html non-Local unchanged",
+      "passed": true
+    },
+    {
+      "name": "healthcare/index.html non-Local unchanged",
+      "passed": true
+    },
+    {
+      "name": "teachers/index.html non-Local unchanged",
+      "passed": true
+    },
+    {
+      "name": "tech/index.html non-Local unchanged",
+      "passed": true
+    },
+    {
+      "name": "engineers/index.html non-Local unchanged",
+      "passed": true
+    },
+    {
+      "name": "internal links checked >=150",
+      "passed": true
+    },
+    {
+      "name": "internal links broken 0",
+      "passed": true
+    }
+  ]
+}

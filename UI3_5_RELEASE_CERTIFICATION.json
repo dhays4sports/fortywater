@@ -1,0 +1,52 @@
+{
+  "build": "408-UI-3.5",
+  "name": "Buyer Experience Redesign",
+  "status": "CERTIFIED_ROOT_DEPLOYABLE",
+  "baseline": "408-UI-3.4 + 408-UI-3.2.1",
+  "route": "/buyer/",
+  "fallback": "/buyer/thank-you.html",
+  "sourceContract": {
+    "passed": 190,
+    "total": 190,
+    "brokenInternalLinks": 0,
+    "internalLinksChecked": 137
+  },
+  "browserRendering": {
+    "passed": 115,
+    "total": 115,
+    "viewports": [
+      "320x800",
+      "390x844",
+      "768x1024",
+      "1440x900"
+    ]
+  },
+  "regressions": {
+    "existingStatic": "296/296",
+    "homeHiddenRequiredSubmitHotfix": "12/12",
+    "homePrettyPathRouting": "16/16",
+    "homeDeepRouteAssets": "12/12",
+    "advancedModeRedirectLoop": "10/10",
+    "merchantJoinWorker": "20/20",
+    "localAttributionWorker": "29/29",
+    "logoIntegration": "14/14",
+    "homepageIdentityBrowser": "93/93",
+    "homeConversionBrowser": "108/108",
+    "homeAutoConversionBrowser": "99/99",
+    "localBrowser": "210/210",
+    "runtimeJavaScriptSyntax": "38/38"
+  },
+  "protectedRuntimeChanged": false,
+  "buyerFlowRuntimeChanged": false,
+  "buyerReferralRuntimeChanged": false,
+  "buyerFieldInventoryChanged": false,
+  "buyerRuntimeScriptInventoryChanged": false,
+  "partnerAttributionChanged": false,
+  "closingUrgencyChanged": false,
+  "submissionChanged": false,
+  "postLeadBehaviorChanged": false,
+  "coverageFitHandoffChanged": false,
+  "workerChanged": false,
+  "localPilotStatus": "LOCAL-1.10 remains technically certified with planned three-merchant pilot NO-GO pending real Auto + Home merchants and external closeout.",
+  "nextSprint": "408-UI-3.6 \u2014 Professional Programs Convergence"
+}

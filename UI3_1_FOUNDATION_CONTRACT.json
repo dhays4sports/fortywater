@@ -1,0 +1,41 @@
+{
+  "build": "408-UI-3.1",
+  "status": "complete",
+  "baseline": "408-LOCAL-1.10-CERTIFIED-NO-GO",
+  "scope": "visual_foundation_only",
+  "foundation": {
+    "palette": [
+      "#031a3d",
+      "#08285a",
+      "#d71920",
+      "#ffffff",
+      "#f6f8fb"
+    ],
+    "header": "compact universal navy header with mobile navigation",
+    "footer": "universal deep-navy platform footer",
+    "typography": "shared responsive scale",
+    "cards": "restrained border/radius/shadow treatment",
+    "buttons": "Farmers red primary; navy/white secondary",
+    "forms": "shared controls/focus/error treatment",
+    "statuses": "success/warning/error token family",
+    "mobile": "60px compact header, 44px menu control, 16px inputs"
+  },
+  "protectedBehavior": [
+    "form names and required semantics",
+    "submission endpoints",
+    "_worker.js",
+    "campaign routing",
+    "QR routing",
+    "Local catalog/perk/redemption",
+    "Local attribution",
+    "Buyer/realtor context",
+    "Life secure submission",
+    "CoverageFit handoffs"
+  ],
+  "publicHtmlHooks": 26,
+  "excludedConsumerFoundation": [
+    "life-ops/",
+    "qa/fixtures/"
+  ],
+  "nextSprint": "408-UI-3.2 \u2014 Homepage Platform Redesign"
+}

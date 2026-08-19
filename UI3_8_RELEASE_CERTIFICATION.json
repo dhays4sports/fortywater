@@ -1,0 +1,51 @@
+{
+  "sprint": "408-UI-3.8",
+  "name": "Local Visual Convergence",
+  "status": "CERTIFIED",
+  "behavior_frozen": true,
+  "certified_surfaces": [
+    "/local/",
+    "/local/{merchant-slug}/",
+    "/local/join/"
+  ],
+  "qa": {
+    "ui3_8_source_behavior": "65/65",
+    "ui3_8_browser_rendering": "155/155",
+    "javascript_syntax": "122/122",
+    "existing_static_regression": "296/296",
+    "local_1_10_browser_regression": "210/210",
+    "merchant_join_worker": "20/20",
+    "local_attribution_worker": "29/29",
+    "home_hidden_required_submit": "12/12",
+    "home_pretty_path_routing": "16/16",
+    "home_deep_route_assets": "12/12",
+    "advanced_mode_redirect_loop": "10/10",
+    "logo_integration": "14/14",
+    "homepage_3_2_1_browser": "93/93",
+    "home_3_3_browser": "108/108",
+    "home_auto_3_4_browser": "99/99",
+    "buyer_3_5_browser": "115/115",
+    "professional_3_6_browser": "452/452",
+    "life_3_7_browser": "23/23",
+    "internal_links": "517 checked, 0 broken"
+  },
+  "protected_runtime_unchanged": [
+    "_worker.js",
+    "shared/local-data-model.js",
+    "shared/local-directory.js",
+    "shared/local-merchant.js",
+    "shared/local-attribution.js",
+    "shared/local-join.js",
+    "local/data/catalog.json"
+  ],
+  "unsupported_features_not_added": [
+    "distance calculations",
+    "browser geolocation",
+    "ratings/reviews",
+    "map widgets",
+    "consumer accounts",
+    "fabricated merchant imagery"
+  ],
+  "local_operational_status": "LOCAL-1.10 technical certification remains intact; planned three-merchant pilot remains production NO-GO pending real Auto + Home merchants and external closeout.",
+  "next_sprint": "408-UI-3.9 \u2014 Utility + Completion Surfaces"
+}

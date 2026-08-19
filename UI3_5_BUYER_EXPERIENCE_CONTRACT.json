@@ -1,0 +1,26 @@
+{
+  "build": "408-UI-3.5",
+  "name": "Buyer Experience Redesign",
+  "route": "/buyer/",
+  "fallback": "/buyer/thank-you.html",
+  "design": {
+    "visualLanguage": "UI-3 navy/red/white platform",
+    "primaryContext": "home purchase and closing",
+    "primaryChoices": ["text_dylan", "start_online"],
+    "intakeSteps": ["Property", "Contact"],
+    "primaryActionColor": "Farmers red"
+  },
+  "protectedBehavior": {
+    "buyerFlowRuntime": "shared/buyer-flow.js",
+    "referralRuntime": "shared/buyer-referral.js",
+    "partnerAttribution": true,
+    "closingUrgency": true,
+    "addressAutocomplete": true,
+    "formSubmission": "unchanged",
+    "postLeadEngagement": true,
+    "coverageFitInvitation": true,
+    "zeroRepeatHandoff": "coveragefit-handoff-v1",
+    "workerChanged": false
+  },
+  "nextSprint": "408-UI-3.6 — Professional Programs Convergence"
+}

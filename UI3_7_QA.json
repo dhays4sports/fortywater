@@ -1,0 +1,527 @@
+{
+  "sprint": "408-UI-3.7",
+  "suite": "source_contract",
+  "total": 129,
+  "passed": 129,
+  "failed": 0,
+  "internal_links_checked": 153,
+  "broken_links": [],
+  "checks": [
+    {
+      "name": "UI37 stylesheet exists",
+      "passed": true
+    },
+    {
+      "name": "UI37 campaign image exists",
+      "passed": true
+    },
+    {
+      "name": "UI37 sprint doc exists",
+      "passed": true
+    },
+    {
+      "name": "UI37 contract exists",
+      "passed": true
+    },
+    {
+      "name": "UI37 roadmap exists",
+      "passed": true
+    },
+    {
+      "name": "UI37 meta hook",
+      "passed": true
+    },
+    {
+      "name": "UI37 CSS hook",
+      "passed": true
+    },
+    {
+      "name": "UI31 foundation retained",
+      "passed": true
+    },
+    {
+      "name": "body UI37 hook",
+      "passed": true
+    },
+    {
+      "name": "life runtime build retained",
+      "passed": true
+    },
+    {
+      "name": "campaign matching hooks retained",
+      "passed": true
+    },
+    {
+      "name": "campaign visual exists",
+      "passed": true
+    },
+    {
+      "name": "campaign visual uses family asset",
+      "passed": true
+    },
+    {
+      "name": "campaign continuity language exists",
+      "passed": true
+    },
+    {
+      "name": "campaign credential exists",
+      "passed": true
+    },
+    {
+      "name": "life secure form byte-identical",
+      "passed": true
+    },
+    {
+      "name": "life secure form exists",
+      "passed": true
+    },
+    {
+      "name": "life field inventory unchanged",
+      "passed": true
+    },
+    {
+      "name": "life required inventory unchanged",
+      "passed": true
+    },
+    {
+      "name": "life script inventory unchanged",
+      "passed": true
+    },
+    {
+      "name": "thank-you remains byte-identical",
+      "passed": true
+    },
+    {
+      "name": "campaign runtime pre-variant logic unchanged",
+      "passed": true
+    },
+    {
+      "name": "campaign attribution and routing logic unchanged",
+      "passed": true
+    },
+    {
+      "name": "campaign contract token before_anything_changes",
+      "passed": true
+    },
+    {
+      "name": "campaign contract token '20_minutes'",
+      "passed": true
+    },
+    {
+      "name": "campaign contract token this_is_the_time",
+      "passed": true
+    },
+    {
+      "name": "campaign contract token financial_picture",
+      "passed": true
+    },
+    {
+      "name": "campaign contract token code: 'A'",
+      "passed": true
+    },
+    {
+      "name": "campaign contract token code: 'B'",
+      "passed": true
+    },
+    {
+      "name": "campaign contract token code: 'C'",
+      "passed": true
+    },
+    {
+      "name": "campaign contract token code: 'D'",
+      "passed": true
+    },
+    {
+      "name": "campaign contract token ATTR_KEYS = ['utm_source','utm_medium','utm_campaign','utm_content','utm_term','campaign_id','campaign_variant','creative']",
+      "passed": true
+    },
+    {
+      "name": "Creative A campaign copy aligned",
+      "passed": true
+    },
+    {
+      "name": "Creative B 20:00 aligned",
+      "passed": true
+    },
+    {
+      "name": "Creative C campaign copy aligned",
+      "passed": true
+    },
+    {
+      "name": "_worker.js:present",
+      "passed": true
+    },
+    {
+      "name": "_worker.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/life-conversion.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/life-conversion.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/life-intake.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/life-intake.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/life-secure-submit.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/life-secure-submit.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/life-ops.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/life-ops.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/life-ops.css:present",
+      "passed": true
+    },
+    {
+      "name": "shared/life-ops.css:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "life-ops/index.html:present",
+      "passed": true
+    },
+    {
+      "name": "life-ops/index.html:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "LIFE-PRODUCTION-CERTIFICATION.md:present",
+      "passed": true
+    },
+    {
+      "name": "LIFE-PRODUCTION-CERTIFICATION.md:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "LIFE-SECURE-SUBMISSION-DEPLOYMENT.md:present",
+      "passed": true
+    },
+    {
+      "name": "LIFE-SECURE-SUBMISSION-DEPLOYMENT.md:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/ui-3-foundation.css:present",
+      "passed": true
+    },
+    {
+      "name": "shared/ui-3-foundation.css:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/ui-3-foundation.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/ui-3-foundation.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "terms.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "terms.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "privacy.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "privacy.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "local/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "local/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "teachers/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "teachers/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "neighbor/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "neighbor/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "contact/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "contact/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "life/thank-you.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "life/thank-you.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "score/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "score/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "healthcare/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "healthcare/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "buyer/thank-you.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "buyer/thank-you.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "buyer/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "buyer/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "home/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "home/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "engineers/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "engineers/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "tech/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "tech/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "local/join/thank-you.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "local/join/thank-you.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "local/join/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "local/join/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "local/detail/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "local/detail/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "life campaign CSS token --life-campaign-black",
+      "passed": true
+    },
+    {
+      "name": "life campaign CSS token --life-campaign-red",
+      "passed": true
+    },
+    {
+      "name": "life campaign CSS token var(--life-campaign-red)",
+      "passed": true
+    },
+    {
+      "name": "life campaign CSS token var(--ui3-navy-950)",
+      "passed": true
+    },
+    {
+      "name": "life campaign CSS token body.life-page.ui3-page .life-hero",
+      "passed": true
+    },
+    {
+      "name": "life campaign CSS token body.life-page.ui3-page .life-campaign-visual",
+      "passed": true
+    },
+    {
+      "name": "life campaign CSS token body.life-page.ui3-page .life-start-section",
+      "passed": true
+    },
+    {
+      "name": "life campaign CSS token body.life-page.ui3-page .life-intake-shell",
+      "passed": true
+    },
+    {
+      "name": "life campaign CSS token body.life-page.ui3-page .life-why-now",
+      "passed": true
+    },
+    {
+      "name": "campaign canvas remains dark",
+      "passed": true
+    },
+    {
+      "name": "application working surface remains white",
+      "passed": true
+    },
+    {
+      "name": "red urgency punctuation exists",
+      "passed": true
+    },
+    {
+      "name": "phone breakpoint",
+      "passed": true
+    },
+    {
+      "name": "tablet breakpoint",
+      "passed": true
+    },
+    {
+      "name": "short landscape support",
+      "passed": true
+    },
+    {
+      "name": "reduced motion support",
+      "passed": true
+    },
+    {
+      "name": "forced colors support",
+      "passed": true
+    },
+    {
+      "name": "mobile 16px fields",
+      "passed": true
+    },
+    {
+      "name": "campaign image has usable dimensions",
+      "passed": true
+    },
+    {
+      "name": "campaign image portrait ratio",
+      "passed": true
+    },
+    {
+      "name": "internal links checked >=150",
+      "passed": true
+    },
+    {
+      "name": "internal links broken 0",
+      "passed": true
+    }
+  ]
+}

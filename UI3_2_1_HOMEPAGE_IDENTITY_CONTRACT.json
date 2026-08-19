@@ -1,0 +1,269 @@
+{
+  "sprint": "408-UI-3.2.1",
+  "baseline": "408-UI-3.3 Home Conversion Experience",
+  "homepage_baseline_href_counts": {
+    "#main-content": 1,
+    "/": 1,
+    "#start": 3,
+    "#professionals": 1,
+    "/local/?surface=global_nav&campaign=local_site_integration&variant=global_nav&utm_source=408farmers&utm_medium=site&utm_campaign=local_site_integration&utm_content=global_nav": 1,
+    "#contact": 1,
+    "tel:+14083276377": 3,
+    "https://coveragefit.com/home/": 1,
+    "home/": 2,
+    "auto-bundle/": 2,
+    "buyer/": 2,
+    "life/": 2,
+    "score/": 3,
+    "contact/?intent=business": 1,
+    "contact/?intent=landlord": 1,
+    "healthcare/": 2,
+    "teachers/": 2,
+    "tech/": 2,
+    "engineers/": 2,
+    "/local/?surface=homepage_local_module&campaign=local_site_integration&variant=homepage_local_module&utm_source=408farmers&utm_medium=site&utm_campaign=local_site_integration&utm_content=homepage_local_module": 1,
+    "/local/join/?source=site_integration&surface=homepage_local_business&utm_source=408farmers&utm_medium=site&utm_campaign=local_site_integration&utm_content=homepage_local_business": 1,
+    "sms:+14083276377?body=Hi%20Dylan%2C%20I%20would%20like%20an%20insurance%20review.": 1,
+    "mailto:dylan.vtam@farmersagency.com": 2,
+    "/local/?surface=homepage_footer&campaign=local_site_integration&variant=homepage_footer&utm_source=408farmers&utm_medium=site&utm_campaign=local_site_integration&utm_content=homepage_footer": 1,
+    "/local/join/?source=site_integration&surface=homepage_footer_business&utm_source=408farmers&utm_medium=site&utm_campaign=local_site_integration&utm_content=homepage_footer_business": 1,
+    "sms:+14083276377": 1,
+    "privacy.html": 1,
+    "terms.html": 1
+  },
+  "homepage_baseline_tracked_anchors": [
+    [
+      "local_site_entry",
+      "global_nav",
+      "Local",
+      "/local/?surface=global_nav&campaign=local_site_integration&variant=global_nav&utm_source=408farmers&utm_medium=site&utm_campaign=local_site_integration&utm_content=global_nav"
+    ],
+    [
+      "header_call",
+      "header",
+      null,
+      "tel:+14083276377"
+    ],
+    [
+      "hero_start_review",
+      "homepage_hero",
+      null,
+      "https://coveragefit.com/home/"
+    ],
+    [
+      "hero_explore_coverage",
+      "homepage_hero",
+      null,
+      "#start"
+    ],
+    [
+      "hero_choose_path",
+      "homepage_visual",
+      null,
+      "#start"
+    ],
+    [
+      "intent_route",
+      "homepage_platform_grid",
+      "Home coverage review",
+      "home/"
+    ],
+    [
+      "intent_route",
+      "homepage_intent_grid",
+      "I\u2019m shopping auto or bundle options",
+      "auto-bundle/"
+    ],
+    [
+      "intent_route",
+      "homepage_intent_grid",
+      "I\u2019m buying a home",
+      "buyer/"
+    ],
+    [
+      "intent_route",
+      "homepage_intent_grid",
+      "I need to protect my family",
+      "life/"
+    ],
+    [
+      "intent_route",
+      "homepage_intent_grid",
+      "I want to review my current coverage",
+      "score/"
+    ],
+    [
+      "intent_route",
+      "homepage_intent_grid",
+      "I need to protect my business",
+      "contact/?intent=business"
+    ],
+    [
+      "intent_route",
+      "homepage_intent_grid",
+      "I own a rental property",
+      "contact/?intent=landlord"
+    ],
+    [
+      "occupation_route",
+      "homepage_professionals",
+      "Healthcare",
+      "healthcare/"
+    ],
+    [
+      "occupation_route",
+      "homepage_professionals",
+      "Education",
+      "teachers/"
+    ],
+    [
+      "occupation_route",
+      "homepage_professionals",
+      "Technology",
+      "tech/"
+    ],
+    [
+      "occupation_route",
+      "homepage_professionals",
+      "Engineering",
+      "engineers/"
+    ],
+    [
+      "coveragefit_score_experience",
+      "coveragefit_story",
+      null,
+      "score/"
+    ],
+    [
+      "local_site_entry",
+      "homepage_local_module",
+      "Explore 408FARMERS Local",
+      "/local/?surface=homepage_local_module&campaign=local_site_integration&variant=homepage_local_module&utm_source=408farmers&utm_medium=site&utm_campaign=local_site_integration&utm_content=homepage_local_module"
+    ],
+    [
+      "local_merchant_join",
+      "homepage_local_module",
+      "Join the Local pilot",
+      "/local/join/?source=site_integration&surface=homepage_local_business&utm_source=408farmers&utm_medium=site&utm_campaign=local_site_integration&utm_content=homepage_local_business"
+    ],
+    [
+      "phone_click",
+      "homepage",
+      null,
+      "tel:+14083276377"
+    ],
+    [
+      "sms_click",
+      "homepage",
+      null,
+      "sms:+14083276377?body=Hi%20Dylan%2C%20I%20would%20like%20an%20insurance%20review."
+    ],
+    [
+      "email_click",
+      "homepage",
+      null,
+      "mailto:dylan.vtam@farmersagency.com"
+    ],
+    [
+      "local_site_entry",
+      "homepage_footer",
+      null,
+      "/local/?surface=homepage_footer&campaign=local_site_integration&variant=homepage_footer&utm_source=408farmers&utm_medium=site&utm_campaign=local_site_integration&utm_content=homepage_footer"
+    ],
+    [
+      "local_merchant_join",
+      "homepage_footer",
+      null,
+      "/local/join/?source=site_integration&surface=homepage_footer_business&utm_source=408farmers&utm_medium=site&utm_campaign=local_site_integration&utm_content=homepage_footer_business"
+    ],
+    [
+      "phone_click",
+      "homepage",
+      null,
+      "tel:+14083276377"
+    ],
+    [
+      "sms_click",
+      "homepage",
+      null,
+      "sms:+14083276377"
+    ],
+    [
+      "email_click",
+      "homepage",
+      null,
+      "mailto:dylan.vtam@farmersagency.com"
+    ]
+  ],
+  "unchanged_public_html_sha256": {
+    "terms.html": "9349ebea49b5edfe9a5e8e6c750c801b13d8c30417b58c2e9f32a0368a389d4c",
+    "privacy.html": "084ca44449c60bf1eee5b3e27b2f7bbc289e01026e09d06de34a4746d8a003ed",
+    "healthcare/thank-you.html": "6a4d376c47cb545511b3378a55a3233a0e3a48368a2493ecc75cf9cee5add1c4",
+    "healthcare/index.html": "60c614bbaf79d909466bd78d2ee06e3f07c0a403f0b86b1dce08a241fb4a6456",
+    "tech/thank-you.html": "0e9985f5783d51b6299243b43db0871a08c9d75f8c18e6e41af6bb59e53cfcbd",
+    "tech/index.html": "f0cd6d94d9765dfffb9d9cbd1f1624cb0b79bb9003e1b47f7493f726bd593506",
+    "engineers/thank-you.html": "28448866161c21d07d5a2a9f96d4953afc44e82333546dbc9924406ee9f4a000",
+    "engineers/index.html": "f51465cd009b3c49fe25b2faed24c62307d1ea07f80ad36d92a178d034017916",
+    "buyer/thank-you.html": "7ee323ccc048ce3a68db4feb593d02c1af1a42a41b4b79ea76215cd15fb5438c",
+    "buyer/index.html": "eab8f07a73db0b35a22d3475b1ea8d25127f9f1f30302a2d0ea95f425dfe1767",
+    "local/index.html": "453ca1dcbf145b6a25ceecdb6da8091ced2b4f988cee0355526ba437a8ef8d00",
+    "life/thank-you.html": "a5733d354926a095024b781645ee7c03979f3dbfc7558ff07a147f2c59490beb",
+    "life/index.html": "16808503a7ef9b2b281be3fdf1f82fa9751c4f36f94094e8bd754663a1d75f98",
+    "home/thank-you.html": "bd186d8ff6ba77411429877711abff44999ea624d215e422316ea76228670bb1",
+    "home/index.html": "b050da86d21d8d15f2b08841e88879bef7a317b0ff975e12a4507e6092cb2d4c",
+    "neighbor/index.html": "0f1ea28e05d542f43b67b14cce96800d3f5ee2ac7e40487562441a3d4a19c10d",
+    "score/index.html": "5e2b1ed1479f04c3fe1772b53ede32a14a159ded5194a0f12023ebc72b963ee4",
+    "teachers/thank-you.html": "573457ef8b4cdbb4c0b046c48eae4554cec01e4271ba716e13afca741c829888",
+    "teachers/index.html": "5e24631569129e554688cf2930cc5f6328358b8991b8f5bc00c2e93b9535f90b",
+    "auto-bundle/thank-you.html": "1034ae21522f72b4bbb2161162c07593b2d8bf16dd9574a6c0d4336cdcd28705",
+    "auto-bundle/index.html": "6429f42e9415022cd68c0b5617d611c20226dbff37a558f3bb2d60e23b78aecd",
+    "contact/index.html": "9791dfdc0de9b077779fa23b31cdaa07dd29db4bc2800a2aa0af4fc544d61ca5",
+    "local/join/thank-you.html": "e5888d71017bce7c9c186559058bafc8d4e9a3ff7d21a21a1c15d34eaa365617",
+    "local/join/index.html": "e73d9e5b02de1a780550936c0c9e4b6d75d042e6aec190765f783488709a0670",
+    "local/detail/index.html": "4f883464812b897aacea7fef17932939503b0b4ad24b0eeb574c925e0eaa8cea"
+  },
+  "protected_runtime_sha256": {
+    "_worker.js": "fff94d29593f23a15765e66b6627e0339480e0ca394ad86086b06026392d2690",
+    "shared/ui-3-foundation.css": "a23e21a796fdd44e59e6cd1e69c56424a6e1cbceaa531a46c382bc01d62015b6",
+    "shared/ui-3-foundation.js": "979568c3158c9710db8febaa784e55838e6c88cc038b9414a6247076722407e3",
+    "shared/homepage-optimization.js": "3587842768631e48b2fcd55dfeac5d8d90d0b054ef78bd6e3ac9a898449926f5",
+    "shared/config.js": "3184a565b13546c556e0183e392b0ff37bd8884a348848565707a23ba8c090c8",
+    "shared/campaign.js": "dd2935996a955394b8818457e700c043ad76d5284e4071a704366ab070280a9b",
+    "shared/coveragefit-launch.js": "0656746d83b8b54f5b322cd530e9150a9b2fe5274ae865b4808919ccd62191b9",
+    "shared/local-attribution.js": "f9e04b4214e36805c5443ea88bff4f7978878f414295c960d4787d1c653ea7fe",
+    "shared/local-data-model.js": "ff06f29c256d85adc4d8813187719a640c918a3cb7381b43c24d4469149fa17e",
+    "shared/local-directory.js": "aeee96922378d235b177d229d1949220f17518927c3b4383c1964bdb12bfbb8c",
+    "shared/local-merchant.js": "806940982132e48d21284a5983a5c02fc535efb79a9a87cb98d2605795e0c55f",
+    "shared/local-join.js": "69f4a0f5aeb772b4bd98ee6629d527c0510a26d37c1c0c874399127c704dcce0",
+    "shared/life-secure-submit.js": "10b5b1a1a77a11b83a01ddd3818947552d0fecda2e5cb5e77a6b678648a11b08",
+    "shared/buyer-flow.js": "cbb34820bd134d61ea1fae40cdde759381b9a951e9474dbb1663b1f53e548bc9",
+    "shared/buyer-referral.js": "48dec66d8f5abdb58e643b19c95168b5a411664b5272125b0766f70d16e3ce97",
+    "shared/home-lead-progressive.js": "e71cca1508b06d663f7021ce159cdaa26bd3e7d569fb1f02e776d1f7079a1cb1",
+    "shared/home-conversion-ui.css": "fc549349b9139b334e7bfdc3f966804c24d6c5609060c21f8a334969f24d96fb",
+    "shared/home-form-first.js": "2855b3c2fab0a457203fc76b571a02d0d845806b1231a3abe4c2e36cd1533aac",
+    "shared/post-lead-engagement.js": "2f63b3aafe7f9112533fc3aba20fe1d7688c2def2027bc516f041d3bc1f90d11",
+    "shared/coveragefit-invitation.js": "e328485e65d1dcc48ee4b1ada845d2975d20eaae07106fcf59e7f20f8c85e454",
+    "local/data/catalog.json": "4d7b0bb9a1e376b57270f833ec692b50af59cb8084f8c6fde6896ceda516d652",
+    "local/pilot/pilot-launch.json": "edf328b1c443778365f61e3ebbaf54d9f82d9a760309319c54d9b61b3c556816",
+    "local/pilot/stevies-qr-campaigns.json": "effcf40681a266b81d330ae4c1ac1b16d06f28ac9e7025fb22dbe4033cda0446"
+  },
+  "required_identity": {
+    "h1": "Insurance That Fits.",
+    "lead": "Start with a Coverage Review. Not a quote.",
+    "primary_chooser": "What brought you here today?",
+    "situation_routes": [
+      "buyer/",
+      "score/",
+      "auto-bundle/",
+      "contact/?intent=business",
+      "contact/?intent=landlord",
+      "life/"
+    ],
+    "secondary_product_routes": [
+      "home/",
+      "auto-bundle/",
+      "buyer/",
+      "life/"
+    ]
+  }
+}

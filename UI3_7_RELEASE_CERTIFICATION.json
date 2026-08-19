@@ -1,0 +1,67 @@
+{
+  "build": "408-UI-3.7",
+  "name": "Life Campaign + Platform Convergence",
+  "status": "CERTIFIED_ROOT_DEPLOYABLE",
+  "baseline": "408-UI-3.6 + 408-UI-3.2.1",
+  "route": "/life/",
+  "sourceContract": {
+    "passed": 129,
+    "total": 129,
+    "internalLinksChecked": 153,
+    "brokenInternalLinks": 0
+  },
+  "browserRendering": {
+    "passed": 23,
+    "total": 23,
+    "viewports": [
+      "1440x900",
+      "390x844"
+    ]
+  },
+  "lifeSecureJourneyRegression": "19/19",
+  "regressions": {
+    "existingStatic": "296/296",
+    "professionalProgramsBrowser": "452/452",
+    "buyerBrowser": "115/115",
+    "homeAutoBrowser": "99/99",
+    "homeBrowser": "108/108",
+    "homepageIdentityBrowser": "93/93",
+    "localBrowser": "210/210",
+    "merchantJoinWorker": "20/20",
+    "localAttributionWorker": "29/29",
+    "homeHiddenRequiredSubmitHotfix": "12/12",
+    "homePrettyPathRouting": "16/16",
+    "advancedModeRedirectLoop": "10/10",
+    "logoIntegration": "14/14",
+    "runtimeJavaScriptSyntax": "37/37",
+    "publicInternalLinks": "514 checked, 0 broken"
+  },
+  "campaign": {
+    "visualIdentity": "cinematic black/deep navy + white + Farmers red + restrained Life blue",
+    "messageVariants": [
+      "before_anything_changes",
+      "20_minutes",
+      "this_is_the_time",
+      "financial_picture"
+    ],
+    "familyCampaignAsset": "shared/assets/life-family-campaign.jpg",
+    "visibleCopyAlignedToCampaign": true,
+    "variantKeysChanged": false,
+    "creativeCodesChanged": false,
+    "attributionKeysChanged": false,
+    "conversionSchemaChanged": false
+  },
+  "protectedBehavior": {
+    "workerChanged": false,
+    "secureApplicationFormMarkupChanged": false,
+    "secureApplicationFieldInventoryChanged": false,
+    "lifeConversionRuntimeChanged": false,
+    "lifeIntakeRuntimeChanged": false,
+    "lifeSecureSubmitRuntimeChanged": false,
+    "producerQueueChanged": false,
+    "thankYouChanged": false,
+    "nonLifePublicHtmlChanged": false
+  },
+  "localPilotStatus": "LOCAL-1.10 remains technically certified with planned three-merchant pilot NO-GO pending real Auto + Home merchants and external closeout.",
+  "nextSprint": "408-UI-3.8 \u2014 Local Visual Convergence"
+}

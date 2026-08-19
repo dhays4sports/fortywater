@@ -1,0 +1,216 @@
+{
+  "sprint": "408-UI-3.10",
+  "suite": "behavior_freeze_against_ui3_9_input",
+  "total": 49,
+  "passed": 49,
+  "failed": 0,
+  "form_pages_compared": [
+    "local/join/index.html",
+    "teachers/index.html",
+    "life/index.html",
+    "healthcare/index.html",
+    "auto-bundle/index.html",
+    "buyer/index.html",
+    "home/index.html",
+    "engineers/index.html",
+    "tech/index.html"
+  ],
+  "checks": [
+    {
+      "name": "_worker.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/accessibility.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/address-autocomplete.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/buyer-flow.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/buyer-referral.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/campaign.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/config.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/contact-choice.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/coveragefit-invitation.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/coveragefit-launch.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/flyer-campaign.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/home-baseline.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/home-certification.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/home-confirmation.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/home-continuity.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/home-engagement.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/home-form-first.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/home-journey-contract.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/home-lead-progressive.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/homepage-optimization.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/life-campaign.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/life-conversion.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/life-intake.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/life-ops.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/life-secure-submit.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/local-attribution.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/local-data-model.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/local-directory.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/local-join.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/local-merchant.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/motion.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/post-lead-engagement.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/progressive-intake.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/prospect-profile.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/referral-bridge.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/score.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/script.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/ui-3-foundation.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "local/data/catalog.json byte-identical",
+      "passed": true
+    },
+    {
+      "name": "local/data/catalog.schema.json byte-identical",
+      "passed": true
+    },
+    {
+      "name": "local/join/index.html exact form structure",
+      "passed": true
+    },
+    {
+      "name": "teachers/index.html exact form structure",
+      "passed": true
+    },
+    {
+      "name": "life/index.html exact form structure",
+      "passed": true
+    },
+    {
+      "name": "healthcare/index.html exact form structure",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html exact form structure",
+      "passed": true
+    },
+    {
+      "name": "buyer/index.html exact form structure",
+      "passed": true
+    },
+    {
+      "name": "home/index.html exact form structure",
+      "passed": true
+    },
+    {
+      "name": "engineers/index.html exact form structure",
+      "passed": true
+    },
+    {
+      "name": "tech/index.html exact form structure",
+      "passed": true
+    }
+  ]
+}

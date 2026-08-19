@@ -1,0 +1,29 @@
+{
+  "sprint": "408-UI-3.8",
+  "name": "Local Visual Convergence",
+  "status": "complete",
+  "behavior_frozen": true,
+  "surfaces": [
+    "/local/",
+    "/local/{merchant-slug}/",
+    "/local/join/"
+  ],
+  "visual_contract": {
+    "palette": ["408 navy", "Farmers red", "white", "light blue-gray"],
+    "directory_first": true,
+    "restrained_cards": true,
+    "merchant_value_before_insurance": true,
+    "no_fabricated_merchant_imagery": true,
+    "no_distance_or_review_ui": true
+  },
+  "protected_files": [
+    "_worker.js",
+    "shared/local-data-model.js",
+    "shared/local-directory.js",
+    "shared/local-merchant.js",
+    "shared/local-attribution.js",
+    "shared/local-join.js",
+    "local/data/catalog.json"
+  ],
+  "next_sprint": "408-UI-3.9 — Utility + Completion Surfaces"
+}

@@ -1,0 +1,622 @@
+{
+  "sprint": "408-UI-3.1",
+  "total": 153,
+  "passed": 108,
+  "failed": 45,
+  "internal_links_checked": 156,
+  "broken_links": [],
+  "checks": [
+    {
+      "name": "foundation css exists",
+      "passed": true
+    },
+    {
+      "name": "foundation js exists",
+      "passed": true
+    },
+    {
+      "name": "nav logo exists",
+      "passed": true
+    },
+    {
+      "name": "sprint doc exists",
+      "passed": true
+    },
+    {
+      "name": "roadmap exists",
+      "passed": true
+    },
+    {
+      "name": "contract exists",
+      "passed": true
+    },
+    {
+      "name": "css token --ui3-navy-950:#031a3d",
+      "passed": true
+    },
+    {
+      "name": "css token --ui3-navy-800:#08285a",
+      "passed": true
+    },
+    {
+      "name": "css token --ui3-red:#d71920",
+      "passed": true
+    },
+    {
+      "name": "css token --ui3-white:#fff",
+      "passed": true
+    },
+    {
+      "name": "css token --ui3-soft:#f6f8fb",
+      "passed": true
+    },
+    {
+      "name": "css feature .ui3-site-header",
+      "passed": true
+    },
+    {
+      "name": "css feature .ui3-primary-nav",
+      "passed": true
+    },
+    {
+      "name": "css feature .ui3-menu-toggle",
+      "passed": true
+    },
+    {
+      "name": "css feature .ui3-site-footer",
+      "passed": true
+    },
+    {
+      "name": "css feature .ui3-card",
+      "passed": true
+    },
+    {
+      "name": "css feature .ui3-alert--success",
+      "passed": true
+    },
+    {
+      "name": "nav item Home",
+      "passed": true
+    },
+    {
+      "name": "nav item Home + Auto",
+      "passed": true
+    },
+    {
+      "name": "nav item Buyers",
+      "passed": true
+    },
+    {
+      "name": "nav item Local",
+      "passed": true
+    },
+    {
+      "name": "nav item Life",
+      "passed": true
+    },
+    {
+      "name": "nav item Contact",
+      "passed": true
+    },
+    {
+      "name": "mobile aria-expanded behavior",
+      "passed": true
+    },
+    {
+      "name": "universal footer runtime",
+      "passed": true
+    },
+    {
+      "name": "body foundation marker",
+      "passed": true
+    },
+    {
+      "name": "public HTML count",
+      "passed": false
+    },
+    {
+      "name": "terms.html:css hook",
+      "passed": true
+    },
+    {
+      "name": "terms.html:js hook",
+      "passed": true
+    },
+    {
+      "name": "terms.html:meta hook",
+      "passed": true
+    },
+    {
+      "name": "terms.html:baseline exists",
+      "passed": false
+    },
+    {
+      "name": "privacy.html:css hook",
+      "passed": true
+    },
+    {
+      "name": "privacy.html:js hook",
+      "passed": true
+    },
+    {
+      "name": "privacy.html:meta hook",
+      "passed": true
+    },
+    {
+      "name": "privacy.html:baseline exists",
+      "passed": false
+    },
+    {
+      "name": "404.html:css hook",
+      "passed": false
+    },
+    {
+      "name": "404.html:js hook",
+      "passed": true
+    },
+    {
+      "name": "404.html:meta hook",
+      "passed": true
+    },
+    {
+      "name": "404.html:baseline exists",
+      "passed": false
+    },
+    {
+      "name": "index.html:css hook",
+      "passed": true
+    },
+    {
+      "name": "index.html:js hook",
+      "passed": true
+    },
+    {
+      "name": "index.html:meta hook",
+      "passed": true
+    },
+    {
+      "name": "index.html:baseline exists",
+      "passed": false
+    },
+    {
+      "name": "local/index.html:css hook",
+      "passed": true
+    },
+    {
+      "name": "local/index.html:js hook",
+      "passed": true
+    },
+    {
+      "name": "local/index.html:meta hook",
+      "passed": true
+    },
+    {
+      "name": "local/index.html:baseline exists",
+      "passed": false
+    },
+    {
+      "name": "teachers/thank-you.html:css hook",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html:js hook",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html:meta hook",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html:baseline exists",
+      "passed": false
+    },
+    {
+      "name": "teachers/index.html:css hook",
+      "passed": true
+    },
+    {
+      "name": "teachers/index.html:js hook",
+      "passed": true
+    },
+    {
+      "name": "teachers/index.html:meta hook",
+      "passed": true
+    },
+    {
+      "name": "teachers/index.html:baseline exists",
+      "passed": false
+    },
+    {
+      "name": "neighbor/index.html:css hook",
+      "passed": true
+    },
+    {
+      "name": "neighbor/index.html:js hook",
+      "passed": true
+    },
+    {
+      "name": "neighbor/index.html:meta hook",
+      "passed": true
+    },
+    {
+      "name": "neighbor/index.html:baseline exists",
+      "passed": false
+    },
+    {
+      "name": "contact/index.html:css hook",
+      "passed": true
+    },
+    {
+      "name": "contact/index.html:js hook",
+      "passed": true
+    },
+    {
+      "name": "contact/index.html:meta hook",
+      "passed": true
+    },
+    {
+      "name": "contact/index.html:baseline exists",
+      "passed": false
+    },
+    {
+      "name": "life/thank-you.html:css hook",
+      "passed": true
+    },
+    {
+      "name": "life/thank-you.html:js hook",
+      "passed": true
+    },
+    {
+      "name": "life/thank-you.html:meta hook",
+      "passed": true
+    },
+    {
+      "name": "life/thank-you.html:baseline exists",
+      "passed": false
+    },
+    {
+      "name": "life/index.html:css hook",
+      "passed": true
+    },
+    {
+      "name": "life/index.html:js hook",
+      "passed": true
+    },
+    {
+      "name": "life/index.html:meta hook",
+      "passed": true
+    },
+    {
+      "name": "life/index.html:baseline exists",
+      "passed": false
+    },
+    {
+      "name": "score/index.html:css hook",
+      "passed": true
+    },
+    {
+      "name": "score/index.html:js hook",
+      "passed": true
+    },
+    {
+      "name": "score/index.html:meta hook",
+      "passed": true
+    },
+    {
+      "name": "score/index.html:baseline exists",
+      "passed": false
+    },
+    {
+      "name": "healthcare/thank-you.html:css hook",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html:js hook",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html:meta hook",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html:baseline exists",
+      "passed": false
+    },
+    {
+      "name": "healthcare/index.html:css hook",
+      "passed": true
+    },
+    {
+      "name": "healthcare/index.html:js hook",
+      "passed": true
+    },
+    {
+      "name": "healthcare/index.html:meta hook",
+      "passed": true
+    },
+    {
+      "name": "healthcare/index.html:baseline exists",
+      "passed": false
+    },
+    {
+      "name": "auto-bundle/thank-you.html:css hook",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html:js hook",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html:meta hook",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html:baseline exists",
+      "passed": false
+    },
+    {
+      "name": "auto-bundle/index.html:css hook",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html:js hook",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html:meta hook",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html:baseline exists",
+      "passed": false
+    },
+    {
+      "name": "buyer/thank-you.html:css hook",
+      "passed": true
+    },
+    {
+      "name": "buyer/thank-you.html:js hook",
+      "passed": true
+    },
+    {
+      "name": "buyer/thank-you.html:meta hook",
+      "passed": true
+    },
+    {
+      "name": "buyer/thank-you.html:baseline exists",
+      "passed": false
+    },
+    {
+      "name": "buyer/index.html:css hook",
+      "passed": true
+    },
+    {
+      "name": "buyer/index.html:js hook",
+      "passed": true
+    },
+    {
+      "name": "buyer/index.html:meta hook",
+      "passed": true
+    },
+    {
+      "name": "buyer/index.html:baseline exists",
+      "passed": false
+    },
+    {
+      "name": "home/thank-you.html:css hook",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html:js hook",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html:meta hook",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html:baseline exists",
+      "passed": false
+    },
+    {
+      "name": "home/index.html:css hook",
+      "passed": true
+    },
+    {
+      "name": "home/index.html:js hook",
+      "passed": true
+    },
+    {
+      "name": "home/index.html:meta hook",
+      "passed": true
+    },
+    {
+      "name": "home/index.html:baseline exists",
+      "passed": false
+    },
+    {
+      "name": "engineers/thank-you.html:css hook",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html:js hook",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html:meta hook",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html:baseline exists",
+      "passed": false
+    },
+    {
+      "name": "engineers/index.html:css hook",
+      "passed": true
+    },
+    {
+      "name": "engineers/index.html:js hook",
+      "passed": true
+    },
+    {
+      "name": "engineers/index.html:meta hook",
+      "passed": true
+    },
+    {
+      "name": "engineers/index.html:baseline exists",
+      "passed": false
+    },
+    {
+      "name": "tech/thank-you.html:css hook",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html:js hook",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html:meta hook",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html:baseline exists",
+      "passed": false
+    },
+    {
+      "name": "tech/index.html:css hook",
+      "passed": true
+    },
+    {
+      "name": "tech/index.html:js hook",
+      "passed": true
+    },
+    {
+      "name": "tech/index.html:meta hook",
+      "passed": true
+    },
+    {
+      "name": "tech/index.html:baseline exists",
+      "passed": false
+    },
+    {
+      "name": "local/join/thank-you.html:css hook",
+      "passed": true
+    },
+    {
+      "name": "local/join/thank-you.html:js hook",
+      "passed": true
+    },
+    {
+      "name": "local/join/thank-you.html:meta hook",
+      "passed": true
+    },
+    {
+      "name": "local/join/thank-you.html:baseline exists",
+      "passed": false
+    },
+    {
+      "name": "local/join/index.html:css hook",
+      "passed": true
+    },
+    {
+      "name": "local/join/index.html:js hook",
+      "passed": true
+    },
+    {
+      "name": "local/join/index.html:meta hook",
+      "passed": true
+    },
+    {
+      "name": "local/join/index.html:baseline exists",
+      "passed": false
+    },
+    {
+      "name": "local/detail/index.html:css hook",
+      "passed": true
+    },
+    {
+      "name": "local/detail/index.html:js hook",
+      "passed": true
+    },
+    {
+      "name": "local/detail/index.html:meta hook",
+      "passed": true
+    },
+    {
+      "name": "local/detail/index.html:baseline exists",
+      "passed": false
+    },
+    {
+      "name": "_worker.js:present",
+      "passed": false
+    },
+    {
+      "name": "shared/config.js:present",
+      "passed": false
+    },
+    {
+      "name": "shared/campaign.js:present",
+      "passed": false
+    },
+    {
+      "name": "shared/coveragefit-launch.js:present",
+      "passed": false
+    },
+    {
+      "name": "shared/local-attribution.js:present",
+      "passed": false
+    },
+    {
+      "name": "shared/local-data-model.js:present",
+      "passed": false
+    },
+    {
+      "name": "shared/local-directory.js:present",
+      "passed": false
+    },
+    {
+      "name": "shared/local-merchant.js:present",
+      "passed": false
+    },
+    {
+      "name": "shared/local-join.js:present",
+      "passed": false
+    },
+    {
+      "name": "shared/life-secure-submit.js:present",
+      "passed": false
+    },
+    {
+      "name": "shared/buyer-flow.js:present",
+      "passed": false
+    },
+    {
+      "name": "shared/buyer-referral.js:present",
+      "passed": false
+    },
+    {
+      "name": "shared/home-lead-progressive.js:present",
+      "passed": false
+    },
+    {
+      "name": "local/data/catalog.json:present",
+      "passed": false
+    },
+    {
+      "name": "local/pilot/pilot-launch.json:present",
+      "passed": false
+    },
+    {
+      "name": "local/pilot/stevies-qr-campaigns.json:present",
+      "passed": false
+    },
+    {
+      "name": "internal links checked >= 120",
+      "passed": true
+    },
+    {
+      "name": "internal links broken 0",
+      "passed": true
+    }
+  ]
+}

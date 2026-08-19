@@ -1,0 +1,42 @@
+{
+  "sprint": "408-UI-3.2.1",
+  "name": "Homepage Conversion Identity Alignment",
+  "status": "CERTIFIED_ROOT_DEPLOYABLE",
+  "baseline": "408-UI-3.3 Home Conversion Experience",
+  "scope": "Homepage identity/layout alignment only; behavior-frozen",
+  "certification": {
+    "ui3_2_1_source_behavior": "147/147",
+    "ui3_2_1_browser_rendering": "93/93",
+    "ui3_3_home_browser_regression": "108/108",
+    "existing_static_regression": "296/296",
+    "local_attribution_worker": "29/29",
+    "merchant_application_worker": "20/20",
+    "advanced_mode_redirect_loop": "10/10",
+    "advanced_mode_home_routing": "16/16",
+    "home_deep_route_assets": "12/12",
+    "home_hidden_required_submit": "12/12",
+    "logo_integration": "14/14",
+    "local_browser_regression": "210/210",
+    "javascript_syntax": "38/38",
+    "public_internal_links": "489 checked, 0 broken"
+  },
+  "protected_behavior": [
+    "All baseline homepage destinations remain available",
+    "All baseline tracked homepage anchor contracts remain available",
+    "UI-3.3 Home Conversion Experience unchanged",
+    "_worker.js unchanged",
+    "Local directory/redemption/join/attribution unchanged",
+    "Buyer, Life, form submission, campaign routing, and CoverageFit runtime unchanged"
+  ],
+  "identity_outcomes": [
+    "Insurance That Fits. restored",
+    "Start with a Coverage Review. Not a quote. restored",
+    "What brought you here today? is the primary chooser",
+    "Shopping situation precedes product taxonomy",
+    "Something-changed psychology retained",
+    "CoverageFit elevated as organizing layer",
+    "Home/Home + Auto/Buyer/Life navigation retained as secondary",
+    "UI-3.1/3.2 visual system, Local integration, footer, spacing and typography retained"
+  ],
+  "next_locked_sprint": "408-UI-3.4 \u2014 Home + Auto Conversion Experience"
+}

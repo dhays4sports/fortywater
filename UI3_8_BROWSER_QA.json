@@ -1,0 +1,635 @@
+{
+  "sprint": "408-UI-3.8",
+  "suite": "browser_rendering",
+  "total": 155,
+  "passed": 155,
+  "failed": 0,
+  "viewports": [
+    "320x800",
+    "390x844",
+    "768x1024",
+    "1440x900"
+  ],
+  "checks": [
+    {
+      "name": "directory-phone320 body hook",
+      "passed": true
+    },
+    {
+      "name": "directory-phone320 universal header",
+      "passed": true
+    },
+    {
+      "name": "directory-phone320 universal footer",
+      "passed": true
+    },
+    {
+      "name": "directory-phone320 compact hero identity",
+      "passed": true
+    },
+    {
+      "name": "directory-phone320 directory before how",
+      "passed": true
+    },
+    {
+      "name": "directory-phone320 Stevies visible",
+      "passed": true
+    },
+    {
+      "name": "directory-phone320 no distance copy",
+      "passed": true
+    },
+    {
+      "name": "directory-phone320 no merchant rating UI",
+      "passed": true
+    },
+    {
+      "name": "directory-phone320 filter visible",
+      "passed": true
+    },
+    {
+      "name": "directory-phone320 filter >= 40px",
+      "passed": true
+    },
+    {
+      "name": "directory-phone320 merchant action visible",
+      "passed": true
+    },
+    {
+      "name": "directory-phone320 merchant action >= 20px",
+      "passed": true
+    },
+    {
+      "name": "directory-phone320 restrained merchant radius",
+      "passed": true
+    },
+    {
+      "name": "directory-phone320 one-column directory",
+      "passed": true
+    },
+    {
+      "name": "directory-phone320 mobile menu toggle",
+      "passed": true
+    },
+    {
+      "name": "directory-phone320 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "directory-phone390 body hook",
+      "passed": true
+    },
+    {
+      "name": "directory-phone390 universal header",
+      "passed": true
+    },
+    {
+      "name": "directory-phone390 universal footer",
+      "passed": true
+    },
+    {
+      "name": "directory-phone390 compact hero identity",
+      "passed": true
+    },
+    {
+      "name": "directory-phone390 directory before how",
+      "passed": true
+    },
+    {
+      "name": "directory-phone390 Stevies visible",
+      "passed": true
+    },
+    {
+      "name": "directory-phone390 no distance copy",
+      "passed": true
+    },
+    {
+      "name": "directory-phone390 no merchant rating UI",
+      "passed": true
+    },
+    {
+      "name": "directory-phone390 filter visible",
+      "passed": true
+    },
+    {
+      "name": "directory-phone390 filter >= 40px",
+      "passed": true
+    },
+    {
+      "name": "directory-phone390 merchant action visible",
+      "passed": true
+    },
+    {
+      "name": "directory-phone390 merchant action >= 20px",
+      "passed": true
+    },
+    {
+      "name": "directory-phone390 restrained merchant radius",
+      "passed": true
+    },
+    {
+      "name": "directory-phone390 one-column directory",
+      "passed": true
+    },
+    {
+      "name": "directory-phone390 mobile menu toggle",
+      "passed": true
+    },
+    {
+      "name": "directory-phone390 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "directory-tablet body hook",
+      "passed": true
+    },
+    {
+      "name": "directory-tablet universal header",
+      "passed": true
+    },
+    {
+      "name": "directory-tablet universal footer",
+      "passed": true
+    },
+    {
+      "name": "directory-tablet compact hero identity",
+      "passed": true
+    },
+    {
+      "name": "directory-tablet directory before how",
+      "passed": true
+    },
+    {
+      "name": "directory-tablet Stevies visible",
+      "passed": true
+    },
+    {
+      "name": "directory-tablet no distance copy",
+      "passed": true
+    },
+    {
+      "name": "directory-tablet no merchant rating UI",
+      "passed": true
+    },
+    {
+      "name": "directory-tablet filter visible",
+      "passed": true
+    },
+    {
+      "name": "directory-tablet filter >= 40px",
+      "passed": true
+    },
+    {
+      "name": "directory-tablet merchant action visible",
+      "passed": true
+    },
+    {
+      "name": "directory-tablet merchant action >= 20px",
+      "passed": true
+    },
+    {
+      "name": "directory-tablet restrained merchant radius",
+      "passed": true
+    },
+    {
+      "name": "directory-tablet one-column directory",
+      "passed": true
+    },
+    {
+      "name": "directory-tablet mobile menu toggle",
+      "passed": true
+    },
+    {
+      "name": "directory-tablet no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "directory-desktop body hook",
+      "passed": true
+    },
+    {
+      "name": "directory-desktop universal header",
+      "passed": true
+    },
+    {
+      "name": "directory-desktop universal footer",
+      "passed": true
+    },
+    {
+      "name": "directory-desktop compact hero identity",
+      "passed": true
+    },
+    {
+      "name": "directory-desktop directory before how",
+      "passed": true
+    },
+    {
+      "name": "directory-desktop Stevies visible",
+      "passed": true
+    },
+    {
+      "name": "directory-desktop no distance copy",
+      "passed": true
+    },
+    {
+      "name": "directory-desktop no merchant rating UI",
+      "passed": true
+    },
+    {
+      "name": "directory-desktop filter visible",
+      "passed": true
+    },
+    {
+      "name": "directory-desktop filter >= 40px",
+      "passed": true
+    },
+    {
+      "name": "directory-desktop merchant action visible",
+      "passed": true
+    },
+    {
+      "name": "directory-desktop merchant action >= 20px",
+      "passed": true
+    },
+    {
+      "name": "directory-desktop restrained merchant radius",
+      "passed": true
+    },
+    {
+      "name": "directory-desktop two-column directory",
+      "passed": true
+    },
+    {
+      "name": "directory-desktop no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "detail-phone320 merchant heading",
+      "passed": true
+    },
+    {
+      "name": "detail-phone320 perk visible",
+      "passed": true
+    },
+    {
+      "name": "detail-phone320 no identity form before perk",
+      "passed": true
+    },
+    {
+      "name": "detail-phone320 insurance bridge present",
+      "passed": true
+    },
+    {
+      "name": "detail-phone320 insurance bridge after perk",
+      "passed": true
+    },
+    {
+      "name": "detail-phone320 use perk visible",
+      "passed": true
+    },
+    {
+      "name": "detail-phone320 use perk >= 50px",
+      "passed": true
+    },
+    {
+      "name": "detail-phone320 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "detail-phone320 redemption opens",
+      "passed": true
+    },
+    {
+      "name": "detail-phone320 independent text visible",
+      "passed": true
+    },
+    {
+      "name": "detail-phone320 redemption close visible",
+      "passed": true
+    },
+    {
+      "name": "detail-phone320 redemption close >= 44px",
+      "passed": true
+    },
+    {
+      "name": "detail-phone320 redemption overflow",
+      "passed": true
+    },
+    {
+      "name": "detail-phone390 merchant heading",
+      "passed": true
+    },
+    {
+      "name": "detail-phone390 perk visible",
+      "passed": true
+    },
+    {
+      "name": "detail-phone390 no identity form before perk",
+      "passed": true
+    },
+    {
+      "name": "detail-phone390 insurance bridge present",
+      "passed": true
+    },
+    {
+      "name": "detail-phone390 insurance bridge after perk",
+      "passed": true
+    },
+    {
+      "name": "detail-phone390 use perk visible",
+      "passed": true
+    },
+    {
+      "name": "detail-phone390 use perk >= 50px",
+      "passed": true
+    },
+    {
+      "name": "detail-phone390 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "detail-phone390 redemption opens",
+      "passed": true
+    },
+    {
+      "name": "detail-phone390 independent text visible",
+      "passed": true
+    },
+    {
+      "name": "detail-phone390 redemption close visible",
+      "passed": true
+    },
+    {
+      "name": "detail-phone390 redemption close >= 44px",
+      "passed": true
+    },
+    {
+      "name": "detail-phone390 redemption overflow",
+      "passed": true
+    },
+    {
+      "name": "detail-tablet merchant heading",
+      "passed": true
+    },
+    {
+      "name": "detail-tablet perk visible",
+      "passed": true
+    },
+    {
+      "name": "detail-tablet no identity form before perk",
+      "passed": true
+    },
+    {
+      "name": "detail-tablet insurance bridge present",
+      "passed": true
+    },
+    {
+      "name": "detail-tablet insurance bridge after perk",
+      "passed": true
+    },
+    {
+      "name": "detail-tablet use perk visible",
+      "passed": true
+    },
+    {
+      "name": "detail-tablet use perk >= 50px",
+      "passed": true
+    },
+    {
+      "name": "detail-tablet no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "detail-tablet redemption opens",
+      "passed": true
+    },
+    {
+      "name": "detail-tablet independent text visible",
+      "passed": true
+    },
+    {
+      "name": "detail-tablet redemption close visible",
+      "passed": true
+    },
+    {
+      "name": "detail-tablet redemption close >= 44px",
+      "passed": true
+    },
+    {
+      "name": "detail-tablet redemption overflow",
+      "passed": true
+    },
+    {
+      "name": "detail-desktop merchant heading",
+      "passed": true
+    },
+    {
+      "name": "detail-desktop perk visible",
+      "passed": true
+    },
+    {
+      "name": "detail-desktop no identity form before perk",
+      "passed": true
+    },
+    {
+      "name": "detail-desktop insurance bridge present",
+      "passed": true
+    },
+    {
+      "name": "detail-desktop insurance bridge after perk",
+      "passed": true
+    },
+    {
+      "name": "detail-desktop use perk visible",
+      "passed": true
+    },
+    {
+      "name": "detail-desktop use perk >= 50px",
+      "passed": true
+    },
+    {
+      "name": "detail-desktop no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "detail-desktop redemption opens",
+      "passed": true
+    },
+    {
+      "name": "detail-desktop independent text visible",
+      "passed": true
+    },
+    {
+      "name": "detail-desktop redemption close visible",
+      "passed": true
+    },
+    {
+      "name": "detail-desktop redemption close >= 44px",
+      "passed": true
+    },
+    {
+      "name": "detail-desktop redemption overflow",
+      "passed": true
+    },
+    {
+      "name": "join-phone320 join heading",
+      "passed": true
+    },
+    {
+      "name": "join-phone320 join form",
+      "passed": true
+    },
+    {
+      "name": "join-phone320 no insurance gate",
+      "passed": true
+    },
+    {
+      "name": "join-phone320 submit visible",
+      "passed": true
+    },
+    {
+      "name": "join-phone320 submit >= 50px",
+      "passed": true
+    },
+    {
+      "name": "join-phone320 business name visible",
+      "passed": true
+    },
+    {
+      "name": "join-phone320 business name >= 48px",
+      "passed": true
+    },
+    {
+      "name": "join-phone320 restrained form radius",
+      "passed": true
+    },
+    {
+      "name": "join-phone320 16px mobile input",
+      "passed": true
+    },
+    {
+      "name": "join-phone320 one-column form grid",
+      "passed": true
+    },
+    {
+      "name": "join-phone320 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "join-phone390 join heading",
+      "passed": true
+    },
+    {
+      "name": "join-phone390 join form",
+      "passed": true
+    },
+    {
+      "name": "join-phone390 no insurance gate",
+      "passed": true
+    },
+    {
+      "name": "join-phone390 submit visible",
+      "passed": true
+    },
+    {
+      "name": "join-phone390 submit >= 50px",
+      "passed": true
+    },
+    {
+      "name": "join-phone390 business name visible",
+      "passed": true
+    },
+    {
+      "name": "join-phone390 business name >= 48px",
+      "passed": true
+    },
+    {
+      "name": "join-phone390 restrained form radius",
+      "passed": true
+    },
+    {
+      "name": "join-phone390 16px mobile input",
+      "passed": true
+    },
+    {
+      "name": "join-phone390 one-column form grid",
+      "passed": true
+    },
+    {
+      "name": "join-phone390 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "join-tablet join heading",
+      "passed": true
+    },
+    {
+      "name": "join-tablet join form",
+      "passed": true
+    },
+    {
+      "name": "join-tablet no insurance gate",
+      "passed": true
+    },
+    {
+      "name": "join-tablet submit visible",
+      "passed": true
+    },
+    {
+      "name": "join-tablet submit >= 50px",
+      "passed": true
+    },
+    {
+      "name": "join-tablet business name visible",
+      "passed": true
+    },
+    {
+      "name": "join-tablet business name >= 48px",
+      "passed": true
+    },
+    {
+      "name": "join-tablet restrained form radius",
+      "passed": true
+    },
+    {
+      "name": "join-tablet no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "join-desktop join heading",
+      "passed": true
+    },
+    {
+      "name": "join-desktop join form",
+      "passed": true
+    },
+    {
+      "name": "join-desktop no insurance gate",
+      "passed": true
+    },
+    {
+      "name": "join-desktop submit visible",
+      "passed": true
+    },
+    {
+      "name": "join-desktop submit >= 50px",
+      "passed": true
+    },
+    {
+      "name": "join-desktop business name visible",
+      "passed": true
+    },
+    {
+      "name": "join-desktop business name >= 48px",
+      "passed": true
+    },
+    {
+      "name": "join-desktop restrained form radius",
+      "passed": true
+    },
+    {
+      "name": "join-desktop no horizontal overflow",
+      "passed": true
+    }
+  ]
+}

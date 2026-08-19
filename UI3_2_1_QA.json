@@ -1,0 +1,601 @@
+{
+  "sprint": "408-UI-3.2.1",
+  "suite": "source_behavior_contract",
+  "total": 147,
+  "passed": 147,
+  "failed": 0,
+  "missing_hrefs": [],
+  "missing_tracks": [],
+  "internal_links_checked": 137,
+  "broken_links": [],
+  "checks": [
+    {
+      "name": "identity overlay exists",
+      "passed": true
+    },
+    {
+      "name": "sprint doc exists",
+      "passed": true
+    },
+    {
+      "name": "roadmap exists",
+      "passed": true
+    },
+    {
+      "name": "UI321 meta hook",
+      "passed": true
+    },
+    {
+      "name": "UI321 css hook",
+      "passed": true
+    },
+    {
+      "name": "UI32 css retained",
+      "passed": true
+    },
+    {
+      "name": "UI31 foundation retained",
+      "passed": true
+    },
+    {
+      "name": "one h1",
+      "passed": true
+    },
+    {
+      "name": "Insurance That Fits restored",
+      "passed": true
+    },
+    {
+      "name": "Coverage Review not quote restored",
+      "passed": true
+    },
+    {
+      "name": "secondary hero CTA situation-first",
+      "passed": true
+    },
+    {
+      "name": "primary chooser restored",
+      "passed": true
+    },
+    {
+      "name": "six primary situation routes",
+      "passed": true
+    },
+    {
+      "name": "situation route buyer/",
+      "passed": true
+    },
+    {
+      "name": "situation route score/",
+      "passed": true
+    },
+    {
+      "name": "situation route auto-bundle/",
+      "passed": true
+    },
+    {
+      "name": "situation route contact/?intent=business",
+      "passed": true
+    },
+    {
+      "name": "situation route contact/?intent=landlord",
+      "passed": true
+    },
+    {
+      "name": "situation route life/",
+      "passed": true
+    },
+    {
+      "name": "situation labels not product taxonomy",
+      "passed": true
+    },
+    {
+      "name": "CoverageFit hero identity",
+      "passed": true
+    },
+    {
+      "name": "CoverageFit bridge exists",
+      "passed": true
+    },
+    {
+      "name": "CoverageFit section anchored",
+      "passed": true
+    },
+    {
+      "name": "CoverageFit appears before reasons",
+      "passed": true
+    },
+    {
+      "name": "four secondary product routes",
+      "passed": true
+    },
+    {
+      "name": "secondary product route home/",
+      "passed": true
+    },
+    {
+      "name": "secondary product route auto-bundle/",
+      "passed": true
+    },
+    {
+      "name": "secondary product route buyer/",
+      "passed": true
+    },
+    {
+      "name": "secondary product route life/",
+      "passed": true
+    },
+    {
+      "name": "something changed psychology",
+      "passed": true
+    },
+    {
+      "name": "premium increased reason",
+      "passed": true
+    },
+    {
+      "name": "renewal approaching reason",
+      "passed": true
+    },
+    {
+      "name": "life changed reason",
+      "passed": true
+    },
+    {
+      "name": "Local integration retained",
+      "passed": true
+    },
+    {
+      "name": "agent module retained",
+      "passed": true
+    },
+    {
+      "name": "source header retained",
+      "passed": true
+    },
+    {
+      "name": "source footer retained",
+      "passed": true
+    },
+    {
+      "name": "all baseline href destinations preserved",
+      "passed": true
+    },
+    {
+      "name": "all baseline tracked anchors preserved",
+      "passed": true
+    },
+    {
+      "name": "terms.html:exists",
+      "passed": true
+    },
+    {
+      "name": "terms.html:unchanged",
+      "passed": true
+    },
+    {
+      "name": "privacy.html:exists",
+      "passed": true
+    },
+    {
+      "name": "privacy.html:unchanged",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html:exists",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html:unchanged",
+      "passed": true
+    },
+    {
+      "name": "healthcare/index.html:exists",
+      "passed": true
+    },
+    {
+      "name": "healthcare/index.html:unchanged",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html:exists",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html:unchanged",
+      "passed": true
+    },
+    {
+      "name": "tech/index.html:exists",
+      "passed": true
+    },
+    {
+      "name": "tech/index.html:unchanged",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html:exists",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html:unchanged",
+      "passed": true
+    },
+    {
+      "name": "engineers/index.html:exists",
+      "passed": true
+    },
+    {
+      "name": "engineers/index.html:unchanged",
+      "passed": true
+    },
+    {
+      "name": "buyer/thank-you.html:exists",
+      "passed": true
+    },
+    {
+      "name": "buyer/thank-you.html:unchanged",
+      "passed": true
+    },
+    {
+      "name": "buyer/index.html:exists",
+      "passed": true
+    },
+    {
+      "name": "buyer/index.html:unchanged",
+      "passed": true
+    },
+    {
+      "name": "local/index.html:exists",
+      "passed": true
+    },
+    {
+      "name": "local/index.html:unchanged",
+      "passed": true
+    },
+    {
+      "name": "life/thank-you.html:exists",
+      "passed": true
+    },
+    {
+      "name": "life/thank-you.html:unchanged",
+      "passed": true
+    },
+    {
+      "name": "life/index.html:exists",
+      "passed": true
+    },
+    {
+      "name": "life/index.html:unchanged",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html:exists",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html:unchanged",
+      "passed": true
+    },
+    {
+      "name": "home/index.html:exists",
+      "passed": true
+    },
+    {
+      "name": "home/index.html:unchanged",
+      "passed": true
+    },
+    {
+      "name": "neighbor/index.html:exists",
+      "passed": true
+    },
+    {
+      "name": "neighbor/index.html:unchanged",
+      "passed": true
+    },
+    {
+      "name": "score/index.html:exists",
+      "passed": true
+    },
+    {
+      "name": "score/index.html:unchanged",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html:exists",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html:unchanged",
+      "passed": true
+    },
+    {
+      "name": "teachers/index.html:exists",
+      "passed": true
+    },
+    {
+      "name": "teachers/index.html:unchanged",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html:exists",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html:unchanged",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html:exists",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html:unchanged",
+      "passed": true
+    },
+    {
+      "name": "contact/index.html:exists",
+      "passed": true
+    },
+    {
+      "name": "contact/index.html:unchanged",
+      "passed": true
+    },
+    {
+      "name": "local/join/thank-you.html:exists",
+      "passed": true
+    },
+    {
+      "name": "local/join/thank-you.html:unchanged",
+      "passed": true
+    },
+    {
+      "name": "local/join/index.html:exists",
+      "passed": true
+    },
+    {
+      "name": "local/join/index.html:unchanged",
+      "passed": true
+    },
+    {
+      "name": "local/detail/index.html:exists",
+      "passed": true
+    },
+    {
+      "name": "local/detail/index.html:unchanged",
+      "passed": true
+    },
+    {
+      "name": "_worker.js:exists",
+      "passed": true
+    },
+    {
+      "name": "_worker.js:protected unchanged",
+      "passed": true
+    },
+    {
+      "name": "shared/ui-3-foundation.css:exists",
+      "passed": true
+    },
+    {
+      "name": "shared/ui-3-foundation.css:protected unchanged",
+      "passed": true
+    },
+    {
+      "name": "shared/ui-3-foundation.js:exists",
+      "passed": true
+    },
+    {
+      "name": "shared/ui-3-foundation.js:protected unchanged",
+      "passed": true
+    },
+    {
+      "name": "shared/homepage-optimization.js:exists",
+      "passed": true
+    },
+    {
+      "name": "shared/homepage-optimization.js:protected unchanged",
+      "passed": true
+    },
+    {
+      "name": "shared/config.js:exists",
+      "passed": true
+    },
+    {
+      "name": "shared/config.js:protected unchanged",
+      "passed": true
+    },
+    {
+      "name": "shared/campaign.js:exists",
+      "passed": true
+    },
+    {
+      "name": "shared/campaign.js:protected unchanged",
+      "passed": true
+    },
+    {
+      "name": "shared/coveragefit-launch.js:exists",
+      "passed": true
+    },
+    {
+      "name": "shared/coveragefit-launch.js:protected unchanged",
+      "passed": true
+    },
+    {
+      "name": "shared/local-attribution.js:exists",
+      "passed": true
+    },
+    {
+      "name": "shared/local-attribution.js:protected unchanged",
+      "passed": true
+    },
+    {
+      "name": "shared/local-data-model.js:exists",
+      "passed": true
+    },
+    {
+      "name": "shared/local-data-model.js:protected unchanged",
+      "passed": true
+    },
+    {
+      "name": "shared/local-directory.js:exists",
+      "passed": true
+    },
+    {
+      "name": "shared/local-directory.js:protected unchanged",
+      "passed": true
+    },
+    {
+      "name": "shared/local-merchant.js:exists",
+      "passed": true
+    },
+    {
+      "name": "shared/local-merchant.js:protected unchanged",
+      "passed": true
+    },
+    {
+      "name": "shared/local-join.js:exists",
+      "passed": true
+    },
+    {
+      "name": "shared/local-join.js:protected unchanged",
+      "passed": true
+    },
+    {
+      "name": "shared/life-secure-submit.js:exists",
+      "passed": true
+    },
+    {
+      "name": "shared/life-secure-submit.js:protected unchanged",
+      "passed": true
+    },
+    {
+      "name": "shared/buyer-flow.js:exists",
+      "passed": true
+    },
+    {
+      "name": "shared/buyer-flow.js:protected unchanged",
+      "passed": true
+    },
+    {
+      "name": "shared/buyer-referral.js:exists",
+      "passed": true
+    },
+    {
+      "name": "shared/buyer-referral.js:protected unchanged",
+      "passed": true
+    },
+    {
+      "name": "shared/home-lead-progressive.js:exists",
+      "passed": true
+    },
+    {
+      "name": "shared/home-lead-progressive.js:protected unchanged",
+      "passed": true
+    },
+    {
+      "name": "shared/home-conversion-ui.css:exists",
+      "passed": true
+    },
+    {
+      "name": "shared/home-conversion-ui.css:protected unchanged",
+      "passed": true
+    },
+    {
+      "name": "shared/home-form-first.js:exists",
+      "passed": true
+    },
+    {
+      "name": "shared/home-form-first.js:protected unchanged",
+      "passed": true
+    },
+    {
+      "name": "shared/post-lead-engagement.js:exists",
+      "passed": true
+    },
+    {
+      "name": "shared/post-lead-engagement.js:protected unchanged",
+      "passed": true
+    },
+    {
+      "name": "shared/coveragefit-invitation.js:exists",
+      "passed": true
+    },
+    {
+      "name": "shared/coveragefit-invitation.js:protected unchanged",
+      "passed": true
+    },
+    {
+      "name": "local/data/catalog.json:exists",
+      "passed": true
+    },
+    {
+      "name": "local/data/catalog.json:protected unchanged",
+      "passed": true
+    },
+    {
+      "name": "local/pilot/pilot-launch.json:exists",
+      "passed": true
+    },
+    {
+      "name": "local/pilot/pilot-launch.json:protected unchanged",
+      "passed": true
+    },
+    {
+      "name": "local/pilot/stevies-qr-campaigns.json:exists",
+      "passed": true
+    },
+    {
+      "name": "local/pilot/stevies-qr-campaigns.json:protected unchanged",
+      "passed": true
+    },
+    {
+      "name": "overlay token var(--ui3-navy-950)",
+      "passed": true
+    },
+    {
+      "name": "overlay token var(--ui3-red)",
+      "passed": true
+    },
+    {
+      "name": "overlay token var(--ui3-line)",
+      "passed": true
+    },
+    {
+      "name": "overlay token var(--ui3-muted)",
+      "passed": true
+    },
+    {
+      "name": "overlay selector .ui321-situation-grid",
+      "passed": true
+    },
+    {
+      "name": "overlay selector .ui321-coveragefit-bridge",
+      "passed": true
+    },
+    {
+      "name": "overlay selector .ui321-secondary-products",
+      "passed": true
+    },
+    {
+      "name": "overlay selector .ui321-coveragefit-section",
+      "passed": true
+    },
+    {
+      "name": "responsive phone breakpoint",
+      "passed": true
+    },
+    {
+      "name": "reduced motion support",
+      "passed": true
+    },
+    {
+      "name": "internal links checked >=120",
+      "passed": true
+    },
+    {
+      "name": "internal links broken 0",
+      "passed": true
+    }
+  ]
+}

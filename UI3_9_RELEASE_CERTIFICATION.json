@@ -1,0 +1,36 @@
+{
+  "sprint": "408-UI-3.9",
+  "name": "Utility + Completion Surfaces",
+  "status": "certified",
+  "behavior_frozen": true,
+  "qa": {
+    "ui3_9_source_contract": "110/110",
+    "ui3_9_browser_rendering": "293/293",
+    "existing_static_regression": "296/296",
+    "home_hidden_required_submit": "12/12",
+    "advanced_mode_home_routing": "16/16",
+    "home_deep_route_assets": "12/12",
+    "advanced_mode_redirect_loop": "10/10",
+    "merchant_join_worker": "20/20",
+    "local_attribution_worker": "29/29",
+    "homepage_ui3_2_1_browser": "93/93",
+    "home_ui3_3_browser": "108/108",
+    "home_auto_ui3_4_browser": "99/99",
+    "buyer_ui3_5_browser": "115/115",
+    "professional_ui3_6_browser": "452/452",
+    "life_ui3_7_browser": "23/23",
+    "local_ui3_8_browser": "155/155",
+    "local1_10_browser": "210/210",
+    "internal_links": "156 checked / 0 broken"
+  },
+  "protected_behavior": [
+    "Worker routing and APIs",
+    "insurance form and submission contracts",
+    "campaign and Local attribution",
+    "CoverageFit launches and handoffs",
+    "Life secure submission and producer queue",
+    "Local merchant data, redemption, and join runtime"
+  ],
+  "local_status": "LOCAL-1.10 planned three-merchant pilot remains production NO-GO pending real Auto + Home merchants and external closeout",
+  "next_sprint": "408-UI-3.10 — Mobile Interaction Pass"
+}

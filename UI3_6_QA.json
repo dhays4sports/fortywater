@@ -1,0 +1,1063 @@
+{
+  "sprint": "408-UI-3.6",
+  "suite": "source_contract",
+  "total": 263,
+  "passed": 263,
+  "failed": 0,
+  "internal_links_checked": 153,
+  "broken_links": [],
+  "checks": [
+    {
+      "name": "professional convergence css exists",
+      "passed": true
+    },
+    {
+      "name": "sprint doc exists",
+      "passed": true
+    },
+    {
+      "name": "contract exists",
+      "passed": true
+    },
+    {
+      "name": "roadmap exists",
+      "passed": true
+    },
+    {
+      "name": "healthcare: UI36 meta hook",
+      "passed": true
+    },
+    {
+      "name": "healthcare: UI36 css hook",
+      "passed": true
+    },
+    {
+      "name": "healthcare: UI31 foundation retained",
+      "passed": true
+    },
+    {
+      "name": "healthcare: body UI hook",
+      "passed": true
+    },
+    {
+      "name": "healthcare: family bar exists",
+      "passed": true
+    },
+    {
+      "name": "healthcare: switcher has four programs",
+      "passed": true
+    },
+    {
+      "name": "healthcare: correct active program",
+      "passed": true
+    },
+    {
+      "name": "healthcare: original h1 retained",
+      "passed": true
+    },
+    {
+      "name": "healthcare: conditional hero copy retained",
+      "passed": true
+    },
+    {
+      "name": "healthcare: eligibility verification language retained",
+      "passed": true
+    },
+    {
+      "name": "healthcare: truthful CoverageFit boundary retained",
+      "passed": true
+    },
+    {
+      "name": "healthcare: lead form exists",
+      "passed": true
+    },
+    {
+      "name": "healthcare: form markup byte-identical",
+      "passed": true
+    },
+    {
+      "name": "healthcare: form attr action",
+      "passed": true
+    },
+    {
+      "name": "healthcare: form attr method",
+      "passed": true
+    },
+    {
+      "name": "healthcare: form attr data-post-lead-engagement",
+      "passed": true
+    },
+    {
+      "name": "healthcare: form attr data-coveragefit-invitation",
+      "passed": true
+    },
+    {
+      "name": "healthcare: form attr data-cf-assessment",
+      "passed": true
+    },
+    {
+      "name": "healthcare: form attr data-cf-entry",
+      "passed": true
+    },
+    {
+      "name": "healthcare: form attr data-cf-extra-launch-surface",
+      "passed": true
+    },
+    {
+      "name": "healthcare: form attr data-cf-next",
+      "passed": true
+    },
+    {
+      "name": "healthcare: form attr data-cf-branch-field",
+      "passed": true
+    },
+    {
+      "name": "healthcare: form attr data-cf-renter-destination",
+      "passed": true
+    },
+    {
+      "name": "healthcare: form attr data-coveragefit-after-submit",
+      "passed": true
+    },
+    {
+      "name": "healthcare: form attr data-success",
+      "passed": true
+    },
+    {
+      "name": "healthcare: form attr data-sender-build",
+      "passed": true
+    },
+    {
+      "name": "healthcare: form attr data-handoff-contract",
+      "passed": true
+    },
+    {
+      "name": "healthcare: entry retained",
+      "passed": true
+    },
+    {
+      "name": "healthcare: launch surface retained",
+      "passed": true
+    },
+    {
+      "name": "healthcare: field inventory unchanged",
+      "passed": true
+    },
+    {
+      "name": "healthcare: role label retained",
+      "passed": true
+    },
+    {
+      "name": "healthcare: occupation options unchanged",
+      "passed": true
+    },
+    {
+      "name": "healthcare: consent unchanged",
+      "passed": true
+    },
+    {
+      "name": "healthcare: direct contact unchanged",
+      "passed": true
+    },
+    {
+      "name": "healthcare: runtime script inventory unchanged",
+      "passed": true
+    },
+    {
+      "name": "healthcare: no campaign image added to body",
+      "passed": true
+    },
+    {
+      "name": "healthcare: no duplicate IDs",
+      "passed": true
+    },
+    {
+      "name": "teachers: UI36 meta hook",
+      "passed": true
+    },
+    {
+      "name": "teachers: UI36 css hook",
+      "passed": true
+    },
+    {
+      "name": "teachers: UI31 foundation retained",
+      "passed": true
+    },
+    {
+      "name": "teachers: body UI hook",
+      "passed": true
+    },
+    {
+      "name": "teachers: family bar exists",
+      "passed": true
+    },
+    {
+      "name": "teachers: switcher has four programs",
+      "passed": true
+    },
+    {
+      "name": "teachers: correct active program",
+      "passed": true
+    },
+    {
+      "name": "teachers: original h1 retained",
+      "passed": true
+    },
+    {
+      "name": "teachers: conditional hero copy retained",
+      "passed": true
+    },
+    {
+      "name": "teachers: eligibility verification language retained",
+      "passed": true
+    },
+    {
+      "name": "teachers: truthful CoverageFit boundary retained",
+      "passed": true
+    },
+    {
+      "name": "teachers: lead form exists",
+      "passed": true
+    },
+    {
+      "name": "teachers: form markup byte-identical",
+      "passed": true
+    },
+    {
+      "name": "teachers: form attr action",
+      "passed": true
+    },
+    {
+      "name": "teachers: form attr method",
+      "passed": true
+    },
+    {
+      "name": "teachers: form attr data-post-lead-engagement",
+      "passed": true
+    },
+    {
+      "name": "teachers: form attr data-coveragefit-invitation",
+      "passed": true
+    },
+    {
+      "name": "teachers: form attr data-cf-assessment",
+      "passed": true
+    },
+    {
+      "name": "teachers: form attr data-cf-entry",
+      "passed": true
+    },
+    {
+      "name": "teachers: form attr data-cf-extra-launch-surface",
+      "passed": true
+    },
+    {
+      "name": "teachers: form attr data-cf-next",
+      "passed": true
+    },
+    {
+      "name": "teachers: form attr data-cf-branch-field",
+      "passed": true
+    },
+    {
+      "name": "teachers: form attr data-cf-renter-destination",
+      "passed": true
+    },
+    {
+      "name": "teachers: form attr data-coveragefit-after-submit",
+      "passed": true
+    },
+    {
+      "name": "teachers: form attr data-success",
+      "passed": true
+    },
+    {
+      "name": "teachers: form attr data-sender-build",
+      "passed": true
+    },
+    {
+      "name": "teachers: form attr data-handoff-contract",
+      "passed": true
+    },
+    {
+      "name": "teachers: entry retained",
+      "passed": true
+    },
+    {
+      "name": "teachers: launch surface retained",
+      "passed": true
+    },
+    {
+      "name": "teachers: field inventory unchanged",
+      "passed": true
+    },
+    {
+      "name": "teachers: role label retained",
+      "passed": true
+    },
+    {
+      "name": "teachers: occupation options unchanged",
+      "passed": true
+    },
+    {
+      "name": "teachers: consent unchanged",
+      "passed": true
+    },
+    {
+      "name": "teachers: direct contact unchanged",
+      "passed": true
+    },
+    {
+      "name": "teachers: runtime script inventory unchanged",
+      "passed": true
+    },
+    {
+      "name": "teachers: no campaign image added to body",
+      "passed": true
+    },
+    {
+      "name": "teachers: no duplicate IDs",
+      "passed": true
+    },
+    {
+      "name": "tech: UI36 meta hook",
+      "passed": true
+    },
+    {
+      "name": "tech: UI36 css hook",
+      "passed": true
+    },
+    {
+      "name": "tech: UI31 foundation retained",
+      "passed": true
+    },
+    {
+      "name": "tech: body UI hook",
+      "passed": true
+    },
+    {
+      "name": "tech: family bar exists",
+      "passed": true
+    },
+    {
+      "name": "tech: switcher has four programs",
+      "passed": true
+    },
+    {
+      "name": "tech: correct active program",
+      "passed": true
+    },
+    {
+      "name": "tech: original h1 retained",
+      "passed": true
+    },
+    {
+      "name": "tech: conditional hero copy retained",
+      "passed": true
+    },
+    {
+      "name": "tech: eligibility verification language retained",
+      "passed": true
+    },
+    {
+      "name": "tech: truthful CoverageFit boundary retained",
+      "passed": true
+    },
+    {
+      "name": "tech: lead form exists",
+      "passed": true
+    },
+    {
+      "name": "tech: form markup byte-identical",
+      "passed": true
+    },
+    {
+      "name": "tech: form attr action",
+      "passed": true
+    },
+    {
+      "name": "tech: form attr method",
+      "passed": true
+    },
+    {
+      "name": "tech: form attr data-post-lead-engagement",
+      "passed": true
+    },
+    {
+      "name": "tech: form attr data-coveragefit-invitation",
+      "passed": true
+    },
+    {
+      "name": "tech: form attr data-cf-assessment",
+      "passed": true
+    },
+    {
+      "name": "tech: form attr data-cf-entry",
+      "passed": true
+    },
+    {
+      "name": "tech: form attr data-cf-extra-launch-surface",
+      "passed": true
+    },
+    {
+      "name": "tech: form attr data-cf-next",
+      "passed": true
+    },
+    {
+      "name": "tech: form attr data-cf-branch-field",
+      "passed": true
+    },
+    {
+      "name": "tech: form attr data-cf-renter-destination",
+      "passed": true
+    },
+    {
+      "name": "tech: form attr data-coveragefit-after-submit",
+      "passed": true
+    },
+    {
+      "name": "tech: form attr data-success",
+      "passed": true
+    },
+    {
+      "name": "tech: form attr data-sender-build",
+      "passed": true
+    },
+    {
+      "name": "tech: form attr data-handoff-contract",
+      "passed": true
+    },
+    {
+      "name": "tech: entry retained",
+      "passed": true
+    },
+    {
+      "name": "tech: launch surface retained",
+      "passed": true
+    },
+    {
+      "name": "tech: field inventory unchanged",
+      "passed": true
+    },
+    {
+      "name": "tech: role label retained",
+      "passed": true
+    },
+    {
+      "name": "tech: occupation options unchanged",
+      "passed": true
+    },
+    {
+      "name": "tech: consent unchanged",
+      "passed": true
+    },
+    {
+      "name": "tech: direct contact unchanged",
+      "passed": true
+    },
+    {
+      "name": "tech: runtime script inventory unchanged",
+      "passed": true
+    },
+    {
+      "name": "tech: no campaign image added to body",
+      "passed": true
+    },
+    {
+      "name": "tech: no duplicate IDs",
+      "passed": true
+    },
+    {
+      "name": "engineers: UI36 meta hook",
+      "passed": true
+    },
+    {
+      "name": "engineers: UI36 css hook",
+      "passed": true
+    },
+    {
+      "name": "engineers: UI31 foundation retained",
+      "passed": true
+    },
+    {
+      "name": "engineers: body UI hook",
+      "passed": true
+    },
+    {
+      "name": "engineers: family bar exists",
+      "passed": true
+    },
+    {
+      "name": "engineers: switcher has four programs",
+      "passed": true
+    },
+    {
+      "name": "engineers: correct active program",
+      "passed": true
+    },
+    {
+      "name": "engineers: original h1 retained",
+      "passed": true
+    },
+    {
+      "name": "engineers: conditional hero copy retained",
+      "passed": true
+    },
+    {
+      "name": "engineers: eligibility verification language retained",
+      "passed": true
+    },
+    {
+      "name": "engineers: truthful CoverageFit boundary retained",
+      "passed": true
+    },
+    {
+      "name": "engineers: lead form exists",
+      "passed": true
+    },
+    {
+      "name": "engineers: form markup byte-identical",
+      "passed": true
+    },
+    {
+      "name": "engineers: form attr action",
+      "passed": true
+    },
+    {
+      "name": "engineers: form attr method",
+      "passed": true
+    },
+    {
+      "name": "engineers: form attr data-post-lead-engagement",
+      "passed": true
+    },
+    {
+      "name": "engineers: form attr data-coveragefit-invitation",
+      "passed": true
+    },
+    {
+      "name": "engineers: form attr data-cf-assessment",
+      "passed": true
+    },
+    {
+      "name": "engineers: form attr data-cf-entry",
+      "passed": true
+    },
+    {
+      "name": "engineers: form attr data-cf-extra-launch-surface",
+      "passed": true
+    },
+    {
+      "name": "engineers: form attr data-cf-next",
+      "passed": true
+    },
+    {
+      "name": "engineers: form attr data-cf-branch-field",
+      "passed": true
+    },
+    {
+      "name": "engineers: form attr data-cf-renter-destination",
+      "passed": true
+    },
+    {
+      "name": "engineers: form attr data-coveragefit-after-submit",
+      "passed": true
+    },
+    {
+      "name": "engineers: form attr data-success",
+      "passed": true
+    },
+    {
+      "name": "engineers: form attr data-sender-build",
+      "passed": true
+    },
+    {
+      "name": "engineers: form attr data-handoff-contract",
+      "passed": true
+    },
+    {
+      "name": "engineers: entry retained",
+      "passed": true
+    },
+    {
+      "name": "engineers: launch surface retained",
+      "passed": true
+    },
+    {
+      "name": "engineers: field inventory unchanged",
+      "passed": true
+    },
+    {
+      "name": "engineers: role label retained",
+      "passed": true
+    },
+    {
+      "name": "engineers: occupation options unchanged",
+      "passed": true
+    },
+    {
+      "name": "engineers: consent unchanged",
+      "passed": true
+    },
+    {
+      "name": "engineers: direct contact unchanged",
+      "passed": true
+    },
+    {
+      "name": "engineers: runtime script inventory unchanged",
+      "passed": true
+    },
+    {
+      "name": "engineers: no campaign image added to body",
+      "passed": true
+    },
+    {
+      "name": "engineers: no duplicate IDs",
+      "passed": true
+    },
+    {
+      "name": "public baseline html count >=26",
+      "passed": true
+    },
+    {
+      "name": "terms.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "terms.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "privacy.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "privacy.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "local/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "local/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "neighbor/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "neighbor/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "contact/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "contact/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "life/thank-you.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "life/thank-you.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "life/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "life/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "score/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "score/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "buyer/thank-you.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "buyer/thank-you.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "buyer/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "buyer/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "home/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "home/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "local/join/thank-you.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "local/join/thank-you.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "local/join/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "local/join/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "local/detail/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "local/detail/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "_worker.js:present",
+      "passed": true
+    },
+    {
+      "name": "_worker.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/ui-3-foundation.css:present",
+      "passed": true
+    },
+    {
+      "name": "shared/ui-3-foundation.css:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/ui-3-foundation.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/ui-3-foundation.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/home-conversion-ui.css:present",
+      "passed": true
+    },
+    {
+      "name": "shared/home-conversion-ui.css:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/auto-bundle-conversion-ui.css:present",
+      "passed": true
+    },
+    {
+      "name": "shared/auto-bundle-conversion-ui.css:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/buyer-experience-ui.css:present",
+      "passed": true
+    },
+    {
+      "name": "shared/buyer-experience-ui.css:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/occupational-simplification.css:present",
+      "passed": true
+    },
+    {
+      "name": "shared/occupational-simplification.css:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/address-autocomplete.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/address-autocomplete.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/coveragefit-launch.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/coveragefit-launch.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/prospect-profile.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/prospect-profile.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/post-lead-engagement.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/post-lead-engagement.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/coveragefit-invitation.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/coveragefit-invitation.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/script.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/script.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/config.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/config.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/local-attribution.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/local-attribution.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/life-secure-submit.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/life-secure-submit.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "local/data/catalog.json:present",
+      "passed": true
+    },
+    {
+      "name": "local/data/catalog.json:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "local/pilot/pilot-launch.json:present",
+      "passed": true
+    },
+    {
+      "name": "local/pilot/pilot-launch.json:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "local/pilot/stevies-qr-campaigns.json:present",
+      "passed": true
+    },
+    {
+      "name": "local/pilot/stevies-qr-campaigns.json:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "professional CSS token var(--ui3-navy-950)",
+      "passed": true
+    },
+    {
+      "name": "professional CSS token var(--ui3-red)",
+      "passed": true
+    },
+    {
+      "name": "professional CSS token var(--ui3-white)",
+      "passed": true
+    },
+    {
+      "name": "professional CSS token var(--ui3-line)",
+      "passed": true
+    },
+    {
+      "name": "professional CSS token var(--ui3-soft-blue)",
+      "passed": true
+    },
+    {
+      "name": "professional CSS token var(--ui3-focus)",
+      "passed": true
+    },
+    {
+      "name": "professional CSS selector .professional-program-bar",
+      "passed": true
+    },
+    {
+      "name": "professional CSS selector .professional-program-switcher",
+      "passed": true
+    },
+    {
+      "name": "professional CSS selector body.occupational-page .occupational-hero",
+      "passed": true
+    },
+    {
+      "name": "professional CSS selector body.occupational-page .occupational-hero .quote-card",
+      "passed": true
+    },
+    {
+      "name": "professional CSS selector body.occupational-page #leadForm",
+      "passed": true
+    },
+    {
+      "name": "professional CSS selector .quote-card .meet-dylan",
+      "passed": true
+    },
+    {
+      "name": "professional CSS selector body.occupational-page .content-section",
+      "passed": true
+    },
+    {
+      "name": "professional CSS selector body.occupational-page .steps",
+      "passed": true
+    },
+    {
+      "name": "professional CSS selector body.occupational-page .agent-section",
+      "passed": true
+    },
+    {
+      "name": "shared eligibility boundary visible",
+      "passed": true
+    },
+    {
+      "name": "Farmers red primary",
+      "passed": true
+    },
+    {
+      "name": "Farmers red focus",
+      "passed": true
+    },
+    {
+      "name": "no giant headline",
+      "passed": true
+    },
+    {
+      "name": "phone breakpoint",
+      "passed": true
+    },
+    {
+      "name": "tablet breakpoint",
+      "passed": true
+    },
+    {
+      "name": "short landscape support",
+      "passed": true
+    },
+    {
+      "name": "reduced motion support",
+      "passed": true
+    },
+    {
+      "name": "forced colors support",
+      "passed": true
+    },
+    {
+      "name": "mobile 16px field rule",
+      "passed": true
+    },
+    {
+      "name": "44px switcher targets",
+      "passed": true
+    },
+    {
+      "name": "internal links checked >=140",
+      "passed": true
+    },
+    {
+      "name": "internal links broken 0",
+      "passed": true
+    }
+  ]
+}

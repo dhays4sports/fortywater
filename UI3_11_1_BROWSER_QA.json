@@ -1,0 +1,213 @@
+{
+  "sprint": "408-UI-3.11.1",
+  "suite": "browser_message_match",
+  "total": 51,
+  "passed": 51,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "home organic copy",
+      "passed": true
+    },
+    {
+      "name": "home organic active",
+      "passed": true
+    },
+    {
+      "name": "home organic one h1",
+      "passed": true
+    },
+    {
+      "name": "home coaster copy",
+      "passed": true
+    },
+    {
+      "name": "home coaster active",
+      "passed": true
+    },
+    {
+      "name": "home coaster id",
+      "passed": true
+    },
+    {
+      "name": "home coaster one h1",
+      "passed": true
+    },
+    {
+      "name": "bundle organic copy",
+      "passed": true
+    },
+    {
+      "name": "bundle organic active",
+      "passed": true
+    },
+    {
+      "name": "bundle organic one h1",
+      "passed": true
+    },
+    {
+      "name": "bundle coaster copy",
+      "passed": true
+    },
+    {
+      "name": "bundle coaster active",
+      "passed": true
+    },
+    {
+      "name": "bundle coaster id",
+      "passed": true
+    },
+    {
+      "name": "bundle coaster one h1",
+      "passed": true
+    },
+    {
+      "name": "tech campaign copy",
+      "passed": true
+    },
+    {
+      "name": "tech campaign active",
+      "passed": true
+    },
+    {
+      "name": "tech campaign id",
+      "passed": true
+    },
+    {
+      "name": "tech campaign one h1",
+      "passed": true
+    },
+    {
+      "name": "teacher organic copy",
+      "passed": true
+    },
+    {
+      "name": "teacher organic active",
+      "passed": true
+    },
+    {
+      "name": "teacher organic one h1",
+      "passed": true
+    },
+    {
+      "name": "teacher campaign copy",
+      "passed": true
+    },
+    {
+      "name": "teacher campaign active",
+      "passed": true
+    },
+    {
+      "name": "teacher campaign id",
+      "passed": true
+    },
+    {
+      "name": "teacher campaign one h1",
+      "passed": true
+    },
+    {
+      "name": "engineer campaign copy",
+      "passed": true
+    },
+    {
+      "name": "engineer campaign active",
+      "passed": true
+    },
+    {
+      "name": "engineer campaign id",
+      "passed": true
+    },
+    {
+      "name": "engineer campaign one h1",
+      "passed": true
+    },
+    {
+      "name": "health campaign copy",
+      "passed": true
+    },
+    {
+      "name": "health campaign active",
+      "passed": true
+    },
+    {
+      "name": "health campaign id",
+      "passed": true
+    },
+    {
+      "name": "health campaign one h1",
+      "passed": true
+    },
+    {
+      "name": "buyer organic copy",
+      "passed": true
+    },
+    {
+      "name": "buyer organic active",
+      "passed": true
+    },
+    {
+      "name": "buyer organic one h1",
+      "passed": true
+    },
+    {
+      "name": "buyer partner copy",
+      "passed": true
+    },
+    {
+      "name": "buyer partner active",
+      "passed": true
+    },
+    {
+      "name": "buyer partner id",
+      "passed": true
+    },
+    {
+      "name": "buyer partner one h1",
+      "passed": true
+    },
+    {
+      "name": "unknown fallback copy",
+      "passed": true
+    },
+    {
+      "name": "unknown fallback active",
+      "passed": true
+    },
+    {
+      "name": "unknown fallback one h1",
+      "passed": true
+    },
+    {
+      "name": "bundle campaign submit",
+      "passed": true
+    },
+    {
+      "name": "teacher campaign submit",
+      "passed": true
+    },
+    {
+      "name": "buyer campaign CTA",
+      "passed": true
+    },
+    {
+      "name": "life registry entry",
+      "passed": true
+    },
+    {
+      "name": "life campaign visual mode",
+      "passed": true
+    },
+    {
+      "name": "life delegated leaves certified hero unchanged",
+      "passed": true
+    },
+    {
+      "name": "flyer delegated entry",
+      "passed": true
+    },
+    {
+      "name": "flyer delegated leaves base copy for existing flyer renderer",
+      "passed": true
+    }
+  ]
+}

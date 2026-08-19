@@ -1,0 +1,545 @@
+{
+  "sprint": "408-UI-3.2",
+  "suite": "source_contract",
+  "total": 133,
+  "passed": 133,
+  "failed": 0,
+  "missing_hrefs": [],
+  "missing_tracks": [],
+  "internal_links_checked": 134,
+  "broken_links": [],
+  "checks": [
+    {
+      "name": "homepage css exists",
+      "passed": true
+    },
+    {
+      "name": "sprint doc exists",
+      "passed": true
+    },
+    {
+      "name": "contract exists",
+      "passed": true
+    },
+    {
+      "name": "roadmap exists",
+      "passed": true
+    },
+    {
+      "name": "UI32 meta hook",
+      "passed": true
+    },
+    {
+      "name": "UI32 css hook",
+      "passed": true
+    },
+    {
+      "name": "UI31 foundation retained",
+      "passed": true
+    },
+    {
+      "name": "one h1",
+      "passed": true
+    },
+    {
+      "name": "platform h1",
+      "passed": true
+    },
+    {
+      "name": "main landmark",
+      "passed": true
+    },
+    {
+      "name": "skip link",
+      "passed": true
+    },
+    {
+      "name": "section id start",
+      "passed": true
+    },
+    {
+      "name": "section id professionals",
+      "passed": true
+    },
+    {
+      "name": "section id local",
+      "passed": true
+    },
+    {
+      "name": "section id contact",
+      "passed": true
+    },
+    {
+      "name": "four primary product cards",
+      "passed": true
+    },
+    {
+      "name": "primary route home/",
+      "passed": true
+    },
+    {
+      "name": "primary route auto-bundle/",
+      "passed": true
+    },
+    {
+      "name": "primary route buyer/",
+      "passed": true
+    },
+    {
+      "name": "primary route life/",
+      "passed": true
+    },
+    {
+      "name": "more route score/",
+      "passed": true
+    },
+    {
+      "name": "more route contact/?intent=business",
+      "passed": true
+    },
+    {
+      "name": "more route contact/?intent=landlord",
+      "passed": true
+    },
+    {
+      "name": "professional route healthcare/",
+      "passed": true
+    },
+    {
+      "name": "professional route teachers/",
+      "passed": true
+    },
+    {
+      "name": "professional route tech/",
+      "passed": true
+    },
+    {
+      "name": "professional route engineers/",
+      "passed": true
+    },
+    {
+      "name": "Local insurance separation copy",
+      "passed": true
+    },
+    {
+      "name": "Dylan license visible",
+      "passed": true
+    },
+    {
+      "name": "all baseline href destinations preserved",
+      "passed": true
+    },
+    {
+      "name": "all baseline tracked anchor contracts preserved",
+      "passed": true
+    },
+    {
+      "name": "source header preserved",
+      "passed": true
+    },
+    {
+      "name": "source footer preserved",
+      "passed": true
+    },
+    {
+      "name": "homepage runtime scripts preserved",
+      "passed": true
+    },
+    {
+      "name": "public baseline html count >=26",
+      "passed": true
+    },
+    {
+      "name": "privacy.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "privacy.html:byte-identical UI31",
+      "passed": true
+    },
+    {
+      "name": "terms.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "terms.html:byte-identical UI31",
+      "passed": true
+    },
+    {
+      "name": "contact/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "contact/index.html:byte-identical UI31",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html:byte-identical UI31",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html:byte-identical UI31",
+      "passed": true
+    },
+    {
+      "name": "life/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "life/index.html:byte-identical UI31",
+      "passed": true
+    },
+    {
+      "name": "life/thank-you.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "life/thank-you.html:byte-identical UI31",
+      "passed": true
+    },
+    {
+      "name": "local/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "local/index.html:byte-identical UI31",
+      "passed": true
+    },
+    {
+      "name": "buyer/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "buyer/index.html:byte-identical UI31",
+      "passed": true
+    },
+    {
+      "name": "buyer/thank-you.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "buyer/thank-you.html:byte-identical UI31",
+      "passed": true
+    },
+    {
+      "name": "home/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "home/index.html:byte-identical UI31",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html:byte-identical UI31",
+      "passed": true
+    },
+    {
+      "name": "engineers/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "engineers/index.html:byte-identical UI31",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html:byte-identical UI31",
+      "passed": true
+    },
+    {
+      "name": "tech/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "tech/index.html:byte-identical UI31",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html:byte-identical UI31",
+      "passed": true
+    },
+    {
+      "name": "neighbor/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "neighbor/index.html:byte-identical UI31",
+      "passed": true
+    },
+    {
+      "name": "teachers/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "teachers/index.html:byte-identical UI31",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html:byte-identical UI31",
+      "passed": true
+    },
+    {
+      "name": "score/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "score/index.html:byte-identical UI31",
+      "passed": true
+    },
+    {
+      "name": "healthcare/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "healthcare/index.html:byte-identical UI31",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html:byte-identical UI31",
+      "passed": true
+    },
+    {
+      "name": "local/detail/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "local/detail/index.html:byte-identical UI31",
+      "passed": true
+    },
+    {
+      "name": "local/join/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "local/join/index.html:byte-identical UI31",
+      "passed": true
+    },
+    {
+      "name": "local/join/thank-you.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "local/join/thank-you.html:byte-identical UI31",
+      "passed": true
+    },
+    {
+      "name": "_worker.js:present",
+      "passed": true
+    },
+    {
+      "name": "_worker.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/ui-3-foundation.css:present",
+      "passed": true
+    },
+    {
+      "name": "shared/ui-3-foundation.css:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/ui-3-foundation.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/ui-3-foundation.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/homepage-optimization.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/homepage-optimization.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/config.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/config.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/campaign.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/campaign.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/coveragefit-launch.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/coveragefit-launch.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/local-attribution.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/local-attribution.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/local-data-model.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/local-data-model.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/local-directory.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/local-directory.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/local-merchant.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/local-merchant.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/local-join.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/local-join.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/life-secure-submit.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/life-secure-submit.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/buyer-flow.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/buyer-flow.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/buyer-referral.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/buyer-referral.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/home-lead-progressive.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/home-lead-progressive.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "local/data/catalog.json:present",
+      "passed": true
+    },
+    {
+      "name": "local/data/catalog.json:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "local/pilot/pilot-launch.json:present",
+      "passed": true
+    },
+    {
+      "name": "local/pilot/pilot-launch.json:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "local/pilot/stevies-qr-campaigns.json:present",
+      "passed": true
+    },
+    {
+      "name": "local/pilot/stevies-qr-campaigns.json:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "homepage css token var(--ui3-navy-950)",
+      "passed": true
+    },
+    {
+      "name": "homepage css token var(--ui3-red)",
+      "passed": true
+    },
+    {
+      "name": "homepage css token var(--ui3-white)",
+      "passed": true
+    },
+    {
+      "name": "homepage css token var(--ui3-line)",
+      "passed": true
+    },
+    {
+      "name": "homepage css token var(--ui3-soft)",
+      "passed": true
+    },
+    {
+      "name": "no 9rem homepage headline",
+      "passed": true
+    },
+    {
+      "name": "responsive 620 breakpoint",
+      "passed": true
+    },
+    {
+      "name": "reduced motion support",
+      "passed": true
+    },
+    {
+      "name": "internal links checked >=120",
+      "passed": true
+    },
+    {
+      "name": "internal links broken 0",
+      "passed": true
+    }
+  ]
+}

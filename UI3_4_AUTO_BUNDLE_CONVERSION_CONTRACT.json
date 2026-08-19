@@ -1,0 +1,29 @@
+{
+  "sprint": "408-UI-3.4",
+  "name": "Home + Auto Conversion Experience",
+  "route": "/auto-bundle/",
+  "behaviorFrozen": true,
+  "visualOutcomes": [
+    "UI-3 navy/red/white platform hierarchy",
+    "controlled Home + Auto conversion hero",
+    "contained bundle visual",
+    "centered guided-review card",
+    "Farmers-red primary action and focus states",
+    "restrained cards, borders, radii, and shadows",
+    "responsive household-review presentation",
+    "clean producer credibility module"
+  ],
+  "protectedBehavior": [
+    "leadForm action and method",
+    "field-name inventory and required semantics",
+    "source/campaign/UTM attribution",
+    "housing_context branch",
+    "renter destination",
+    "Formspree submission",
+    "post-lead engagement",
+    "CoverageFit invitation",
+    "CoverageFit handoff contract",
+    "Worker routing"
+  ],
+  "nextSprint": "408-UI-3.5 — Buyer Experience Redesign"
+}

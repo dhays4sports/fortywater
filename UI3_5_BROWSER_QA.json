@@ -1,0 +1,475 @@
+{
+  "sprint": "408-UI-3.5",
+  "suite": "browser_rendering",
+  "total": 115,
+  "passed": 115,
+  "failed": 0,
+  "viewports": [
+    "320x800",
+    "390x844",
+    "768x1024",
+    "1440x900"
+  ],
+  "checks": [
+    {
+      "name": "phone320 UI3 body",
+      "passed": true
+    },
+    {
+      "name": "phone320 buyer UI hook",
+      "passed": true
+    },
+    {
+      "name": "phone320 universal header",
+      "passed": true
+    },
+    {
+      "name": "phone320 universal footer",
+      "passed": true
+    },
+    {
+      "name": "phone320 h1 visible",
+      "passed": true
+    },
+    {
+      "name": "phone320 closing-first lead visible",
+      "passed": true
+    },
+    {
+      "name": "phone320 visual visible",
+      "passed": true
+    },
+    {
+      "name": "phone320 intake visible",
+      "passed": true
+    },
+    {
+      "name": "phone320 form visible",
+      "passed": true
+    },
+    {
+      "name": "phone320 two progress items",
+      "passed": true
+    },
+    {
+      "name": "phone320 three promise cards",
+      "passed": true
+    },
+    {
+      "name": "phone320 producer module",
+      "passed": true
+    },
+    {
+      "name": "phone320 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "phone320 hero primary visible",
+      "passed": true
+    },
+    {
+      "name": "phone320 hero primary >= 48px",
+      "passed": true
+    },
+    {
+      "name": "phone320 step next visible",
+      "passed": true
+    },
+    {
+      "name": "phone320 step next >= 48px",
+      "passed": true
+    },
+    {
+      "name": "phone320 input visible",
+      "passed": true
+    },
+    {
+      "name": "phone320 input >= 48px",
+      "passed": true
+    },
+    {
+      "name": "phone320 red hero primary",
+      "passed": true
+    },
+    {
+      "name": "phone320 restrained card radius",
+      "passed": true
+    },
+    {
+      "name": "phone320 stacked hero",
+      "passed": true
+    },
+    {
+      "name": "phone320 one-column field grid",
+      "passed": true
+    },
+    {
+      "name": "phone320 16px mobile input",
+      "passed": true
+    },
+    {
+      "name": "phone320 mobile menu toggle visible",
+      "passed": true
+    },
+    {
+      "name": "phone320 menu opens",
+      "passed": true
+    },
+    {
+      "name": "phone320 mobile nav target visible",
+      "passed": true
+    },
+    {
+      "name": "phone320 mobile nav target >= 44px",
+      "passed": true
+    },
+    {
+      "name": "phone320 Escape closes menu",
+      "passed": true
+    },
+    {
+      "name": "phone320 focused input visible ring",
+      "passed": true
+    },
+    {
+      "name": "phone320 form no overflow",
+      "passed": true
+    },
+    {
+      "name": "phone390 UI3 body",
+      "passed": true
+    },
+    {
+      "name": "phone390 buyer UI hook",
+      "passed": true
+    },
+    {
+      "name": "phone390 universal header",
+      "passed": true
+    },
+    {
+      "name": "phone390 universal footer",
+      "passed": true
+    },
+    {
+      "name": "phone390 h1 visible",
+      "passed": true
+    },
+    {
+      "name": "phone390 closing-first lead visible",
+      "passed": true
+    },
+    {
+      "name": "phone390 visual visible",
+      "passed": true
+    },
+    {
+      "name": "phone390 intake visible",
+      "passed": true
+    },
+    {
+      "name": "phone390 form visible",
+      "passed": true
+    },
+    {
+      "name": "phone390 two progress items",
+      "passed": true
+    },
+    {
+      "name": "phone390 three promise cards",
+      "passed": true
+    },
+    {
+      "name": "phone390 producer module",
+      "passed": true
+    },
+    {
+      "name": "phone390 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "phone390 hero primary visible",
+      "passed": true
+    },
+    {
+      "name": "phone390 hero primary >= 48px",
+      "passed": true
+    },
+    {
+      "name": "phone390 step next visible",
+      "passed": true
+    },
+    {
+      "name": "phone390 step next >= 48px",
+      "passed": true
+    },
+    {
+      "name": "phone390 input visible",
+      "passed": true
+    },
+    {
+      "name": "phone390 input >= 48px",
+      "passed": true
+    },
+    {
+      "name": "phone390 red hero primary",
+      "passed": true
+    },
+    {
+      "name": "phone390 restrained card radius",
+      "passed": true
+    },
+    {
+      "name": "phone390 stacked hero",
+      "passed": true
+    },
+    {
+      "name": "phone390 one-column field grid",
+      "passed": true
+    },
+    {
+      "name": "phone390 16px mobile input",
+      "passed": true
+    },
+    {
+      "name": "phone390 mobile menu toggle visible",
+      "passed": true
+    },
+    {
+      "name": "phone390 menu opens",
+      "passed": true
+    },
+    {
+      "name": "phone390 mobile nav target visible",
+      "passed": true
+    },
+    {
+      "name": "phone390 mobile nav target >= 44px",
+      "passed": true
+    },
+    {
+      "name": "phone390 Escape closes menu",
+      "passed": true
+    },
+    {
+      "name": "phone390 focused input visible ring",
+      "passed": true
+    },
+    {
+      "name": "phone390 form no overflow",
+      "passed": true
+    },
+    {
+      "name": "tablet UI3 body",
+      "passed": true
+    },
+    {
+      "name": "tablet buyer UI hook",
+      "passed": true
+    },
+    {
+      "name": "tablet universal header",
+      "passed": true
+    },
+    {
+      "name": "tablet universal footer",
+      "passed": true
+    },
+    {
+      "name": "tablet h1 visible",
+      "passed": true
+    },
+    {
+      "name": "tablet closing-first lead visible",
+      "passed": true
+    },
+    {
+      "name": "tablet visual visible",
+      "passed": true
+    },
+    {
+      "name": "tablet intake visible",
+      "passed": true
+    },
+    {
+      "name": "tablet form visible",
+      "passed": true
+    },
+    {
+      "name": "tablet two progress items",
+      "passed": true
+    },
+    {
+      "name": "tablet three promise cards",
+      "passed": true
+    },
+    {
+      "name": "tablet producer module",
+      "passed": true
+    },
+    {
+      "name": "tablet no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "tablet hero primary visible",
+      "passed": true
+    },
+    {
+      "name": "tablet hero primary >= 48px",
+      "passed": true
+    },
+    {
+      "name": "tablet step next visible",
+      "passed": true
+    },
+    {
+      "name": "tablet step next >= 48px",
+      "passed": true
+    },
+    {
+      "name": "tablet input visible",
+      "passed": true
+    },
+    {
+      "name": "tablet input >= 48px",
+      "passed": true
+    },
+    {
+      "name": "tablet red hero primary",
+      "passed": true
+    },
+    {
+      "name": "tablet restrained card radius",
+      "passed": true
+    },
+    {
+      "name": "tablet stacked hero",
+      "passed": true
+    },
+    {
+      "name": "tablet mobile menu toggle visible",
+      "passed": true
+    },
+    {
+      "name": "tablet menu opens",
+      "passed": true
+    },
+    {
+      "name": "tablet mobile nav target visible",
+      "passed": true
+    },
+    {
+      "name": "tablet mobile nav target >= 44px",
+      "passed": true
+    },
+    {
+      "name": "tablet Escape closes menu",
+      "passed": true
+    },
+    {
+      "name": "tablet focused input visible ring",
+      "passed": true
+    },
+    {
+      "name": "tablet form no overflow",
+      "passed": true
+    },
+    {
+      "name": "desktop UI3 body",
+      "passed": true
+    },
+    {
+      "name": "desktop buyer UI hook",
+      "passed": true
+    },
+    {
+      "name": "desktop universal header",
+      "passed": true
+    },
+    {
+      "name": "desktop universal footer",
+      "passed": true
+    },
+    {
+      "name": "desktop h1 visible",
+      "passed": true
+    },
+    {
+      "name": "desktop closing-first lead visible",
+      "passed": true
+    },
+    {
+      "name": "desktop visual visible",
+      "passed": true
+    },
+    {
+      "name": "desktop intake visible",
+      "passed": true
+    },
+    {
+      "name": "desktop form visible",
+      "passed": true
+    },
+    {
+      "name": "desktop two progress items",
+      "passed": true
+    },
+    {
+      "name": "desktop three promise cards",
+      "passed": true
+    },
+    {
+      "name": "desktop producer module",
+      "passed": true
+    },
+    {
+      "name": "desktop no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "desktop hero primary visible",
+      "passed": true
+    },
+    {
+      "name": "desktop hero primary >= 48px",
+      "passed": true
+    },
+    {
+      "name": "desktop step next visible",
+      "passed": true
+    },
+    {
+      "name": "desktop step next >= 48px",
+      "passed": true
+    },
+    {
+      "name": "desktop input visible",
+      "passed": true
+    },
+    {
+      "name": "desktop input >= 48px",
+      "passed": true
+    },
+    {
+      "name": "desktop red hero primary",
+      "passed": true
+    },
+    {
+      "name": "desktop restrained card radius",
+      "passed": true
+    },
+    {
+      "name": "desktop split hero",
+      "passed": true
+    },
+    {
+      "name": "desktop focused input visible ring",
+      "passed": true
+    },
+    {
+      "name": "desktop form no overflow",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "build": "408-UI-3.6",
+  "name": "Professional Programs Convergence",
+  "routes": {
+    "/healthcare/": {
+      "program": "Healthcare",
+      "hero": "Work in Healthcare?",
+      "occupationField": "Healthcare role",
+      "entry": "healthcare_eligibility_form",
+      "launchSurface": "occupation_healthcare"
+    },
+    "/teachers/": {
+      "program": "Teachers",
+      "hero": "Work in Education?",
+      "occupationField": "School or education role",
+      "entry": "teachers_eligibility_form",
+      "launchSurface": "occupation_education"
+    },
+    "/tech/": {
+      "program": "Technology",
+      "hero": "Work in Tech?",
+      "occupationField": "Tech role",
+      "entry": "tech_eligibility_form",
+      "launchSurface": "occupation_tech"
+    },
+    "/engineers/": {
+      "program": "Engineers",
+      "hero": "Are You an Engineer?",
+      "occupationField": "Engineering field",
+      "entry": "engineers_eligibility_form",
+      "launchSurface": "occupation_engineer"
+    }
+  },
+  "design": {
+    "visualLanguage": "UI-3 navy/red/white platform",
+    "familyLabel": "408FARMERS Professional Programs",
+    "sharedSwitcher": ["Healthcare", "Teachers", "Technology", "Engineers"],
+    "primaryActionColor": "Farmers red",
+    "eligibilityBoundary": "Professional role is review context, not an automatic eligibility decision"
+  },
+  "protectedBehavior": {
+    "formMarkupChanged": false,
+    "formFieldInventoryChanged": false,
+    "occupationSpecificOptionsChanged": false,
+    "formSubmission": "unchanged",
+    "addressAutocomplete": true,
+    "postLeadEngagement": true,
+    "coverageFitInvitation": true,
+    "zeroRepeatHandoff": "coveragefit-handoff-v1",
+    "workerChanged": false
+  },
+  "nextSprint": "408-UI-3.7 — Life Experience Alignment"
+}

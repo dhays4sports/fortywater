@@ -1,0 +1,47 @@
+{
+  "sprint": "408-UI-3.9",
+  "name": "Utility + Completion Surfaces",
+  "status": "complete",
+  "behavior_frozen": true,
+  "surfaces": [
+    "/home/thank-you.html",
+    "/auto-bundle/thank-you.html",
+    "/buyer/thank-you.html",
+    "/healthcare/thank-you.html",
+    "/teachers/thank-you.html",
+    "/tech/thank-you.html",
+    "/engineers/thank-you.html",
+    "/life/thank-you.html",
+    "/local/join/thank-you.html",
+    "/contact/",
+    "/privacy.html",
+    "/terms.html",
+    "/neighbor/",
+    "/404.html"
+  ],
+  "visual_contract": {
+    "shared_receipt_hierarchy": true,
+    "legal_document_shell": true,
+    "direct_contact_task_first": true,
+    "life_campaign_mode_preserved": true,
+    "coveragefit_bridge_identity_preserved": true,
+    "shared_error_recovery_empty_language": true,
+    "static_404": true
+  },
+  "protected_runtime": [
+    "_worker.js",
+    "shared/coveragefit-launch.js",
+    "shared/referral-bridge.js",
+    "shared/local-attribution.js",
+    "shared/local-join.js",
+    "shared/local-merchant.js",
+    "shared/life-secure-submit.js",
+    "shared/life-intake.js",
+    "shared/buyer-flow.js"
+  ],
+  "deliberate_exclusions": [
+    "/life-ops/ internal producer workspace",
+    "/score/ product-specific experience"
+  ],
+  "next_sprint": "408-UI-3.10 — Mobile Interaction Pass"
+}

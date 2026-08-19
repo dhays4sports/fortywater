@@ -1,0 +1,451 @@
+{
+  "sprint": "408-UI-3.9",
+  "suite": "source_contract",
+  "total": 110,
+  "passed": 110,
+  "failed": 0,
+  "internal_links_checked": 156,
+  "broken_links": [],
+  "checks": [
+    {
+      "name": "sprint doc exists",
+      "passed": true
+    },
+    {
+      "name": "contract exists",
+      "passed": true
+    },
+    {
+      "name": "404 exists",
+      "passed": true
+    },
+    {
+      "name": "UI39 utility layer in foundation",
+      "passed": true
+    },
+    {
+      "name": "utility selector .thanks>.thanks-card",
+      "passed": true
+    },
+    {
+      "name": "utility selector .buyer-thanks-card",
+      "passed": true
+    },
+    {
+      "name": "utility selector .life-thanks-card",
+      "passed": true
+    },
+    {
+      "name": "utility selector .local-join-thanks",
+      "passed": true
+    },
+    {
+      "name": "utility selector .contact-choice-shell",
+      "passed": true
+    },
+    {
+      "name": "utility selector .referral-bridge-shell",
+      "passed": true
+    },
+    {
+      "name": "utility selector .ui3-error-card",
+      "passed": true
+    },
+    {
+      "name": "utility selector .local-directory-empty",
+      "passed": true
+    },
+    {
+      "name": "utility selector .home-recovery",
+      "passed": true
+    },
+    {
+      "name": "life campaign dark receipt",
+      "passed": true
+    },
+    {
+      "name": "contact compact shell",
+      "passed": true
+    },
+    {
+      "name": "legal document shell",
+      "passed": true
+    },
+    {
+      "name": "phone utility breakpoint",
+      "passed": true
+    },
+    {
+      "name": "forced colors utility support",
+      "passed": true
+    },
+    {
+      "name": "reduced motion bridge support",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html main receipt",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html request language",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html text Dylan",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html call Dylan",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html Local remains after receipt",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html next steps exists",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html valid next steps heading",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html four next-step statements",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html main receipt",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html request language",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html text Dylan",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html call Dylan",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html Local remains after receipt",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html next steps exists",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html valid next steps heading",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html four next-step statements",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html main receipt",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html request language",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html text Dylan",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html call Dylan",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html Local remains after receipt",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html next steps exists",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html valid next steps heading",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html four next-step statements",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html main receipt",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html request language",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html text Dylan",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html call Dylan",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html Local remains after receipt",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html next steps exists",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html valid next steps heading",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html four next-step statements",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html main receipt",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html request language",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html text Dylan",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html call Dylan",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html Local remains after receipt",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html next steps exists",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html valid next steps heading",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html four next-step statements",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html main receipt",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html request language",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html text Dylan",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html call Dylan",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html Local remains after receipt",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html next steps exists",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html valid next steps heading",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html four next-step statements",
+      "passed": true
+    },
+    {
+      "name": "buyer request wording preserved",
+      "passed": true
+    },
+    {
+      "name": "buyer Local attribution preserved",
+      "passed": true
+    },
+    {
+      "name": "buyer no guarantee wording preserved",
+      "passed": true
+    },
+    {
+      "name": "life thank-you byte-identical",
+      "passed": true
+    },
+    {
+      "name": "_worker.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/coveragefit-launch.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/referral-bridge.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/local-attribution.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/local-join.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/local-merchant.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/life-secure-submit.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/life-intake.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/buyer-flow.js byte-identical",
+      "passed": true
+    },
+    {
+      "name": "contact SMS destination preserved",
+      "passed": true
+    },
+    {
+      "name": "contact phone preserved",
+      "passed": true
+    },
+    {
+      "name": "contact email preserved",
+      "passed": true
+    },
+    {
+      "name": "contact agency identity preserved",
+      "passed": true
+    },
+    {
+      "name": "contact license preserved",
+      "passed": true
+    },
+    {
+      "name": "privacy byte-identical",
+      "passed": true
+    },
+    {
+      "name": "terms byte-identical",
+      "passed": true
+    },
+    {
+      "name": "neighbor bridge destination preserved",
+      "passed": true
+    },
+    {
+      "name": "neighbor no PII statement preserved",
+      "passed": true
+    },
+    {
+      "name": "neighbor runtime preserved",
+      "passed": true
+    },
+    {
+      "name": "404 noindex",
+      "passed": true
+    },
+    {
+      "name": "404 UI39 meta",
+      "passed": true
+    },
+    {
+      "name": "404 exit /",
+      "passed": true
+    },
+    {
+      "name": "404 exit /home/",
+      "passed": true
+    },
+    {
+      "name": "404 exit /contact/",
+      "passed": true
+    },
+    {
+      "name": "index.html product entry unchanged",
+      "passed": true
+    },
+    {
+      "name": "home/index.html product entry unchanged",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html product entry unchanged",
+      "passed": true
+    },
+    {
+      "name": "buyer/index.html product entry unchanged",
+      "passed": true
+    },
+    {
+      "name": "life/index.html product entry unchanged",
+      "passed": true
+    },
+    {
+      "name": "healthcare/index.html product entry unchanged",
+      "passed": true
+    },
+    {
+      "name": "teachers/index.html product entry unchanged",
+      "passed": true
+    },
+    {
+      "name": "tech/index.html product entry unchanged",
+      "passed": true
+    },
+    {
+      "name": "engineers/index.html product entry unchanged",
+      "passed": true
+    },
+    {
+      "name": "local/index.html product entry unchanged",
+      "passed": true
+    },
+    {
+      "name": "local/join/index.html product entry unchanged",
+      "passed": true
+    },
+    {
+      "name": "local/detail/index.html product entry unchanged",
+      "passed": true
+    },
+    {
+      "name": "score/index.html product entry unchanged",
+      "passed": true
+    },
+    {
+      "name": "internal links checked >=150",
+      "passed": true
+    },
+    {
+      "name": "internal links broken 0",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "build": "408-UI-3.3",
+  "name": "Home Conversion Experience",
+  "route": "/home/",
+  "deepEntryCoverage": ["/home/qr/*", "/home/campaign/*", "/home/* via Advanced Mode Home asset mapping"],
+  "designSystem": "408-UI-3.1",
+  "scope": {
+    "visualOnly": true,
+    "heroRecomposed": true,
+    "guidedReviewShellRestyled": true,
+    "progressiveLeadFormRestyled": true,
+    "engagementAndPayoffRestyled": true,
+    "postLeadAndCoverageFitInvitationRestyled": true,
+    "processAndProducerCredibilityRestyled": true,
+    "formNamesChanged": false,
+    "validationChanged": false,
+    "submissionChanged": false,
+    "campaignRoutingChanged": false,
+    "renterBranchChanged": false,
+    "postLeadBehaviorChanged": false,
+    "coverageFitHandoffChanged": false,
+    "workerChanged": false
+  },
+  "protectedContracts": {
+    "formId": "leadForm",
+    "formAction": "https://formspree.io/f/mojgnegn",
+    "cfAssessment": "home",
+    "cfEntry": "home_lander_form",
+    "cfNext": "/assessment/",
+    "renterDestination": "/contact/?intent=renters",
+    "handoffContract": "coveragefit-handoff-v1",
+    "homeJourneyContract": "home-review-journey-v1",
+    "formFirstBuild": "408-FLOW-2.2",
+    "postLeadBuild": "408-FLOW-2.3",
+    "coverageFitInvitationBuild": "408-CF-RPT-1.1"
+  },
+  "newAsset": "shared/home-conversion-ui.css",
+  "nextSprint": "408-UI-3.4 — Home + Auto Conversion Experience"
+}

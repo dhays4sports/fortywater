@@ -1,0 +1,337 @@
+{
+  "sprint": "408-UI-3.11.1",
+  "suite": "source_contract",
+  "total": 82,
+  "passed": 82,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "home/index.html build marker",
+      "passed": true
+    },
+    {
+      "name": "home/index.html registry loaded",
+      "passed": true
+    },
+    {
+      "name": "home/index.html runtime loaded",
+      "passed": true
+    },
+    {
+      "name": "home/index.html css loaded",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html build marker",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html registry loaded",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html runtime loaded",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html css loaded",
+      "passed": true
+    },
+    {
+      "name": "buyer/index.html build marker",
+      "passed": true
+    },
+    {
+      "name": "buyer/index.html registry loaded",
+      "passed": true
+    },
+    {
+      "name": "buyer/index.html runtime loaded",
+      "passed": true
+    },
+    {
+      "name": "buyer/index.html css loaded",
+      "passed": true
+    },
+    {
+      "name": "tech/index.html build marker",
+      "passed": true
+    },
+    {
+      "name": "tech/index.html registry loaded",
+      "passed": true
+    },
+    {
+      "name": "tech/index.html runtime loaded",
+      "passed": true
+    },
+    {
+      "name": "tech/index.html css loaded",
+      "passed": true
+    },
+    {
+      "name": "teachers/index.html build marker",
+      "passed": true
+    },
+    {
+      "name": "teachers/index.html registry loaded",
+      "passed": true
+    },
+    {
+      "name": "teachers/index.html runtime loaded",
+      "passed": true
+    },
+    {
+      "name": "teachers/index.html css loaded",
+      "passed": true
+    },
+    {
+      "name": "engineers/index.html build marker",
+      "passed": true
+    },
+    {
+      "name": "engineers/index.html registry loaded",
+      "passed": true
+    },
+    {
+      "name": "engineers/index.html runtime loaded",
+      "passed": true
+    },
+    {
+      "name": "engineers/index.html css loaded",
+      "passed": true
+    },
+    {
+      "name": "healthcare/index.html build marker",
+      "passed": true
+    },
+    {
+      "name": "healthcare/index.html registry loaded",
+      "passed": true
+    },
+    {
+      "name": "healthcare/index.html runtime loaded",
+      "passed": true
+    },
+    {
+      "name": "healthcare/index.html css loaded",
+      "passed": true
+    },
+    {
+      "name": "life/index.html build marker",
+      "passed": true
+    },
+    {
+      "name": "life/index.html registry loaded",
+      "passed": true
+    },
+    {
+      "name": "life/index.html runtime loaded",
+      "passed": true
+    },
+    {
+      "name": "life/index.html css loaded",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html data-campaign-entry-eyebrow",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html data-campaign-entry-title",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html data-campaign-entry-lead",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html data-campaign-entry-form-kicker",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html data-campaign-entry-form-title",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html data-campaign-entry-submit",
+      "passed": true
+    },
+    {
+      "name": "tech/index.html data-campaign-entry-eyebrow",
+      "passed": true
+    },
+    {
+      "name": "tech/index.html data-campaign-entry-title",
+      "passed": true
+    },
+    {
+      "name": "tech/index.html data-campaign-entry-lead",
+      "passed": true
+    },
+    {
+      "name": "tech/index.html data-campaign-entry-form-kicker",
+      "passed": true
+    },
+    {
+      "name": "tech/index.html data-campaign-entry-form-title",
+      "passed": true
+    },
+    {
+      "name": "tech/index.html data-campaign-entry-submit",
+      "passed": true
+    },
+    {
+      "name": "teachers/index.html data-campaign-entry-eyebrow",
+      "passed": true
+    },
+    {
+      "name": "teachers/index.html data-campaign-entry-title",
+      "passed": true
+    },
+    {
+      "name": "teachers/index.html data-campaign-entry-lead",
+      "passed": true
+    },
+    {
+      "name": "teachers/index.html data-campaign-entry-form-kicker",
+      "passed": true
+    },
+    {
+      "name": "teachers/index.html data-campaign-entry-form-title",
+      "passed": true
+    },
+    {
+      "name": "teachers/index.html data-campaign-entry-submit",
+      "passed": true
+    },
+    {
+      "name": "engineers/index.html data-campaign-entry-eyebrow",
+      "passed": true
+    },
+    {
+      "name": "engineers/index.html data-campaign-entry-title",
+      "passed": true
+    },
+    {
+      "name": "engineers/index.html data-campaign-entry-lead",
+      "passed": true
+    },
+    {
+      "name": "engineers/index.html data-campaign-entry-form-kicker",
+      "passed": true
+    },
+    {
+      "name": "engineers/index.html data-campaign-entry-form-title",
+      "passed": true
+    },
+    {
+      "name": "engineers/index.html data-campaign-entry-submit",
+      "passed": true
+    },
+    {
+      "name": "healthcare/index.html data-campaign-entry-eyebrow",
+      "passed": true
+    },
+    {
+      "name": "healthcare/index.html data-campaign-entry-title",
+      "passed": true
+    },
+    {
+      "name": "healthcare/index.html data-campaign-entry-lead",
+      "passed": true
+    },
+    {
+      "name": "healthcare/index.html data-campaign-entry-form-kicker",
+      "passed": true
+    },
+    {
+      "name": "healthcare/index.html data-campaign-entry-form-title",
+      "passed": true
+    },
+    {
+      "name": "healthcare/index.html data-campaign-entry-submit",
+      "passed": true
+    },
+    {
+      "name": "buyer data-campaign-entry-kicker",
+      "passed": true
+    },
+    {
+      "name": "buyer data-campaign-entry-title",
+      "passed": true
+    },
+    {
+      "name": "buyer data-campaign-entry-lead",
+      "passed": true
+    },
+    {
+      "name": "buyer data-campaign-entry-body",
+      "passed": true
+    },
+    {
+      "name": "buyer data-campaign-entry-start-online",
+      "passed": true
+    },
+    {
+      "name": "home existing data-home-campaign-eyebrow",
+      "passed": true
+    },
+    {
+      "name": "home existing data-home-campaign-title",
+      "passed": true
+    },
+    {
+      "name": "home existing data-home-campaign-lead",
+      "passed": true
+    },
+    {
+      "name": "home existing data-home-campaign-copy",
+      "passed": true
+    },
+    {
+      "name": "home existing data-home-campaign-cta",
+      "passed": true
+    },
+    {
+      "name": "home existing data-home-campaign-reassurance",
+      "passed": true
+    },
+    {
+      "name": "registry current URL only",
+      "passed": true
+    },
+    {
+      "name": "runtime current URL only",
+      "passed": true
+    },
+    {
+      "name": "runtime no raw parameter injection",
+      "passed": true
+    },
+    {
+      "name": "unknown fallback represented",
+      "passed": true
+    },
+    {
+      "name": "dynamic flyer delegated",
+      "passed": true
+    },
+    {
+      "name": "Life delegated",
+      "passed": true
+    },
+    {
+      "name": "CAMPAIGN_ENTRY_REGISTRY.json exists",
+      "passed": true
+    },
+    {
+      "name": "CAMPAIGN_MESSAGE_MATRIX.md exists",
+      "passed": true
+    },
+    {
+      "name": "CAMPAIGN_CREATIVE_REFRESH_SPEC.md exists",
+      "passed": true
+    }
+  ]
+}

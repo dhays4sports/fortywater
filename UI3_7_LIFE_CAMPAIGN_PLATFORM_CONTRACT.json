@@ -1,0 +1,36 @@
+{
+  "build": "408-UI-3.7",
+  "name": "Life Campaign + Platform Convergence",
+  "route": "/life/",
+  "design": {
+    "mode": "408FARMERS Life Mode",
+    "platformShell": "UI-3 compact header + universal footer",
+    "campaignCanvas": "black/deep navy + white + Farmers red + restrained Life blue",
+    "campaignPhoto": "/shared/assets/life-family-campaign.jpg",
+    "campaignVariants": [
+      "before_anything_changes",
+      "20_minutes",
+      "this_is_the_time",
+      "financial_picture"
+    ],
+    "applicationSurface": "high-readability white intake surface within dark campaign environment"
+  },
+  "protectedBehavior": {
+    "workerChanged": false,
+    "secureApplicationEndpointChanged": false,
+    "conversionEndpointChanged": false,
+    "conversionSchemaChanged": false,
+    "campaignVariantKeysChanged": false,
+    "creativeCodesChanged": false,
+    "attributionKeysChanged": false,
+    "applicationFormMarkupChanged": false,
+    "applicationFieldInventoryChanged": false,
+    "lifeConversionRuntimeChanged": false,
+    "lifeIntakeRuntimeChanged": false,
+    "lifeSecureSubmitRuntimeChanged": false,
+    "producerQueueChanged": false,
+    "thankYouChanged": false,
+    "nonLifePublicRoutesChanged": false
+  },
+  "nextSprint": "408-UI-3.8 — Local Visual Convergence"
+}

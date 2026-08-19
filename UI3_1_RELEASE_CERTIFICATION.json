@@ -1,0 +1,52 @@
+{
+  "build": "408-UI-3.1",
+  "name": "Unified Visual Foundation",
+  "status": "certified",
+  "baseline": "408-LOCAL-1.10-CERTIFIED-NO-GO",
+  "localProductionStatus": "unchanged_no_go_for_three_merchant_pilot",
+  "qa": {
+    "ui31": {
+      "passed": 191,
+      "total": 191
+    },
+    "staticRegression": {
+      "passed": 296,
+      "total": 296
+    },
+    "merchantJoinWorker": {
+      "passed": 20,
+      "total": 20
+    },
+    "localAttributionWorker": {
+      "passed": 29,
+      "total": 29
+    },
+    "advancedModeRedirectLoop": {
+      "passed": 10,
+      "total": 10
+    },
+    "advancedModeRouting": {
+      "passed": 16,
+      "total": 16
+    },
+    "homeDeepRouteAssets": {
+      "passed": 12,
+      "total": 12
+    },
+    "sharedJsSyntax": {
+      "passed": 37,
+      "total": 37
+    },
+    "internalLinks": {
+      "checked": 133,
+      "broken": 0
+    }
+  },
+  "behaviorPreservation": {
+    "publicHtmlNormalizedToBaseline": true,
+    "protectedRuntimeFilesByteIdentical": true,
+    "workerUnchanged": true,
+    "formAndAttributionContractsUnchanged": true
+  },
+  "nextSprint": "408-UI-3.2 \u2014 Homepage Platform Redesign"
+}

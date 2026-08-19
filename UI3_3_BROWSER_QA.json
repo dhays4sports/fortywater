@@ -1,0 +1,441 @@
+{
+  "sprint": "408-UI-3.3",
+  "suite": "browser_rendering",
+  "total": 108,
+  "passed": 108,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "phone320 UI3 body",
+      "passed": true
+    },
+    {
+      "name": "phone320 home UI hook",
+      "passed": true
+    },
+    {
+      "name": "phone320 universal header",
+      "passed": true
+    },
+    {
+      "name": "phone320 universal footer",
+      "passed": true
+    },
+    {
+      "name": "phone320 h1 visible",
+      "passed": true
+    },
+    {
+      "name": "phone320 review shell",
+      "passed": true
+    },
+    {
+      "name": "phone320 quote card",
+      "passed": true
+    },
+    {
+      "name": "phone320 three process cards",
+      "passed": true
+    },
+    {
+      "name": "phone320 producer module",
+      "passed": true
+    },
+    {
+      "name": "phone320 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "phone320 hero primary visible",
+      "passed": true
+    },
+    {
+      "name": "phone320 hero primary >= 48px",
+      "passed": true
+    },
+    {
+      "name": "phone320 hero secondary visible",
+      "passed": true
+    },
+    {
+      "name": "phone320 hero secondary >= 48px",
+      "passed": true
+    },
+    {
+      "name": "phone320 input visible",
+      "passed": true
+    },
+    {
+      "name": "phone320 input >= 48px",
+      "passed": true
+    },
+    {
+      "name": "phone320 red primary",
+      "passed": true
+    },
+    {
+      "name": "phone320 restrained card radius",
+      "passed": true
+    },
+    {
+      "name": "phone320 stacked hero",
+      "passed": true
+    },
+    {
+      "name": "phone320 16px mobile input",
+      "passed": true
+    },
+    {
+      "name": "phone320 mobile menu toggle visible",
+      "passed": true
+    },
+    {
+      "name": "phone320 menu opens",
+      "passed": true
+    },
+    {
+      "name": "phone320 mobile nav target visible",
+      "passed": true
+    },
+    {
+      "name": "phone320 mobile nav target >= 44px",
+      "passed": true
+    },
+    {
+      "name": "phone320 Escape closes menu",
+      "passed": true
+    },
+    {
+      "name": "phone320 choice card visible",
+      "passed": true
+    },
+    {
+      "name": "phone320 choice card >= 44px",
+      "passed": true
+    },
+    {
+      "name": "phone320 selected choice red border",
+      "passed": true
+    },
+    {
+      "name": "phone320 engagement no overflow",
+      "passed": true
+    },
+    {
+      "name": "phone390 UI3 body",
+      "passed": true
+    },
+    {
+      "name": "phone390 home UI hook",
+      "passed": true
+    },
+    {
+      "name": "phone390 universal header",
+      "passed": true
+    },
+    {
+      "name": "phone390 universal footer",
+      "passed": true
+    },
+    {
+      "name": "phone390 h1 visible",
+      "passed": true
+    },
+    {
+      "name": "phone390 review shell",
+      "passed": true
+    },
+    {
+      "name": "phone390 quote card",
+      "passed": true
+    },
+    {
+      "name": "phone390 three process cards",
+      "passed": true
+    },
+    {
+      "name": "phone390 producer module",
+      "passed": true
+    },
+    {
+      "name": "phone390 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "phone390 hero primary visible",
+      "passed": true
+    },
+    {
+      "name": "phone390 hero primary >= 48px",
+      "passed": true
+    },
+    {
+      "name": "phone390 hero secondary visible",
+      "passed": true
+    },
+    {
+      "name": "phone390 hero secondary >= 48px",
+      "passed": true
+    },
+    {
+      "name": "phone390 input visible",
+      "passed": true
+    },
+    {
+      "name": "phone390 input >= 48px",
+      "passed": true
+    },
+    {
+      "name": "phone390 red primary",
+      "passed": true
+    },
+    {
+      "name": "phone390 restrained card radius",
+      "passed": true
+    },
+    {
+      "name": "phone390 stacked hero",
+      "passed": true
+    },
+    {
+      "name": "phone390 16px mobile input",
+      "passed": true
+    },
+    {
+      "name": "phone390 mobile menu toggle visible",
+      "passed": true
+    },
+    {
+      "name": "phone390 menu opens",
+      "passed": true
+    },
+    {
+      "name": "phone390 mobile nav target visible",
+      "passed": true
+    },
+    {
+      "name": "phone390 mobile nav target >= 44px",
+      "passed": true
+    },
+    {
+      "name": "phone390 Escape closes menu",
+      "passed": true
+    },
+    {
+      "name": "phone390 choice card visible",
+      "passed": true
+    },
+    {
+      "name": "phone390 choice card >= 44px",
+      "passed": true
+    },
+    {
+      "name": "phone390 selected choice red border",
+      "passed": true
+    },
+    {
+      "name": "phone390 engagement no overflow",
+      "passed": true
+    },
+    {
+      "name": "tablet UI3 body",
+      "passed": true
+    },
+    {
+      "name": "tablet home UI hook",
+      "passed": true
+    },
+    {
+      "name": "tablet universal header",
+      "passed": true
+    },
+    {
+      "name": "tablet universal footer",
+      "passed": true
+    },
+    {
+      "name": "tablet h1 visible",
+      "passed": true
+    },
+    {
+      "name": "tablet review shell",
+      "passed": true
+    },
+    {
+      "name": "tablet quote card",
+      "passed": true
+    },
+    {
+      "name": "tablet three process cards",
+      "passed": true
+    },
+    {
+      "name": "tablet producer module",
+      "passed": true
+    },
+    {
+      "name": "tablet no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "tablet hero primary visible",
+      "passed": true
+    },
+    {
+      "name": "tablet hero primary >= 48px",
+      "passed": true
+    },
+    {
+      "name": "tablet hero secondary visible",
+      "passed": true
+    },
+    {
+      "name": "tablet hero secondary >= 48px",
+      "passed": true
+    },
+    {
+      "name": "tablet input visible",
+      "passed": true
+    },
+    {
+      "name": "tablet input >= 48px",
+      "passed": true
+    },
+    {
+      "name": "tablet red primary",
+      "passed": true
+    },
+    {
+      "name": "tablet restrained card radius",
+      "passed": true
+    },
+    {
+      "name": "tablet mobile menu toggle visible",
+      "passed": true
+    },
+    {
+      "name": "tablet menu opens",
+      "passed": true
+    },
+    {
+      "name": "tablet mobile nav target visible",
+      "passed": true
+    },
+    {
+      "name": "tablet mobile nav target >= 44px",
+      "passed": true
+    },
+    {
+      "name": "tablet Escape closes menu",
+      "passed": true
+    },
+    {
+      "name": "tablet choice card visible",
+      "passed": true
+    },
+    {
+      "name": "tablet choice card >= 44px",
+      "passed": true
+    },
+    {
+      "name": "tablet selected choice red border",
+      "passed": true
+    },
+    {
+      "name": "tablet engagement no overflow",
+      "passed": true
+    },
+    {
+      "name": "desktop UI3 body",
+      "passed": true
+    },
+    {
+      "name": "desktop home UI hook",
+      "passed": true
+    },
+    {
+      "name": "desktop universal header",
+      "passed": true
+    },
+    {
+      "name": "desktop universal footer",
+      "passed": true
+    },
+    {
+      "name": "desktop h1 visible",
+      "passed": true
+    },
+    {
+      "name": "desktop review shell",
+      "passed": true
+    },
+    {
+      "name": "desktop quote card",
+      "passed": true
+    },
+    {
+      "name": "desktop three process cards",
+      "passed": true
+    },
+    {
+      "name": "desktop producer module",
+      "passed": true
+    },
+    {
+      "name": "desktop no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "desktop hero primary visible",
+      "passed": true
+    },
+    {
+      "name": "desktop hero primary >= 48px",
+      "passed": true
+    },
+    {
+      "name": "desktop hero secondary visible",
+      "passed": true
+    },
+    {
+      "name": "desktop hero secondary >= 48px",
+      "passed": true
+    },
+    {
+      "name": "desktop input visible",
+      "passed": true
+    },
+    {
+      "name": "desktop input >= 48px",
+      "passed": true
+    },
+    {
+      "name": "desktop red primary",
+      "passed": true
+    },
+    {
+      "name": "desktop restrained card radius",
+      "passed": true
+    },
+    {
+      "name": "desktop split hero",
+      "passed": true
+    },
+    {
+      "name": "desktop choice card visible",
+      "passed": true
+    },
+    {
+      "name": "desktop choice card >= 44px",
+      "passed": true
+    },
+    {
+      "name": "desktop selected choice red border",
+      "passed": true
+    },
+    {
+      "name": "desktop engagement no overflow",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,381 @@
+{
+  "sprint": "408-UI-3.2.1",
+  "suite": "browser_rendering",
+  "total": 93,
+  "passed": 93,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "phone320 UI3 body",
+      "passed": true
+    },
+    {
+      "name": "phone320 universal header",
+      "passed": true
+    },
+    {
+      "name": "phone320 universal footer",
+      "passed": true
+    },
+    {
+      "name": "phone320 identity h1",
+      "passed": true
+    },
+    {
+      "name": "phone320 not quote line",
+      "passed": true
+    },
+    {
+      "name": "phone320 primary chooser",
+      "passed": true
+    },
+    {
+      "name": "phone320 six situations",
+      "passed": true
+    },
+    {
+      "name": "phone320 CoverageFit bridge",
+      "passed": true
+    },
+    {
+      "name": "phone320 four secondary products",
+      "passed": true
+    },
+    {
+      "name": "phone320 CoverageFit section",
+      "passed": true
+    },
+    {
+      "name": "phone320 something changed section",
+      "passed": true
+    },
+    {
+      "name": "phone320 Local module",
+      "passed": true
+    },
+    {
+      "name": "phone320 agent module",
+      "passed": true
+    },
+    {
+      "name": "phone320 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "phone320 hero primary visible",
+      "passed": true
+    },
+    {
+      "name": "phone320 hero primary >= 48px",
+      "passed": true
+    },
+    {
+      "name": "phone320 situation target visible",
+      "passed": true
+    },
+    {
+      "name": "phone320 situation target >= 44px",
+      "passed": true
+    },
+    {
+      "name": "phone320 single column situations",
+      "passed": true
+    },
+    {
+      "name": "phone320 single column secondary products",
+      "passed": true
+    },
+    {
+      "name": "phone320 mobile menu toggle visible",
+      "passed": true
+    },
+    {
+      "name": "phone320 menu opens",
+      "passed": true
+    },
+    {
+      "name": "phone320 mobile nav target visible",
+      "passed": true
+    },
+    {
+      "name": "phone320 mobile nav target >= 44px",
+      "passed": true
+    },
+    {
+      "name": "phone320 Escape closes menu",
+      "passed": true
+    },
+    {
+      "name": "phone390 UI3 body",
+      "passed": true
+    },
+    {
+      "name": "phone390 universal header",
+      "passed": true
+    },
+    {
+      "name": "phone390 universal footer",
+      "passed": true
+    },
+    {
+      "name": "phone390 identity h1",
+      "passed": true
+    },
+    {
+      "name": "phone390 not quote line",
+      "passed": true
+    },
+    {
+      "name": "phone390 primary chooser",
+      "passed": true
+    },
+    {
+      "name": "phone390 six situations",
+      "passed": true
+    },
+    {
+      "name": "phone390 CoverageFit bridge",
+      "passed": true
+    },
+    {
+      "name": "phone390 four secondary products",
+      "passed": true
+    },
+    {
+      "name": "phone390 CoverageFit section",
+      "passed": true
+    },
+    {
+      "name": "phone390 something changed section",
+      "passed": true
+    },
+    {
+      "name": "phone390 Local module",
+      "passed": true
+    },
+    {
+      "name": "phone390 agent module",
+      "passed": true
+    },
+    {
+      "name": "phone390 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "phone390 hero primary visible",
+      "passed": true
+    },
+    {
+      "name": "phone390 hero primary >= 48px",
+      "passed": true
+    },
+    {
+      "name": "phone390 situation target visible",
+      "passed": true
+    },
+    {
+      "name": "phone390 situation target >= 44px",
+      "passed": true
+    },
+    {
+      "name": "phone390 single column situations",
+      "passed": true
+    },
+    {
+      "name": "phone390 single column secondary products",
+      "passed": true
+    },
+    {
+      "name": "phone390 mobile menu toggle visible",
+      "passed": true
+    },
+    {
+      "name": "phone390 menu opens",
+      "passed": true
+    },
+    {
+      "name": "phone390 mobile nav target visible",
+      "passed": true
+    },
+    {
+      "name": "phone390 mobile nav target >= 44px",
+      "passed": true
+    },
+    {
+      "name": "phone390 Escape closes menu",
+      "passed": true
+    },
+    {
+      "name": "tablet UI3 body",
+      "passed": true
+    },
+    {
+      "name": "tablet universal header",
+      "passed": true
+    },
+    {
+      "name": "tablet universal footer",
+      "passed": true
+    },
+    {
+      "name": "tablet identity h1",
+      "passed": true
+    },
+    {
+      "name": "tablet not quote line",
+      "passed": true
+    },
+    {
+      "name": "tablet primary chooser",
+      "passed": true
+    },
+    {
+      "name": "tablet six situations",
+      "passed": true
+    },
+    {
+      "name": "tablet CoverageFit bridge",
+      "passed": true
+    },
+    {
+      "name": "tablet four secondary products",
+      "passed": true
+    },
+    {
+      "name": "tablet CoverageFit section",
+      "passed": true
+    },
+    {
+      "name": "tablet something changed section",
+      "passed": true
+    },
+    {
+      "name": "tablet Local module",
+      "passed": true
+    },
+    {
+      "name": "tablet agent module",
+      "passed": true
+    },
+    {
+      "name": "tablet no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "tablet hero primary visible",
+      "passed": true
+    },
+    {
+      "name": "tablet hero primary >= 48px",
+      "passed": true
+    },
+    {
+      "name": "tablet situation target visible",
+      "passed": true
+    },
+    {
+      "name": "tablet situation target >= 44px",
+      "passed": true
+    },
+    {
+      "name": "tablet two column situations",
+      "passed": true
+    },
+    {
+      "name": "tablet mobile menu toggle visible",
+      "passed": true
+    },
+    {
+      "name": "tablet menu opens",
+      "passed": true
+    },
+    {
+      "name": "tablet mobile nav target visible",
+      "passed": true
+    },
+    {
+      "name": "tablet mobile nav target >= 44px",
+      "passed": true
+    },
+    {
+      "name": "tablet Escape closes menu",
+      "passed": true
+    },
+    {
+      "name": "desktop UI3 body",
+      "passed": true
+    },
+    {
+      "name": "desktop universal header",
+      "passed": true
+    },
+    {
+      "name": "desktop universal footer",
+      "passed": true
+    },
+    {
+      "name": "desktop identity h1",
+      "passed": true
+    },
+    {
+      "name": "desktop not quote line",
+      "passed": true
+    },
+    {
+      "name": "desktop primary chooser",
+      "passed": true
+    },
+    {
+      "name": "desktop six situations",
+      "passed": true
+    },
+    {
+      "name": "desktop CoverageFit bridge",
+      "passed": true
+    },
+    {
+      "name": "desktop four secondary products",
+      "passed": true
+    },
+    {
+      "name": "desktop CoverageFit section",
+      "passed": true
+    },
+    {
+      "name": "desktop something changed section",
+      "passed": true
+    },
+    {
+      "name": "desktop Local module",
+      "passed": true
+    },
+    {
+      "name": "desktop agent module",
+      "passed": true
+    },
+    {
+      "name": "desktop no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "desktop hero primary visible",
+      "passed": true
+    },
+    {
+      "name": "desktop hero primary >= 48px",
+      "passed": true
+    },
+    {
+      "name": "desktop situation target visible",
+      "passed": true
+    },
+    {
+      "name": "desktop situation target >= 44px",
+      "passed": true
+    },
+    {
+      "name": "desktop three column situations",
+      "passed": true
+    }
+  ]
+}

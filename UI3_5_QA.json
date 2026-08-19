@@ -1,0 +1,771 @@
+{
+  "sprint": "408-UI-3.5",
+  "suite": "source_contract",
+  "total": 190,
+  "passed": 190,
+  "failed": 0,
+  "internal_links_checked": 137,
+  "broken_links": [],
+  "checks": [
+    {
+      "name": "buyer experience css exists",
+      "passed": true
+    },
+    {
+      "name": "sprint doc exists",
+      "passed": true
+    },
+    {
+      "name": "contract exists",
+      "passed": true
+    },
+    {
+      "name": "roadmap exists",
+      "passed": true
+    },
+    {
+      "name": "UI35 meta hook",
+      "passed": true
+    },
+    {
+      "name": "UI35 css hook",
+      "passed": true
+    },
+    {
+      "name": "UI35 fallback css hook",
+      "passed": true
+    },
+    {
+      "name": "UI31 foundation retained",
+      "passed": true
+    },
+    {
+      "name": "body UI35 hook",
+      "passed": true
+    },
+    {
+      "name": "fallback body UI35 hook",
+      "passed": true
+    },
+    {
+      "name": "buyer route identity retained",
+      "passed": true
+    },
+    {
+      "name": "closing-first lead",
+      "passed": true
+    },
+    {
+      "name": "main landmark",
+      "passed": true
+    },
+    {
+      "name": "skip link",
+      "passed": true
+    },
+    {
+      "name": "lead form preserved",
+      "passed": true
+    },
+    {
+      "name": "text-first choice preserved",
+      "passed": true
+    },
+    {
+      "name": "online-start choice preserved",
+      "passed": true
+    },
+    {
+      "name": "referral acknowledgement retained",
+      "passed": true
+    },
+    {
+      "name": "form attr action",
+      "passed": true
+    },
+    {
+      "name": "form attr method",
+      "passed": true
+    },
+    {
+      "name": "form attr data-coveragefit-after-submit",
+      "passed": true
+    },
+    {
+      "name": "form attr data-success",
+      "passed": true
+    },
+    {
+      "name": "form attr data-cf-assessment",
+      "passed": true
+    },
+    {
+      "name": "form attr data-cf-entry",
+      "passed": true
+    },
+    {
+      "name": "form attr data-cf-extra-launch-surface",
+      "passed": true
+    },
+    {
+      "name": "form attr data-cf-next",
+      "passed": true
+    },
+    {
+      "name": "form attr data-cf-branch-field",
+      "passed": true
+    },
+    {
+      "name": "form attr data-cf-renter-destination",
+      "passed": true
+    },
+    {
+      "name": "form attr data-sender-build",
+      "passed": true
+    },
+    {
+      "name": "form attr data-handoff-contract",
+      "passed": true
+    },
+    {
+      "name": "form field-name inventory unchanged",
+      "passed": true
+    },
+    {
+      "name": "field preserved source",
+      "passed": true
+    },
+    {
+      "name": "field preserved campaign",
+      "passed": true
+    },
+    {
+      "name": "field preserved campaign_id",
+      "passed": true
+    },
+    {
+      "name": "field preserved campaign_variant",
+      "passed": true
+    },
+    {
+      "name": "field preserved campaign_zip",
+      "passed": true
+    },
+    {
+      "name": "field preserved landing_page",
+      "passed": true
+    },
+    {
+      "name": "field preserved submitted_at",
+      "passed": true
+    },
+    {
+      "name": "field preserved utm_source",
+      "passed": true
+    },
+    {
+      "name": "field preserved utm_medium",
+      "passed": true
+    },
+    {
+      "name": "field preserved utm_campaign",
+      "passed": true
+    },
+    {
+      "name": "field preserved utm_content",
+      "passed": true
+    },
+    {
+      "name": "field preserved utm_term",
+      "passed": true
+    },
+    {
+      "name": "field preserved review_context",
+      "passed": true
+    },
+    {
+      "name": "field preserved partner_id",
+      "passed": true
+    },
+    {
+      "name": "field preserved partner_name",
+      "passed": true
+    },
+    {
+      "name": "field preserved partner_code",
+      "passed": true
+    },
+    {
+      "name": "field preserved referral_source",
+      "passed": true
+    },
+    {
+      "name": "field preserved closing_urgency",
+      "passed": true
+    },
+    {
+      "name": "field preserved property_address",
+      "passed": true
+    },
+    {
+      "name": "field preserved closing_date",
+      "passed": true
+    },
+    {
+      "name": "field preserved occupancy",
+      "passed": true
+    },
+    {
+      "name": "field preserved first_name",
+      "passed": true
+    },
+    {
+      "name": "field preserved last_name",
+      "passed": true
+    },
+    {
+      "name": "field preserved phone",
+      "passed": true
+    },
+    {
+      "name": "field preserved email",
+      "passed": true
+    },
+    {
+      "name": "field preserved consent",
+      "passed": true
+    },
+    {
+      "name": "occupancy options unchanged",
+      "passed": true
+    },
+    {
+      "name": "consent text unchanged",
+      "passed": true
+    },
+    {
+      "name": "buyer step count unchanged",
+      "passed": true
+    },
+    {
+      "name": "buyer progress count unchanged",
+      "passed": true
+    },
+    {
+      "name": "buyer href inventory unchanged",
+      "passed": true
+    },
+    {
+      "name": "buyer runtime script inventory unchanged",
+      "passed": true
+    },
+    {
+      "name": "fallback href inventory unchanged",
+      "passed": true
+    },
+    {
+      "name": "fallback runtime script inventory unchanged",
+      "passed": true
+    },
+    {
+      "name": "runtime script ../shared/config.js?v=408-BUY-1.1",
+      "passed": true
+    },
+    {
+      "name": "runtime script ../shared/flyer-campaign.js?v=408-NP-1.5",
+      "passed": true
+    },
+    {
+      "name": "runtime script ../shared/buyer-referral.js?v=408-RC-SMS-1.6",
+      "passed": true
+    },
+    {
+      "name": "runtime script ../shared/coveragefit-launch.js?v=408-BUY-1.1",
+      "passed": true
+    },
+    {
+      "name": "runtime script ../shared/prospect-profile.js?v=408-BUY-1.1",
+      "passed": true
+    },
+    {
+      "name": "runtime script ../shared/address-autocomplete.js?v=408-BUY-1.1",
+      "passed": true
+    },
+    {
+      "name": "runtime script ../shared/buyer-flow.js?v=408-RC-SMS-1.6",
+      "passed": true
+    },
+    {
+      "name": "runtime script ../shared/post-lead-engagement.js?v=408-FLOW-2.3",
+      "passed": true
+    },
+    {
+      "name": "runtime script ../shared/coveragefit-invitation.js?v=408-CF-RPT-1.1",
+      "passed": true
+    },
+    {
+      "name": "runtime script ../shared/script.js?v=408-BUY-1.1",
+      "passed": true
+    },
+    {
+      "name": "runtime script /shared/ui-3-foundation.js?v=408-UI-3.1",
+      "passed": true
+    },
+    {
+      "name": "public baseline html count >=26",
+      "passed": true
+    },
+    {
+      "name": "index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "privacy.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "privacy.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "terms.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "terms.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "engineers/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "engineers/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "engineers/thank-you.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "home/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "home/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "home/thank-you.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "life/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "life/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "life/thank-you.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "life/thank-you.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "neighbor/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "neighbor/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "healthcare/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "healthcare/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "healthcare/thank-you.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "local/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "local/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "score/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "score/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "contact/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "contact/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/thank-you.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "tech/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "tech/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "tech/thank-you.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "teachers/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "teachers/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "teachers/thank-you.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "local/join/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "local/join/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "local/join/thank-you.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "local/join/thank-you.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "local/detail/index.html:still exists",
+      "passed": true
+    },
+    {
+      "name": "local/detail/index.html:byte-identical baseline",
+      "passed": true
+    },
+    {
+      "name": "_worker.js:present",
+      "passed": true
+    },
+    {
+      "name": "_worker.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/ui-3-foundation.css:present",
+      "passed": true
+    },
+    {
+      "name": "shared/ui-3-foundation.css:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/ui-3-foundation.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/ui-3-foundation.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/home-conversion-ui.css:present",
+      "passed": true
+    },
+    {
+      "name": "shared/home-conversion-ui.css:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/auto-bundle-conversion-ui.css:present",
+      "passed": true
+    },
+    {
+      "name": "shared/auto-bundle-conversion-ui.css:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/buyer.css:present",
+      "passed": true
+    },
+    {
+      "name": "shared/buyer.css:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/buyer-flow.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/buyer-flow.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/buyer-referral.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/buyer-referral.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/address-autocomplete.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/address-autocomplete.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/coveragefit-launch.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/coveragefit-launch.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/prospect-profile.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/prospect-profile.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/post-lead-engagement.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/post-lead-engagement.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/coveragefit-invitation.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/coveragefit-invitation.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/script.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/script.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/config.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/config.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/local-attribution.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/local-attribution.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "shared/life-secure-submit.js:present",
+      "passed": true
+    },
+    {
+      "name": "shared/life-secure-submit.js:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "local/data/catalog.json:present",
+      "passed": true
+    },
+    {
+      "name": "local/data/catalog.json:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "local/pilot/pilot-launch.json:present",
+      "passed": true
+    },
+    {
+      "name": "local/pilot/pilot-launch.json:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "local/pilot/stevies-qr-campaigns.json:present",
+      "passed": true
+    },
+    {
+      "name": "local/pilot/stevies-qr-campaigns.json:byte-identical",
+      "passed": true
+    },
+    {
+      "name": "buyer CSS token var(--ui3-navy-950)",
+      "passed": true
+    },
+    {
+      "name": "buyer CSS token var(--ui3-red)",
+      "passed": true
+    },
+    {
+      "name": "buyer CSS token var(--ui3-white)",
+      "passed": true
+    },
+    {
+      "name": "buyer CSS token var(--ui3-line)",
+      "passed": true
+    },
+    {
+      "name": "buyer CSS token var(--ui3-soft)",
+      "passed": true
+    },
+    {
+      "name": "buyer CSS token var(--ui3-soft-blue)",
+      "passed": true
+    },
+    {
+      "name": "buyer CSS selector body.buyer-page .buyer-hero",
+      "passed": true
+    },
+    {
+      "name": "buyer CSS selector body.buyer-page .buyer-referral-pill",
+      "passed": true
+    },
+    {
+      "name": "buyer CSS selector body.buyer-page .buyer-visual",
+      "passed": true
+    },
+    {
+      "name": "buyer CSS selector body.buyer-page .buyer-intake-inner",
+      "passed": true
+    },
+    {
+      "name": "buyer CSS selector body.buyer-page .buyer-form-card",
+      "passed": true
+    },
+    {
+      "name": "buyer CSS selector body.buyer-page .buyer-progress",
+      "passed": true
+    },
+    {
+      "name": "buyer CSS selector body.buyer-page .buyer-next",
+      "passed": true
+    },
+    {
+      "name": "buyer CSS selector body.buyer-page .buyer-agent",
+      "passed": true
+    },
+    {
+      "name": "buyer CSS selector body.buyer-page .buyer-thanks-card",
+      "passed": true
+    },
+    {
+      "name": "Farmers red primary",
+      "passed": true
+    },
+    {
+      "name": "Farmers red focus",
+      "passed": true
+    },
+    {
+      "name": "no giant headline",
+      "passed": true
+    },
+    {
+      "name": "phone breakpoint",
+      "passed": true
+    },
+    {
+      "name": "tablet breakpoint",
+      "passed": true
+    },
+    {
+      "name": "short landscape support",
+      "passed": true
+    },
+    {
+      "name": "reduced motion support",
+      "passed": true
+    },
+    {
+      "name": "forced colors support",
+      "passed": true
+    },
+    {
+      "name": "internal links checked >=120",
+      "passed": true
+    },
+    {
+      "name": "internal links broken 0",
+      "passed": true
+    }
+  ]
+}

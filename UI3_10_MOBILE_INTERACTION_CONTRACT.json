@@ -1,0 +1,1921 @@
+{
+  "sprint": "408-UI-3.10",
+  "name": "Mobile Interaction Pass",
+  "behavior_frozen": true,
+  "public_pages": [
+    "404.html",
+    "auto-bundle/index.html",
+    "auto-bundle/thank-you.html",
+    "buyer/index.html",
+    "buyer/thank-you.html",
+    "contact/index.html",
+    "engineers/index.html",
+    "engineers/thank-you.html",
+    "healthcare/index.html",
+    "healthcare/thank-you.html",
+    "home/index.html",
+    "home/thank-you.html",
+    "index.html",
+    "life/index.html",
+    "life/thank-you.html",
+    "local/detail/index.html",
+    "local/index.html",
+    "local/join/index.html",
+    "local/join/thank-you.html",
+    "neighbor/index.html",
+    "privacy.html",
+    "score/index.html",
+    "teachers/index.html",
+    "teachers/thank-you.html",
+    "tech/index.html",
+    "tech/thank-you.html",
+    "terms.html"
+  ],
+  "excluded": [
+    "life-ops/index.html"
+  ],
+  "mobile_stylesheet": "shared/mobile-interaction.css",
+  "form_contracts": {
+    "auto-bundle/index.html": [
+      {
+        "id": "leadForm",
+        "action": "https://formspree.io/f/mojgnegn",
+        "method": "POST",
+        "success": "thank-you.html",
+        "fields": [
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "source",
+            "required": false,
+            "value": "408farmers.com/auto-bundle"
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "campaign",
+            "required": false,
+            "value": "Already Paying for Auto Insurance"
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "review_context",
+            "required": false,
+            "value": "Home and auto together"
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "landing_page",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "submitted_at",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_source",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_medium",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_campaign",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_content",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_term",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "first_name",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "last_name",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "tel",
+            "name": "phone",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "email",
+            "name": "email",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "property_address",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "select",
+            "type": "",
+            "name": "housing_context",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "name": "consent",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "button",
+            "type": "submit",
+            "name": "",
+            "required": false,
+            "value": ""
+          }
+        ]
+      }
+    ],
+    "buyer/index.html": [
+      {
+        "id": "leadForm",
+        "action": "https://formspree.io/f/mojgnegn",
+        "method": "POST",
+        "success": "thank-you.html",
+        "fields": [
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "source",
+            "required": false,
+            "value": "408farmers.com/buyer"
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "campaign",
+            "required": false,
+            "value": "buyer_direct_web"
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "campaign_id",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "campaign_variant",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "campaign_zip",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "landing_page",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "submitted_at",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_source",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_medium",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_campaign",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_content",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_term",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "review_context",
+            "required": false,
+            "value": "Buying a home"
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "partner_id",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "partner_name",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "partner_code",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "referral_source",
+            "required": false,
+            "value": "buyer_direct"
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "closing_urgency",
+            "required": false,
+            "value": "not_set"
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "property_formatted_address",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "property_street",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "property_city",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "property_county",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "property_state",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "property_zip",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "property_country",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "property_place_id",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "address_selection_method",
+            "required": false,
+            "value": "manual"
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "property_address",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "date",
+            "name": "closing_date",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "select",
+            "type": "",
+            "name": "occupancy",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "button",
+            "type": "button",
+            "name": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "first_name",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "last_name",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "tel",
+            "name": "phone",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "email",
+            "name": "email",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "name": "consent",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "button",
+            "type": "button",
+            "name": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "button",
+            "type": "submit",
+            "name": "",
+            "required": false,
+            "value": ""
+          }
+        ]
+      }
+    ],
+    "engineers/index.html": [
+      {
+        "id": "leadForm",
+        "action": "https://formspree.io/f/mojgnegn",
+        "method": "POST",
+        "success": "thank-you.html",
+        "fields": [
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "source",
+            "required": false,
+            "value": "408farmers.com/engineers"
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "campaign",
+            "required": false,
+            "value": "Are You an Engineer"
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "review_context",
+            "required": false,
+            "value": "Professional eligibility and home coverage review"
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "landing_page",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "submitted_at",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_source",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_medium",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_campaign",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_content",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_term",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "first_name",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "last_name",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "tel",
+            "name": "phone",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "email",
+            "name": "email",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "property_address",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "select",
+            "type": "",
+            "name": "occupation_segment",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "name": "consent",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "button",
+            "type": "submit",
+            "name": "",
+            "required": false,
+            "value": ""
+          }
+        ]
+      }
+    ],
+    "healthcare/index.html": [
+      {
+        "id": "leadForm",
+        "action": "https://formspree.io/f/mojgnegn",
+        "method": "POST",
+        "success": "thank-you.html",
+        "fields": [
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "source",
+            "required": false,
+            "value": "408farmers.com/healthcare"
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "campaign",
+            "required": false,
+            "value": "Work in Healthcare"
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "review_context",
+            "required": false,
+            "value": "Professional eligibility and home coverage review"
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "landing_page",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "submitted_at",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_source",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_medium",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_campaign",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_content",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_term",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "first_name",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "last_name",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "tel",
+            "name": "phone",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "email",
+            "name": "email",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "property_address",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "select",
+            "type": "",
+            "name": "occupation_segment",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "name": "consent",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "button",
+            "type": "submit",
+            "name": "",
+            "required": false,
+            "value": ""
+          }
+        ]
+      }
+    ],
+    "home/index.html": [
+      {
+        "id": "leadForm",
+        "action": "https://formspree.io/f/mojgnegn",
+        "method": "POST",
+        "success": "thank-you.html",
+        "fields": [
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "source",
+            "required": false,
+            "value": "408farmers.com/home"
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "campaign",
+            "required": false,
+            "value": "Does Your Insurance Still Fit Your Home"
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "campaign_id",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "campaign_variant",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "campaign_zip",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "landing_page",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "submitted_at",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_source",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_medium",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_campaign",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_content",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_term",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "property_formatted_address",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "property_street",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "property_city",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "property_county",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "property_state",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "property_zip",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "property_country",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "property_place_id",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "address_selection_method",
+            "required": false,
+            "value": "manual"
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "home_review_goal",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "housing_context",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "review_timing",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "first_name",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "last_name",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "tel",
+            "name": "phone",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "email",
+            "name": "email",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "button",
+            "type": "button",
+            "name": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "property_address",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "select",
+            "type": "",
+            "name": "review_context",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "name": "consent",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "button",
+            "type": "button",
+            "name": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "button",
+            "type": "submit",
+            "name": "",
+            "required": false,
+            "value": ""
+          }
+        ]
+      }
+    ],
+    "life/index.html": [
+      {
+        "id": "",
+        "action": "",
+        "method": "",
+        "success": "",
+        "fields": [
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "name": "protection_priority",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "name": "protection_priority",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "name": "protection_priority",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "name": "protection_priority",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "name": "protection_priority",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "name": "protection_priority",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "name": "protection_priority",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "button",
+            "type": "button",
+            "name": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "radio",
+            "name": "income_runway",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "radio",
+            "name": "income_runway",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "radio",
+            "name": "income_runway",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "radio",
+            "name": "income_runway",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "radio",
+            "name": "income_runway",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "button",
+            "type": "button",
+            "name": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "button",
+            "type": "button",
+            "name": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "radio",
+            "name": "existing_life_coverage",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "radio",
+            "name": "existing_life_coverage",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "radio",
+            "name": "existing_life_coverage",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "radio",
+            "name": "existing_life_coverage",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "radio",
+            "name": "existing_life_coverage",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "button",
+            "type": "button",
+            "name": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "button",
+            "type": "button",
+            "name": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "first_name",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "middle_name",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "last_name",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "radio",
+            "name": "gender",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "radio",
+            "name": "gender",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "radio",
+            "name": "gender",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "date",
+            "name": "date_of_birth",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "button",
+            "type": "button",
+            "name": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "button",
+            "type": "button",
+            "name": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "residential_address",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "residential_address_2",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "residential_city",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "residential_state",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "residential_zip",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "email",
+            "name": "email",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "tel",
+            "name": "phone",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "button",
+            "type": "button",
+            "name": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "button",
+            "type": "button",
+            "name": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "password",
+            "name": "ssn_last4",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "name": "application_acknowledgement",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "button",
+            "type": "button",
+            "name": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "button",
+            "type": "submit",
+            "name": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "website",
+            "required": false,
+            "value": ""
+          }
+        ]
+      }
+    ],
+    "local/join/index.html": [
+      {
+        "id": "localMerchantJoinForm",
+        "action": "https://formspree.io/f/mojgnegn",
+        "method": "POST",
+        "success": "/local/join/thank-you.html",
+        "fields": [
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "form_type",
+            "required": false,
+            "value": "local_merchant_application"
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "source",
+            "required": false,
+            "value": "408farmers.com/local/join"
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "campaign",
+            "required": false,
+            "value": "408FARMERS Local Merchant Pilot"
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "_subject",
+            "required": false,
+            "value": "408FARMERS Local Merchant Application"
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "landing_page",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "submitted_at",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_source",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_medium",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_campaign",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_content",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_term",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "_gotcha",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "business_name",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "select",
+            "type": "",
+            "name": "category",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "business_location",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "url",
+            "name": "website_social",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "contact_name",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "email",
+            "name": "email",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "tel",
+            "name": "phone",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "textarea",
+            "type": "",
+            "name": "proposed_perk",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "textarea",
+            "type": "",
+            "name": "notes",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "name": "authorized_ack",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "name": "separation_ack",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "button",
+            "type": "submit",
+            "name": "",
+            "required": false,
+            "value": ""
+          }
+        ]
+      }
+    ],
+    "teachers/index.html": [
+      {
+        "id": "leadForm",
+        "action": "https://formspree.io/f/mojgnegn",
+        "method": "POST",
+        "success": "thank-you.html",
+        "fields": [
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "source",
+            "required": false,
+            "value": "408farmers.com/teachers"
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "campaign",
+            "required": false,
+            "value": "Teachers and School Employees"
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "review_context",
+            "required": false,
+            "value": "Professional eligibility and home coverage review"
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "landing_page",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "submitted_at",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_source",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_medium",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_campaign",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_content",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_term",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "first_name",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "last_name",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "tel",
+            "name": "phone",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "email",
+            "name": "email",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "property_address",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "select",
+            "type": "",
+            "name": "occupation_segment",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "name": "consent",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "button",
+            "type": "submit",
+            "name": "",
+            "required": false,
+            "value": ""
+          }
+        ]
+      }
+    ],
+    "tech/index.html": [
+      {
+        "id": "leadForm",
+        "action": "https://formspree.io/f/mojgnegn",
+        "method": "POST",
+        "success": "thank-you.html",
+        "fields": [
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "source",
+            "required": false,
+            "value": "408farmers.com/tech"
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "campaign",
+            "required": false,
+            "value": "Work in Tech"
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "review_context",
+            "required": false,
+            "value": "Professional eligibility and home coverage review"
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "landing_page",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "submitted_at",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_source",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_medium",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_campaign",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_content",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "utm_term",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "first_name",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "last_name",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "tel",
+            "name": "phone",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "email",
+            "name": "email",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "property_address",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "select",
+            "type": "",
+            "name": "occupation_segment",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "name": "consent",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "button",
+            "type": "submit",
+            "name": "",
+            "required": false,
+            "value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "protected_runtime_hashes": [
+    {
+      "path": "_worker.js",
+      "sha256": "fff94d29593f23a15765e66b6627e0339480e0ca394ad86086b06026392d2690"
+    },
+    {
+      "path": "shared/accessibility.js",
+      "sha256": "43ab9e3e82ea16a113684ec85fd1c88ac3e53d57ca428a4ec38941e363aa6b86"
+    },
+    {
+      "path": "shared/address-autocomplete.js",
+      "sha256": "e457fa24ba4dff7585b7795172b90fbe52c651b918fb54d4a35f2ac3b486f4f0"
+    },
+    {
+      "path": "shared/buyer-flow.js",
+      "sha256": "cbb34820bd134d61ea1fae40cdde759381b9a951e9474dbb1663b1f53e548bc9"
+    },
+    {
+      "path": "shared/buyer-referral.js",
+      "sha256": "48dec66d8f5abdb58e643b19c95168b5a411664b5272125b0766f70d16e3ce97"
+    },
+    {
+      "path": "shared/campaign.js",
+      "sha256": "dd2935996a955394b8818457e700c043ad76d5284e4071a704366ab070280a9b"
+    },
+    {
+      "path": "shared/config.js",
+      "sha256": "3184a565b13546c556e0183e392b0ff37bd8884a348848565707a23ba8c090c8"
+    },
+    {
+      "path": "shared/contact-choice.js",
+      "sha256": "404db7a38202a64ea7168438e3d68610adf9ff0113e36620d8cb8ea80c2ea54e"
+    },
+    {
+      "path": "shared/coveragefit-invitation.js",
+      "sha256": "e328485e65d1dcc48ee4b1ada845d2975d20eaae07106fcf59e7f20f8c85e454"
+    },
+    {
+      "path": "shared/coveragefit-launch.js",
+      "sha256": "0656746d83b8b54f5b322cd530e9150a9b2fe5274ae865b4808919ccd62191b9"
+    },
+    {
+      "path": "shared/flyer-campaign.js",
+      "sha256": "f713bd45ea120be072df6b3235cabfad8d8de5637c8dc70d412a513ebe8990f2"
+    },
+    {
+      "path": "shared/home-baseline.js",
+      "sha256": "b0ae8e923e21d8392640ce78dc8fd0f7b6c46cee2d841112b30b4d500dbc0dba"
+    },
+    {
+      "path": "shared/home-certification.js",
+      "sha256": "3991ea57e8e58e97c54b7881cc4de6d0478fc71039c244b368cdd09bba7c8609"
+    },
+    {
+      "path": "shared/home-confirmation.js",
+      "sha256": "428e9a6fc550b6a48e5a157543bcf5f1fc5824415b5f068720d38033f2b50a4b"
+    },
+    {
+      "path": "shared/home-continuity.js",
+      "sha256": "ce542cc79420859e3d222edacd6ba860a1c305f1d445502141973fd35a4b3f9d"
+    },
+    {
+      "path": "shared/home-engagement.js",
+      "sha256": "8b1e878b22da159c7eb497daff8fc61b49a2a5ad18080e0f91573c2ea8621dc2"
+    },
+    {
+      "path": "shared/home-form-first.js",
+      "sha256": "2855b3c2fab0a457203fc76b571a02d0d845806b1231a3abe4c2e36cd1533aac"
+    },
+    {
+      "path": "shared/home-journey-contract.js",
+      "sha256": "867d31954774461394936a6cea63cddf7eaac74526570363dce3845079cb79f2"
+    },
+    {
+      "path": "shared/home-lead-progressive.js",
+      "sha256": "e71cca1508b06d663f7021ce159cdaa26bd3e7d569fb1f02e776d1f7079a1cb1"
+    },
+    {
+      "path": "shared/homepage-optimization.js",
+      "sha256": "3587842768631e48b2fcd55dfeac5d8d90d0b054ef78bd6e3ac9a898449926f5"
+    },
+    {
+      "path": "shared/life-campaign.js",
+      "sha256": "0c79e9a41bc481841c0e00070b40bc06e2f29658f3df27c100ac39ecf9800b1e"
+    },
+    {
+      "path": "shared/life-conversion.js",
+      "sha256": "662cd5a7925bed73168b5cba8529f1c428a5774bb4cccb624673cf992f1b32ee"
+    },
+    {
+      "path": "shared/life-intake.js",
+      "sha256": "ab484e0019d0ba1091dd4dfefa95b92e813546f68d15db57476225d661875dbb"
+    },
+    {
+      "path": "shared/life-ops.js",
+      "sha256": "2173122572e12a7d9bc6db80ba96c866899de21cebab2c01f0cea2d6d716f58f"
+    },
+    {
+      "path": "shared/life-secure-submit.js",
+      "sha256": "10b5b1a1a77a11b83a01ddd3818947552d0fecda2e5cb5e77a6b678648a11b08"
+    },
+    {
+      "path": "shared/local-attribution.js",
+      "sha256": "f9e04b4214e36805c5443ea88bff4f7978878f414295c960d4787d1c653ea7fe"
+    },
+    {
+      "path": "shared/local-data-model.js",
+      "sha256": "ff06f29c256d85adc4d8813187719a640c918a3cb7381b43c24d4469149fa17e"
+    },
+    {
+      "path": "shared/local-directory.js",
+      "sha256": "aeee96922378d235b177d229d1949220f17518927c3b4383c1964bdb12bfbb8c"
+    },
+    {
+      "path": "shared/local-join.js",
+      "sha256": "69f4a0f5aeb772b4bd98ee6629d527c0510a26d37c1c0c874399127c704dcce0"
+    },
+    {
+      "path": "shared/local-merchant.js",
+      "sha256": "806940982132e48d21284a5983a5c02fc535efb79a9a87cb98d2605795e0c55f"
+    },
+    {
+      "path": "shared/motion.js",
+      "sha256": "b3e44af3972dced6a02d0c7872d1a013cda955508599dab6689cd451111564ec"
+    },
+    {
+      "path": "shared/post-lead-engagement.js",
+      "sha256": "2f63b3aafe7f9112533fc3aba20fe1d7688c2def2027bc516f041d3bc1f90d11"
+    },
+    {
+      "path": "shared/progressive-intake.js",
+      "sha256": "cbc37c0aa6bb7163b416958fadfdbd5fd4ceee15ec325fab377ba1c4b0fb8c70"
+    },
+    {
+      "path": "shared/prospect-profile.js",
+      "sha256": "9b588ad7003ee4e1ce915f5b75a215b7ccc478f262a6c7824bae26a9b08dc7c3"
+    },
+    {
+      "path": "shared/referral-bridge.js",
+      "sha256": "1c0f08975cbea57dc2929364ac4f19ecce33da1ac4a371adf1ca254cf0d7d4dd"
+    },
+    {
+      "path": "shared/score.js",
+      "sha256": "d23ab501865940dde7071c0772b0e8f6bf964a12a5a106f8bc99b9805192ccec"
+    },
+    {
+      "path": "shared/script.js",
+      "sha256": "5a5f19a43d237e44b9599fbd6536b228b0e71682cfe5d22a7b77fcdbd3acf6d7"
+    },
+    {
+      "path": "shared/ui-3-foundation.js",
+      "sha256": "979568c3158c9710db8febaa784e55838e6c88cc038b9414a6247076722407e3"
+    },
+    {
+      "path": "local/data/catalog.json",
+      "sha256": "4d7b0bb9a1e376b57270f833ec692b50af59cb8084f8c6fde6896ceda516d652"
+    },
+    {
+      "path": "local/data/catalog.schema.json",
+      "sha256": "a56f9a6c37878b139c52a9948bbe012d7186a0664c116039cb2bd60e8583b72d"
+    }
+  ],
+  "requirements": [
+    "viewport-fit=cover",
+    "safe-area-inset-top",
+    "safe-area-inset-bottom",
+    "100dvh",
+    "44px touch targets",
+    "16px mobile form controls",
+    "mobile menu internal scrolling",
+    "focus scroll margins",
+    "short landscape refinement",
+    "no sticky mobile submit overlay"
+  ]
+}
