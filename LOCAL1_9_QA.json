@@ -1,0 +1,459 @@
+{
+  "total": 113,
+  "passed": 113,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "required SPRINT-408-LOCAL-1.9.md",
+      "passed": true
+    },
+    {
+      "name": "required LOCAL1_9_PILOT_LAUNCH_CONTRACT.json",
+      "passed": true
+    },
+    {
+      "name": "required local/pilot/pilot-launch.json",
+      "passed": true
+    },
+    {
+      "name": "required local/pilot/stevies-qr-campaigns.json",
+      "passed": true
+    },
+    {
+      "name": "required local/pilot/STEVIES-STAFF-REDEMPTION-GUIDE.md",
+      "passed": true
+    },
+    {
+      "name": "required local/pilot/PILOT-LAUNCH-RUNBOOK.md",
+      "passed": true
+    },
+    {
+      "name": "required local/pilot/STEVIES-IDENTITY-VALIDATION.md",
+      "passed": true
+    },
+    {
+      "name": "required local/assets/pilot/stevies/qr-table.png",
+      "passed": true
+    },
+    {
+      "name": "required local/assets/pilot/stevies/qr-table.svg",
+      "passed": true
+    },
+    {
+      "name": "required local/assets/pilot/stevies/qr-counter.png",
+      "passed": true
+    },
+    {
+      "name": "required local/assets/pilot/stevies/qr-counter.svg",
+      "passed": true
+    },
+    {
+      "name": "required local/assets/pilot/stevies/qr-placard.png",
+      "passed": true
+    },
+    {
+      "name": "required local/assets/pilot/stevies/qr-placard.svg",
+      "passed": true
+    },
+    {
+      "name": "required local/assets/pilot/stevies/stevies-local-perk-placard.svg",
+      "passed": true
+    },
+    {
+      "name": "catalog schema version preserved",
+      "passed": true
+    },
+    {
+      "name": "catalog dataset advanced to 1.9",
+      "passed": true
+    },
+    {
+      "name": "catalog validates",
+      "passed": true
+    },
+    {
+      "name": "exactly one real merchant active in candidate",
+      "passed": true
+    },
+    {
+      "name": "real merchant is Stevies",
+      "passed": true
+    },
+    {
+      "name": "Stevies has expected public address",
+      "passed": true
+    },
+    {
+      "name": "Stevies official website uses https",
+      "passed": true
+    },
+    {
+      "name": "Stevies instagram configured",
+      "passed": true
+    },
+    {
+      "name": "Stevies is featured Eat Drink",
+      "passed": true
+    },
+    {
+      "name": "exactly one real active perk",
+      "passed": true
+    },
+    {
+      "name": "Stevies perk joined to merchant",
+      "passed": true
+    },
+    {
+      "name": "Stevies perk exact offer",
+      "passed": true
+    },
+    {
+      "name": "perk is evergreen show screen",
+      "passed": true
+    },
+    {
+      "name": "perk carries independent offer rule",
+      "passed": true
+    },
+    {
+      "name": "perk terms carry no insurance rule",
+      "passed": true
+    },
+    {
+      "name": "three original fixture merchants retained",
+      "passed": true
+    },
+    {
+      "name": "all fixture merchants remain non-public",
+      "passed": true
+    },
+    {
+      "name": "three original fixture perks retained",
+      "passed": true
+    },
+    {
+      "name": "all fixture perks remain non-public",
+      "passed": true
+    },
+    {
+      "name": "public view models expose only one real merchant",
+      "passed": true
+    },
+    {
+      "name": "public view model resolves active perk",
+      "passed": true
+    },
+    {
+      "name": "canonical merchant route is correct",
+      "passed": true
+    },
+    {
+      "name": "directory renderer shows Stevies",
+      "passed": true
+    },
+    {
+      "name": "directory renderer shows current perk",
+      "passed": true
+    },
+    {
+      "name": "merchant detail resolves Stevies",
+      "passed": true
+    },
+    {
+      "name": "detail renders Use This Perk",
+      "passed": true
+    },
+    {
+      "name": "detail renders no insurance requirement",
+      "passed": true
+    },
+    {
+      "name": "detail includes optional post-value insurance bridge",
+      "passed": true
+    },
+    {
+      "name": "pilot manifest target remains three",
+      "passed": true
+    },
+    {
+      "name": "pilot manifest accurately reports one active",
+      "passed": true
+    },
+    {
+      "name": "eat drink slot active",
+      "passed": true
+    },
+    {
+      "name": "auto slot intentionally pending",
+      "passed": true
+    },
+    {
+      "name": "home slot intentionally pending",
+      "passed": true
+    },
+    {
+      "name": "auto offer framework stored nonpublicly",
+      "passed": true
+    },
+    {
+      "name": "home offer framework stored nonpublicly",
+      "passed": true
+    },
+    {
+      "name": "pending slots cannot activate publicly",
+      "passed": true
+    },
+    {
+      "name": "three attributable QR surfaces exist",
+      "passed": true
+    },
+    {
+      "name": "merchant_table:host correct",
+      "passed": true
+    },
+    {
+      "name": "merchant_table:canonical path",
+      "passed": true
+    },
+    {
+      "name": "merchant_table:source local",
+      "passed": true
+    },
+    {
+      "name": "merchant_table:partner id",
+      "passed": true
+    },
+    {
+      "name": "merchant_table:perk id",
+      "passed": true
+    },
+    {
+      "name": "merchant_table:merchant slug",
+      "passed": true
+    },
+    {
+      "name": "merchant_table:surface preserved",
+      "passed": true
+    },
+    {
+      "name": "merchant_table:utm medium merchant qr",
+      "passed": true
+    },
+    {
+      "name": "merchant_table:png exists",
+      "passed": true
+    },
+    {
+      "name": "merchant_table:svg exists",
+      "passed": true
+    },
+    {
+      "name": "merchant_counter:host correct",
+      "passed": true
+    },
+    {
+      "name": "merchant_counter:canonical path",
+      "passed": true
+    },
+    {
+      "name": "merchant_counter:source local",
+      "passed": true
+    },
+    {
+      "name": "merchant_counter:partner id",
+      "passed": true
+    },
+    {
+      "name": "merchant_counter:perk id",
+      "passed": true
+    },
+    {
+      "name": "merchant_counter:merchant slug",
+      "passed": true
+    },
+    {
+      "name": "merchant_counter:surface preserved",
+      "passed": true
+    },
+    {
+      "name": "merchant_counter:utm medium merchant qr",
+      "passed": true
+    },
+    {
+      "name": "merchant_counter:png exists",
+      "passed": true
+    },
+    {
+      "name": "merchant_counter:svg exists",
+      "passed": true
+    },
+    {
+      "name": "merchant_placard:host correct",
+      "passed": true
+    },
+    {
+      "name": "merchant_placard:canonical path",
+      "passed": true
+    },
+    {
+      "name": "merchant_placard:source local",
+      "passed": true
+    },
+    {
+      "name": "merchant_placard:partner id",
+      "passed": true
+    },
+    {
+      "name": "merchant_placard:perk id",
+      "passed": true
+    },
+    {
+      "name": "merchant_placard:merchant slug",
+      "passed": true
+    },
+    {
+      "name": "merchant_placard:surface preserved",
+      "passed": true
+    },
+    {
+      "name": "merchant_placard:utm medium merchant qr",
+      "passed": true
+    },
+    {
+      "name": "merchant_placard:png exists",
+      "passed": true
+    },
+    {
+      "name": "merchant_placard:svg exists",
+      "passed": true
+    },
+    {
+      "name": "staff guide states exact perk",
+      "passed": true
+    },
+    {
+      "name": "staff guide forbids insurance gate",
+      "passed": true
+    },
+    {
+      "name": "placard has exact perk",
+      "passed": true
+    },
+    {
+      "name": "placard has no insurance requirement",
+      "passed": true
+    },
+    {
+      "name": "placard references attributable QR",
+      "passed": true
+    },
+    {
+      "name": "1.9 contract reports one of three active",
+      "passed": true
+    },
+    {
+      "name": "1.9 contract does not falsely claim operational closeout",
+      "passed": true
+    },
+    {
+      "name": "1.9 contract preserves insurance boundary",
+      "passed": true
+    },
+    {
+      "name": "1.9 contract advances only after operational closeout",
+      "passed": true
+    },
+    {
+      "name": "local directory marker advanced",
+      "passed": true
+    },
+    {
+      "name": "local detail marker advanced",
+      "passed": true
+    },
+    {
+      "name": "roadmap names current candidate",
+      "passed": true
+    },
+    {
+      "name": "roadmap does not mark 1.9 complete",
+      "passed": true
+    },
+    {
+      "name": "root roadmap leaves 1.9 open",
+      "passed": true
+    },
+    {
+      "name": "version identifies candidate",
+      "passed": true
+    },
+    {
+      "name": "home/index.html:unchanged from 1.8",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html:unchanged from 1.8",
+      "passed": true
+    },
+    {
+      "name": "buyer/index.html:unchanged from 1.8",
+      "passed": true
+    },
+    {
+      "name": "healthcare/index.html:unchanged from 1.8",
+      "passed": true
+    },
+    {
+      "name": "teachers/index.html:unchanged from 1.8",
+      "passed": true
+    },
+    {
+      "name": "tech/index.html:unchanged from 1.8",
+      "passed": true
+    },
+    {
+      "name": "engineers/index.html:unchanged from 1.8",
+      "passed": true
+    },
+    {
+      "name": "life/index.html:unchanged from 1.8",
+      "passed": true
+    },
+    {
+      "name": "shared/script.js:unchanged from 1.8",
+      "passed": true
+    },
+    {
+      "name": "shared/coveragefit-launch.js:unchanged from 1.8",
+      "passed": true
+    },
+    {
+      "name": "shared/local-attribution.js:unchanged from 1.8",
+      "passed": true
+    },
+    {
+      "name": "shared/local-merchant.js:unchanged from 1.8",
+      "passed": true
+    },
+    {
+      "name": "shared/local-directory.js:unchanged from 1.8",
+      "passed": true
+    },
+    {
+      "name": "shared/local-data-model.js:unchanged from 1.8",
+      "passed": true
+    },
+    {
+      "name": "shared/local-join.js:unchanged from 1.8",
+      "passed": true
+    },
+    {
+      "name": "_worker.js:unchanged from 1.8",
+      "passed": true
+    },
+    {
+      "name": "local/data/catalog.schema.json:unchanged from 1.8",
+      "passed": true
+    }
+  ]
+}

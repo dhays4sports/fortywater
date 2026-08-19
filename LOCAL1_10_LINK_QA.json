@@ -1,0 +1,7 @@
+{
+  "scope": "public_site_html_excluding_qa_fixtures_and_runtime_api_endpoints",
+  "html_files_checked": 27,
+  "checked": 430,
+  "broken": 0,
+  "examples": []
+}

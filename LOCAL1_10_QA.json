@@ -1,0 +1,592 @@
+{
+  "sprint": "408-LOCAL-1.10",
+  "total": 146,
+  "passed": 146,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "required SPRINT-408-LOCAL-1.10.md",
+      "passed": true
+    },
+    {
+      "name": "required LOCAL1_10_CONVERSION_COMPLIANCE_CONTRACT.json",
+      "passed": true
+    },
+    {
+      "name": "required LOCAL1_10_COMPLIANCE_PREFLIGHT.md",
+      "passed": true
+    },
+    {
+      "name": "required LOCAL1_10_EXTERNAL_CLOSEOUT.md",
+      "passed": true
+    },
+    {
+      "name": "contract identifies 1.10",
+      "passed": true
+    },
+    {
+      "name": "technical source certification passes",
+      "passed": true
+    },
+    {
+      "name": "production activation is NO-GO",
+      "passed": true
+    },
+    {
+      "name": "three merchant target preserved",
+      "passed": true
+    },
+    {
+      "name": "only one active real merchant claimed",
+      "passed": true
+    },
+    {
+      "name": "Auto and Home remain remaining slots",
+      "passed": true
+    },
+    {
+      "name": "Generation 2 remains blocked",
+      "passed": true
+    },
+    {
+      "name": "catalog validates",
+      "passed": true
+    },
+    {
+      "name": "exactly one real merchant exists",
+      "passed": true
+    },
+    {
+      "name": "Stevies is active",
+      "passed": true
+    },
+    {
+      "name": "exactly one real perk exists",
+      "passed": true
+    },
+    {
+      "name": "Stevies perk is active",
+      "passed": true
+    },
+    {
+      "name": "Stevies perk independent offer sentence",
+      "passed": true
+    },
+    {
+      "name": "Stevies terms repeat independence",
+      "passed": true
+    },
+    {
+      "name": "Stevies redemption remains show-screen",
+      "passed": true
+    },
+    {
+      "name": "merchant draft is hidden",
+      "passed": true
+    },
+    {
+      "name": "merchant paused is hidden",
+      "passed": true
+    },
+    {
+      "name": "merchant inactive is hidden",
+      "passed": true
+    },
+    {
+      "name": "fixture merchant is hidden",
+      "passed": true
+    },
+    {
+      "name": "perk draft is not active",
+      "passed": true
+    },
+    {
+      "name": "perk draft has no redemption button",
+      "passed": true
+    },
+    {
+      "name": "perk paused is not active",
+      "passed": true
+    },
+    {
+      "name": "perk paused has no redemption button",
+      "passed": true
+    },
+    {
+      "name": "perk inactive is not active",
+      "passed": true
+    },
+    {
+      "name": "perk inactive has no redemption button",
+      "passed": true
+    },
+    {
+      "name": "scheduled perk is not active before start",
+      "passed": true
+    },
+    {
+      "name": "expired perk is not active after end",
+      "passed": true
+    },
+    {
+      "name": "in-window dated perk is active",
+      "passed": true
+    },
+    {
+      "name": "public directory exposes only Stevies",
+      "passed": true
+    },
+    {
+      "name": "directory contains merchant",
+      "passed": true
+    },
+    {
+      "name": "directory contains active perk",
+      "passed": true
+    },
+    {
+      "name": "detail contains redemption action",
+      "passed": true
+    },
+    {
+      "name": "detail states no quote/purchase requirement",
+      "passed": true
+    },
+    {
+      "name": "detail includes post-value insurance bridge",
+      "passed": true
+    },
+    {
+      "name": "bridge says perk already available",
+      "passed": true
+    },
+    {
+      "name": "bridge says insurance does not change perk",
+      "passed": true
+    },
+    {
+      "name": "bridge offers existing home route",
+      "passed": true
+    },
+    {
+      "name": "bridge offers existing bundle route",
+      "passed": true
+    },
+    {
+      "name": "local/index.html:contains agency license",
+      "passed": true
+    },
+    {
+      "name": "local/index.html:does not claim policyholder-only access",
+      "passed": true
+    },
+    {
+      "name": "local/detail/index.html:contains agency license",
+      "passed": true
+    },
+    {
+      "name": "local/detail/index.html:does not claim policyholder-only access",
+      "passed": true
+    },
+    {
+      "name": "local/join/index.html:contains agency license",
+      "passed": true
+    },
+    {
+      "name": "local/join/index.html:does not claim policyholder-only access",
+      "passed": true
+    },
+    {
+      "name": "local/join/thank-you.html:contains agency license",
+      "passed": true
+    },
+    {
+      "name": "local/join/thank-you.html:does not claim policyholder-only access",
+      "passed": true
+    },
+    {
+      "name": "Local directory explicitly says no insurance purchase",
+      "passed": true
+    },
+    {
+      "name": "Local directory explicitly says no quote required",
+      "passed": true
+    },
+    {
+      "name": "Local directory explicitly says no pricing/eligibility effect",
+      "passed": true
+    },
+    {
+      "name": "program relationship text disclaims endorsement",
+      "passed": true
+    },
+    {
+      "name": "placard contains exact active offer",
+      "passed": true
+    },
+    {
+      "name": "placard contains no insurance gate",
+      "passed": true
+    },
+    {
+      "name": "placard says Local is not insurance discount program",
+      "passed": true
+    },
+    {
+      "name": "placard includes agency name disclosure",
+      "passed": true
+    },
+    {
+      "name": "placard includes CA license disclosure",
+      "passed": true
+    },
+    {
+      "name": "Stevies QR manifest has three surfaces",
+      "passed": true
+    },
+    {
+      "name": "merchant_table:known surface",
+      "passed": true
+    },
+    {
+      "name": "merchant_table:https host",
+      "passed": true
+    },
+    {
+      "name": "merchant_table:canonical path",
+      "passed": true
+    },
+    {
+      "name": "merchant_table:source local",
+      "passed": true
+    },
+    {
+      "name": "merchant_table:partner",
+      "passed": true
+    },
+    {
+      "name": "merchant_table:perk",
+      "passed": true
+    },
+    {
+      "name": "merchant_table:slug",
+      "passed": true
+    },
+    {
+      "name": "merchant_table:surface",
+      "passed": true
+    },
+    {
+      "name": "merchant_table:PNG exists",
+      "passed": true
+    },
+    {
+      "name": "merchant_table:SVG exists",
+      "passed": true
+    },
+    {
+      "name": "merchant_counter:known surface",
+      "passed": true
+    },
+    {
+      "name": "merchant_counter:https host",
+      "passed": true
+    },
+    {
+      "name": "merchant_counter:canonical path",
+      "passed": true
+    },
+    {
+      "name": "merchant_counter:source local",
+      "passed": true
+    },
+    {
+      "name": "merchant_counter:partner",
+      "passed": true
+    },
+    {
+      "name": "merchant_counter:perk",
+      "passed": true
+    },
+    {
+      "name": "merchant_counter:slug",
+      "passed": true
+    },
+    {
+      "name": "merchant_counter:surface",
+      "passed": true
+    },
+    {
+      "name": "merchant_counter:PNG exists",
+      "passed": true
+    },
+    {
+      "name": "merchant_counter:SVG exists",
+      "passed": true
+    },
+    {
+      "name": "merchant_placard:known surface",
+      "passed": true
+    },
+    {
+      "name": "merchant_placard:https host",
+      "passed": true
+    },
+    {
+      "name": "merchant_placard:canonical path",
+      "passed": true
+    },
+    {
+      "name": "merchant_placard:source local",
+      "passed": true
+    },
+    {
+      "name": "merchant_placard:partner",
+      "passed": true
+    },
+    {
+      "name": "merchant_placard:perk",
+      "passed": true
+    },
+    {
+      "name": "merchant_placard:slug",
+      "passed": true
+    },
+    {
+      "name": "merchant_placard:surface",
+      "passed": true
+    },
+    {
+      "name": "merchant_placard:PNG exists",
+      "passed": true
+    },
+    {
+      "name": "merchant_placard:SVG exists",
+      "passed": true
+    },
+    {
+      "name": "Local event endpoint remains same-origin worker path",
+      "passed": true
+    },
+    {
+      "name": "Local event names remain exactly bounded",
+      "passed": true
+    },
+    {
+      "name": "event schema does not store name field",
+      "passed": true
+    },
+    {
+      "name": "event schema does not store email field",
+      "passed": true
+    },
+    {
+      "name": "event schema does not store phone field",
+      "passed": true
+    },
+    {
+      "name": "event schema does not store street address field",
+      "passed": true
+    },
+    {
+      "name": "Local event context exact-key allowlist exists",
+      "passed": true
+    },
+    {
+      "name": "event route is restricted to Local paths",
+      "passed": true
+    },
+    {
+      "name": "attribution storage key unchanged",
+      "passed": true
+    },
+    {
+      "name": "attribution uses 30-day first touch",
+      "passed": true
+    },
+    {
+      "name": "attribution source excludes first_name",
+      "passed": true
+    },
+    {
+      "name": "attribution source excludes last_name",
+      "passed": true
+    },
+    {
+      "name": "attribution source excludes email",
+      "passed": true
+    },
+    {
+      "name": "attribution source excludes phone",
+      "passed": true
+    },
+    {
+      "name": "attribution source excludes address",
+      "passed": true
+    },
+    {
+      "name": "attribution source excludes property_address",
+      "passed": true
+    },
+    {
+      "name": "home/index.html:core hash preserved from 1.9",
+      "passed": true
+    },
+    {
+      "name": "auto-bundle/index.html:core hash preserved from 1.9",
+      "passed": true
+    },
+    {
+      "name": "buyer/index.html:core hash preserved from 1.9",
+      "passed": true
+    },
+    {
+      "name": "healthcare/index.html:core hash preserved from 1.9",
+      "passed": true
+    },
+    {
+      "name": "teachers/index.html:core hash preserved from 1.9",
+      "passed": true
+    },
+    {
+      "name": "tech/index.html:core hash preserved from 1.9",
+      "passed": true
+    },
+    {
+      "name": "engineers/index.html:core hash preserved from 1.9",
+      "passed": true
+    },
+    {
+      "name": "life/index.html:core hash preserved from 1.9",
+      "passed": true
+    },
+    {
+      "name": "life/thank-you.html:core hash preserved from 1.9",
+      "passed": true
+    },
+    {
+      "name": "shared/script.js:core hash preserved from 1.9",
+      "passed": true
+    },
+    {
+      "name": "shared/coveragefit-launch.js:core hash preserved from 1.9",
+      "passed": true
+    },
+    {
+      "name": "shared/local-attribution.js:core hash preserved from 1.9",
+      "passed": true
+    },
+    {
+      "name": "shared/local-merchant.js:core hash preserved from 1.9",
+      "passed": true
+    },
+    {
+      "name": "shared/local-directory.js:core hash preserved from 1.9",
+      "passed": true
+    },
+    {
+      "name": "shared/local-data-model.js:core hash preserved from 1.9",
+      "passed": true
+    },
+    {
+      "name": "shared/local-join.js:core hash preserved from 1.9",
+      "passed": true
+    },
+    {
+      "name": "_worker.js:core hash preserved from 1.9",
+      "passed": true
+    },
+    {
+      "name": "local/data/catalog.schema.json:core hash preserved from 1.9",
+      "passed": true
+    },
+    {
+      "name": "local/data/catalog.json:1.9 source preserved",
+      "passed": true
+    },
+    {
+      "name": "local/index.html:1.9 source preserved",
+      "passed": true
+    },
+    {
+      "name": "local/detail/index.html:1.9 source preserved",
+      "passed": true
+    },
+    {
+      "name": "local/pilot/pilot-launch.json:1.9 source preserved",
+      "passed": true
+    },
+    {
+      "name": "local/pilot/stevies-qr-campaigns.json:1.9 source preserved",
+      "passed": true
+    },
+    {
+      "name": "homepage names Dylan Haysbert",
+      "passed": true
+    },
+    {
+      "name": "homepage names Virginia Tam Insurance Agency",
+      "passed": true
+    },
+    {
+      "name": "homepage contains CA license number",
+      "passed": true
+    },
+    {
+      "name": "homepage contains California principal-place context",
+      "passed": true
+    },
+    {
+      "name": "homepage contains word insurance",
+      "passed": true
+    },
+    {
+      "name": "VERSION identifies 1.10 NO-GO certification",
+      "passed": true
+    },
+    {
+      "name": "README identifies current 1.10 certification",
+      "passed": true
+    },
+    {
+      "name": "CHANGELOG starts with 1.10",
+      "passed": true
+    },
+    {
+      "name": "roadmap marks 1.10 complete with no-go finding",
+      "passed": true
+    },
+    {
+      "name": "roadmap blocks Local 2.x",
+      "passed": true
+    },
+    {
+      "name": "external checklist includes carrier review",
+      "passed": true
+    },
+    {
+      "name": "preflight says not legal opinion",
+      "passed": true
+    },
+    {
+      "name": "contract does not claim internal carrier approval",
+      "passed": true
+    },
+    {
+      "name": "launch manifest target is three",
+      "passed": true
+    },
+    {
+      "name": "launch manifest reports one active",
+      "passed": true
+    },
+    {
+      "name": "Auto remains pending recruitment",
+      "passed": true
+    },
+    {
+      "name": "Home remains pending recruitment",
+      "passed": true
+    }
+  ]
+}

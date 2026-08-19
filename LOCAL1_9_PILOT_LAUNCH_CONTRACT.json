@@ -1,0 +1,55 @@
+{
+  "build": "408-LOCAL-1.9",
+  "name": "Pilot Merchant Launch",
+  "release_state": "pilot_launch_candidate_operationally_open",
+  "target_merchants": 3,
+  "active_real_merchants": 1,
+  "active_live_perks": 1,
+  "activated_merchants": [
+    {
+      "merchant_id": "stevies-bar-grill-sj",
+      "slug": "stevies-bar-grill",
+      "category": "eat-drink",
+      "perk_id": "stevies-food-na-20"
+    }
+  ],
+  "remaining_slots": [
+    {
+      "category": "auto",
+      "status": "pending_recruitment",
+      "approved_offer_framework": "10% off services"
+    },
+    {
+      "category": "home",
+      "status": "pending_recruitment",
+      "approved_offer_framework": "15% off services"
+    }
+  ],
+  "publicActivationRequires": {
+    "realMerchantIdentity": true,
+    "merchantOwnedOffer": true,
+    "exactTerms": true,
+    "insuranceCondition": false
+  },
+  "qrSurfaces": [
+    "merchant_table",
+    "merchant_counter",
+    "merchant_placard"
+  ],
+  "redemptionMethod": "show_screen",
+  "insuranceBoundary": {
+    "quoteRequired": false,
+    "purchaseRequired": false,
+    "leadSubmissionRequired": false,
+    "coverageFitRequired": false,
+    "insuranceDiscountProgram": false
+  },
+  "externalCloseoutRequired": [
+    "recruit Auto merchant",
+    "recruit Home merchant",
+    "merchant approval of exact terms",
+    "in-person staff training",
+    "physical-device scan check"
+  ],
+  "nextSprintAfterOperationalCloseout": "408-LOCAL-1.10"
+}

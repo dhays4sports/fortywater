@@ -1,0 +1,219 @@
+{
+  "sprint": "408-LOCAL-1.10",
+  "name": "Conversion + Compliance Certification",
+  "status": "technical_source_certified_production_no_go_external_closeout_required",
+  "releaseType": "root_deployable_certification_no_go",
+  "certificationOutcome": {
+    "technicalSource": "PASS",
+    "automatedBrowserRendering": "PASS_WITH_SANDBOX_NAVIGATION_LIMITATION",
+    "threeMerchantProductionActivation": "NO_GO",
+    "generation2LocalExpansion": "BLOCKED"
+  },
+  "reason": "The current source passes the automated conversion/compliance matrix and existing regression suites. The planned three-merchant Local MVP is not operationally complete: only Stevie's is active, Auto and Home merchants are pending, physical printed-device checks and internal agency/Farmers advertising/brand review remain external.",
+  "pilot": {
+    "targetMerchants": 3,
+    "activeRealMerchants": 1,
+    "activeLivePerks": 1,
+    "activeMerchant": "stevies-bar-grill-sj",
+    "remainingSlots": [
+      "auto",
+      "home"
+    ]
+  },
+  "sourceChangesIn110": [
+    "added source-level certification/compliance/closeout artifacts and QA harnesses",
+    "added Virginia Tam Insurance Agency, Inc. and CA License #4528400 disclosure to the Stevie's print placard",
+    "no Local runtime, merchant catalog, Worker routing, active insurance form, or CoverageFit behavior changes"
+  ],
+  "qa": {
+    "local110": {
+      "passed": 146,
+      "failed": 0,
+      "artifact": "LOCAL1_10_QA.json"
+    },
+    "browserRendering": {
+      "passed": 210,
+      "failed": 0,
+      "artifact": "LOCAL1_10_BROWSER_QA.json",
+      "mode": "Playwright page.set_content because sandbox blocks browser network navigation"
+    },
+    "qrDecode": {
+      "passed": 3,
+      "failed": 0,
+      "artifact": "LOCAL1_10_QR_QA.json",
+      "physicalPrintedScan": "pending_external"
+    },
+    "publicInternalLinks": {
+      "checked": 430,
+      "broken": 0,
+      "artifact": "LOCAL1_10_LINK_QA.json"
+    },
+    "javascriptSyntax": {
+      "checked": 37,
+      "passed": 37,
+      "failed": 0,
+      "artifact": "LOCAL1_10_JS_SYNTAX_QA.json"
+    },
+    "staticRegression": {
+      "passed": 296,
+      "failed": 0,
+      "artifact": "B1_2D_QA.json"
+    },
+    "localAttributionWorkerRegression": {
+      "passed": 29,
+      "failed": 0,
+      "artifact": "LOCAL1_6_WORKER_QA.json"
+    },
+    "merchantApplicationWorkerRegression": {
+      "passed": 20,
+      "failed": 0,
+      "artifact": "LOCAL1_5_WORKER_QA.json"
+    },
+    "advancedModeRedirectLoop": {
+      "passed": 10,
+      "failed": 0
+    },
+    "advancedModePrettyPathRouting": {
+      "passed": 16,
+      "failed": 0
+    },
+    "homeDeepRouteAssets": {
+      "passed": 12,
+      "failed": 0
+    },
+    "logoIntegration": {
+      "passed": 14,
+      "failed": 0
+    }
+  },
+  "compliancePreflight": {
+    "noInsuranceQuoteOrPurchaseGate": true,
+    "noPolicyholderOnlyGate": true,
+    "merchantOfferIndependentFromInsurance": true,
+    "insuranceBridgePostValueAndOptional": true,
+    "localTelemetryPIIBoundaryReCertified": true,
+    "localPageLicenseDisclosurePresent": true,
+    "steviesPlacardLicenseDisclosurePresent": true,
+    "legalOpinionClaimed": false,
+    "internalFarmersApprovalClaimed": false
+  },
+  "externalGoGates": [
+    "activate and validate a real Auto merchant and exact merchant-owned perk terms",
+    "activate and validate a real Home merchant and exact merchant-owned perk terms",
+    "record merchant staff training/acknowledgment",
+    "verify physical printed QR scans on real iPhone/Android devices for each merchant",
+    "complete final agency/Farmers advertising and brand review",
+    "run deployed-domain production smoke test and complete LOCAL1_10_EXTERNAL_CLOSEOUT.md"
+  ],
+  "preservedCoreFrom19": {
+    "allMatched": true,
+    "files": {
+      "home/index.html": {
+        "sha256": "5d4d2ff7987dacb3b2388d4ac38241ec5d93fec411ed3d4ba5219f4ea8a78ca7",
+        "matches_1_9": true
+      },
+      "auto-bundle/index.html": {
+        "sha256": "f27138e063db2dc1d14b23508bea1faf4b3eb20c12dca60230781e140c073c25",
+        "matches_1_9": true
+      },
+      "buyer/index.html": {
+        "sha256": "02bd24a7f19cb731a3d07ce24652024a71ff372fca3973ef6a8fdaa5d7cb22fa",
+        "matches_1_9": true
+      },
+      "healthcare/index.html": {
+        "sha256": "32b6c02a27ebc3e72d2b7dc8bfddb09f69ffa313f47cd2c511729b17792b472d",
+        "matches_1_9": true
+      },
+      "teachers/index.html": {
+        "sha256": "cddd12fd578bebda4fab2242b106e018941bd35ffb74b26fe5780889c80cb327",
+        "matches_1_9": true
+      },
+      "tech/index.html": {
+        "sha256": "66ceaeb0d67163667b4db6b780df1e758b4f449a614e342ffd12a3de63cc7a13",
+        "matches_1_9": true
+      },
+      "engineers/index.html": {
+        "sha256": "9872bdbe7851e2973b6f629073c1a9a0ece5765b4e5bf9f853063ab6bd6ca61d",
+        "matches_1_9": true
+      },
+      "life/index.html": {
+        "sha256": "99b1636d3c319c6f42ccd402583ecf7acda4850d6b052d17761f4c4f79cbc12e",
+        "matches_1_9": true
+      },
+      "life/thank-you.html": {
+        "sha256": "7fb34f9fcc124f3ca33b2ad2ed48a0624ac92fba71ddad1ba1a5732054c89a00",
+        "matches_1_9": true
+      },
+      "shared/script.js": {
+        "sha256": "5a5f19a43d237e44b9599fbd6536b228b0e71682cfe5d22a7b77fcdbd3acf6d7",
+        "matches_1_9": true
+      },
+      "shared/coveragefit-launch.js": {
+        "sha256": "0656746d83b8b54f5b322cd530e9150a9b2fe5274ae865b4808919ccd62191b9",
+        "matches_1_9": true
+      },
+      "shared/local-attribution.js": {
+        "sha256": "f9e04b4214e36805c5443ea88bff4f7978878f414295c960d4787d1c653ea7fe",
+        "matches_1_9": true
+      },
+      "shared/local-merchant.js": {
+        "sha256": "806940982132e48d21284a5983a5c02fc535efb79a9a87cb98d2605795e0c55f",
+        "matches_1_9": true
+      },
+      "shared/local-directory.js": {
+        "sha256": "aeee96922378d235b177d229d1949220f17518927c3b4383c1964bdb12bfbb8c",
+        "matches_1_9": true
+      },
+      "shared/local-data-model.js": {
+        "sha256": "ff06f29c256d85adc4d8813187719a640c918a3cb7381b43c24d4469149fa17e",
+        "matches_1_9": true
+      },
+      "shared/local-join.js": {
+        "sha256": "69f4a0f5aeb772b4bd98ee6629d527c0510a26d37c1c0c874399127c704dcce0",
+        "matches_1_9": true
+      },
+      "_worker.js": {
+        "sha256": "fff94d29593f23a15765e66b6627e0339480e0ca394ad86086b06026392d2690",
+        "matches_1_9": true
+      },
+      "local/data/catalog.schema.json": {
+        "sha256": "a56f9a6c37878b139c52a9948bbe012d7186a0664c116039cb2bd60e8583b72d",
+        "matches_1_9": true
+      }
+    }
+  },
+  "sourceHashes": {
+    "local/data/catalog.json": "4d7b0bb9a1e376b57270f833ec692b50af59cb8084f8c6fde6896ceda516d652",
+    "local/index.html": "0dbea6362b9160d34a89cc30c29ff810cff646a29d594217615469cec582fee9",
+    "local/detail/index.html": "e11c73bb4bc3b16163e5f58fc18cb20af4bceee3cfc2ec30c29bc3f4e8873cd0",
+    "local/join/index.html": "dbff1cf8c44bd646b6d13967cecc8d48a0dd944820a22920f2eeeb74c32fdd70",
+    "local/join/thank-you.html": "1de6dd5c1478dd65a7700f7355eaa918c77f493f05d2506822352e8667b122bc",
+    "local/pilot/pilot-launch.json": "edf328b1c443778365f61e3ebbaf54d9f82d9a760309319c54d9b61b3c556816",
+    "local/pilot/stevies-qr-campaigns.json": "effcf40681a266b81d330ae4c1ac1b16d06f28ac9e7025fb22dbe4033cda0446",
+    "local/assets/pilot/stevies/stevies-local-perk-placard.svg": "ea093a557c6ef9196e8fed4e9269870399602651e404d8432542f5cbbdca6729",
+    "shared/local-attribution.js": "f9e04b4214e36805c5443ea88bff4f7978878f414295c960d4787d1c653ea7fe",
+    "shared/local-data-model.js": "ff06f29c256d85adc4d8813187719a640c918a3cb7381b43c24d4469149fa17e",
+    "shared/local-directory.js": "aeee96922378d235b177d229d1949220f17518927c3b4383c1964bdb12bfbb8c",
+    "shared/local-merchant.js": "806940982132e48d21284a5983a5c02fc535efb79a9a87cb98d2605795e0c55f",
+    "shared/local-join.js": "69f4a0f5aeb772b4bd98ee6629d527c0510a26d37c1c0c874399127c704dcce0",
+    "_worker.js": "fff94d29593f23a15765e66b6627e0339480e0ca394ad86086b06026392d2690",
+    "SPRINT-408-LOCAL-1.10.md": "0548a2f5feb72f642d0ae720472b19959823abaf7a758baa309b792e476ad68b",
+    "LOCAL1_10_CONVERSION_COMPLIANCE_CONTRACT.json": "9e4b22c99be69d8da2b7856cb07e7f9f1e16a34d0a7e3f2987c6006b64b9dc08",
+    "LOCAL1_10_COMPLIANCE_PREFLIGHT.md": "b628f7d805b3c13813ac608a194084aa9164a74f702d04e3e1ec0da45e9baaf3",
+    "LOCAL1_10_EXTERNAL_CLOSEOUT.md": "e08f7705f416609bb2192b28d1950eacc20010a1d0197a2e7341aaa02a8c23c5",
+    "qa/test-408-local-1.10.js": "47b92aff33075f42549d3aae029649e1bac9cb67ffda6e1dca162660f360d93e",
+    "qa/test-408-local-1.10-browser.py": "68493f736218dd7f0d0e3003ac3b44fdd075beb32cb63b094618e692d617e130",
+    "LOCAL1_10_QA.json": "66d66fc3f2240b91e28d03998778436a28cedc12e11593308090fef9fd7f5f54",
+    "LOCAL1_10_BROWSER_QA.json": "dc5a70b0d99689aab0102cae798ce51c363e7cf2833eb553c2820dbdae39fd3a",
+    "LOCAL1_10_QR_QA.json": "f25998ef912ec6d031c3c005e25df387f6080a67ee017fcacbb7444e552e984c",
+    "LOCAL1_10_LINK_QA.json": "7c994b9f9aba52926d00e4f6ae339dbc88947a265191c54ec33993d8cfdc9c6d",
+    "LOCAL1_10_JS_SYNTAX_QA.json": "f0dfafaec8e2c0487fea8d31065983f5507ffa0feffcf982164a6efb29364d89",
+    "408-LOCAL-ROADMAP.md": "514406ab4ca74f23ad5803b1b3aa664c8d73b5de95c30067dd8ddb32325192c0",
+    "ROADMAP.md": "e41f009724470563b9cb0909083bf6bbf04d9e1dd2013d6ad87510d44c3ca6f5",
+    "CHANGELOG.md": "69012452ee9b83a7ba4d978b2b95e20369d729e85ec17236cbc776e34f50c084",
+    "README.txt": "287521ac83b4b1d7137e9faa52fda529b830765d2bf800230ca2c986fdf8c031",
+    "VERSION": "6bf565f5c92fea9f4f0d6088bf0b332cdf6597d683215e670ed8f4dee5798d90"
+  },
+  "nextStep": "Complete the external 1.10 GO closeout. 408-LOCAL-2.x remains blocked. A separate 408-UI-3.0 visual-only behavior-freeze program may proceed if the protected runtime contracts remain unchanged.",
+  "roadmap": "408-LOCAL-ROADMAP.md"
+}

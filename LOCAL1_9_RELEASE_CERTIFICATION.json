@@ -1,0 +1,167 @@
+{
+  "sprint": "408-LOCAL-1.9",
+  "status": "deployable_source_certified_external_pilot_closeout_required",
+  "releaseType": "root_deployable_pilot_launch_candidate",
+  "scope": [
+    "first real Local merchant activation: Stevie's Bar & Grill",
+    "live merchant-owned show-your-screen perk",
+    "merchant/surface-specific QR campaigns for table, counter, and placard",
+    "merchant placard and staff redemption guide",
+    "pilot launch manifest and operational closeout runbook",
+    "strict prevention of synthetic Auto/Home merchant publication"
+  ],
+  "runtimeBehaviorChanged": true,
+  "merchantCatalogChanged": true,
+  "merchantCatalogSchemaChanged": false,
+  "localAttributionRuntimeChanged": false,
+  "merchantDirectoryRuntimeChanged": false,
+  "merchantRedemptionRuntimeChanged": false,
+  "merchantJoinFlowChanged": false,
+  "cloudflareRoutingChanged": false,
+  "activeInsuranceFormUiChanged": false,
+  "coverageFitChanged": false,
+  "insurancePricingEligibilityCoverageChanged": false,
+  "realMerchantsActivated": 1,
+  "livePerksActivated": 1,
+  "pilotTargetMerchants": 3,
+  "operationalPilotCloseoutComplete": false,
+  "activatedMerchant": {
+    "merchant_id": "stevies-bar-grill-sj",
+    "name": "Stevie's Bar & Grill",
+    "slug": "stevies-bar-grill",
+    "category": "eat-drink",
+    "perk_id": "stevies-food-na-20",
+    "redemption_method": "show_screen"
+  },
+  "remainingPilotSlots": [
+    {
+      "category": "auto",
+      "status": "pending_recruitment"
+    },
+    {
+      "category": "home",
+      "status": "pending_recruitment"
+    }
+  ],
+  "localBoundary": {
+    "quoteRequiredForPerk": false,
+    "purchaseRequiredForPerk": false,
+    "leadSubmissionRequiredForPerk": false,
+    "coverageFitRequiredForPerk": false
+  },
+  "qr": {
+    "surfaces": [
+      "merchant_table",
+      "merchant_counter",
+      "merchant_placard"
+    ],
+    "automatedDecodePassed": 3,
+    "automatedDecodeFailed": 0,
+    "physicalIOSAndroidScanClaimed": false
+  },
+  "externalCloseout": {
+    "required": true,
+    "items": [
+      "recruit/validate Auto merchant",
+      "recruit/validate Home merchant",
+      "approve exact merchant terms",
+      "train merchant staff in person",
+      "verify at least one physical printed scan per merchant"
+    ]
+  },
+  "qa": {
+    "local19": {
+      "passed": 113,
+      "failed": 0,
+      "artifact": "LOCAL1_9_QA.json"
+    },
+    "qrDecode": {
+      "passed": 3,
+      "failed": 0,
+      "artifact": "LOCAL1_9_QR_QA.json"
+    },
+    "staticRegression": {
+      "passed": 296,
+      "failed": 0,
+      "artifact": "B1_2D_QA.json"
+    },
+    "internalLinks": {
+      "checked": 430,
+      "broken": 0
+    },
+    "local16WorkerRegression": {
+      "passed": 29,
+      "failed": 0,
+      "artifact": "LOCAL1_6_WORKER_QA.json"
+    },
+    "merchantApplicationWorkerRegression": {
+      "passed": 20,
+      "failed": 0,
+      "artifact": "LOCAL1_5_WORKER_QA.json"
+    },
+    "advancedModeRedirectLoopHotfix": {
+      "passed": 10,
+      "failed": 0
+    },
+    "advancedModePrettyPathRouting": {
+      "passed": 16,
+      "failed": 0
+    },
+    "homeDeepRouteAssets": {
+      "passed": 12,
+      "failed": 0
+    }
+  },
+  "nextStep": "408-LOCAL-1.9 operational closeout: add the real Auto and Home merchants before 408-LOCAL-1.10",
+  "roadmap": "408-LOCAL-ROADMAP.md",
+  "sourceHashes": {
+    "local/data/catalog.json": "4d7b0bb9a1e376b57270f833ec692b50af59cb8084f8c6fde6896ceda516d652",
+    "local/index.html": "0dbea6362b9160d34a89cc30c29ff810cff646a29d594217615469cec582fee9",
+    "local/detail/index.html": "e11c73bb4bc3b16163e5f58fc18cb20af4bceee3cfc2ec30c29bc3f4e8873cd0",
+    "local/join/index.html": "dbff1cf8c44bd646b6d13967cecc8d48a0dd944820a22920f2eeeb74c32fdd70",
+    "local/join/thank-you.html": "1de6dd5c1478dd65a7700f7355eaa918c77f493f05d2506822352e8667b122bc",
+    "local/pilot/pilot-launch.json": "edf328b1c443778365f61e3ebbaf54d9f82d9a760309319c54d9b61b3c556816",
+    "local/pilot/stevies-qr-campaigns.json": "effcf40681a266b81d330ae4c1ac1b16d06f28ac9e7025fb22dbe4033cda0446",
+    "local/pilot/STEVIES-STAFF-REDEMPTION-GUIDE.md": "fbd664869fc8f82087b7c6893ee8dd2019138277d934555252a62117cb73e9b1",
+    "local/pilot/PILOT-LAUNCH-RUNBOOK.md": "e1a930c3486a41adaec2db49addf797e1ab7bf4aa6286f81ba733e066a723a50",
+    "local/pilot/STEVIES-IDENTITY-VALIDATION.md": "a6cb348d36581ee2b9a12b669bbf038b72f9c1c35e558448c42775636da8ea3a",
+    "local/assets/pilot/stevies/qr-table.png": "0f3c71c9d25a92f4a25faac1cc2dddc36790354ebe043bbcae766cffbe63985d",
+    "local/assets/pilot/stevies/qr-table.svg": "0c866f9a4f31d8fce9dfb597db62c0b01de847eac361f3db73d868f9d3e4c7ea",
+    "local/assets/pilot/stevies/qr-counter.png": "2a0414b0b32e2fd812ec932c9cbb5351200385ea617558075b6ccbb2d3305f93",
+    "local/assets/pilot/stevies/qr-counter.svg": "d460172b6a8d2b4537fd6da2168ad69ecb10e71bfff76c7a4e07a6f53e67989f",
+    "local/assets/pilot/stevies/qr-placard.png": "521e582957f3a818a8763aba5b2919764422dcd81f29f3dee6cbef063faabd08",
+    "local/assets/pilot/stevies/qr-placard.svg": "00c303b31c24950bbe39ab5db09864562678cbb6a00194469b1fdd4a49185ae2",
+    "local/assets/pilot/stevies/stevies-local-perk-placard.svg": "8988abef56d2e771dc9ab779a318efeb31a3bf9f1231c4c304afc454bc346dc0",
+    "SPRINT-408-LOCAL-1.9.md": "dfd16b3694577be79f71a5b6e9f015b8b307f57aff10f058c0412c87d0ed67eb",
+    "LOCAL1_9_PILOT_LAUNCH_CONTRACT.json": "36b68d018d08b99044f5378770c891d12759a16cf48eeea52c97835ec9ea3a51",
+    "qa/test-408-local-1.9.js": "da6725c8f4ee036eee83ee016f76436023c6708e587f1af42d0077e50034dfea",
+    "LOCAL1_9_QA.json": "8570734c60a9e68a6621c38db2ce93319a20dbfb8f7e5dbc240307289e82c9bc",
+    "LOCAL1_9_QR_QA.json": "3e5bfb2652d6a149f4613236a4d6632c4de290709d7ffae2bcec0d8249719201",
+    "408-LOCAL-ROADMAP.md": "446ecfb072e35dd1be5b7958c87c5f8de7be00275c94d916176e97720edbdebd",
+    "ROADMAP.md": "abe766d3d0743eb9827017f1d400224dba9d6cf9eb3d75925a0b0107003e37d3",
+    "CHANGELOG.md": "5e40c31607c269665b777fbe3c8d52a574ae5adab71a767290815b84c11bfe5c",
+    "README.txt": "88adf02a927ebe60835d319f9624751db1907438dd8d41f83030c30ca1569bfb",
+    "VERSION": "c84cfc9b8364c6571a2c3f7026ed51f57c8b6f290d76cef15ae9cb886202d884",
+    "local/data/README.md": "7b6ad67dbbfccb1cb52161449e1f8f2c36fd98066dbafcef96075165f80ddcae"
+  },
+  "preservedCoreHashes": {
+    "home/index.html": "5d4d2ff7987dacb3b2388d4ac38241ec5d93fec411ed3d4ba5219f4ea8a78ca7",
+    "auto-bundle/index.html": "f27138e063db2dc1d14b23508bea1faf4b3eb20c12dca60230781e140c073c25",
+    "buyer/index.html": "02bd24a7f19cb731a3d07ce24652024a71ff372fca3973ef6a8fdaa5d7cb22fa",
+    "healthcare/index.html": "32b6c02a27ebc3e72d2b7dc8bfddb09f69ffa313f47cd2c511729b17792b472d",
+    "teachers/index.html": "cddd12fd578bebda4fab2242b106e018941bd35ffb74b26fe5780889c80cb327",
+    "tech/index.html": "66ceaeb0d67163667b4db6b780df1e758b4f449a614e342ffd12a3de63cc7a13",
+    "engineers/index.html": "9872bdbe7851e2973b6f629073c1a9a0ece5765b4e5bf9f853063ab6bd6ca61d",
+    "life/index.html": "99b1636d3c319c6f42ccd402583ecf7acda4850d6b052d17761f4c4f79cbc12e",
+    "life/thank-you.html": "7fb34f9fcc124f3ca33b2ad2ed48a0624ac92fba71ddad1ba1a5732054c89a00",
+    "shared/script.js": "5a5f19a43d237e44b9599fbd6536b228b0e71682cfe5d22a7b77fcdbd3acf6d7",
+    "shared/coveragefit-launch.js": "0656746d83b8b54f5b322cd530e9150a9b2fe5274ae865b4808919ccd62191b9",
+    "shared/local-attribution.js": "f9e04b4214e36805c5443ea88bff4f7978878f414295c960d4787d1c653ea7fe",
+    "shared/local-merchant.js": "806940982132e48d21284a5983a5c02fc535efb79a9a87cb98d2605795e0c55f",
+    "shared/local-directory.js": "aeee96922378d235b177d229d1949220f17518927c3b4383c1964bdb12bfbb8c",
+    "shared/local-data-model.js": "ff06f29c256d85adc4d8813187719a640c918a3cb7381b43c24d4469149fa17e",
+    "shared/local-join.js": "69f4a0f5aeb772b4bd98ee6629d527c0510a26d37c1c0c874399127c704dcce0",
+    "_worker.js": "fff94d29593f23a15765e66b6627e0339480e0ca394ad86086b06026392d2690",
+    "local/data/catalog.schema.json": "a56f9a6c37878b139c52a9948bbe012d7186a0664c116039cb2bd60e8583b72d"
+  }
+}

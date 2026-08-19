@@ -1,0 +1,29 @@
+{
+  "total": 3,
+  "passed": 3,
+  "failed": 0,
+  "checks": [
+    {
+      "surface": "merchant_table",
+      "file": "local/assets/pilot/stevies/qr-table.png",
+      "decoded": "https://408farmers.com/local/stevies-bar-grill/?source=local&partner_id=stevies-bar-grill-sj&perk_id=stevies-food-na-20&merchant_slug=stevies-bar-grill&surface=merchant_table&campaign=local_pilot&variant=merchant_page&utm_source=stevies&utm_medium=merchant_qr&utm_campaign=408_local_pilot&utm_content=table",
+      "expected": "https://408farmers.com/local/stevies-bar-grill/?source=local&partner_id=stevies-bar-grill-sj&perk_id=stevies-food-na-20&merchant_slug=stevies-bar-grill&surface=merchant_table&campaign=local_pilot&variant=merchant_page&utm_source=stevies&utm_medium=merchant_qr&utm_campaign=408_local_pilot&utm_content=table",
+      "passed": true
+    },
+    {
+      "surface": "merchant_counter",
+      "file": "local/assets/pilot/stevies/qr-counter.png",
+      "decoded": "https://408farmers.com/local/stevies-bar-grill/?source=local&partner_id=stevies-bar-grill-sj&perk_id=stevies-food-na-20&merchant_slug=stevies-bar-grill&surface=merchant_counter&campaign=local_pilot&variant=merchant_page&utm_source=stevies&utm_medium=merchant_qr&utm_campaign=408_local_pilot&utm_content=counter",
+      "expected": "https://408farmers.com/local/stevies-bar-grill/?source=local&partner_id=stevies-bar-grill-sj&perk_id=stevies-food-na-20&merchant_slug=stevies-bar-grill&surface=merchant_counter&campaign=local_pilot&variant=merchant_page&utm_source=stevies&utm_medium=merchant_qr&utm_campaign=408_local_pilot&utm_content=counter",
+      "passed": true
+    },
+    {
+      "surface": "merchant_placard",
+      "file": "local/assets/pilot/stevies/qr-placard.png",
+      "decoded": "https://408farmers.com/local/stevies-bar-grill/?source=local&partner_id=stevies-bar-grill-sj&perk_id=stevies-food-na-20&merchant_slug=stevies-bar-grill&surface=merchant_placard&campaign=local_pilot&variant=merchant_page&utm_source=stevies&utm_medium=merchant_qr&utm_campaign=408_local_pilot&utm_content=placard",
+      "expected": "https://408farmers.com/local/stevies-bar-grill/?source=local&partner_id=stevies-bar-grill-sj&perk_id=stevies-food-na-20&merchant_slug=stevies-bar-grill&surface=merchant_placard&campaign=local_pilot&variant=merchant_page&utm_source=stevies&utm_medium=merchant_qr&utm_campaign=408_local_pilot&utm_content=placard",
+      "passed": true
+    }
+  ],
+  "note": "Automated image decode only; does not claim physical iOS/Android scan verification."
+}

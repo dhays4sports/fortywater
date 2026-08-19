@@ -1,0 +1,26 @@
+{
+  "sprint": "408-UI-3.13.1D",
+  "name": "Relationship + Completion Humanization",
+  "input_baseline": "408-UI-3.13.1C",
+  "principle": "The system confirms state accurately; Dylan owns the relationship when the state supports it.",
+  "intentional_changes": [
+    "post-lead confirmation and focus copy",
+    "optional CoverageFit invitation presentation copy",
+    "insurance fallback receipts",
+    "Contact human trust treatment",
+    "Local community and merchant-relationship presentation",
+    "shared/relationship-human.css"
+  ],
+  "protected": [
+    "all protected form contracts",
+    "Workers and _routes.json",
+    "Campaign Entry Registry and attribution schemas",
+    "Home / Bundle / Buyer branching",
+    "occupational eligibility and discount determination",
+    "Local merchant data/redemption/attribution/join behavior",
+    "CoverageFit continuation/handoff behavior",
+    "Life and Life Ops",
+    "pricing, eligibility and underwriting behavior"
+  ],
+  "next": "408-UI-3.13.1E — Human Trust Regression + Production Certification"
+}

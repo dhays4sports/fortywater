@@ -1,0 +1,65 @@
+{
+  "build": "408-LOCAL-1.10",
+  "name": "Conversion + Compliance Certification",
+  "certification_outcome": "technical_pass_production_no_go_external_closeout_required",
+  "technical_source_certification": "pass",
+  "production_activation": "no_go",
+  "reason": "The source passes the Local certification matrix, but the roadmap's three-merchant MVP is not operationally closed and internal agency/Farmers advertising approval plus physical merchant/device checks cannot be performed in the build environment.",
+  "pilot": {
+    "target_merchants": 3,
+    "active_real_merchants": 1,
+    "active_live_perks": 1,
+    "remaining_slots": [
+      "auto",
+      "home"
+    ]
+  },
+  "matrix": {
+    "public_route_and_canonical_routing": "pass",
+    "merchant_active_inactive_logic": "pass",
+    "offer_dates_and_terms": "pass",
+    "no_quote_purchase_gate": "pass",
+    "no_policyholder_only_gate": "pass",
+    "mobile_reflow_accessibility": "pass_automated_source_browser",
+    "qr_routing": "pass_automated_decode_physical_scan_pending",
+    "attribution_persistence": "pass",
+    "privacy_safe_telemetry": "pass",
+    "insurance_bridge_separation": "pass",
+    "existing_408farmers_regression": "pass",
+    "agency_farmers_advertising_review": "pending_external"
+  },
+  "local_boundary": {
+    "quoteRequired": false,
+    "purchaseRequired": false,
+    "leadSubmissionRequired": false,
+    "coverageFitRequired": false,
+    "policyholderOnly": false,
+    "insurancePricingOrEligibilityChanged": false
+  },
+  "compliance_preflight": {
+    "caLicenseDisclosureOnLocalPages": true,
+    "caLicenseDisclosureAddedToSteviesPlacard": true,
+    "carrierInternalApprovalClaimed": false,
+    "legalOpinionClaimed": false
+  },
+  "runtime": {
+    "merchantCatalogChanged": false,
+    "localAttributionRuntimeChanged": false,
+    "merchantDirectoryRuntimeChanged": false,
+    "merchantRedemptionRuntimeChanged": false,
+    "merchantJoinRuntimeChanged": false,
+    "cloudflareRoutingChanged": false,
+    "activeInsuranceFormUiChanged": false,
+    "coverageFitChanged": false
+  },
+  "external_go_gates": [
+    "activate real Auto merchant",
+    "activate real Home merchant",
+    "merchant approval of exact terms",
+    "merchant staff training/acknowledgment",
+    "physical printed scan per merchant",
+    "agency/Farmers final advertising/brand review"
+  ],
+  "generation2Blocked": true,
+  "nextProgram": "408-UI-3.0 may begin as a visual-only behavior-freeze program if desired; 408-LOCAL-2.x remains blocked until Local 1.10 GO closeout."
+}

@@ -1,0 +1,62 @@
+{
+  "build": "408-LOCAL-1.8",
+  "contract": "408-local-site-integration-v1",
+  "goal": "make_local_discoverable_without_weakening_insurance_conversion",
+  "homepage": {
+    "globalNavLocal": true,
+    "lowerPageModule": true,
+    "footerLocalColumn": true,
+    "primaryInsuranceCtaReplaced": false,
+    "coverageFitStoryPrecedesLocalModule": true,
+    "professionalProgramsPrecedeLocalModule": true
+  },
+  "postSubmission": {
+    "surfaces": [
+      "home",
+      "auto_bundle",
+      "healthcare",
+      "teachers",
+      "tech",
+      "engineers",
+      "buyer"
+    ],
+    "activeFormStepsChanged": false,
+    "buyerIntakeChanged": false,
+    "lifeReceiptChanged": false,
+    "localLeadFormAdded": false,
+    "automaticCoverageFitLaunchAdded": false
+  },
+  "localBoundary": {
+    "quoteRequired": false,
+    "purchaseRequired": false,
+    "leadSubmissionRequired": false,
+    "coverageFitRequired": false,
+    "insurancePricingOrEligibilityChanged": false
+  },
+  "attribution": {
+    "engineBuild": "408-LOCAL-1.6",
+    "newEventNames": false,
+    "piiAdded": false,
+    "siteSurfaces": [
+      "global_nav",
+      "homepage_local_module",
+      "homepage_footer",
+      "post_submit_home",
+      "post_submit_auto_bundle",
+      "post_submit_healthcare",
+      "post_submit_teachers",
+      "post_submit_tech",
+      "post_submit_engineers",
+      "buyer_completion"
+    ]
+  },
+  "preservation": {
+    "catalogMutation": false,
+    "realMerchantActivation": false,
+    "workerChanged": false,
+    "localAttributionRuntimeChanged": false,
+    "insuranceLeadRuntimeChanged": false,
+    "coverageFitLauncherChanged": false
+  },
+  "nextSprint": "408-LOCAL-1.9"
+}

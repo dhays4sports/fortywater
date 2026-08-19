@@ -1,0 +1,850 @@
+{
+  "sprint": "408-LOCAL-1.10",
+  "suite": "browser_rendering",
+  "navigationMode": "set_content_due_environment_network_navigation_block",
+  "total": 210,
+  "passed": 210,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "phone320 directory h1",
+      "passed": true
+    },
+    {
+      "name": "phone320 Stevies card",
+      "passed": true
+    },
+    {
+      "name": "phone320 directory no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "phone320 category filter visible",
+      "passed": true
+    },
+    {
+      "name": "phone320 category filter >= 44px",
+      "passed": true
+    },
+    {
+      "name": "phone320 primary action visible",
+      "passed": true
+    },
+    {
+      "name": "phone320 primary action >= 44px",
+      "passed": true
+    },
+    {
+      "name": "phone320 skip link",
+      "passed": true
+    },
+    {
+      "name": "phone320 main landmark",
+      "passed": true
+    },
+    {
+      "name": "phone390 directory h1",
+      "passed": true
+    },
+    {
+      "name": "phone390 Stevies card",
+      "passed": true
+    },
+    {
+      "name": "phone390 directory no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "phone390 category filter visible",
+      "passed": true
+    },
+    {
+      "name": "phone390 category filter >= 44px",
+      "passed": true
+    },
+    {
+      "name": "phone390 primary action visible",
+      "passed": true
+    },
+    {
+      "name": "phone390 primary action >= 44px",
+      "passed": true
+    },
+    {
+      "name": "phone390 skip link",
+      "passed": true
+    },
+    {
+      "name": "phone390 main landmark",
+      "passed": true
+    },
+    {
+      "name": "tablet directory h1",
+      "passed": true
+    },
+    {
+      "name": "tablet Stevies card",
+      "passed": true
+    },
+    {
+      "name": "tablet directory no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "tablet category filter visible",
+      "passed": true
+    },
+    {
+      "name": "tablet category filter >= 44px",
+      "passed": true
+    },
+    {
+      "name": "tablet primary action visible",
+      "passed": true
+    },
+    {
+      "name": "tablet primary action >= 44px",
+      "passed": true
+    },
+    {
+      "name": "tablet skip link",
+      "passed": true
+    },
+    {
+      "name": "tablet main landmark",
+      "passed": true
+    },
+    {
+      "name": "desktop directory h1",
+      "passed": true
+    },
+    {
+      "name": "desktop Stevies card",
+      "passed": true
+    },
+    {
+      "name": "desktop directory no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "desktop category filter visible",
+      "passed": true
+    },
+    {
+      "name": "desktop category filter >= 44px",
+      "passed": true
+    },
+    {
+      "name": "desktop primary action visible",
+      "passed": true
+    },
+    {
+      "name": "desktop primary action >= 44px",
+      "passed": true
+    },
+    {
+      "name": "desktop skip link",
+      "passed": true
+    },
+    {
+      "name": "desktop main landmark",
+      "passed": true
+    },
+    {
+      "name": "detail320 merchant heading",
+      "passed": true
+    },
+    {
+      "name": "detail320 use perk action",
+      "passed": true
+    },
+    {
+      "name": "detail320 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "detail320 use-perk visible",
+      "passed": true
+    },
+    {
+      "name": "detail320 use-perk >= 48px",
+      "passed": true
+    },
+    {
+      "name": "detail320 no identity form before perk",
+      "passed": true
+    },
+    {
+      "name": "detail320 insurance bridge after perk",
+      "passed": true
+    },
+    {
+      "name": "detail320 bridge separation copy",
+      "passed": true
+    },
+    {
+      "name": "detail320 redemption dialog opens",
+      "passed": true
+    },
+    {
+      "name": "detail320 redemption independent text",
+      "passed": true
+    },
+    {
+      "name": "detail320 close target visible",
+      "passed": true
+    },
+    {
+      "name": "detail320 close target >= 44px",
+      "passed": true
+    },
+    {
+      "name": "detail320 redemption no overflow",
+      "passed": true
+    },
+    {
+      "name": "detail320 Escape closes dialog",
+      "passed": true
+    },
+    {
+      "name": "detail390 merchant heading",
+      "passed": true
+    },
+    {
+      "name": "detail390 use perk action",
+      "passed": true
+    },
+    {
+      "name": "detail390 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "detail390 use-perk visible",
+      "passed": true
+    },
+    {
+      "name": "detail390 use-perk >= 48px",
+      "passed": true
+    },
+    {
+      "name": "detail390 no identity form before perk",
+      "passed": true
+    },
+    {
+      "name": "detail390 insurance bridge after perk",
+      "passed": true
+    },
+    {
+      "name": "detail390 bridge separation copy",
+      "passed": true
+    },
+    {
+      "name": "detail390 redemption dialog opens",
+      "passed": true
+    },
+    {
+      "name": "detail390 redemption independent text",
+      "passed": true
+    },
+    {
+      "name": "detail390 close target visible",
+      "passed": true
+    },
+    {
+      "name": "detail390 close target >= 44px",
+      "passed": true
+    },
+    {
+      "name": "detail390 redemption no overflow",
+      "passed": true
+    },
+    {
+      "name": "detail390 Escape closes dialog",
+      "passed": true
+    },
+    {
+      "name": "detailTablet merchant heading",
+      "passed": true
+    },
+    {
+      "name": "detailTablet use perk action",
+      "passed": true
+    },
+    {
+      "name": "detailTablet no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "detailTablet use-perk visible",
+      "passed": true
+    },
+    {
+      "name": "detailTablet use-perk >= 48px",
+      "passed": true
+    },
+    {
+      "name": "detailTablet no identity form before perk",
+      "passed": true
+    },
+    {
+      "name": "detailTablet insurance bridge after perk",
+      "passed": true
+    },
+    {
+      "name": "detailTablet bridge separation copy",
+      "passed": true
+    },
+    {
+      "name": "detailTablet redemption dialog opens",
+      "passed": true
+    },
+    {
+      "name": "detailTablet redemption independent text",
+      "passed": true
+    },
+    {
+      "name": "detailTablet close target visible",
+      "passed": true
+    },
+    {
+      "name": "detailTablet close target >= 44px",
+      "passed": true
+    },
+    {
+      "name": "detailTablet redemption no overflow",
+      "passed": true
+    },
+    {
+      "name": "detailTablet Escape closes dialog",
+      "passed": true
+    },
+    {
+      "name": "detailDesktop merchant heading",
+      "passed": true
+    },
+    {
+      "name": "detailDesktop use perk action",
+      "passed": true
+    },
+    {
+      "name": "detailDesktop no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "detailDesktop use-perk visible",
+      "passed": true
+    },
+    {
+      "name": "detailDesktop use-perk >= 48px",
+      "passed": true
+    },
+    {
+      "name": "detailDesktop no identity form before perk",
+      "passed": true
+    },
+    {
+      "name": "detailDesktop insurance bridge after perk",
+      "passed": true
+    },
+    {
+      "name": "detailDesktop bridge separation copy",
+      "passed": true
+    },
+    {
+      "name": "detailDesktop redemption dialog opens",
+      "passed": true
+    },
+    {
+      "name": "detailDesktop redemption independent text",
+      "passed": true
+    },
+    {
+      "name": "detailDesktop close target visible",
+      "passed": true
+    },
+    {
+      "name": "detailDesktop close target >= 44px",
+      "passed": true
+    },
+    {
+      "name": "detailDesktop redemption no overflow",
+      "passed": true
+    },
+    {
+      "name": "detailDesktop Escape closes dialog",
+      "passed": true
+    },
+    {
+      "name": "join320 join h1",
+      "passed": true
+    },
+    {
+      "name": "join320 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "join320 field 1 id",
+      "passed": true
+    },
+    {
+      "name": "join320 label for business-name",
+      "passed": true
+    },
+    {
+      "name": "join320 business-name font >=16",
+      "passed": true
+    },
+    {
+      "name": "join320 field 2 id",
+      "passed": true
+    },
+    {
+      "name": "join320 label for business-category",
+      "passed": true
+    },
+    {
+      "name": "join320 business-category font >=16",
+      "passed": true
+    },
+    {
+      "name": "join320 field 3 id",
+      "passed": true
+    },
+    {
+      "name": "join320 label for business-location",
+      "passed": true
+    },
+    {
+      "name": "join320 business-location font >=16",
+      "passed": true
+    },
+    {
+      "name": "join320 field 4 id",
+      "passed": true
+    },
+    {
+      "name": "join320 label for business-online",
+      "passed": true
+    },
+    {
+      "name": "join320 business-online font >=16",
+      "passed": true
+    },
+    {
+      "name": "join320 field 5 id",
+      "passed": true
+    },
+    {
+      "name": "join320 label for contact-name",
+      "passed": true
+    },
+    {
+      "name": "join320 contact-name font >=16",
+      "passed": true
+    },
+    {
+      "name": "join320 field 6 id",
+      "passed": true
+    },
+    {
+      "name": "join320 label for contact-email",
+      "passed": true
+    },
+    {
+      "name": "join320 contact-email font >=16",
+      "passed": true
+    },
+    {
+      "name": "join320 field 7 id",
+      "passed": true
+    },
+    {
+      "name": "join320 label for contact-phone",
+      "passed": true
+    },
+    {
+      "name": "join320 contact-phone font >=16",
+      "passed": true
+    },
+    {
+      "name": "join320 field 8 id",
+      "passed": true
+    },
+    {
+      "name": "join320 label for proposed-perk",
+      "passed": true
+    },
+    {
+      "name": "join320 proposed-perk font >=16",
+      "passed": true
+    },
+    {
+      "name": "join320 field 9 id",
+      "passed": true
+    },
+    {
+      "name": "join320 label for merchant-notes",
+      "passed": true
+    },
+    {
+      "name": "join320 merchant-notes font >=16",
+      "passed": true
+    },
+    {
+      "name": "join320 checkbox 10 wrapped by label",
+      "passed": true
+    },
+    {
+      "name": "join320 checkbox 11 wrapped by label",
+      "passed": true
+    },
+    {
+      "name": "join320 submit visible",
+      "passed": true
+    },
+    {
+      "name": "join320 submit >= 56px",
+      "passed": true
+    },
+    {
+      "name": "join320 insurance separation ack",
+      "passed": true
+    },
+    {
+      "name": "join390 join h1",
+      "passed": true
+    },
+    {
+      "name": "join390 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "join390 field 1 id",
+      "passed": true
+    },
+    {
+      "name": "join390 label for business-name",
+      "passed": true
+    },
+    {
+      "name": "join390 business-name font >=16",
+      "passed": true
+    },
+    {
+      "name": "join390 field 2 id",
+      "passed": true
+    },
+    {
+      "name": "join390 label for business-category",
+      "passed": true
+    },
+    {
+      "name": "join390 business-category font >=16",
+      "passed": true
+    },
+    {
+      "name": "join390 field 3 id",
+      "passed": true
+    },
+    {
+      "name": "join390 label for business-location",
+      "passed": true
+    },
+    {
+      "name": "join390 business-location font >=16",
+      "passed": true
+    },
+    {
+      "name": "join390 field 4 id",
+      "passed": true
+    },
+    {
+      "name": "join390 label for business-online",
+      "passed": true
+    },
+    {
+      "name": "join390 business-online font >=16",
+      "passed": true
+    },
+    {
+      "name": "join390 field 5 id",
+      "passed": true
+    },
+    {
+      "name": "join390 label for contact-name",
+      "passed": true
+    },
+    {
+      "name": "join390 contact-name font >=16",
+      "passed": true
+    },
+    {
+      "name": "join390 field 6 id",
+      "passed": true
+    },
+    {
+      "name": "join390 label for contact-email",
+      "passed": true
+    },
+    {
+      "name": "join390 contact-email font >=16",
+      "passed": true
+    },
+    {
+      "name": "join390 field 7 id",
+      "passed": true
+    },
+    {
+      "name": "join390 label for contact-phone",
+      "passed": true
+    },
+    {
+      "name": "join390 contact-phone font >=16",
+      "passed": true
+    },
+    {
+      "name": "join390 field 8 id",
+      "passed": true
+    },
+    {
+      "name": "join390 label for proposed-perk",
+      "passed": true
+    },
+    {
+      "name": "join390 proposed-perk font >=16",
+      "passed": true
+    },
+    {
+      "name": "join390 field 9 id",
+      "passed": true
+    },
+    {
+      "name": "join390 label for merchant-notes",
+      "passed": true
+    },
+    {
+      "name": "join390 merchant-notes font >=16",
+      "passed": true
+    },
+    {
+      "name": "join390 checkbox 10 wrapped by label",
+      "passed": true
+    },
+    {
+      "name": "join390 checkbox 11 wrapped by label",
+      "passed": true
+    },
+    {
+      "name": "join390 submit visible",
+      "passed": true
+    },
+    {
+      "name": "join390 submit >= 56px",
+      "passed": true
+    },
+    {
+      "name": "join390 insurance separation ack",
+      "passed": true
+    },
+    {
+      "name": "joinTablet join h1",
+      "passed": true
+    },
+    {
+      "name": "joinTablet no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "joinTablet field 1 id",
+      "passed": true
+    },
+    {
+      "name": "joinTablet label for business-name",
+      "passed": true
+    },
+    {
+      "name": "joinTablet field 2 id",
+      "passed": true
+    },
+    {
+      "name": "joinTablet label for business-category",
+      "passed": true
+    },
+    {
+      "name": "joinTablet field 3 id",
+      "passed": true
+    },
+    {
+      "name": "joinTablet label for business-location",
+      "passed": true
+    },
+    {
+      "name": "joinTablet field 4 id",
+      "passed": true
+    },
+    {
+      "name": "joinTablet label for business-online",
+      "passed": true
+    },
+    {
+      "name": "joinTablet field 5 id",
+      "passed": true
+    },
+    {
+      "name": "joinTablet label for contact-name",
+      "passed": true
+    },
+    {
+      "name": "joinTablet field 6 id",
+      "passed": true
+    },
+    {
+      "name": "joinTablet label for contact-email",
+      "passed": true
+    },
+    {
+      "name": "joinTablet field 7 id",
+      "passed": true
+    },
+    {
+      "name": "joinTablet label for contact-phone",
+      "passed": true
+    },
+    {
+      "name": "joinTablet field 8 id",
+      "passed": true
+    },
+    {
+      "name": "joinTablet label for proposed-perk",
+      "passed": true
+    },
+    {
+      "name": "joinTablet field 9 id",
+      "passed": true
+    },
+    {
+      "name": "joinTablet label for merchant-notes",
+      "passed": true
+    },
+    {
+      "name": "joinTablet checkbox 10 wrapped by label",
+      "passed": true
+    },
+    {
+      "name": "joinTablet checkbox 11 wrapped by label",
+      "passed": true
+    },
+    {
+      "name": "joinTablet submit visible",
+      "passed": true
+    },
+    {
+      "name": "joinTablet submit >= 50px",
+      "passed": true
+    },
+    {
+      "name": "joinTablet insurance separation ack",
+      "passed": true
+    },
+    {
+      "name": "joinDesktop join h1",
+      "passed": true
+    },
+    {
+      "name": "joinDesktop no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "joinDesktop field 1 id",
+      "passed": true
+    },
+    {
+      "name": "joinDesktop label for business-name",
+      "passed": true
+    },
+    {
+      "name": "joinDesktop field 2 id",
+      "passed": true
+    },
+    {
+      "name": "joinDesktop label for business-category",
+      "passed": true
+    },
+    {
+      "name": "joinDesktop field 3 id",
+      "passed": true
+    },
+    {
+      "name": "joinDesktop label for business-location",
+      "passed": true
+    },
+    {
+      "name": "joinDesktop field 4 id",
+      "passed": true
+    },
+    {
+      "name": "joinDesktop label for business-online",
+      "passed": true
+    },
+    {
+      "name": "joinDesktop field 5 id",
+      "passed": true
+    },
+    {
+      "name": "joinDesktop label for contact-name",
+      "passed": true
+    },
+    {
+      "name": "joinDesktop field 6 id",
+      "passed": true
+    },
+    {
+      "name": "joinDesktop label for contact-email",
+      "passed": true
+    },
+    {
+      "name": "joinDesktop field 7 id",
+      "passed": true
+    },
+    {
+      "name": "joinDesktop label for contact-phone",
+      "passed": true
+    },
+    {
+      "name": "joinDesktop field 8 id",
+      "passed": true
+    },
+    {
+      "name": "joinDesktop label for proposed-perk",
+      "passed": true
+    },
+    {
+      "name": "joinDesktop field 9 id",
+      "passed": true
+    },
+    {
+      "name": "joinDesktop label for merchant-notes",
+      "passed": true
+    },
+    {
+      "name": "joinDesktop checkbox 10 wrapped by label",
+      "passed": true
+    },
+    {
+      "name": "joinDesktop checkbox 11 wrapped by label",
+      "passed": true
+    },
+    {
+      "name": "joinDesktop submit visible",
+      "passed": true
+    },
+    {
+      "name": "joinDesktop submit >= 50px",
+      "passed": true
+    },
+    {
+      "name": "joinDesktop insurance separation ack",
+      "passed": true
+    }
+  ]
+}

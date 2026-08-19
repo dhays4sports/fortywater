@@ -1,0 +1,182 @@
+{
+  "sprint": "408-LOCAL-1.8",
+  "status": "deployable_source_certified",
+  "releaseType": "root_deployable_site_integration",
+  "scope": [
+    "root/global navigation Local discovery link",
+    "lower-page homepage Local discovery module after insurance/professional content",
+    "homepage footer Local column",
+    "post-submission Local value modules on Home, Home + Auto, Healthcare, Teachers, Technology, and Engineers fallback receipts",
+    "selected Buyer/homebuyer completion Local value module",
+    "token-safe site-entry attribution surfaces reusing the 408-LOCAL-1.6 attribution engine",
+    "roadmap advancement to 408-LOCAL-1.9"
+  ],
+  "runtimeBehaviorChanged": true,
+  "homepageUiChanged": true,
+  "activeInsuranceFormUiChanged": false,
+  "postSubmissionReceiptUiChanged": true,
+  "coverageFitChanged": false,
+  "cloudflareRoutingChanged": false,
+  "localAttributionRuntimeChanged": false,
+  "merchantCatalogChanged": false,
+  "merchantJoinFlowChanged": false,
+  "merchantRedemptionRuntimeChanged": false,
+  "insurancePricingEligibilityCoverageChanged": false,
+  "realMerchantsActivated": 0,
+  "livePerksActivated": 0,
+  "integration": {
+    "homepage": {
+      "globalNav": true,
+      "lowerPageModule": true,
+      "footerColumn": true,
+      "primaryInsuranceCtaPreserved": true
+    },
+    "postSubmissionSurfaces": [
+      "home",
+      "auto_bundle",
+      "healthcare",
+      "teachers",
+      "tech",
+      "engineers",
+      "buyer"
+    ],
+    "activeFormLocalDistractionsAdded": false,
+    "lifeReceiptIntegrated": false,
+    "coverageFitSurfaceIntegrated": false
+  },
+  "localBoundary": {
+    "quoteRequiredForPerk": false,
+    "purchaseRequiredForPerk": false,
+    "leadSubmissionRequiredForPerk": false,
+    "coverageFitRequiredForPerk": false
+  },
+  "attribution": {
+    "engineBuild": "408-LOCAL-1.6",
+    "newEventNames": false,
+    "piiAdded": false,
+    "siteSurfaces": [
+      "global_nav",
+      "homepage_local_module",
+      "homepage_footer",
+      "post_submit_home",
+      "post_submit_auto_bundle",
+      "post_submit_healthcare",
+      "post_submit_teachers",
+      "post_submit_tech",
+      "post_submit_engineers",
+      "buyer_completion"
+    ]
+  },
+  "qa": {
+    "local18": {
+      "passed": 161,
+      "failed": 0,
+      "artifact": "LOCAL1_8_QA.json"
+    },
+    "markupSanity": {
+      "passed": 40,
+      "failed": 0,
+      "artifact": "LOCAL1_8_MARKUP_QA.json"
+    },
+    "staticRegression": {
+      "passed": 296,
+      "failed": 0,
+      "artifact": "B1_2D_QA.json"
+    },
+    "internalLinks": {
+      "checked": 430,
+      "broken": 0
+    },
+    "local16WorkerRegression": {
+      "passed": 29,
+      "failed": 0,
+      "artifact": "LOCAL1_6_WORKER_QA.json"
+    },
+    "merchantApplicationWorkerRegression": {
+      "passed": 20,
+      "failed": 0,
+      "artifact": "LOCAL1_5_WORKER_QA.json"
+    },
+    "advancedModeRedirectLoopHotfix": {
+      "passed": 10,
+      "failed": 0
+    },
+    "advancedModePrettyPathRouting": {
+      "passed": 16,
+      "failed": 0
+    },
+    "homeDeepRouteAssets": {
+      "passed": 12,
+      "failed": 0
+    }
+  },
+  "nextSprint": "408-LOCAL-1.9",
+  "roadmap": "408-LOCAL-ROADMAP.md",
+  "sourceHashes": {
+    "index.html": "846cb4ec6a512d9a3ca5574905f97704b0c8c4684c5da7e9e8f006a64313e55f",
+    "shared/local-site-integration.css": "6dce33a515b919ac66e3ba541fbaad1c388c1b421da1217e7e4e75c9092a0b77",
+    "home/thank-you.html": "95b6e28edbd5f0c4ccf85cd86bdd4769e2f98d9fcfe4d0aab70c6207d3ca602e",
+    "auto-bundle/thank-you.html": "2a3fd5e2d4ed26abbbf07f7ac3afc59eaee8dca70ad6c19431e1bc3a68286ab1",
+    "healthcare/thank-you.html": "f0d489d9ee9e7b587dc9d5db5a73abb326cfe5e034d4ecd823b1b028f78a6949",
+    "teachers/thank-you.html": "15d5db1ab76b2965b501f25dad407abd1c9d2d025a26c1e34488c128bd791267",
+    "tech/thank-you.html": "42844a4a446506b29d937a3df82bdb1a1d0d03b5f59d385c9bb7a534077304a2",
+    "engineers/thank-you.html": "5875fd94d0c70c68fb68de26c0cda5c1cea4f806f2f9f676dca3ca19293de1c3",
+    "buyer/thank-you.html": "841de0aa696d4887d8f4013b9f1936ba4886400dce93656828292b0ddc96e910",
+    "local/index.html": "6b853e5637eddcf55c8396d3c026e6ce57e50dbecc137cefc6274651817cea04",
+    "local/detail/index.html": "f91cc8489c4dab8882505e1578177af653f32cf21ad32e464955cc648071d980",
+    "SPRINT-408-LOCAL-1.8.md": "1703b7117a774201ebf1834a0c7e625d78322b3e65a871a587b8c57515e990c7",
+    "LOCAL1_8_SITE_INTEGRATION_CONTRACT.json": "e7dd54e676299bfe3d7f7ae820a7400a01fe3c211052856f6a5e94b7677b4199",
+    "qa/test-408-local-1.8.js": "3752ada3e67fdd86f953c4dd6231de1b51f314dfc5f6efe1a6f82dd6a3f7ba7c",
+    "LOCAL1_8_QA.json": "1927ad9eb9d229d343a869c4b1670cb209ea655d4af6670b83960f418ee0cc84",
+    "LOCAL1_8_MARKUP_QA.json": "2d08e254498cc02e45e7b052015281a5e2b22c72f8011915a60ab39f09a0c21d",
+    "408-LOCAL-ROADMAP.md": "8945fe4cc96b03c0faae29acf98cd641a96ab82c2d75f048ab83f50a6fabe724",
+    "ROADMAP.md": "6ed07fad9ba2b735b47cb2d4c12e5700265c766168bd32f803ef09fb031e9b89",
+    "CHANGELOG.md": "c0c738d5732fa2ada185c07209b519882da66fd12835c95ed217f70abf479d9e",
+    "README.txt": "b12ee62c4835fafeb6082ad485a7e2827124b0aecd671590a2d73c5b117b07a8",
+    "VERSION": "6c4ba531f0f868612e34ddf9befb366c4f3e061fece218e7ad5b8f71382ea44e"
+  },
+  "preservedCoreHashes": {
+    "home/index.html": "5d4d2ff7987dacb3b2388d4ac38241ec5d93fec411ed3d4ba5219f4ea8a78ca7",
+    "auto-bundle/index.html": "f27138e063db2dc1d14b23508bea1faf4b3eb20c12dca60230781e140c073c25",
+    "buyer/index.html": "02bd24a7f19cb731a3d07ce24652024a71ff372fca3973ef6a8fdaa5d7cb22fa",
+    "healthcare/index.html": "32b6c02a27ebc3e72d2b7dc8bfddb09f69ffa313f47cd2c511729b17792b472d",
+    "teachers/index.html": "cddd12fd578bebda4fab2242b106e018941bd35ffb74b26fe5780889c80cb327",
+    "tech/index.html": "66ceaeb0d67163667b4db6b780df1e758b4f449a614e342ffd12a3de63cc7a13",
+    "engineers/index.html": "9872bdbe7851e2973b6f629073c1a9a0ece5765b4e5bf9f853063ab6bd6ca61d",
+    "life/index.html": "99b1636d3c319c6f42ccd402583ecf7acda4850d6b052d17761f4c4f79cbc12e",
+    "life/thank-you.html": "7fb34f9fcc124f3ca33b2ad2ed48a0624ac92fba71ddad1ba1a5732054c89a00",
+    "shared/script.js": "5a5f19a43d237e44b9599fbd6536b228b0e71682cfe5d22a7b77fcdbd3acf6d7",
+    "shared/coveragefit-launch.js": "0656746d83b8b54f5b322cd530e9150a9b2fe5274ae865b4808919ccd62191b9",
+    "shared/local-attribution.js": "f9e04b4214e36805c5443ea88bff4f7978878f414295c960d4787d1c653ea7fe",
+    "shared/local-merchant.js": "806940982132e48d21284a5983a5c02fc535efb79a9a87cb98d2605795e0c55f",
+    "shared/local-directory.js": "aeee96922378d235b177d229d1949220f17518927c3b4383c1964bdb12bfbb8c",
+    "shared/local-data-model.js": "ff06f29c256d85adc4d8813187719a640c918a3cb7381b43c24d4469149fa17e",
+    "shared/local-join.js": "69f4a0f5aeb772b4bd98ee6629d527c0510a26d37c1c0c874399127c704dcce0",
+    "_worker.js": "fff94d29593f23a15765e66b6627e0339480e0ca394ad86086b06026392d2690",
+    "local/data/catalog.json": "54b0bf57f630d68c803c8a81085f4f743df3fabdef2b7454facd7d0ed48c1663",
+    "local/data/catalog.schema.json": "a56f9a6c37878b139c52a9948bbe012d7186a0664c116039cb2bd60e8583b72d"
+  },
+  "changeBoundary": {
+    "rootHomepageChanged": true,
+    "receiptPagesChanged": true,
+    "activeInsuranceIntakePagesChanged": false,
+    "sharedInsuranceLeadControllerChanged": false,
+    "coverageFitLauncherChanged": false,
+    "localAttributionRuntimeChanged": false,
+    "localMerchantRuntimeChanged": false,
+    "localDirectoryRuntimeChanged": false,
+    "localJoinRuntimeChanged": false,
+    "workerChanged": false,
+    "catalogChanged": false,
+    "realMerchantClaimsAdded": false,
+    "newInsuranceOfferOrDiscountAdded": false
+  },
+  "productionState": {
+    "directoryExpectedStateUntilPilotActivation": "empty_pilot_directory",
+    "siteIntegrationReady": true,
+    "merchantApplicationPublishesAutomatically": false,
+    "activeFixtureVisible": false,
+    "insuranceGateRequired": false,
+    "loginRequired": false
+  }
+}
