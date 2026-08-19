@@ -1,0 +1,170 @@
+{
+  "sprint": "408-UI-3.13.1A",
+  "input_version": "408-UI-3.13 + 408-INFRA-1.1 + 408-UI-3.2.1",
+  "public_html_body_hashes": [
+    {
+      "path": "404.html",
+      "sha256": "fe1152375bdd09b992caf74820bf12b647409c5c6c92bbf807ffe98fc3ed9b98"
+    },
+    {
+      "path": "index.html",
+      "sha256": "1f385fd997b470baf1a3480a27ed0f7ed38c1dceb476cef6e6512c795c3f22dd"
+    },
+    {
+      "path": "home/index.html",
+      "sha256": "ab8a8451e35029fc2c2fb807accc3cb78d992a858e73a04a621b127cec43b37e"
+    },
+    {
+      "path": "home/thank-you.html",
+      "sha256": "53ece7e451651b549180accbc267f102a47f020ed17a9a6058af6f37f6d9097f"
+    },
+    {
+      "path": "auto-bundle/index.html",
+      "sha256": "c75858b65dce89d39858b35b62d022ada515cfbc492d72be6282fdd863f853c9"
+    },
+    {
+      "path": "auto-bundle/thank-you.html",
+      "sha256": "ebbfe9d2b9749225892def18993de5d6e45c1fc1a52ffa6c6a3574e4bf4f300b"
+    },
+    {
+      "path": "buyer/index.html",
+      "sha256": "b99431cc71ee304d5294cf0d813a600e2da7a7e7acb5b05705da1d0ee9755d8c"
+    },
+    {
+      "path": "buyer/thank-you.html",
+      "sha256": "726441c61cebf53edfd925e337aa165033b8c4071b67f0e9f162dce25074a192"
+    },
+    {
+      "path": "healthcare/index.html",
+      "sha256": "47f96091e487e88759426636128e263b3239abefb3378e02a3af653c28e6f25a"
+    },
+    {
+      "path": "healthcare/thank-you.html",
+      "sha256": "0214095753bef97344ede6343e4f0818e91acb4bfc957c5f8d86af85d54966a0"
+    },
+    {
+      "path": "teachers/index.html",
+      "sha256": "efb240de245f36b279a47e7d6027cc0b4f4d521cf9f02bc78d1c6e068e5fcd23"
+    },
+    {
+      "path": "teachers/thank-you.html",
+      "sha256": "52743534d44ef94cd8dbfc66e043e7ea9403565bad2db944e51d7cffd43bb9ab"
+    },
+    {
+      "path": "tech/index.html",
+      "sha256": "66cb1697ecb865f36473b24975204537413dc2bea74e340f05ab5135aaa685e3"
+    },
+    {
+      "path": "tech/thank-you.html",
+      "sha256": "eb11b729dd96e9ae0a06cf144b0bbc3d4574dbe28d80f4d3b667e1efa565b4cc"
+    },
+    {
+      "path": "engineers/index.html",
+      "sha256": "2b9429565a278f4c68cc8ee227042b09bd91b3e1ca8eaf0b770de39b2f2a598f"
+    },
+    {
+      "path": "engineers/thank-you.html",
+      "sha256": "70ec3e01dc73b605dceff920ec5a510c2d20c10622eed1ab76b8463a914ce21b"
+    },
+    {
+      "path": "local/index.html",
+      "sha256": "902ae5cee377774fc29fba753fb45102868202538afdcb6498143b32945d7ba4"
+    },
+    {
+      "path": "local/detail/index.html",
+      "sha256": "5315c96b70006be3e44d40836dc3b6e02a598adef332688844bfaf2e922083a2"
+    },
+    {
+      "path": "local/join/index.html",
+      "sha256": "80785ac9f6340df69bcfd4b331012b78a5fc06a6377fb8affd91bb7836815a71"
+    },
+    {
+      "path": "local/join/thank-you.html",
+      "sha256": "1c379f043e81c6136113a5b8b33caf6341aceebd564a99e072a9d33b3fcf41ce"
+    },
+    {
+      "path": "contact/index.html",
+      "sha256": "83da4615e8da4b3835f243d9c08067ecd85d000964440f55325dda1e96a02762"
+    },
+    {
+      "path": "neighbor/index.html",
+      "sha256": "ea4fa459672073bf91caf16f2c2ee429a49d2d4b1edf7cb148b101651cac1294"
+    },
+    {
+      "path": "score/index.html",
+      "sha256": "807997e67956d733692b198b18092adee7f8b5ba000675eaa519a9c6dc7fb972"
+    },
+    {
+      "path": "privacy.html",
+      "sha256": "92378cbe0dc83ad08d081cb8d801ddcc9d13283cc8ba01e6c15095b655f3e4d8"
+    },
+    {
+      "path": "terms.html",
+      "sha256": "0f6430c769659de77b4441b61b1586c14c752f8e572d5a17726652f08164a44f"
+    }
+  ],
+  "life_exact_hashes": [
+    {
+      "path": "life/index.html",
+      "sha256": "192da909e603efb3ad3468618051b11fea61bb905d64bfd373b38892d37bebcd"
+    },
+    {
+      "path": "life/thank-you.html",
+      "sha256": "b80812417206c0c5a53400812235a9f36c226ba2744ef749b0ca3bde977a8acc"
+    },
+    {
+      "path": "life-ops/index.html",
+      "sha256": "a2e8a1c9f9fa0535fdcdb99ca76c8770c3ca055401fb109d6671f1e3b083fb6b"
+    },
+    {
+      "path": "shared/life-campaign-platform.css",
+      "sha256": "149038f8622fbbc2469a19efe4ab0e080f34f44a76ae2b4dbee348e96c2e9e9d"
+    },
+    {
+      "path": "shared/life-campaign.js",
+      "sha256": "0c79e9a41bc481841c0e00070b40bc06e2f29658f3df27c100ac39ecf9800b1e"
+    },
+    {
+      "path": "shared/life-conversion.js",
+      "sha256": "662cd5a7925bed73168b5cba8529f1c428a5774bb4cccb624673cf992f1b32ee"
+    },
+    {
+      "path": "shared/life-intake.js",
+      "sha256": "ab484e0019d0ba1091dd4dfefa95b92e813546f68d15db57476225d661875dbb"
+    },
+    {
+      "path": "shared/life-ops.css",
+      "sha256": "0cb4a0756504aa08e584bdccb6d4cf64d971d13300063a4bd70a42bd8dca90cf"
+    },
+    {
+      "path": "shared/life-ops.js",
+      "sha256": "2173122572e12a7d9bc6db80ba96c866899de21cebab2c01f0cea2d6d716f58f"
+    },
+    {
+      "path": "shared/life-secure-submit.js",
+      "sha256": "10b5b1a1a77a11b83a01ddd3818947552d0fecda2e5cb5e77a6b678648a11b08"
+    },
+    {
+      "path": "shared/life.css",
+      "sha256": "60b4cf2ebf7e5508c7c6a7b2b3064d0025053881578a7bb83296dde2f2c3c5ba"
+    }
+  ],
+  "infra_exact_hashes": [
+    {
+      "path": "_routes.json",
+      "sha256": "3568f8f7108595e37ae0da752971d749b2d498ef713ac1b4b302c937a73495d6"
+    },
+    {
+      "path": "SPRINT-408-INFRA-1.1.md",
+      "sha256": "17562848dfe3a55218e8f9d646d29c430c2f6eec71edcd5b3c91744efeda198c"
+    },
+    {
+      "path": "INFRA1_1_RELEASE_CERTIFICATION.json",
+      "sha256": "63c04490216b7454499abc270f29f5088e5f990cf0e7f71383c959a025d77523"
+    },
+    {
+      "path": "qa/test-408-infra-1.1-function-boundary.mjs",
+      "sha256": "48110e81208147263c3f5700a2a04416bc4afd06877eadd6e389fcaf1e13ea52"
+    }
+  ]
+}

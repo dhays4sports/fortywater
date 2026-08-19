@@ -1,0 +1,604 @@
+{
+  "sprint": "408-UI-3.13.1B",
+  "suite": "professional_programs_humanization_source",
+  "total": 119,
+  "passed": 119,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "humanization stylesheet exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "css professional-hero-photo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "css professional-benefits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "css professional-hero-cta",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "css professional-signature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "css --pro-gold",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "css forced-colors:active",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "css prefers-reduced-motion:reduce",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare css link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare profession kicker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare profession title",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare professional photo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare photo has alt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare hero benefit list",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare hero CTA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare eligibility qualifier",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare Dylan signature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare signature text action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare signature call action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare no duplicate meet Dylan",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare form campaign hooks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare campaign title hook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare 4 program switch links",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare active program",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare form action preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare form method preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare form control contract preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare one primary form submit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare content no software-context headline",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers css link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers profession kicker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers profession title",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers professional photo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers photo has alt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers hero benefit list",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers hero CTA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers eligibility qualifier",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers Dylan signature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers signature text action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers signature call action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers no duplicate meet Dylan",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers form campaign hooks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers campaign title hook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers 4 program switch links",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers active program",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers form action preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers form method preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers form control contract preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers one primary form submit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers content no software-context headline",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech css link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech profession kicker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech profession title",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech professional photo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech photo has alt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech hero benefit list",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech hero CTA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech eligibility qualifier",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech Dylan signature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech signature text action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech signature call action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech no duplicate meet Dylan",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech form campaign hooks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech campaign title hook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech 4 program switch links",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech active program",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech form action preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech form method preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech form control contract preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech one primary form submit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech content no software-context headline",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers css link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers profession kicker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers profession title",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers professional photo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers photo has alt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers hero benefit list",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers hero CTA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers eligibility qualifier",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers Dylan signature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers signature text action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers signature call action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers no duplicate meet Dylan",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers form campaign hooks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers campaign title hook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers 4 program switch links",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers active program",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers form action preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers form method preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers form control contract preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers one primary form submit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers content no software-context headline",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "_routes.json protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "_worker.js protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "life/index.html protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "life/thank-you.html protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "life-ops/index.html protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/campaign-entry-registry.js protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/campaign-entry.js protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/coveragefit-invitation.js protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/coveragefit-launch.js protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/post-lead-engagement.js protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/script.js protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare crop exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare crop budget",
+      "passed": true,
+      "detail": "25930"
+    },
+    {
+      "name": "teachers crop exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers crop budget",
+      "passed": true,
+      "detail": "50888"
+    },
+    {
+      "name": "tech crop exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech crop budget",
+      "passed": true,
+      "detail": "35928"
+    },
+    {
+      "name": "engineers crop exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers crop budget",
+      "passed": true,
+      "detail": "40262"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "sprint": "408-UI-3.13",
+  "suite": "infra1_1_exact_preservation",
+  "total": 4,
+  "passed": 4,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "preserve _routes.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "preserve SPRINT-408-INFRA-1.1.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "preserve INFRA1_1_RELEASE_CERTIFICATION.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "preserve qa/test-408-infra-1.1-function-boundary.mjs",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

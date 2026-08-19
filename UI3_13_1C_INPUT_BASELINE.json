@@ -1,0 +1,1227 @@
+{
+  "sprint": "408-UI-3.13.1C",
+  "input_baseline": "408-UI-3.13.1B",
+  "target_pages": [
+    "index.html",
+    "home/index.html",
+    "auto-bundle/index.html",
+    "buyer/index.html"
+  ],
+  "forms": {
+    "home": {
+      "action": "https://formspree.io/f/mojgnegn",
+      "method": "POST",
+      "attrs": {
+        "action": "https://formspree.io/f/mojgnegn",
+        "accept-charset": [
+          "UTF-8"
+        ],
+        "data-post-lead-engagement": "true",
+        "data-post-lead-build": "408-FLOW-2.3",
+        "data-coveragefit-invitation": "true",
+        "data-coveragefit-invitation-build": "408-CF-RPT-1.1",
+        "data-journey-stage": "pre_review_intake",
+        "data-promise-contract": "coverage-review-v1",
+        "data-cf-assessment": "home",
+        "data-cf-entry": "home_lander_form",
+        "data-cf-extra-launch-surface": "home_lander",
+        "data-cf-next": "/assessment/",
+        "data-coveragefit-after-submit": "true",
+        "data-cf-branch-field": "housing_context",
+        "data-cf-renter-destination": "/contact/?intent=renters",
+        "data-success": "thank-you.html",
+        "id": "leadForm",
+        "method": "POST",
+        "novalidate": "",
+        "data-sender-build": "408-HOME-2.9",
+        "data-handoff-contract": "coveragefit-handoff-v1",
+        "data-home-journey": "true",
+        "data-home-journey-build": "408-HOME-2.9",
+        "data-home-journey-contract": "home-review-journey-v1",
+        "data-form-first": "true",
+        "data-form-first-build": "408-FLOW-2.2",
+        "data-home-progressive-lead": "true"
+      },
+      "controls": [
+        {
+          "tag": "input",
+          "name": "source",
+          "type": "hidden",
+          "required": false,
+          "value": "408farmers.com/home",
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "campaign",
+          "type": "hidden",
+          "required": false,
+          "value": "Does Your Insurance Still Fit Your Home",
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "campaign_id",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "campaign_variant",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "campaign_zip",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "landing_page",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "submitted_at",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "utm_source",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "utm_medium",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "utm_campaign",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "utm_content",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "utm_term",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "property_formatted_address",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "property_street",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "property_city",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "property_county",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "property_state",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "property_zip",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "property_country",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "property_place_id",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "address_selection_method",
+          "type": "hidden",
+          "required": false,
+          "value": "manual",
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "home_review_goal",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "housing_context",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "review_timing",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "first_name",
+          "type": "text",
+          "required": true,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "last_name",
+          "type": "text",
+          "required": true,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "phone",
+          "type": "tel",
+          "required": true,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "email",
+          "type": "email",
+          "required": true,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "button",
+          "name": null,
+          "type": "button",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {
+            "data-home-lead-next": ""
+          }
+        },
+        {
+          "tag": "input",
+          "name": "property_address",
+          "type": "text",
+          "required": true,
+          "value": null,
+          "options": null,
+          "data": {
+            "data-address-autocomplete": "property"
+          }
+        },
+        {
+          "tag": "select",
+          "name": "review_context",
+          "type": null,
+          "required": true,
+          "value": null,
+          "options": [
+            {
+              "value": "",
+              "text": "Select one"
+            },
+            {
+              "value": null,
+              "text": "Buying a home"
+            },
+            {
+              "value": null,
+              "text": "Current policy renewal"
+            },
+            {
+              "value": null,
+              "text": "Non-renewal or cancellation"
+            },
+            {
+              "value": null,
+              "text": "Premium increased"
+            },
+            {
+              "value": null,
+              "text": "Comparing coverage"
+            },
+            {
+              "value": null,
+              "text": "Home and auto together"
+            },
+            {
+              "value": null,
+              "text": "Need a new policy"
+            },
+            {
+              "value": null,
+              "text": "Other"
+            }
+          ],
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "consent",
+          "type": "checkbox",
+          "required": true,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "button",
+          "name": null,
+          "type": "button",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {
+            "data-home-lead-back": ""
+          }
+        },
+        {
+          "tag": "button",
+          "name": null,
+          "type": "submit",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        }
+      ],
+      "html_sha": "27c505b47c2dc7c396b89efa6a7e6dce0801fe2aa3d27fb241347715e8fab5aa"
+    },
+    "auto_bundle": {
+      "action": "https://formspree.io/f/mojgnegn",
+      "method": "POST",
+      "attrs": {
+        "accept-charset": [
+          "UTF-8"
+        ],
+        "action": "https://formspree.io/f/mojgnegn",
+        "data-cf-assessment": "home",
+        "data-cf-branch-field": "housing_context",
+        "data-cf-entry": "auto_bundle_form",
+        "data-cf-extra-launch-surface": "auto_bundle",
+        "data-cf-next": "/assessment/",
+        "data-cf-renter-destination": "/contact/?intent=renters&source=auto-bundle",
+        "data-coveragefit-after-submit": "true",
+        "data-coveragefit-invitation": "true",
+        "data-coveragefit-invitation-build": "408-CF-RPT-1.1",
+        "data-form-first": "true",
+        "data-form-first-build": "408-FLOW-2.2",
+        "data-handoff-contract": "coveragefit-handoff-v1",
+        "data-journey-stage": "pre_review_intake",
+        "data-post-lead-build": "408-FLOW-2.3",
+        "data-post-lead-engagement": "true",
+        "data-promise-contract": "coverage-review-v1",
+        "data-sender-build": "408-FLOW-1.1",
+        "data-success": "thank-you.html",
+        "id": "leadForm",
+        "method": "POST",
+        "novalidate": ""
+      },
+      "controls": [
+        {
+          "tag": "input",
+          "name": "source",
+          "type": "hidden",
+          "required": false,
+          "value": "408farmers.com/auto-bundle",
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "campaign",
+          "type": "hidden",
+          "required": false,
+          "value": "Already Paying for Auto Insurance",
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "review_context",
+          "type": "hidden",
+          "required": false,
+          "value": "Home and auto together",
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "landing_page",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "submitted_at",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "utm_source",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "utm_medium",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "utm_campaign",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "utm_content",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "utm_term",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "first_name",
+          "type": "text",
+          "required": true,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "last_name",
+          "type": "text",
+          "required": true,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "phone",
+          "type": "tel",
+          "required": true,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "email",
+          "type": "email",
+          "required": true,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "property_address",
+          "type": "text",
+          "required": true,
+          "value": null,
+          "options": null,
+          "data": {
+            "data-address-autocomplete": "property"
+          }
+        },
+        {
+          "tag": "select",
+          "name": "housing_context",
+          "type": null,
+          "required": true,
+          "value": null,
+          "options": [
+            {
+              "value": "",
+              "text": "Select one"
+            },
+            {
+              "value": null,
+              "text": "I rent an apartment"
+            },
+            {
+              "value": null,
+              "text": "I rent a house or townhome"
+            },
+            {
+              "value": null,
+              "text": "I own my home"
+            },
+            {
+              "value": null,
+              "text": "Other"
+            }
+          ],
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "consent",
+          "type": "checkbox",
+          "required": true,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "button",
+          "name": null,
+          "type": "submit",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        }
+      ],
+      "html_sha": "10213f6a4285ec8bc364a8621ced610fff9068f320b2f4e87857589c942150c9"
+    },
+    "buyer": {
+      "action": "https://formspree.io/f/mojgnegn",
+      "method": "POST",
+      "attrs": {
+        "accept-charset": [
+          "UTF-8"
+        ],
+        "action": "https://formspree.io/f/mojgnegn",
+        "data-cf-assessment": "home",
+        "data-cf-branch-field": "housing_context",
+        "data-cf-entry": "buyer_lander_form",
+        "data-cf-extra-launch-surface": "buyer_lander",
+        "data-cf-next": "/assessment/",
+        "data-cf-renter-destination": "/contact/?intent=renters",
+        "data-coveragefit-after-submit": "true",
+        "data-coveragefit-invitation": "true",
+        "data-coveragefit-invitation-build": "408-CF-RPT-1.1",
+        "data-handoff-contract": "coveragefit-handoff-v1",
+        "data-journey-stage": "pre_review_intake",
+        "data-post-lead-build": "408-FLOW-2.3",
+        "data-post-lead-engagement": "true",
+        "data-promise-contract": "coverage-review-v1",
+        "data-sender-build": "408-CONV-1.1",
+        "data-success": "thank-you.html",
+        "id": "leadForm",
+        "method": "POST",
+        "novalidate": ""
+      },
+      "controls": [
+        {
+          "tag": "input",
+          "name": "source",
+          "type": "hidden",
+          "required": false,
+          "value": "408farmers.com/buyer",
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "campaign",
+          "type": "hidden",
+          "required": false,
+          "value": "buyer_direct_web",
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "campaign_id",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "campaign_variant",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "campaign_zip",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "landing_page",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "submitted_at",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "utm_source",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "utm_medium",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "utm_campaign",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "utm_content",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "utm_term",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "review_context",
+          "type": "hidden",
+          "required": false,
+          "value": "Buying a home",
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "partner_id",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "partner_name",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "partner_code",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "referral_source",
+          "type": "hidden",
+          "required": false,
+          "value": "buyer_direct",
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "closing_urgency",
+          "type": "hidden",
+          "required": false,
+          "value": "not_set",
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "property_formatted_address",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "property_street",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "property_city",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "property_county",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "property_state",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "property_zip",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "property_country",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "property_place_id",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "address_selection_method",
+          "type": "hidden",
+          "required": false,
+          "value": "manual",
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "property_address",
+          "type": "text",
+          "required": true,
+          "value": null,
+          "options": null,
+          "data": {
+            "data-address-autocomplete": "property"
+          }
+        },
+        {
+          "tag": "input",
+          "name": "closing_date",
+          "type": "date",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "select",
+          "name": "occupancy",
+          "type": null,
+          "required": true,
+          "value": null,
+          "options": [
+            {
+              "value": "",
+              "text": "Select one"
+            },
+            {
+              "value": "primary_residence",
+              "text": "Primary residence"
+            },
+            {
+              "value": "second_home",
+              "text": "Second home"
+            },
+            {
+              "value": "rental_property",
+              "text": "Rental property"
+            },
+            {
+              "value": "not_sure",
+              "text": "Not sure yet"
+            }
+          ],
+          "data": {}
+        },
+        {
+          "tag": "button",
+          "name": null,
+          "type": "button",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {
+            "data-buyer-next": ""
+          }
+        },
+        {
+          "tag": "input",
+          "name": "first_name",
+          "type": "text",
+          "required": true,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "last_name",
+          "type": "text",
+          "required": true,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "phone",
+          "type": "tel",
+          "required": true,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "email",
+          "type": "email",
+          "required": true,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "input",
+          "name": "consent",
+          "type": "checkbox",
+          "required": true,
+          "value": null,
+          "options": null,
+          "data": {}
+        },
+        {
+          "tag": "button",
+          "name": null,
+          "type": "button",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {
+            "data-buyer-back": ""
+          }
+        },
+        {
+          "tag": "button",
+          "name": null,
+          "type": "submit",
+          "required": false,
+          "value": null,
+          "options": null,
+          "data": {}
+        }
+      ],
+      "html_sha": "829acb3a2a1076fee970b4b6150d8516eb5357dd772e3af45ff3685c784562cc"
+    }
+  },
+  "protected_files": {
+    "_worker.js": "fff94d29593f23a15765e66b6627e0339480e0ca394ad86086b06026392d2690",
+    "_routes.json": "3568f8f7108595e37ae0da752971d749b2d498ef713ac1b4b302c937a73495d6",
+    "CAMPAIGN_ENTRY_REGISTRY.json": "6367c616cceb5afed7f58fe86f131b3ab1506a006c156412e714eb077b0e82b7",
+    "shared/campaign-entry-registry.js": "7e04e758092b44c6c4eff2017671c520ee3dc7bb020ed33bd38a83db3735b843",
+    "shared/campaign-entry.js": "f12cfefd5a703ba6a02defc56a7ff674ff668701a818b675f16d96e86f139a84",
+    "shared/human-trust.css": "de86692903c8652e7a80a367af6689559b1e473ed5f76ee4bde5b06d531ce5e3",
+    "shared/professional-programs-human.css": "0eae9ae9c58a73049b47ac8cd6f88bd262ebe51d3c55b08914e5d99a01e4ad10",
+    "shared/ui-3-foundation.css": "ce20b3b19ca916170f5b5211d6f2a765d5a1d7e30b1bed60141c58bad5366390",
+    "shared/ui-3-foundation.js": "979568c3158c9710db8febaa784e55838e6c88cc038b9414a6247076722407e3",
+    "shared/home-baseline.js": "b0ae8e923e21d8392640ce78dc8fd0f7b6c46cee2d841112b30b4d500dbc0dba",
+    "shared/home-engagement.js": "8b1e878b22da159c7eb497daff8fc61b49a2a5ad18080e0f91573c2ea8621dc2",
+    "shared/home-form-first.js": "2855b3c2fab0a457203fc76b571a02d0d845806b1231a3abe4c2e36cd1533aac",
+    "shared/home-lead-progressive.js": "e71cca1508b06d663f7021ce159cdaa26bd3e7d569fb1f02e776d1f7079a1cb1",
+    "shared/buyer-flow.js": "cbb34820bd134d61ea1fae40cdde759381b9a951e9474dbb1663b1f53e548bc9",
+    "shared/buyer-referral.js": "48dec66d8f5abdb58e643b19c95168b5a411664b5272125b0766f70d16e3ce97",
+    "shared/address-autocomplete.js": "e457fa24ba4dff7585b7795172b90fbe52c651b918fb54d4a35f2ac3b486f4f0",
+    "shared/coveragefit-launch.js": "0656746d83b8b54f5b322cd530e9150a9b2fe5274ae865b4808919ccd62191b9",
+    "shared/post-lead-engagement.js": "2f63b3aafe7f9112533fc3aba20fe1d7688c2def2027bc516f041d3bc1f90d11",
+    "shared/coveragefit-invitation.js": "e328485e65d1dcc48ee4b1ada845d2975d20eaae07106fcf59e7f20f8c85e454",
+    "shared/local-attribution.js": "f9e04b4214e36805c5443ea88bff4f7978878f414295c960d4787d1c653ea7fe",
+    "shared/life-secure-submit.js": "10b5b1a1a77a11b83a01ddd3818947552d0fecda2e5cb5e77a6b678648a11b08",
+    "healthcare/index.html": "401073b8029c909995aa97c4eac27c7aa89b3f8e0338562a29f74610ec0c33c6",
+    "teachers/index.html": "a0b28e8bb3dc7a078dd7287377c95300ba4fc87746bfe15810d9226e896b7cd8",
+    "tech/index.html": "9f1f5338d8f36f67ec6219e76993d16612f4a3ddd13a6ea68f48970d41a51e42",
+    "engineers/index.html": "b0b092d9785d55bc922a9dc8a69dae4179350210522835379eb60992b4468f43",
+    "life/index.html": "192da909e603efb3ad3468618051b11fea61bb905d64bfd373b38892d37bebcd",
+    "life/thank-you.html": "b80812417206c0c5a53400812235a9f36c226ba2744ef749b0ca3bde977a8acc",
+    "local/index.html": "4d6ac686df34c0b110aa60dc05be37de3aa66a0167c2802df6363256072f4d14",
+    "local/join/index.html": "698b792236d9b4c4639693711161bc596d4d5701c97e10ca8b83f4792a53975e",
+    "local/data/catalog.json": "4d7b0bb9a1e376b57270f833ec692b50af59cb8084f8c6fde6896ceda516d652"
+  },
+  "target_contracts": {
+    "index.html": {
+      "hrefs": {
+        "#main-content": 1,
+        "/": 1,
+        "#start": 3,
+        "#professionals": 1,
+        "/local/?surface=global_nav&campaign=local_site_integration&variant=global_nav&utm_source=408farmers&utm_medium=site&utm_campaign=local_site_integration&utm_content=global_nav": 1,
+        "#contact": 1,
+        "tel:+14083276377": 3,
+        "https://coveragefit.com/home/": 1,
+        "buyer/": 3,
+        "score/": 3,
+        "auto-bundle/": 3,
+        "contact/?intent=business": 1,
+        "contact/?intent=landlord": 1,
+        "life/": 3,
+        "#coveragefit": 1,
+        "home/": 2,
+        "healthcare/": 2,
+        "teachers/": 2,
+        "tech/": 2,
+        "engineers/": 2,
+        "/local/?surface=homepage_local_module&campaign=local_site_integration&variant=homepage_local_module&utm_source=408farmers&utm_medium=site&utm_campaign=local_site_integration&utm_content=homepage_local_module": 1,
+        "/local/join/?source=site_integration&surface=homepage_local_business&utm_source=408farmers&utm_medium=site&utm_campaign=local_site_integration&utm_content=homepage_local_business": 1,
+        "sms:+14083276377?body=Hi%20Dylan%2C%20I%20would%20like%20an%20insurance%20review.": 1,
+        "mailto:dylan.vtam@farmersagency.com": 2,
+        "/local/?surface=homepage_footer&campaign=local_site_integration&variant=homepage_footer&utm_source=408farmers&utm_medium=site&utm_campaign=local_site_integration&utm_content=homepage_footer": 1,
+        "/local/join/?source=site_integration&surface=homepage_footer_business&utm_source=408farmers&utm_medium=site&utm_campaign=local_site_integration&utm_content=homepage_footer_business": 1,
+        "sms:+14083276377": 1,
+        "privacy.html": 1,
+        "terms.html": 1
+      },
+      "scripts": {
+        "shared/accessibility.js": 1,
+        "shared/homepage-optimization.js": 1,
+        "shared/config.js": 1,
+        "shared/coveragefit-launch.js": 1,
+        "/shared/ui-3-foundation.js?v=408-UI-3.1": 1,
+        "/shared/accessibility-certification.js?v=408-UI-3.11": 1
+      },
+      "h1_count": 1,
+      "ids": [
+        "agent-title",
+        "contact",
+        "coveragefit",
+        "coveragefit-start",
+        "how-title",
+        "hub-title",
+        "local",
+        "main-content",
+        "platform-title",
+        "professionals",
+        "professionals-title",
+        "reasons-title",
+        "site-local-title",
+        "start"
+      ]
+    },
+    "home/index.html": {
+      "hrefs": {
+        "#main-content": 1,
+        "/home": 1,
+        "tel:+14083276377": 3,
+        "#coverage-review": 1,
+        "sms:+14083276377?body=Hi%20Dylan%2C%20I%E2%80%99d%20like%20to%20review%20my%20home%20insurance.": 1,
+        "sms:+14083276377?body=Hi%20Dylan%2C%20I%E2%80%99m%20interested%20in%20a%20home%20Coverage%20Review.": 1,
+        "mailto:dylan.vtam@farmersagency.com": 1,
+        "/privacy.html": 1,
+        "/terms.html": 1
+      },
+      "scripts": {
+        "/shared/accessibility.js": 1,
+        "/shared/config.js?v=408-NP-1.5": 1,
+        "/shared/flyer-campaign.js?v=408-HOME-2.9": 1,
+        "/shared/coveragefit-launch.js?v=408-CONV-1.1": 1,
+        "/shared/prospect-profile.js?v=408-CONV-1.1": 1,
+        "/shared/address-autocomplete.js?v=408-CONV-1.1": 1,
+        "/shared/home-journey-contract.js?v=408-HOME-2.9": 1,
+        "/shared/home-baseline.js?v=408-HOME-2.9": 1,
+        "/shared/home-continuity.js?v=408-HOME-2.9": 1,
+        "/shared/home-lead-progressive.js?v=408-HOME-2.9-submitfix1": 1,
+        "/shared/home-form-first.js?v=408-FLOW-2.2": 1,
+        "/shared/home-certification.js?v=408-HOME-2.9": 1,
+        "/shared/post-lead-engagement.js?v=408-FLOW-2.3": 1,
+        "/shared/coveragefit-invitation.js?v=408-CF-RPT-1.1": 1,
+        "/shared/script.js?v=408-HOME-2.9-submitfix1": 1,
+        "/shared/ui-3-foundation.js?v=408-UI-3.1": 1,
+        "/shared/campaign-entry-registry.js?v=408-UI-3.11.1": 1,
+        "/shared/campaign-entry.js?v=408-UI-3.11.1": 1,
+        "/shared/accessibility-certification.js?v=408-UI-3.11": 1
+      },
+      "h1_count": 1,
+      "ids": [
+        "coverage-review",
+        "form",
+        "formStatus",
+        "home-engagement-error",
+        "home-hero-title",
+        "home-payoff-title",
+        "home-recovery-title",
+        "leadForm",
+        "main-content"
+      ]
+    },
+    "auto-bundle/index.html": {
+      "hrefs": {
+        "#main-content": 1,
+        "/auto-bundle": 1,
+        "tel:+14083276377": 3,
+        "sms:+14083276377?body=Hi%20Dylan%2C%20I%20want%20to%20check%20an%20auto%20and%20renters%20bundle.": 1,
+        "mailto:dylan.vtam@farmersagency.com": 1,
+        "../privacy.html": 1,
+        "../terms.html": 1
+      },
+      "scripts": {
+        "../shared/accessibility.js": 1,
+        "../shared/config.js": 1,
+        "../shared/address-autocomplete.js?v=408-FLOW-1.5": 1,
+        "../shared/coveragefit-launch.js?v=408-FLOW-1.5": 1,
+        "../shared/prospect-profile.js?v=408-FLOW-1.5": 1,
+        "../shared/post-lead-engagement.js?v=408-FLOW-2.3": 1,
+        "../shared/coveragefit-invitation.js?v=408-CF-RPT-1.1": 1,
+        "../shared/script.js?v=408-FLOW-1.5": 1,
+        "/shared/ui-3-foundation.js?v=408-UI-3.1": 1,
+        "/shared/campaign-entry-registry.js?v=408-UI-3.11.1": 1,
+        "/shared/campaign-entry.js?v=408-UI-3.11.1": 1,
+        "/shared/accessibility-certification.js?v=408-UI-3.11": 1
+      },
+      "h1_count": 1,
+      "ids": [
+        "form",
+        "formStatus",
+        "leadForm",
+        "main-content"
+      ]
+    },
+    "buyer/index.html": {
+      "hrefs": {
+        "#main-content": 1,
+        "/": 1,
+        "tel:+14083276377": 1,
+        "sms:+14083276377": 2,
+        "#buyer-review": 1,
+        "../privacy.html": 1,
+        "../terms.html": 1
+      },
+      "scripts": {
+        "../shared/accessibility.js": 1,
+        "../shared/config.js?v=408-BUY-1.1": 1,
+        "../shared/flyer-campaign.js?v=408-NP-1.5": 1,
+        "../shared/buyer-referral.js?v=408-RC-SMS-1.6": 1,
+        "../shared/coveragefit-launch.js?v=408-BUY-1.1": 1,
+        "../shared/prospect-profile.js?v=408-BUY-1.1": 1,
+        "../shared/address-autocomplete.js?v=408-BUY-1.1": 1,
+        "../shared/buyer-flow.js?v=408-RC-SMS-1.6": 1,
+        "../shared/post-lead-engagement.js?v=408-FLOW-2.3": 1,
+        "../shared/coveragefit-invitation.js?v=408-CF-RPT-1.1": 1,
+        "../shared/script.js?v=408-BUY-1.1": 1,
+        "/shared/ui-3-foundation.js?v=408-UI-3.1": 1,
+        "/shared/campaign-entry-registry.js?v=408-UI-3.11.1": 1,
+        "/shared/campaign-entry.js?v=408-UI-3.11.1": 1,
+        "/shared/accessibility-certification.js?v=408-UI-3.11": 1
+      },
+      "h1_count": 1,
+      "ids": [
+        "buyer-agent-title",
+        "buyer-review",
+        "buyer-review-title",
+        "buyer-title",
+        "formStatus",
+        "leadForm",
+        "main-content"
+      ]
+    }
+  }
+}

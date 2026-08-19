@@ -1,0 +1,654 @@
+{
+  "sprint": "408-UI-3.13.1B",
+  "input": "408-UI-3.13.1A",
+  "form_contracts": {
+    "healthcare": {
+      "action": "https://formspree.io/f/mojgnegn",
+      "method": "POST",
+      "controls": [
+        {
+          "tag": "input",
+          "name": "source",
+          "type": "hidden",
+          "required": false,
+          "value": "408farmers.com/healthcare",
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "campaign",
+          "type": "hidden",
+          "required": false,
+          "value": "Work in Healthcare",
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "review_context",
+          "type": "hidden",
+          "required": false,
+          "value": "Professional eligibility and home coverage review",
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "landing_page",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "submitted_at",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "utm_source",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "utm_medium",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "utm_campaign",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "utm_content",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "utm_term",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "first_name",
+          "type": "text",
+          "required": true,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "last_name",
+          "type": "text",
+          "required": true,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "phone",
+          "type": "tel",
+          "required": true,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "email",
+          "type": "email",
+          "required": true,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "property_address",
+          "type": "text",
+          "required": true,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "select",
+          "name": "occupation_segment",
+          "type": null,
+          "required": true,
+          "value": null,
+          "options": [
+            "",
+            "Nurse or RN",
+            "Physician or provider",
+            "Therapist or clinician",
+            "Medical or dental staff",
+            "Hospital or healthcare support",
+            "Other healthcare role"
+          ]
+        },
+        {
+          "tag": "input",
+          "name": "consent",
+          "type": "checkbox",
+          "required": true,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "button",
+          "name": null,
+          "type": "submit",
+          "required": false,
+          "value": null,
+          "options": null
+        }
+      ]
+    },
+    "teachers": {
+      "action": "https://formspree.io/f/mojgnegn",
+      "method": "POST",
+      "controls": [
+        {
+          "tag": "input",
+          "name": "source",
+          "type": "hidden",
+          "required": false,
+          "value": "408farmers.com/teachers",
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "campaign",
+          "type": "hidden",
+          "required": false,
+          "value": "Teachers and School Employees",
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "review_context",
+          "type": "hidden",
+          "required": false,
+          "value": "Professional eligibility and home coverage review",
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "landing_page",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "submitted_at",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "utm_source",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "utm_medium",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "utm_campaign",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "utm_content",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "utm_term",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "first_name",
+          "type": "text",
+          "required": true,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "last_name",
+          "type": "text",
+          "required": true,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "phone",
+          "type": "tel",
+          "required": true,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "email",
+          "type": "email",
+          "required": true,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "property_address",
+          "type": "text",
+          "required": true,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "select",
+          "name": "occupation_segment",
+          "type": null,
+          "required": true,
+          "value": null,
+          "options": [
+            "",
+            "Teacher or instructor",
+            "School administrator",
+            "Counselor or student services",
+            "School office or support staff",
+            "Librarian or media specialist",
+            "College or university employee",
+            "Other education role"
+          ]
+        },
+        {
+          "tag": "input",
+          "name": "consent",
+          "type": "checkbox",
+          "required": true,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "button",
+          "name": null,
+          "type": "submit",
+          "required": false,
+          "value": null,
+          "options": null
+        }
+      ]
+    },
+    "tech": {
+      "action": "https://formspree.io/f/mojgnegn",
+      "method": "POST",
+      "controls": [
+        {
+          "tag": "input",
+          "name": "source",
+          "type": "hidden",
+          "required": false,
+          "value": "408farmers.com/tech",
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "campaign",
+          "type": "hidden",
+          "required": false,
+          "value": "Work in Tech",
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "review_context",
+          "type": "hidden",
+          "required": false,
+          "value": "Professional eligibility and home coverage review",
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "landing_page",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "submitted_at",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "utm_source",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "utm_medium",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "utm_campaign",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "utm_content",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "utm_term",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "first_name",
+          "type": "text",
+          "required": true,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "last_name",
+          "type": "text",
+          "required": true,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "phone",
+          "type": "tel",
+          "required": true,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "email",
+          "type": "email",
+          "required": true,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "property_address",
+          "type": "text",
+          "required": true,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "select",
+          "name": "occupation_segment",
+          "type": null,
+          "required": true,
+          "value": null,
+          "options": [
+            "",
+            "Software or engineering",
+            "Product or program management",
+            "IT or cybersecurity",
+            "Data or analytics",
+            "Design or UX",
+            "Tech operations or support",
+            "Other tech role"
+          ]
+        },
+        {
+          "tag": "input",
+          "name": "consent",
+          "type": "checkbox",
+          "required": true,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "button",
+          "name": null,
+          "type": "submit",
+          "required": false,
+          "value": null,
+          "options": null
+        }
+      ]
+    },
+    "engineers": {
+      "action": "https://formspree.io/f/mojgnegn",
+      "method": "POST",
+      "controls": [
+        {
+          "tag": "input",
+          "name": "source",
+          "type": "hidden",
+          "required": false,
+          "value": "408farmers.com/engineers",
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "campaign",
+          "type": "hidden",
+          "required": false,
+          "value": "Are You an Engineer",
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "review_context",
+          "type": "hidden",
+          "required": false,
+          "value": "Professional eligibility and home coverage review",
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "landing_page",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "submitted_at",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "utm_source",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "utm_medium",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "utm_campaign",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "utm_content",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "utm_term",
+          "type": "hidden",
+          "required": false,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "first_name",
+          "type": "text",
+          "required": true,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "last_name",
+          "type": "text",
+          "required": true,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "phone",
+          "type": "tel",
+          "required": true,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "email",
+          "type": "email",
+          "required": true,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "input",
+          "name": "property_address",
+          "type": "text",
+          "required": true,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "select",
+          "name": "occupation_segment",
+          "type": null,
+          "required": true,
+          "value": null,
+          "options": [
+            "",
+            "Civil or structural",
+            "Mechanical",
+            "Electrical",
+            "Software or computer",
+            "Chemical or materials",
+            "Industrial or manufacturing",
+            "Other engineering field"
+          ]
+        },
+        {
+          "tag": "input",
+          "name": "consent",
+          "type": "checkbox",
+          "required": true,
+          "value": null,
+          "options": null
+        },
+        {
+          "tag": "button",
+          "name": null,
+          "type": "submit",
+          "required": false,
+          "value": null,
+          "options": null
+        }
+      ]
+    }
+  },
+  "protected_files": {
+    "_routes.json": "3568f8f7108595e37ae0da752971d749b2d498ef713ac1b4b302c937a73495d6",
+    "_worker.js": "fff94d29593f23a15765e66b6627e0339480e0ca394ad86086b06026392d2690",
+    "life/index.html": "192da909e603efb3ad3468618051b11fea61bb905d64bfd373b38892d37bebcd",
+    "life/thank-you.html": "b80812417206c0c5a53400812235a9f36c226ba2744ef749b0ca3bde977a8acc",
+    "life-ops/index.html": "a2e8a1c9f9fa0535fdcdb99ca76c8770c3ca055401fb109d6671f1e3b083fb6b",
+    "shared/campaign-entry-registry.js": "7e04e758092b44c6c4eff2017671c520ee3dc7bb020ed33bd38a83db3735b843",
+    "shared/campaign-entry.js": "f12cfefd5a703ba6a02defc56a7ff674ff668701a818b675f16d96e86f139a84",
+    "shared/coveragefit-invitation.js": "e328485e65d1dcc48ee4b1ada845d2975d20eaae07106fcf59e7f20f8c85e454",
+    "shared/coveragefit-launch.js": "0656746d83b8b54f5b322cd530e9150a9b2fe5274ae865b4808919ccd62191b9",
+    "shared/post-lead-engagement.js": "2f63b3aafe7f9112533fc3aba20fe1d7688c2def2027bc516f041d3bc1f90d11",
+    "shared/script.js": "5a5f19a43d237e44b9599fbd6536b228b0e71682cfe5d22a7b77fcdbd3acf6d7"
+  }
+}

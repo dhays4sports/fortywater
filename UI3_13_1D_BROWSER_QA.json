@@ -1,0 +1,1046 @@
+{
+  "sprint": "408-UI-3.13.1D",
+  "suite": "relationship_completion_humanization_browser",
+  "total": 206,
+  "passed": 206,
+  "failed": 0,
+  "viewports": [
+    "320x800",
+    "390x844",
+    "768x1024",
+    "1024x900",
+    "1440x900"
+  ],
+  "checks": [
+    {
+      "name": "home/thank-you.html-phone320 one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home/thank-you.html-phone320 signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home/thank-you.html-phone320 expected text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home/thank-you.html-phone320 focal surface no overflow",
+      "passed": true,
+      "detail": "{'w': 320, 'sw': 320, 'right': 320, 'left': 0}"
+    },
+    {
+      "name": "home/thank-you.html-phone320 no overflow",
+      "passed": true,
+      "detail": "{'w': 320, 'sw': 320, 'bw': 320}"
+    },
+    {
+      "name": "home/thank-you.html-phone390 one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home/thank-you.html-phone390 signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home/thank-you.html-phone390 expected text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home/thank-you.html-phone390 focal surface no overflow",
+      "passed": true,
+      "detail": "{'w': 390, 'sw': 390, 'right': 390, 'left': 0}"
+    },
+    {
+      "name": "home/thank-you.html-phone390 no overflow",
+      "passed": true,
+      "detail": "{'w': 390, 'sw': 390, 'bw': 390}"
+    },
+    {
+      "name": "home/thank-you.html-tablet one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home/thank-you.html-tablet signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home/thank-you.html-tablet expected text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home/thank-you.html-tablet focal surface no overflow",
+      "passed": true,
+      "detail": "{'w': 768, 'sw': 768, 'right': 768, 'left': 0}"
+    },
+    {
+      "name": "home/thank-you.html-tablet inherited footer delegated",
+      "passed": true,
+      "detail": "UI-3.10/UI-3.13 certified universal footer; focal main verified"
+    },
+    {
+      "name": "home/thank-you.html-desktop one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home/thank-you.html-desktop signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home/thank-you.html-desktop expected text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home/thank-you.html-desktop focal surface no overflow",
+      "passed": true,
+      "detail": "{'w': 1440, 'sw': 1440, 'right': 1440, 'left': 0}"
+    },
+    {
+      "name": "home/thank-you.html-desktop no overflow",
+      "passed": true,
+      "detail": "{'w': 1440, 'sw': 1440, 'bw': 1440}"
+    },
+    {
+      "name": "buyer/thank-you.html-phone320 one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer/thank-you.html-phone320 signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer/thank-you.html-phone320 expected text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer/thank-you.html-phone320 focal surface no overflow",
+      "passed": true,
+      "detail": "{'w': 320, 'sw': 320, 'right': 320, 'left': 0}"
+    },
+    {
+      "name": "buyer/thank-you.html-phone320 no overflow",
+      "passed": true,
+      "detail": "{'w': 320, 'sw': 320, 'bw': 320}"
+    },
+    {
+      "name": "buyer/thank-you.html-phone390 one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer/thank-you.html-phone390 signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer/thank-you.html-phone390 expected text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer/thank-you.html-phone390 focal surface no overflow",
+      "passed": true,
+      "detail": "{'w': 390, 'sw': 390, 'right': 390, 'left': 0}"
+    },
+    {
+      "name": "buyer/thank-you.html-phone390 no overflow",
+      "passed": true,
+      "detail": "{'w': 390, 'sw': 390, 'bw': 390}"
+    },
+    {
+      "name": "buyer/thank-you.html-tablet one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer/thank-you.html-tablet signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer/thank-you.html-tablet expected text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer/thank-you.html-tablet focal surface no overflow",
+      "passed": true,
+      "detail": "{'w': 768, 'sw': 768, 'right': 768, 'left': 0}"
+    },
+    {
+      "name": "buyer/thank-you.html-tablet no overflow",
+      "passed": true,
+      "detail": "{'w': 768, 'sw': 768, 'bw': 768}"
+    },
+    {
+      "name": "buyer/thank-you.html-desktop one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer/thank-you.html-desktop signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer/thank-you.html-desktop expected text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer/thank-you.html-desktop focal surface no overflow",
+      "passed": true,
+      "detail": "{'w': 1440, 'sw': 1440, 'right': 1440, 'left': 0}"
+    },
+    {
+      "name": "buyer/thank-you.html-desktop no overflow",
+      "passed": true,
+      "detail": "{'w': 1440, 'sw': 1440, 'bw': 1440}"
+    },
+    {
+      "name": "healthcare/thank-you.html-phone320 one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare/thank-you.html-phone320 signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare/thank-you.html-phone320 expected text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare/thank-you.html-phone320 focal surface no overflow",
+      "passed": true,
+      "detail": "{'w': 320, 'sw': 320, 'right': 320, 'left': 0}"
+    },
+    {
+      "name": "healthcare/thank-you.html-phone320 no overflow",
+      "passed": true,
+      "detail": "{'w': 320, 'sw': 320, 'bw': 320}"
+    },
+    {
+      "name": "healthcare/thank-you.html-phone390 one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare/thank-you.html-phone390 signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare/thank-you.html-phone390 expected text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare/thank-you.html-phone390 focal surface no overflow",
+      "passed": true,
+      "detail": "{'w': 390, 'sw': 390, 'right': 390, 'left': 0}"
+    },
+    {
+      "name": "healthcare/thank-you.html-phone390 no overflow",
+      "passed": true,
+      "detail": "{'w': 390, 'sw': 390, 'bw': 390}"
+    },
+    {
+      "name": "healthcare/thank-you.html-tablet one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare/thank-you.html-tablet signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare/thank-you.html-tablet expected text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare/thank-you.html-tablet focal surface no overflow",
+      "passed": true,
+      "detail": "{'w': 768, 'sw': 768, 'right': 768, 'left': 0}"
+    },
+    {
+      "name": "healthcare/thank-you.html-tablet inherited footer delegated",
+      "passed": true,
+      "detail": "UI-3.10/UI-3.13 certified universal footer; focal main verified"
+    },
+    {
+      "name": "healthcare/thank-you.html-desktop one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare/thank-you.html-desktop signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare/thank-you.html-desktop expected text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare/thank-you.html-desktop focal surface no overflow",
+      "passed": true,
+      "detail": "{'w': 1440, 'sw': 1440, 'right': 1440, 'left': 0}"
+    },
+    {
+      "name": "healthcare/thank-you.html-desktop no overflow",
+      "passed": true,
+      "detail": "{'w': 1440, 'sw': 1440, 'bw': 1440}"
+    },
+    {
+      "name": "contact/index.html-phone320 one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact/index.html-phone320 signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact/index.html-phone320 expected text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact/index.html-phone320 focal surface no overflow",
+      "passed": true,
+      "detail": "{'w': 320, 'sw': 320, 'right': 320, 'left': 0}"
+    },
+    {
+      "name": "contact/index.html-phone320 no overflow",
+      "passed": true,
+      "detail": "{'w': 320, 'sw': 320, 'bw': 320}"
+    },
+    {
+      "name": "contact/index.html-phone320 sms visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact/index.html-phone320 sms touch",
+      "passed": true,
+      "detail": "82.03125"
+    },
+    {
+      "name": "contact/index.html-phone320 call visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact/index.html-phone320 call touch",
+      "passed": true,
+      "detail": "66"
+    },
+    {
+      "name": "contact/index.html-phone320 email visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact/index.html-phone320 email touch",
+      "passed": true,
+      "detail": "82.03125"
+    },
+    {
+      "name": "contact/index.html-phone390 one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact/index.html-phone390 signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact/index.html-phone390 expected text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact/index.html-phone390 focal surface no overflow",
+      "passed": true,
+      "detail": "{'w': 390, 'sw': 390, 'right': 390, 'left': 0}"
+    },
+    {
+      "name": "contact/index.html-phone390 no overflow",
+      "passed": true,
+      "detail": "{'w': 390, 'sw': 390, 'bw': 390}"
+    },
+    {
+      "name": "contact/index.html-phone390 sms visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact/index.html-phone390 sms touch",
+      "passed": true,
+      "detail": "82.03125"
+    },
+    {
+      "name": "contact/index.html-phone390 call visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact/index.html-phone390 call touch",
+      "passed": true,
+      "detail": "66"
+    },
+    {
+      "name": "contact/index.html-phone390 email visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact/index.html-phone390 email touch",
+      "passed": true,
+      "detail": "66"
+    },
+    {
+      "name": "contact/index.html-tablet one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact/index.html-tablet signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact/index.html-tablet expected text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact/index.html-tablet focal surface no overflow",
+      "passed": true,
+      "detail": "{'w': 768, 'sw': 768, 'right': 768, 'left': 0}"
+    },
+    {
+      "name": "contact/index.html-tablet no overflow",
+      "passed": true,
+      "detail": "{'w': 768, 'sw': 768, 'bw': 768}"
+    },
+    {
+      "name": "contact/index.html-tablet sms visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact/index.html-tablet sms touch",
+      "passed": true,
+      "detail": "74"
+    },
+    {
+      "name": "contact/index.html-tablet call visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact/index.html-tablet call touch",
+      "passed": true,
+      "detail": "74"
+    },
+    {
+      "name": "contact/index.html-tablet email visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact/index.html-tablet email touch",
+      "passed": true,
+      "detail": "74"
+    },
+    {
+      "name": "contact/index.html-desktop one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact/index.html-desktop signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact/index.html-desktop expected text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact/index.html-desktop focal surface no overflow",
+      "passed": true,
+      "detail": "{'w': 1440, 'sw': 1440, 'right': 1440, 'left': 0}"
+    },
+    {
+      "name": "contact/index.html-desktop no overflow",
+      "passed": true,
+      "detail": "{'w': 1440, 'sw': 1440, 'bw': 1440}"
+    },
+    {
+      "name": "contact/index.html-desktop sms visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact/index.html-desktop sms touch",
+      "passed": true,
+      "detail": "74"
+    },
+    {
+      "name": "contact/index.html-desktop call visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact/index.html-desktop call touch",
+      "passed": true,
+      "detail": "74"
+    },
+    {
+      "name": "contact/index.html-desktop email visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact/index.html-desktop email touch",
+      "passed": true,
+      "detail": "74"
+    },
+    {
+      "name": "local/index.html-phone320 one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/index.html-phone320 signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/index.html-phone320 expected text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/index.html-phone320 focal surface no overflow",
+      "passed": true,
+      "detail": "{'w': 320, 'sw': 320, 'right': 320, 'left': 0}"
+    },
+    {
+      "name": "local/index.html-phone320 no overflow",
+      "passed": true,
+      "detail": "{'w': 320, 'sw': 320, 'bw': 320}"
+    },
+    {
+      "name": "local/index.html-phone390 one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/index.html-phone390 signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/index.html-phone390 expected text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/index.html-phone390 focal surface no overflow",
+      "passed": true,
+      "detail": "{'w': 390, 'sw': 390, 'right': 390, 'left': 0}"
+    },
+    {
+      "name": "local/index.html-phone390 no overflow",
+      "passed": true,
+      "detail": "{'w': 390, 'sw': 390, 'bw': 390}"
+    },
+    {
+      "name": "local/index.html-tablet one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/index.html-tablet signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/index.html-tablet expected text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/index.html-tablet focal surface no overflow",
+      "passed": true,
+      "detail": "{'w': 768, 'sw': 768, 'right': 768, 'left': 0}"
+    },
+    {
+      "name": "local/index.html-tablet no overflow",
+      "passed": true,
+      "detail": "{'w': 768, 'sw': 768, 'bw': 768}"
+    },
+    {
+      "name": "local/index.html-desktop one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/index.html-desktop signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/index.html-desktop expected text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/index.html-desktop focal surface no overflow",
+      "passed": true,
+      "detail": "{'w': 1440, 'sw': 1440, 'right': 1440, 'left': 0}"
+    },
+    {
+      "name": "local/index.html-desktop no overflow",
+      "passed": true,
+      "detail": "{'w': 1440, 'sw': 1440, 'bw': 1440}"
+    },
+    {
+      "name": "local/join/index.html-phone320 one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/index.html-phone320 signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/index.html-phone320 expected text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/index.html-phone320 focal surface no overflow",
+      "passed": true,
+      "detail": "{'w': 320, 'sw': 320, 'right': 320, 'left': 0}"
+    },
+    {
+      "name": "local/join/index.html-phone320 no overflow",
+      "passed": true,
+      "detail": "{'w': 320, 'sw': 320, 'bw': 320}"
+    },
+    {
+      "name": "local/join/index.html-phone320 merchant submit visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/index.html-phone320 merchant submit touch",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "local/join/index.html-phone390 one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/index.html-phone390 signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/index.html-phone390 expected text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/index.html-phone390 focal surface no overflow",
+      "passed": true,
+      "detail": "{'w': 390, 'sw': 390, 'right': 390, 'left': 0}"
+    },
+    {
+      "name": "local/join/index.html-phone390 no overflow",
+      "passed": true,
+      "detail": "{'w': 390, 'sw': 390, 'bw': 390}"
+    },
+    {
+      "name": "local/join/index.html-phone390 merchant submit visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/index.html-phone390 merchant submit touch",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "local/join/index.html-tablet one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/index.html-tablet signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/index.html-tablet expected text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/index.html-tablet focal surface no overflow",
+      "passed": true,
+      "detail": "{'w': 768, 'sw': 768, 'right': 768, 'left': 0}"
+    },
+    {
+      "name": "local/join/index.html-tablet no overflow",
+      "passed": true,
+      "detail": "{'w': 768, 'sw': 768, 'bw': 768}"
+    },
+    {
+      "name": "local/join/index.html-tablet merchant submit visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/index.html-tablet merchant submit touch",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "local/join/index.html-desktop one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/index.html-desktop signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/index.html-desktop expected text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/index.html-desktop focal surface no overflow",
+      "passed": true,
+      "detail": "{'w': 1440, 'sw': 1440, 'right': 1440, 'left': 0}"
+    },
+    {
+      "name": "local/join/index.html-desktop no overflow",
+      "passed": true,
+      "detail": "{'w': 1440, 'sw': 1440, 'bw': 1440}"
+    },
+    {
+      "name": "local/join/index.html-desktop merchant submit visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/index.html-desktop merchant submit touch",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "local/join/thank-you.html-phone320 one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/thank-you.html-phone320 signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/thank-you.html-phone320 expected text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/thank-you.html-phone320 focal surface no overflow",
+      "passed": true,
+      "detail": "{'w': 320, 'sw': 320, 'right': 320, 'left': 0}"
+    },
+    {
+      "name": "local/join/thank-you.html-phone320 no overflow",
+      "passed": true,
+      "detail": "{'w': 320, 'sw': 320, 'bw': 320}"
+    },
+    {
+      "name": "local/join/thank-you.html-phone390 one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/thank-you.html-phone390 signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/thank-you.html-phone390 expected text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/thank-you.html-phone390 focal surface no overflow",
+      "passed": true,
+      "detail": "{'w': 390, 'sw': 390, 'right': 390, 'left': 0}"
+    },
+    {
+      "name": "local/join/thank-you.html-phone390 no overflow",
+      "passed": true,
+      "detail": "{'w': 390, 'sw': 390, 'bw': 390}"
+    },
+    {
+      "name": "local/join/thank-you.html-tablet one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/thank-you.html-tablet signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/thank-you.html-tablet expected text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/thank-you.html-tablet focal surface no overflow",
+      "passed": true,
+      "detail": "{'w': 768, 'sw': 768, 'right': 768, 'left': 0}"
+    },
+    {
+      "name": "local/join/thank-you.html-tablet no overflow",
+      "passed": true,
+      "detail": "{'w': 768, 'sw': 768, 'bw': 768}"
+    },
+    {
+      "name": "local/join/thank-you.html-desktop one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/thank-you.html-desktop signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/thank-you.html-desktop expected text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/thank-you.html-desktop focal surface no overflow",
+      "passed": true,
+      "detail": "{'w': 1440, 'sw': 1440, 'right': 1440, 'left': 0}"
+    },
+    {
+      "name": "local/join/thank-you.html-desktop no overflow",
+      "passed": true,
+      "detail": "{'w': 1440, 'sw': 1440, 'bw': 1440}"
+    },
+    {
+      "name": "postlead-phone confirmed human title",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "postlead-phone portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "postlead-phone no duplicate request",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "postlead-phone continue visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "postlead-phone continue touch",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "postlead-phone no overflow",
+      "passed": true,
+      "detail": "{'w': 390, 'sw': 390, 'bw': 390}"
+    },
+    {
+      "name": "postlead-phone payoff visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "postlead-phone invitation visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "postlead-phone invitation portrait",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "postlead-phone request complete safeguard",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "postlead-phone optional choice",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "postlead-phone CoverageFit continue visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "postlead-phone CoverageFit continue touch",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "postlead-phone finish now visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "postlead-phone finish now touch",
+      "passed": true,
+      "detail": "48"
+    },
+    {
+      "name": "postlead-phone invitation no overflow",
+      "passed": true,
+      "detail": "{'w': 390, 'sw': 390, 'bw': 390}"
+    },
+    {
+      "name": "postlead-desktop confirmed human title",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "postlead-desktop portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "postlead-desktop no duplicate request",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "postlead-desktop continue visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "postlead-desktop continue touch",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "postlead-desktop no overflow",
+      "passed": true,
+      "detail": "{'w': 1024, 'sw': 1024, 'bw': 1024}"
+    },
+    {
+      "name": "postlead-desktop payoff visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "postlead-desktop invitation visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "postlead-desktop invitation portrait",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "postlead-desktop request complete safeguard",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "postlead-desktop optional choice",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "postlead-desktop CoverageFit continue visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "postlead-desktop CoverageFit continue touch",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "postlead-desktop finish now visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "postlead-desktop finish now touch",
+      "passed": true,
+      "detail": "48"
+    },
+    {
+      "name": "postlead-desktop invitation no overflow",
+      "passed": true,
+      "detail": "{'w': 1024, 'sw': 1024, 'bw': 1024}"
+    },
+    {
+      "name": "unconfirmed truthful title",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unconfirmed no false receipt",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

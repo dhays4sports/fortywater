@@ -1,0 +1,39 @@
+{
+  "sprint": "408-UI-3.11",
+  "name": "Accessibility Certification",
+  "status": "certified",
+  "behavior_frozen": true,
+  "scope": {
+    "public_consumer_pages": 27,
+    "excluded_internal": [
+      "life-ops/index.html"
+    ]
+  },
+  "qa": {
+    "ui3_11_accessibility_contract": "597/597",
+    "protected_runtime_freeze": "39/39",
+    "form_contract_freeze": "27/27",
+    "explicit_contrast_pairs": "10/10",
+    "runtime_javascript_syntax": "38/38",
+    "home_hidden_required_submit": "12/12",
+    "advanced_mode_home_routing": "16/16",
+    "home_deep_route_assets": "12/12",
+    "advanced_mode_redirect_loop": "10/10",
+    "full_internal_link_check": "598 checked / 0 broken"
+  },
+  "certified_capabilities": [
+    "keyboard and focus",
+    "semantic hierarchy",
+    "labels and validation semantics",
+    "contrast and non-text control boundaries",
+    "reduced motion",
+    "forced colors",
+    "zoom and narrow reflow"
+  ],
+  "limitations": [
+    "product/source certification; not a third-party legal or WCAG conformance attestation",
+    "life-ops internal producer surface excluded"
+  ],
+  "local_status": "LOCAL-1.10 planned three-merchant pilot remains production NO-GO pending real Auto + Home merchants and external closeout",
+  "next_sprint": "408-UI-3.12 \u2014 End-to-End Functional Regression"
+}

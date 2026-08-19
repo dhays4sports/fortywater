@@ -1,0 +1,1232 @@
+{
+  "sprint": "408-UI-3.13.1E",
+  "suite": "human_trust_final_freeze",
+  "total": 244,
+  "passed": 244,
+  "failed": 0,
+  "product_files_frozen": 185,
+  "forms_frozen": 8,
+  "life_files_frozen": 13,
+  "checks": [
+    {
+      "name": "product freeze 404.html",
+      "passed": true,
+      "detail": "aef4d8a1e95483f091141fcc752bcf1a5202245c3433098876858cad96d1bca5"
+    },
+    {
+      "name": "product freeze _routes.json",
+      "passed": true,
+      "detail": "3568f8f7108595e37ae0da752971d749b2d498ef713ac1b4b302c937a73495d6"
+    },
+    {
+      "name": "product freeze _worker.js",
+      "passed": true,
+      "detail": "fff94d29593f23a15765e66b6627e0339480e0ca394ad86086b06026392d2690"
+    },
+    {
+      "name": "product freeze auto-bundle/hi",
+      "passed": true,
+      "detail": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "name": "product freeze auto-bundle/index.html",
+      "passed": true,
+      "detail": "3c93348f056d3521bafb8d8a76f9ded574a7915e06d7fa3e993784e30485f33f"
+    },
+    {
+      "name": "product freeze auto-bundle/thank-you.html",
+      "passed": true,
+      "detail": "96f6a2375713a1a931b571e8712e7aa78daf248d7e3e4f023d4f2a6cf13a963b"
+    },
+    {
+      "name": "product freeze buyer/index.html",
+      "passed": true,
+      "detail": "2704aef8a3ea1fdcfa6fc655da707537a877915e0eb3a9719d694e48b7d5b264"
+    },
+    {
+      "name": "product freeze buyer/thank-you.html",
+      "passed": true,
+      "detail": "acb333a347502d18127e9b2fa461de9d06f15f6352793edfd1b02622ecaa9d27"
+    },
+    {
+      "name": "product freeze contact/index.html",
+      "passed": true,
+      "detail": "1f9cb66bf8eb5e820f354f76d7b2ab295ed21a51da70f99813cc9bb8d52b649a"
+    },
+    {
+      "name": "product freeze engineers/hi",
+      "passed": true,
+      "detail": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "name": "product freeze engineers/index.html",
+      "passed": true,
+      "detail": "fb34381acb9a75d806f63bea063858da22d30f511bea8ffea25d41f06618cb91"
+    },
+    {
+      "name": "product freeze engineers/thank-you.html",
+      "passed": true,
+      "detail": "7353541e856412c7a39e33e9c0bfa829a02e290116c663a5692819a71c8d678d"
+    },
+    {
+      "name": "product freeze healthcare/hi",
+      "passed": true,
+      "detail": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "name": "product freeze healthcare/index.html",
+      "passed": true,
+      "detail": "24f348d18fdd72187669c33c486d19658df63d369094fe3a2bfcb7b60ad5ea27"
+    },
+    {
+      "name": "product freeze healthcare/thank-you.html",
+      "passed": true,
+      "detail": "f5344c42ffa7ad15d294103271d8318d5a578c548e3e21232b90b1c942ac9972"
+    },
+    {
+      "name": "product freeze home/hi",
+      "passed": true,
+      "detail": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "name": "product freeze home/index.html",
+      "passed": true,
+      "detail": "329d50062e70ab973be86168ebc0be3a6bc42891b2b19b5031b4e9fd8c675b3c"
+    },
+    {
+      "name": "product freeze home/thank-you.html",
+      "passed": true,
+      "detail": "634bae8aab9db78e4fc80be6545e2589df527f33096d75c53c4804095f72147c"
+    },
+    {
+      "name": "product freeze index.html",
+      "passed": true,
+      "detail": "f478c679e82f5e3852851dbb9dd6ed7669b720e446a8e929865823e360785a66"
+    },
+    {
+      "name": "product freeze life-ops/index.html",
+      "passed": true,
+      "detail": "a2e8a1c9f9fa0535fdcdb99ca76c8770c3ca055401fb109d6671f1e3b083fb6b"
+    },
+    {
+      "name": "product freeze life/index.html",
+      "passed": true,
+      "detail": "192da909e603efb3ad3468618051b11fea61bb905d64bfd373b38892d37bebcd"
+    },
+    {
+      "name": "product freeze life/thank-you.html",
+      "passed": true,
+      "detail": "b80812417206c0c5a53400812235a9f36c226ba2744ef749b0ca3bde977a8acc"
+    },
+    {
+      "name": "product freeze local/assets/pilot/stevies/qr-counter.png",
+      "passed": true,
+      "detail": "2a0414b0b32e2fd812ec932c9cbb5351200385ea617558075b6ccbb2d3305f93"
+    },
+    {
+      "name": "product freeze local/assets/pilot/stevies/qr-counter.svg",
+      "passed": true,
+      "detail": "d460172b6a8d2b4537fd6da2168ad69ecb10e71bfff76c7a4e07a6f53e67989f"
+    },
+    {
+      "name": "product freeze local/assets/pilot/stevies/qr-placard.png",
+      "passed": true,
+      "detail": "521e582957f3a818a8763aba5b2919764422dcd81f29f3dee6cbef063faabd08"
+    },
+    {
+      "name": "product freeze local/assets/pilot/stevies/qr-placard.svg",
+      "passed": true,
+      "detail": "00c303b31c24950bbe39ab5db09864562678cbb6a00194469b1fdd4a49185ae2"
+    },
+    {
+      "name": "product freeze local/assets/pilot/stevies/qr-table.png",
+      "passed": true,
+      "detail": "0f3c71c9d25a92f4a25faac1cc2dddc36790354ebe043bbcae766cffbe63985d"
+    },
+    {
+      "name": "product freeze local/assets/pilot/stevies/qr-table.svg",
+      "passed": true,
+      "detail": "0c866f9a4f31d8fce9dfb597db62c0b01de847eac361f3db73d868f9d3e4c7ea"
+    },
+    {
+      "name": "product freeze local/assets/pilot/stevies/stevies-local-perk-placard.svg",
+      "passed": true,
+      "detail": "ea093a557c6ef9196e8fed4e9269870399602651e404d8432542f5cbbdca6729"
+    },
+    {
+      "name": "product freeze local/data/README.md",
+      "passed": true,
+      "detail": "7b6ad67dbbfccb1cb52161449e1f8f2c36fd98066dbafcef96075165f80ddcae"
+    },
+    {
+      "name": "product freeze local/data/catalog.json",
+      "passed": true,
+      "detail": "4d7b0bb9a1e376b57270f833ec692b50af59cb8084f8c6fde6896ceda516d652"
+    },
+    {
+      "name": "product freeze local/data/catalog.schema.json",
+      "passed": true,
+      "detail": "a56f9a6c37878b139c52a9948bbe012d7186a0664c116039cb2bd60e8583b72d"
+    },
+    {
+      "name": "product freeze local/detail/index.html",
+      "passed": true,
+      "detail": "7e04eb1f3512a757a03f9c1af1e5efa877f444661e88ba0a9970df2134909df7"
+    },
+    {
+      "name": "product freeze local/index.html",
+      "passed": true,
+      "detail": "affd73b56ae20166301fe01b446a4a1732e812861ca1e53a688072bf6ab1dea0"
+    },
+    {
+      "name": "product freeze local/join/index.html",
+      "passed": true,
+      "detail": "f796fc20b638a8e7211bd268648775b587d90bf5a9f82012ae58117e72cdf10c"
+    },
+    {
+      "name": "product freeze local/join/thank-you.html",
+      "passed": true,
+      "detail": "edadbb7058c2d9ff5b15d419fada5af382be178ffb8e48f704c90449f6be06a8"
+    },
+    {
+      "name": "product freeze local/pilot/PILOT-LAUNCH-RUNBOOK.md",
+      "passed": true,
+      "detail": "e1a930c3486a41adaec2db49addf797e1ab7bf4aa6286f81ba733e066a723a50"
+    },
+    {
+      "name": "product freeze local/pilot/STEVIES-IDENTITY-VALIDATION.md",
+      "passed": true,
+      "detail": "a6cb348d36581ee2b9a12b669bbf038b72f9c1c35e558448c42775636da8ea3a"
+    },
+    {
+      "name": "product freeze local/pilot/STEVIES-STAFF-REDEMPTION-GUIDE.md",
+      "passed": true,
+      "detail": "fbd664869fc8f82087b7c6893ee8dd2019138277d934555252a62117cb73e9b1"
+    },
+    {
+      "name": "product freeze local/pilot/pilot-launch.json",
+      "passed": true,
+      "detail": "edf328b1c443778365f61e3ebbaf54d9f82d9a760309319c54d9b61b3c556816"
+    },
+    {
+      "name": "product freeze local/pilot/stevies-qr-campaigns.json",
+      "passed": true,
+      "detail": "effcf40681a266b81d330ae4c1ac1b16d06f28ac9e7025fb22dbe4033cda0446"
+    },
+    {
+      "name": "product freeze neighbor/index.html",
+      "passed": true,
+      "detail": "8fe7c3a4d2ab3d5e3ce3a6875e1524d63a515d33f5ff57c491410cef7028c9cc"
+    },
+    {
+      "name": "product freeze privacy.html",
+      "passed": true,
+      "detail": "1fcd10650c650d311a1dc24b75deaad3338d615a33849678b21aafd4da5b5f5d"
+    },
+    {
+      "name": "product freeze robots.txt",
+      "passed": true,
+      "detail": "8ccd7de547ba78b9633a3ec86c66d1da7b7d3a3f7f9e2d271a9ee5e28c9030ad"
+    },
+    {
+      "name": "product freeze score/index.html",
+      "passed": true,
+      "detail": "d234331b8497a8dd13573479fcfac4b262e5d2888ecc7d1ad5dfae02c8609cb5"
+    },
+    {
+      "name": "product freeze shared/Wowstyles.css",
+      "passed": true,
+      "detail": "8f7a4e3627d587bb96ec1ddf0b231ccc0755942a6333cc2d792f07bfad4e1662"
+    },
+    {
+      "name": "product freeze shared/accessibility-certification.css",
+      "passed": true,
+      "detail": "c20f2cc4494734badde6b602d5c769926ea7429ea2f1c4bea8ea17f75d41a61c"
+    },
+    {
+      "name": "product freeze shared/accessibility-certification.js",
+      "passed": true,
+      "detail": "2b1f801507d1836a34ffecfa8012c1c1ea340b818b8af5d466366aca0e2718c2"
+    },
+    {
+      "name": "product freeze shared/accessibility.css",
+      "passed": true,
+      "detail": "dfba489827b621c214eb6bc3c5bf427f9c2968f4ec3c5bd7b6147a07dd398966"
+    },
+    {
+      "name": "product freeze shared/accessibility.js",
+      "passed": true,
+      "detail": "43ab9e3e82ea16a113684ec85fd1c88ac3e53d57ca428a4ec38941e363aa6b86"
+    },
+    {
+      "name": "product freeze shared/address-autocomplete.js",
+      "passed": true,
+      "detail": "e457fa24ba4dff7585b7795172b90fbe52c651b918fb54d4a35f2ac3b486f4f0"
+    },
+    {
+      "name": "product freeze shared/assets/408-farmers-icon.png",
+      "passed": true,
+      "detail": "bf20a6e3bb553c3d7ce4357783269f2141d8fe4bcf7b32c6795c95ec5dac5dac"
+    },
+    {
+      "name": "product freeze shared/assets/408-farmers-logo-506.webp",
+      "passed": true,
+      "detail": "0c1d0a9b7d3dc1776fb82286ca38211a0405dd8377a428d134ca91e6d85ca7f7"
+    },
+    {
+      "name": "product freeze shared/assets/408-farmers-logo-white.png",
+      "passed": true,
+      "detail": "6581528c3c2a21d2f93050a4c9ead83477eea30deab17d218cc1be6bd661a6e0"
+    },
+    {
+      "name": "product freeze shared/assets/408-farmers-logo.png",
+      "passed": true,
+      "detail": "417b1015283708d11bcad3dd7fbbcc9a685b01e10413191971bfe8c88279e019"
+    },
+    {
+      "name": "product freeze shared/assets/408-farmers-nav-logo.png",
+      "passed": true,
+      "detail": "a5f0c7206e84bc338d3d572ccd95ffa93c64db3b044ab79b4d8a46c25edf6aaa"
+    },
+    {
+      "name": "product freeze shared/assets/auto-bundle-480.webp",
+      "passed": true,
+      "detail": "30c127ea83f984fb2e2bb797ebfb7482cc986124f951c4cdd55dd7465690f2c8"
+    },
+    {
+      "name": "product freeze shared/assets/auto-bundle-800.webp",
+      "passed": true,
+      "detail": "5ad62d6a668221d53b18604193dc27c86179ac3f4d77c2e5150be5e6e4f8437e"
+    },
+    {
+      "name": "product freeze shared/assets/auto-bundle.png",
+      "passed": true,
+      "detail": "7696b0b349c1b42fd7e05da6acd951e8214e86c2f81c5999d57927470358b969"
+    },
+    {
+      "name": "product freeze shared/assets/auto-bundle.webp",
+      "passed": true,
+      "detail": "32c477350488d6f4739822540be734872d614977d65ef2764ffc96761895045d"
+    },
+    {
+      "name": "product freeze shared/assets/buyer-home-420.webp",
+      "passed": true,
+      "detail": "531c8aefd275204e5ef68804029cad74c9541f2d60f50b1afcf0bb3022413aaa"
+    },
+    {
+      "name": "product freeze shared/assets/buyer-home-595.webp",
+      "passed": true,
+      "detail": "bd9aea9da3ceeceb283ef34415b904b2664f9be9ae258fb1fe00e0c09197e9ab"
+    },
+    {
+      "name": "product freeze shared/assets/buyer-home.jpg",
+      "passed": true,
+      "detail": "bb5f1b3e9e5198370814d042432c3642bf7ff71159fde259c95938d2490051dc"
+    },
+    {
+      "name": "product freeze shared/assets/coveragefit-logo.svg",
+      "passed": true,
+      "detail": "d85e5f54fcaf2356c1350f1314f24f53c58577cd800e85ca593aa4b470522fc7"
+    },
+    {
+      "name": "product freeze shared/assets/coveragefit-mark.svg",
+      "passed": true,
+      "detail": "16cb6aebae5ebcfbc5f9a277e4fd1b2beff7a316c4aeb233f4322a50a11c05b0"
+    },
+    {
+      "name": "product freeze shared/assets/engineers-480.webp",
+      "passed": true,
+      "detail": "71dc17701fc35a9c2a012dc9e64547c357953dc87b79922ec2a892819defb6f2"
+    },
+    {
+      "name": "product freeze shared/assets/engineers-800.webp",
+      "passed": true,
+      "detail": "69ef43ae11ba713fa5362e6fcbf575013c73e719a43cb36a8640926a7ddb1808"
+    },
+    {
+      "name": "product freeze shared/assets/engineers.png",
+      "passed": true,
+      "detail": "a00ecc615c276bfba73371691fa14dc9afcb70f0aa9bb0cf48b4f7785c1e5492"
+    },
+    {
+      "name": "product freeze shared/assets/engineers.webp",
+      "passed": true,
+      "detail": "aeb35cbe06a1dcac95c7d55c1fae70f8d929bafb69b0f6650885baee82bafdb6"
+    },
+    {
+      "name": "product freeze shared/assets/farmers-authorized-agency-320.webp",
+      "passed": true,
+      "detail": "6fd7d6aac63a1b67e824e209bfd1e952cb62cdcd940b0890783ee97c23ba1388"
+    },
+    {
+      "name": "product freeze shared/assets/farmers-authorized-agency.png",
+      "passed": true,
+      "detail": "ccf12920ee55482b9e9b2c6a31436232b1576b3847a42faaec0c126f75d36b72"
+    },
+    {
+      "name": "product freeze shared/assets/healthcare-480.webp",
+      "passed": true,
+      "detail": "abc8c455575ea6fd3b48f725453810ef7f3681df68abacec3bda301b5514b2bb"
+    },
+    {
+      "name": "product freeze shared/assets/healthcare-800.webp",
+      "passed": true,
+      "detail": "37d6f46cb7ea7d511ddb681c435947ac17b7cdf9c56343d554333e98c2b5eb97"
+    },
+    {
+      "name": "product freeze shared/assets/healthcare.png",
+      "passed": true,
+      "detail": "19a1871f75a6814b13adc4e744f183dca6bb82c6cc6000cddef86a62a3da8c7c"
+    },
+    {
+      "name": "product freeze shared/assets/healthcare.webp",
+      "passed": true,
+      "detail": "5e03680b7fcfbf54a1c4a6a6a5fc60fe495e02cb317feb149074bc73cd1cc5ec"
+    },
+    {
+      "name": "product freeze shared/assets/hi",
+      "passed": true,
+      "detail": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "name": "product freeze shared/assets/home-420.webp",
+      "passed": true,
+      "detail": "21e636e93a05d3799edae2c69a5d92eed9e1c5dcaeb8db9d1b91eb49340923ce"
+    },
+    {
+      "name": "product freeze shared/assets/home-653.webp",
+      "passed": true,
+      "detail": "ad7ce7e5e0df518e46ee29167c1430ed1cff7873aa0d2974d4b388a04bd95892"
+    },
+    {
+      "name": "product freeze shared/assets/home.jpg",
+      "passed": true,
+      "detail": "8471967b349951ba74b378288044c76b6de55e717addf1826faa48d6ebf302e0"
+    },
+    {
+      "name": "product freeze shared/assets/life-family-campaign-420.webp",
+      "passed": true,
+      "detail": "7fdc972b2edbb895f728a937145ea088c701b4ca21006ea53c75ddbe4316f5af"
+    },
+    {
+      "name": "product freeze shared/assets/life-family-campaign-705.webp",
+      "passed": true,
+      "detail": "76dc5ff40ed342c574975003c85c6d728cb0ee74ed6a4f40667d69d179387555"
+    },
+    {
+      "name": "product freeze shared/assets/life-family-campaign.jpg",
+      "passed": true,
+      "detail": "8b2c74ea0a89ec5ab481cbe362121a6dddf9fd3fbaec01dbf8b0df14636e053f"
+    },
+    {
+      "name": "product freeze shared/assets/teachers-480.webp",
+      "passed": true,
+      "detail": "d4fb6e67d589f08bbb90fe23f5031f4bce6b9297e0dc7394c3034e0aa6ee457f"
+    },
+    {
+      "name": "product freeze shared/assets/teachers-800.webp",
+      "passed": true,
+      "detail": "19506152bb6cbfc3bcfe5f04cf76487bc5fb21f1c3fa26e692e899620c4a15ae"
+    },
+    {
+      "name": "product freeze shared/assets/teachers.png",
+      "passed": true,
+      "detail": "969a2e4738c0c6592e52c23e38eb0a521968bdc84afd05df8358a7ac357a5b03"
+    },
+    {
+      "name": "product freeze shared/assets/teachers.webp",
+      "passed": true,
+      "detail": "e976a2d360c65aba4500ff2d5527448aa491b52b3b190da1f63f9f339e63e703"
+    },
+    {
+      "name": "product freeze shared/assets/tech-480.webp",
+      "passed": true,
+      "detail": "0a91e5d50fd74843fcb799856540f1280a81c115bfbfa56a137ac061b6826bfd"
+    },
+    {
+      "name": "product freeze shared/assets/tech-800.webp",
+      "passed": true,
+      "detail": "7057b7696ff15dfbc7f01c193519f57a214e7d9ea6cc52b2b27805094865508b"
+    },
+    {
+      "name": "product freeze shared/assets/tech.png",
+      "passed": true,
+      "detail": "8cc2032571e506bda7265fb63b190c129fbd71936156895109f63c3b3c759812"
+    },
+    {
+      "name": "product freeze shared/assets/tech.webp",
+      "passed": true,
+      "detail": "c1c9ff2b7feb3272f6afaa60cc53ecf256ffc90b7581dc21b46e9fb964990e5e"
+    },
+    {
+      "name": "product freeze shared/auto-bundle-conversion-ui.css",
+      "passed": true,
+      "detail": "d07ef9b8fb291ceeb33764798b1be598bd6e12933a9f7ac46904ef51ee967700"
+    },
+    {
+      "name": "product freeze shared/buyer-experience-ui.css",
+      "passed": true,
+      "detail": "2188af61cd8fb16926bed40557c111d16b71c6c4d3abbc3e0f44f14293fcd80d"
+    },
+    {
+      "name": "product freeze shared/buyer-flow.js",
+      "passed": true,
+      "detail": "cbb34820bd134d61ea1fae40cdde759381b9a951e9474dbb1663b1f53e548bc9"
+    },
+    {
+      "name": "product freeze shared/buyer-referral.js",
+      "passed": true,
+      "detail": "48dec66d8f5abdb58e643b19c95168b5a411664b5272125b0766f70d16e3ce97"
+    },
+    {
+      "name": "product freeze shared/buyer.css",
+      "passed": true,
+      "detail": "c73b108797a954dacfba0cafcc81d42a280d599202e7cab6c7482e1ca31f8e71"
+    },
+    {
+      "name": "product freeze shared/campaign-entry-registry.js",
+      "passed": true,
+      "detail": "7e04e758092b44c6c4eff2017671c520ee3dc7bb020ed33bd38a83db3735b843"
+    },
+    {
+      "name": "product freeze shared/campaign-entry.css",
+      "passed": true,
+      "detail": "6d16e9440490636515c54fea15516a86c8e2da12cec8fc9346f4cc245dd74d60"
+    },
+    {
+      "name": "product freeze shared/campaign-entry.js",
+      "passed": true,
+      "detail": "f12cfefd5a703ba6a02defc56a7ff674ff668701a818b675f16d96e86f139a84"
+    },
+    {
+      "name": "product freeze shared/campaign-routing.md",
+      "passed": true,
+      "detail": "a9cb07afa539766cd50e2c5b770d595203677f358e808921753ffaae0661c170"
+    },
+    {
+      "name": "product freeze shared/campaign.js",
+      "passed": true,
+      "detail": "dd2935996a955394b8818457e700c043ad76d5284e4071a704366ab070280a9b"
+    },
+    {
+      "name": "product freeze shared/config.js",
+      "passed": true,
+      "detail": "3184a565b13546c556e0183e392b0ff37bd8884a348848565707a23ba8c090c8"
+    },
+    {
+      "name": "product freeze shared/contact-choice.css",
+      "passed": true,
+      "detail": "866db364eeb6a66ccb9120a9e84a8e2d5b5383430110a4094238f5419d641398"
+    },
+    {
+      "name": "product freeze shared/contact-choice.js",
+      "passed": true,
+      "detail": "404db7a38202a64ea7168438e3d68610adf9ff0113e36620d8cb8ea80c2ea54e"
+    },
+    {
+      "name": "product freeze shared/core-insurance-human.css",
+      "passed": true,
+      "detail": "528f01e0c684f1f4ce0fbc7d5dc686642a599015374687700041e2d398465df8"
+    },
+    {
+      "name": "product freeze shared/coveragefit-invitation.css",
+      "passed": true,
+      "detail": "26b2d26874319404b3b28ac4397723325c92d73859e4ac319b2c339803fa66cb"
+    },
+    {
+      "name": "product freeze shared/coveragefit-invitation.js",
+      "passed": true,
+      "detail": "12a3d449da1d176c9fcb16efbb0e344e942659b6c3697cef1be2500f4873217e"
+    },
+    {
+      "name": "product freeze shared/coveragefit-launch.js",
+      "passed": true,
+      "detail": "0656746d83b8b54f5b322cd530e9150a9b2fe5274ae865b4808919ccd62191b9"
+    },
+    {
+      "name": "product freeze shared/design-system.css",
+      "passed": true,
+      "detail": "6aaa089ed7bdc3296e22c157d8fc5679b5a10ce3ca7c2900ce1e05ce2c9c1f70"
+    },
+    {
+      "name": "product freeze shared/flyer-campaign.js",
+      "passed": true,
+      "detail": "f713bd45ea120be072df6b3235cabfad8d8de5637c8dc70d412a513ebe8990f2"
+    },
+    {
+      "name": "product freeze shared/hi",
+      "passed": true,
+      "detail": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "name": "product freeze shared/home-baseline.js",
+      "passed": true,
+      "detail": "b0ae8e923e21d8392640ce78dc8fd0f7b6c46cee2d841112b30b4d500dbc0dba"
+    },
+    {
+      "name": "product freeze shared/home-campaign.css",
+      "passed": true,
+      "detail": "43d452ce100edff6e682790eee83468efb451df417220bd4dc944a4e27a0dbfa"
+    },
+    {
+      "name": "product freeze shared/home-certification.css",
+      "passed": true,
+      "detail": "02c21ee5839c161f917edd81189cd3a80733810bfc8e0099fce59e131980c806"
+    },
+    {
+      "name": "product freeze shared/home-certification.js",
+      "passed": true,
+      "detail": "3991ea57e8e58e97c54b7881cc4de6d0478fc71039c244b368cdd09bba7c8609"
+    },
+    {
+      "name": "product freeze shared/home-confirmation.css",
+      "passed": true,
+      "detail": "b0a6dbd9c9a98254ae633a3ea1f0343782db8c3cda614e82c1cc0859d338fd76"
+    },
+    {
+      "name": "product freeze shared/home-confirmation.js",
+      "passed": true,
+      "detail": "428e9a6fc550b6a48e5a157543bcf5f1fc5824415b5f068720d38033f2b50a4b"
+    },
+    {
+      "name": "product freeze shared/home-continuity.css",
+      "passed": true,
+      "detail": "2c9bdd3f11cb85bffa5a9f0080b2ea1a62666d01045fb35190f8c8cc45b2c48c"
+    },
+    {
+      "name": "product freeze shared/home-continuity.js",
+      "passed": true,
+      "detail": "ce542cc79420859e3d222edacd6ba860a1c305f1d445502141973fd35a4b3f9d"
+    },
+    {
+      "name": "product freeze shared/home-conversion-ui.css",
+      "passed": true,
+      "detail": "fc549349b9139b334e7bfdc3f966804c24d6c5609060c21f8a334969f24d96fb"
+    },
+    {
+      "name": "product freeze shared/home-engagement.css",
+      "passed": true,
+      "detail": "ef38c33c180e0156315f5dc1e06c377f83888b4f96fb17bd85dddcc76c71bc52"
+    },
+    {
+      "name": "product freeze shared/home-engagement.js",
+      "passed": true,
+      "detail": "8b1e878b22da159c7eb497daff8fc61b49a2a5ad18080e0f91573c2ea8621dc2"
+    },
+    {
+      "name": "product freeze shared/home-form-first.js",
+      "passed": true,
+      "detail": "2855b3c2fab0a457203fc76b571a02d0d845806b1231a3abe4c2e36cd1533aac"
+    },
+    {
+      "name": "product freeze shared/home-journey-contract.js",
+      "passed": true,
+      "detail": "867d31954774461394936a6cea63cddf7eaac74526570363dce3845079cb79f2"
+    },
+    {
+      "name": "product freeze shared/home-lead-progressive.css",
+      "passed": true,
+      "detail": "be28b404981e8aa61a321310b2470d1e8c4cae3d79165d837039fe1d37ce9c01"
+    },
+    {
+      "name": "product freeze shared/home-lead-progressive.js",
+      "passed": true,
+      "detail": "e71cca1508b06d663f7021ce159cdaa26bd3e7d569fb1f02e776d1f7079a1cb1"
+    },
+    {
+      "name": "product freeze shared/homepage-conversion-identity.css",
+      "passed": true,
+      "detail": "c79920fb84be2b072c7f3aa7ba2e83b7decdce5dc84ab727d918debd676667aa"
+    },
+    {
+      "name": "product freeze shared/homepage-optimization.css",
+      "passed": true,
+      "detail": "1ea716169bd9d0afc55573f673f6c95438df033f9c7ddfe590190d7af64c3f9f"
+    },
+    {
+      "name": "product freeze shared/homepage-optimization.js",
+      "passed": true,
+      "detail": "3587842768631e48b2fcd55dfeac5d8d90d0b054ef78bd6e3ac9a898449926f5"
+    },
+    {
+      "name": "product freeze shared/homepage-platform.css",
+      "passed": true,
+      "detail": "00865b2371f80a5f0dce87a323c5571a6aa456b329149ebe9eb0cfa117f81336"
+    },
+    {
+      "name": "product freeze shared/human-trust.css",
+      "passed": true,
+      "detail": "de86692903c8652e7a80a367af6689559b1e473ed5f76ee4bde5b06d531ce5e3"
+    },
+    {
+      "name": "product freeze shared/images/dylan-headshot-160.webp",
+      "passed": true,
+      "detail": "01c6828116731c439b607fde81327a18f9a64e9846c9124571b6a47b758d0fe1"
+    },
+    {
+      "name": "product freeze shared/images/dylan-headshot-320.webp",
+      "passed": true,
+      "detail": "1bcc4941d9a0935f367d785279048ede556e7f1e684bbeefcb0185c2ad784036"
+    },
+    {
+      "name": "product freeze shared/images/dylan-headshot-640.webp",
+      "passed": true,
+      "detail": "b77ceb606d990e3794984e2b2fd7214ff299f2c581e120cdcaa7dd2457034c22"
+    },
+    {
+      "name": "product freeze shared/images/dylan-headshot.png",
+      "passed": true,
+      "detail": "946344de92676a450b25dc6c655311d74f3a4ffe9ba72340e79fc525394495d0"
+    },
+    {
+      "name": "product freeze shared/images/professional-engineers-480.webp",
+      "passed": true,
+      "detail": "e42f9875602bc78f86416d9b93fc0be65e80a111a5c4c802867fe3192fdde166"
+    },
+    {
+      "name": "product freeze shared/images/professional-healthcare-480.webp",
+      "passed": true,
+      "detail": "3538b260574fcb813911c37faa97138e6ff2a466bbdfb2c445c0d1c54b41ea6d"
+    },
+    {
+      "name": "product freeze shared/images/professional-teachers-480.webp",
+      "passed": true,
+      "detail": "adadb4c2c54adc332740874231b0681ab4c9bcb9aa7920525821ec970a9073b4"
+    },
+    {
+      "name": "product freeze shared/images/professional-tech-480.webp",
+      "passed": true,
+      "detail": "84103602049179e74e96ddf279cdc57d238d437e0ab58b25d89d546fd4930235"
+    },
+    {
+      "name": "product freeze shared/life-campaign-platform.css",
+      "passed": true,
+      "detail": "149038f8622fbbc2469a19efe4ab0e080f34f44a76ae2b4dbee348e96c2e9e9d"
+    },
+    {
+      "name": "product freeze shared/life-campaign.js",
+      "passed": true,
+      "detail": "0c79e9a41bc481841c0e00070b40bc06e2f29658f3df27c100ac39ecf9800b1e"
+    },
+    {
+      "name": "product freeze shared/life-conversion.js",
+      "passed": true,
+      "detail": "662cd5a7925bed73168b5cba8529f1c428a5774bb4cccb624673cf992f1b32ee"
+    },
+    {
+      "name": "product freeze shared/life-intake.js",
+      "passed": true,
+      "detail": "ab484e0019d0ba1091dd4dfefa95b92e813546f68d15db57476225d661875dbb"
+    },
+    {
+      "name": "product freeze shared/life-ops.css",
+      "passed": true,
+      "detail": "0cb4a0756504aa08e584bdccb6d4cf64d971d13300063a4bd70a42bd8dca90cf"
+    },
+    {
+      "name": "product freeze shared/life-ops.js",
+      "passed": true,
+      "detail": "2173122572e12a7d9bc6db80ba96c866899de21cebab2c01f0cea2d6d716f58f"
+    },
+    {
+      "name": "product freeze shared/life-secure-submit.js",
+      "passed": true,
+      "detail": "10b5b1a1a77a11b83a01ddd3818947552d0fecda2e5cb5e77a6b678648a11b08"
+    },
+    {
+      "name": "product freeze shared/life.css",
+      "passed": true,
+      "detail": "60b4cf2ebf7e5508c7c6a7b2b3064d0025053881578a7bb83296dde2f2c3c5ba"
+    },
+    {
+      "name": "product freeze shared/local-attribution.js",
+      "passed": true,
+      "detail": "f9e04b4214e36805c5443ea88bff4f7978878f414295c960d4787d1c653ea7fe"
+    },
+    {
+      "name": "product freeze shared/local-data-model.js",
+      "passed": true,
+      "detail": "ff06f29c256d85adc4d8813187719a640c918a3cb7381b43c24d4469149fa17e"
+    },
+    {
+      "name": "product freeze shared/local-directory.js",
+      "passed": true,
+      "detail": "aeee96922378d235b177d229d1949220f17518927c3b4383c1964bdb12bfbb8c"
+    },
+    {
+      "name": "product freeze shared/local-join.js",
+      "passed": true,
+      "detail": "69f4a0f5aeb772b4bd98ee6629d527c0510a26d37c1c0c874399127c704dcce0"
+    },
+    {
+      "name": "product freeze shared/local-merchant.js",
+      "passed": true,
+      "detail": "806940982132e48d21284a5983a5c02fc535efb79a9a87cb98d2605795e0c55f"
+    },
+    {
+      "name": "product freeze shared/local-site-integration.css",
+      "passed": true,
+      "detail": "6dce33a515b919ac66e3ba541fbaad1c388c1b421da1217e7e4e75c9092a0b77"
+    },
+    {
+      "name": "product freeze shared/local-visual-convergence.css",
+      "passed": true,
+      "detail": "eba4d92110a8e13fead2c7c44950f8ed4f743e8af8a860920c0266d50def393a"
+    },
+    {
+      "name": "product freeze shared/local.css",
+      "passed": true,
+      "detail": "d5d697f575698e89b831622bfecef1ba0129f93499479b3d1ca1caa96a4272fb"
+    },
+    {
+      "name": "product freeze shared/mobile-interaction.css",
+      "passed": true,
+      "detail": "b41eb495e896248cd49ae42c467d35102a2645bcff6f061df2cd2e486e0858bf"
+    },
+    {
+      "name": "product freeze shared/motion.css",
+      "passed": true,
+      "detail": "4dd9f152a034f0bdbaa1022a7482c7226b44fc7458db18105d8717b1279932f7"
+    },
+    {
+      "name": "product freeze shared/motion.js",
+      "passed": true,
+      "detail": "b3e44af3972dced6a02d0c7872d1a013cda955508599dab6689cd451111564ec"
+    },
+    {
+      "name": "product freeze shared/occupational-simplification.css",
+      "passed": true,
+      "detail": "572626b0fa65b86c5d2883e8a225467f6da011976a7a6e30863fc31713c00711"
+    },
+    {
+      "name": "product freeze shared/performance.css",
+      "passed": true,
+      "detail": "00955619d35454163d96817874585e14cd9d2da02feb998338780f998b332548"
+    },
+    {
+      "name": "product freeze shared/post-lead-engagement.css",
+      "passed": true,
+      "detail": "679bd6b7bde08445b55c2c58f2d7cc65ce481fbfd325a00d9bd11eb76b427bad"
+    },
+    {
+      "name": "product freeze shared/post-lead-engagement.js",
+      "passed": true,
+      "detail": "1aae0ff708988296d803b4fa85fe09d7bae182a0bab59b0a4f34ca91445db443"
+    },
+    {
+      "name": "product freeze shared/professional-programs-human.css",
+      "passed": true,
+      "detail": "0eae9ae9c58a73049b47ac8cd6f88bd262ebe51d3c55b08914e5d99a01e4ad10"
+    },
+    {
+      "name": "product freeze shared/professional-programs-ui.css",
+      "passed": true,
+      "detail": "5b9b7ba05a5a822a1962aa746b85c763d3d8d149ab544e3267ad49c4e69a7479"
+    },
+    {
+      "name": "product freeze shared/progressive-intake.css",
+      "passed": true,
+      "detail": "14fcd53407f0d76c48dbd4ec149f7ec04c25b559e59e29b08bd05b32c62714be"
+    },
+    {
+      "name": "product freeze shared/progressive-intake.js",
+      "passed": true,
+      "detail": "cbc37c0aa6bb7163b416958fadfdbd5fd4ceee15ec325fab377ba1c4b0fb8c70"
+    },
+    {
+      "name": "product freeze shared/prospect-profile.js",
+      "passed": true,
+      "detail": "9b588ad7003ee4e1ce915f5b75a215b7ccc478f262a6c7824bae26a9b08dc7c3"
+    },
+    {
+      "name": "product freeze shared/referral-bridge.css",
+      "passed": true,
+      "detail": "fe9530905965d2612a3f857d349db4ee682530c5c295c5f9ce441560c91ad6df"
+    },
+    {
+      "name": "product freeze shared/referral-bridge.js",
+      "passed": true,
+      "detail": "1c0f08975cbea57dc2929364ac4f19ecce33da1ac4a371adf1ca254cf0d7d4dd"
+    },
+    {
+      "name": "product freeze shared/relationship-human.css",
+      "passed": true,
+      "detail": "7dea4bc70f36e53ce45185c2434b7be07caf3e1eb3a037268b6f81297fa8a0e6"
+    },
+    {
+      "name": "product freeze shared/root.css",
+      "passed": true,
+      "detail": "c6ae614ab81128d4200242cab866cdbad05446a384eb1c527afbc800208e6468"
+    },
+    {
+      "name": "product freeze shared/score.css",
+      "passed": true,
+      "detail": "c36a969ca921ea023f2c0ccc884eb85355336ab23bc073c567c7740158e051bb"
+    },
+    {
+      "name": "product freeze shared/score.js",
+      "passed": true,
+      "detail": "d23ab501865940dde7071c0772b0e8f6bf964a12a5a106f8bc99b9805192ccec"
+    },
+    {
+      "name": "product freeze shared/script.js",
+      "passed": true,
+      "detail": "5a5f19a43d237e44b9599fbd6536b228b0e71682cfe5d22a7b77fcdbd3acf6d7"
+    },
+    {
+      "name": "product freeze shared/styles.css",
+      "passed": true,
+      "detail": "a264b09f7f32c0f11be321bebd994bf1f5e7b23199abced2424927fe03090789"
+    },
+    {
+      "name": "product freeze shared/ui-3-foundation.css",
+      "passed": true,
+      "detail": "ce20b3b19ca916170f5b5211d6f2a765d5a1d7e30b1bed60141c58bad5366390"
+    },
+    {
+      "name": "product freeze shared/ui-3-foundation.js",
+      "passed": true,
+      "detail": "979568c3158c9710db8febaa784e55838e6c88cc038b9414a6247076722407e3"
+    },
+    {
+      "name": "product freeze shared/visual-polish.css",
+      "passed": true,
+      "detail": "fb8d419eea4dccdc100430d9d2f80d3af499397411101e56f6df0294550e3b2d"
+    },
+    {
+      "name": "product freeze sitemap.xml",
+      "passed": true,
+      "detail": "dd576c8013330729836d19b86f1bd8ec927b8201e4fc1d776690d47b087a0e93"
+    },
+    {
+      "name": "product freeze teachers/hi",
+      "passed": true,
+      "detail": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "name": "product freeze teachers/index.html",
+      "passed": true,
+      "detail": "b379307939b2017043b0713a1b1b3e0a7eefd26011254d4745187ace64d9d8b5"
+    },
+    {
+      "name": "product freeze teachers/thank-you.html",
+      "passed": true,
+      "detail": "187cfbac00643bb26935f4be12c7b8b1b867b8888dc81bf2bc6688a1e749f440"
+    },
+    {
+      "name": "product freeze tech/hi",
+      "passed": true,
+      "detail": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "name": "product freeze tech/index.html",
+      "passed": true,
+      "detail": "42fab9c0fdceb524e9d05b42ccf8734280de0ac031b6bba386f939bd07a16469"
+    },
+    {
+      "name": "product freeze tech/thank-you.html",
+      "passed": true,
+      "detail": "ddca90bce892ae86945b5a2e251a3e6d3cb3009876c18556d40647b06584ef52"
+    },
+    {
+      "name": "product freeze terms.html",
+      "passed": true,
+      "detail": "93b011a2df60818bae6def78dfa3bd63c06ab7f7b503460bee90800cfd5d1759"
+    },
+    {
+      "name": "form freeze home",
+      "passed": true,
+      "detail": "27c505b47c2dc7c396b89efa6a7e6dce0801fe2aa3d27fb241347715e8fab5aa"
+    },
+    {
+      "name": "form freeze auto_bundle",
+      "passed": true,
+      "detail": "10213f6a4285ec8bc364a8621ced610fff9068f320b2f4e87857589c942150c9"
+    },
+    {
+      "name": "form freeze buyer",
+      "passed": true,
+      "detail": "829acb3a2a1076fee970b4b6150d8516eb5357dd772e3af45ff3685c784562cc"
+    },
+    {
+      "name": "form freeze healthcare",
+      "passed": true,
+      "detail": "a803a11cf4c94225697753b4e516806ca65bdb932704bb48a7f2f87ed63b3a0a"
+    },
+    {
+      "name": "form freeze teachers",
+      "passed": true,
+      "detail": "22e7671d41e97353160e5ef546c4cad675ad3f338fd2865ce6cc28eb8ad94b2b"
+    },
+    {
+      "name": "form freeze tech",
+      "passed": true,
+      "detail": "2d27d632c737146159f6e0ad505158be2c8ef7444db6b8a757807297107f0737"
+    },
+    {
+      "name": "form freeze engineers",
+      "passed": true,
+      "detail": "6f4ecfe80528c3fe4b1abadc7677264a718c6e5708c3b42b257ebf2f31dc1031"
+    },
+    {
+      "name": "form freeze local_join",
+      "passed": true,
+      "detail": "879f448bbcbca74fefeebe1dcebb58cd3c82cf91eb0faa133f4c4522b209d28c"
+    },
+    {
+      "name": "life exact life-ops/index.html",
+      "passed": true,
+      "detail": "a2e8a1c9f9fa0535fdcdb99ca76c8770c3ca055401fb109d6671f1e3b083fb6b"
+    },
+    {
+      "name": "life exact life/index.html",
+      "passed": true,
+      "detail": "192da909e603efb3ad3468618051b11fea61bb905d64bfd373b38892d37bebcd"
+    },
+    {
+      "name": "life exact life/thank-you.html",
+      "passed": true,
+      "detail": "b80812417206c0c5a53400812235a9f36c226ba2744ef749b0ca3bde977a8acc"
+    },
+    {
+      "name": "life exact shared/assets/life-family-campaign-420.webp",
+      "passed": true,
+      "detail": "7fdc972b2edbb895f728a937145ea088c701b4ca21006ea53c75ddbe4316f5af"
+    },
+    {
+      "name": "life exact shared/assets/life-family-campaign-705.webp",
+      "passed": true,
+      "detail": "76dc5ff40ed342c574975003c85c6d728cb0ee74ed6a4f40667d69d179387555"
+    },
+    {
+      "name": "life exact shared/assets/life-family-campaign.jpg",
+      "passed": true,
+      "detail": "8b2c74ea0a89ec5ab481cbe362121a6dddf9fd3fbaec01dbf8b0df14636e053f"
+    },
+    {
+      "name": "life exact shared/life-campaign-platform.css",
+      "passed": true,
+      "detail": "149038f8622fbbc2469a19efe4ab0e080f34f44a76ae2b4dbee348e96c2e9e9d"
+    },
+    {
+      "name": "life exact shared/life-campaign.js",
+      "passed": true,
+      "detail": "0c79e9a41bc481841c0e00070b40bc06e2f29658f3df27c100ac39ecf9800b1e"
+    },
+    {
+      "name": "life exact shared/life-conversion.js",
+      "passed": true,
+      "detail": "662cd5a7925bed73168b5cba8529f1c428a5774bb4cccb624673cf992f1b32ee"
+    },
+    {
+      "name": "life exact shared/life-intake.js",
+      "passed": true,
+      "detail": "ab484e0019d0ba1091dd4dfefa95b92e813546f68d15db57476225d661875dbb"
+    },
+    {
+      "name": "life exact shared/life-ops.css",
+      "passed": true,
+      "detail": "0cb4a0756504aa08e584bdccb6d4cf64d971d13300063a4bd70a42bd8dca90cf"
+    },
+    {
+      "name": "life exact shared/life-ops.js",
+      "passed": true,
+      "detail": "2173122572e12a7d9bc6db80ba96c866899de21cebab2c01f0cea2d6d716f58f"
+    },
+    {
+      "name": "life exact shared/life-secure-submit.js",
+      "passed": true,
+      "detail": "10b5b1a1a77a11b83a01ddd3818947552d0fecda2e5cb5e77a6b678648a11b08"
+    },
+    {
+      "name": "life/index.html no relationship human css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "life/index.html no core human css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "life/index.html no professional human css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "life/thank-you.html no relationship human css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "life/thank-you.html no core human css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "life/thank-you.html no professional human css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "infra exact _worker.js",
+      "passed": true,
+      "detail": "fff94d29593f23a15765e66b6627e0339480e0ca394ad86086b06026392d2690"
+    },
+    {
+      "name": "infra exact _routes.json",
+      "passed": true,
+      "detail": "3568f8f7108595e37ae0da752971d749b2d498ef713ac1b4b302c937a73495d6"
+    },
+    {
+      "name": "artifact HUMAN-TRUST-DESIGN-SYSTEM.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "artifact HUMAN-TRUST-COMPONENT-REGISTRY.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "artifact SPRINT-408-UI-3.13.1A.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "artifact SPRINT-408-UI-3.13.1B.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "artifact SPRINT-408-UI-3.13.1C.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "artifact SPRINT-408-UI-3.13.1D.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "artifact UI3_13_1D_RELEASE_CERTIFICATION.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare/index.html text Work in Healthcare?",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare/index.html text Your review is handled by Dylan Haysbert",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers/index.html text Are You a Teacher?",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers/index.html text Your review is handled by Dylan Haysbert",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech/index.html text Work in Tech?",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech/index.html text Your review is handled by Dylan Haysbert",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers/index.html text Are You an Engineer?",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers/index.html text Your review is handled by Dylan Haysbert",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home/thank-you.html text I have your home review request.",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "auto-bundle/thank-you.html text I have your home + auto review request.",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact/index.html text You\u2019ll reach me directly.",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact/index.html text No call-center handoff.",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/index.html text Useful places. Local perks. South Bay businesses.",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/index.html text No insurance purchase or quote required.",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/thank-you.html text I have your Local pilot application.",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "campaign source CAMPAIGN_ENTRY_REGISTRY.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "campaign source shared/campaign-entry-registry.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "campaign source shared/campaign-entry.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "campaign registry nonempty",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/index.html local separation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/detail/index.html local separation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/index.html local separation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/thank-you.html local separation",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

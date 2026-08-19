@@ -1,0 +1,224 @@
+{
+  "sprint": "408-UI-3.13",
+  "name": "Production Design Certification",
+  "status": "pass",
+  "suites": [
+    {
+      "suite": "UI-3.13 production browser",
+      "artifact": "UI3_13_BROWSER_QA.json",
+      "passed": 749,
+      "total": 749,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "suite": "UI-3.13 metadata",
+      "artifact": "UI3_13_METADATA_QA.json",
+      "passed": 216,
+      "total": 216,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "suite": "UI-3.13 asset/performance",
+      "artifact": "UI3_13_ASSET_PERFORMANCE_QA.json",
+      "passed": 99,
+      "total": 99,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "suite": "UI-3.13 behavior/form freeze",
+      "artifact": "UI3_13_FREEZE_QA.json",
+      "passed": 66,
+      "total": 66,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "suite": "UI-3.13 JS syntax",
+      "artifact": "UI3_13_JS_SYNTAX_QA.json",
+      "passed": 41,
+      "total": 41,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "suite": "UI-3.13 links",
+      "artifact": "UI3_13_LINK_QA.json",
+      "passed": 640,
+      "total": 640,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "suite": "408-INFRA-1.1 Function Boundary",
+      "artifact": "qa/test-408-infra-1.1-function-boundary.mjs",
+      "passed": 22,
+      "total": 22,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "suite": "UI-3.13 INFRA-1.1 Exact Preservation",
+      "artifact": "UI3_13_INFRA_PRESERVATION_QA.json",
+      "passed": 4,
+      "total": 4,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "suite": "UI-3.12 E2E",
+      "artifact": "UI3_12_E2E_QA.json",
+      "passed": 59,
+      "total": 59,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "suite": "UI-3.11.1 campaign browser",
+      "artifact": "UI3_11_1_BROWSER_QA.json",
+      "passed": 51,
+      "total": 51,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "suite": "UI-3.11.1 accessibility delta",
+      "artifact": "UI3_11_1_ACCESSIBILITY_QA.json",
+      "passed": 56,
+      "total": 56,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "suite": "Homepage UI-3.2.1",
+      "artifact": "UI3_2_1_BROWSER_QA.json",
+      "passed": 93,
+      "total": 93,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "suite": "Home UI-3.3",
+      "artifact": "UI3_3_BROWSER_QA.json",
+      "passed": 108,
+      "total": 108,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "suite": "Home + Auto UI-3.4",
+      "artifact": "UI3_4_BROWSER_QA.json",
+      "passed": 99,
+      "total": 99,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "suite": "Buyer UI-3.5",
+      "artifact": "UI3_5_BROWSER_QA.json",
+      "passed": 115,
+      "total": 115,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "suite": "Professional Programs UI-3.6",
+      "artifact": "UI3_6_BROWSER_QA.json",
+      "passed": 452,
+      "total": 452,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "suite": "Life UI-3.7",
+      "artifact": "UI3_7_BROWSER_QA.json",
+      "passed": 23,
+      "total": 23,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "suite": "Local UI-3.8",
+      "artifact": "UI3_8_BROWSER_QA.json",
+      "passed": 155,
+      "total": 155,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "suite": "Utility UI-3.9",
+      "artifact": "UI3_9_BROWSER_QA.json",
+      "passed": 293,
+      "total": 293,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "suite": "Mobile UI-3.10",
+      "artifact": "UI3_10_BROWSER_QA.json",
+      "passed": 822,
+      "total": 822,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "suite": "Existing static regression",
+      "artifact": "B1_2D_QA.json",
+      "passed": 296,
+      "total": 296,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "suite": "Merchant Join Worker",
+      "artifact": "LOCAL1_5_WORKER_QA.json",
+      "passed": 20,
+      "total": 20,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "suite": "Local Attribution Worker",
+      "artifact": "LOCAL1_6_WORKER_QA.json",
+      "passed": 29,
+      "total": 29,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "suite": "Home hidden-required submit",
+      "artifact": "qa/test-home-submit-hidden-required-fix.js",
+      "passed": 12,
+      "total": 12,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "suite": "Home deep-route assets",
+      "artifact": "qa/test-home-2.7-deep-route-assets.js",
+      "passed": 12,
+      "total": 12,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "suite": "Advanced Mode redirect-loop",
+      "artifact": "qa/test-advanced-mode-redirect-loop-hotfix.js",
+      "passed": 10,
+      "total": 10,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "suite": "Logo integration",
+      "artifact": "qa/test-logo-integration.py",
+      "passed": 14,
+      "total": 14,
+      "failed": 0,
+      "certified": true
+    }
+  ],
+  "note": "Build-time certification covers the packaged artifact, including preservation of 408-INFRA-1.1. The newly built ZIP has not been deployed by this process, so deployed-domain, Cloudflare invocation-rate, and live external-service smoke remain activation checks rather than claims made by this artifact."
+}

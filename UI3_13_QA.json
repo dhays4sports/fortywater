@@ -1,0 +1,724 @@
+{
+  "sprint": "408-UI-3.13",
+  "suite": "release_source_contract",
+  "total": 143,
+  "passed": 143,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "VERSION final",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "roadmap marks 3.13 complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "roadmap marks UI3 complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "roadmap has no locked 3.13 sequence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SPRINT-408-UI-3.13.md exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "PRODUCTION-DESIGN-CERTIFICATION.md exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_DEPLOYMENT_SMOKE_RUNBOOK.md exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_RELEASE_CERTIFICATION.json exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_REGRESSION_MATRIX.json exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "robots.txt exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "sitemap.xml exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_BROWSER_QA.json exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_BROWSER_QA.json valid JSON",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_BROWSER_QA.json zero failures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_BROWSER_QA.json fully passed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_BROWSER_QA.json expected count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_METADATA_QA.json exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_METADATA_QA.json valid JSON",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_METADATA_QA.json zero failures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_METADATA_QA.json fully passed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_METADATA_QA.json expected count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_ASSET_PERFORMANCE_QA.json exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_ASSET_PERFORMANCE_QA.json valid JSON",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_ASSET_PERFORMANCE_QA.json zero failures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_ASSET_PERFORMANCE_QA.json fully passed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_ASSET_PERFORMANCE_QA.json expected count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_FREEZE_QA.json exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_FREEZE_QA.json valid JSON",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_FREEZE_QA.json zero failures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_FREEZE_QA.json fully passed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_FREEZE_QA.json expected count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_JS_SYNTAX_QA.json exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_JS_SYNTAX_QA.json valid JSON",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_JS_SYNTAX_QA.json zero failures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_JS_SYNTAX_QA.json fully passed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_JS_SYNTAX_QA.json expected count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_LINK_QA.json exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_LINK_QA.json valid JSON",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_LINK_QA.json zero failures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_LINK_QA.json fully passed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_LINK_QA.json expected count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_INFRA_PRESERVATION_QA.json exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_INFRA_PRESERVATION_QA.json valid JSON",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_INFRA_PRESERVATION_QA.json zero failures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_INFRA_PRESERVATION_QA.json fully passed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_13_INFRA_PRESERVATION_QA.json expected count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_12_E2E_QA.json exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_12_E2E_QA.json valid JSON",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_12_E2E_QA.json zero failures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_12_E2E_QA.json fully passed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_12_E2E_QA.json expected count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_11_1_BROWSER_QA.json exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_11_1_BROWSER_QA.json valid JSON",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_11_1_BROWSER_QA.json zero failures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_11_1_BROWSER_QA.json fully passed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_11_1_BROWSER_QA.json expected count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_11_1_ACCESSIBILITY_QA.json exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_11_1_ACCESSIBILITY_QA.json valid JSON",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_11_1_ACCESSIBILITY_QA.json zero failures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_11_1_ACCESSIBILITY_QA.json fully passed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_11_1_ACCESSIBILITY_QA.json expected count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_2_1_BROWSER_QA.json exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_2_1_BROWSER_QA.json valid JSON",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_2_1_BROWSER_QA.json zero failures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_2_1_BROWSER_QA.json fully passed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_2_1_BROWSER_QA.json expected count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_3_BROWSER_QA.json exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_3_BROWSER_QA.json valid JSON",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_3_BROWSER_QA.json zero failures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_3_BROWSER_QA.json fully passed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_3_BROWSER_QA.json expected count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_4_BROWSER_QA.json exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_4_BROWSER_QA.json valid JSON",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_4_BROWSER_QA.json zero failures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_4_BROWSER_QA.json fully passed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_4_BROWSER_QA.json expected count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_5_BROWSER_QA.json exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_5_BROWSER_QA.json valid JSON",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_5_BROWSER_QA.json zero failures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_5_BROWSER_QA.json fully passed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_5_BROWSER_QA.json expected count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_6_BROWSER_QA.json exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_6_BROWSER_QA.json valid JSON",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_6_BROWSER_QA.json zero failures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_6_BROWSER_QA.json fully passed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_6_BROWSER_QA.json expected count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_7_BROWSER_QA.json exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_7_BROWSER_QA.json valid JSON",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_8_BROWSER_QA.json exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_8_BROWSER_QA.json valid JSON",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_8_BROWSER_QA.json zero failures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_8_BROWSER_QA.json fully passed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_8_BROWSER_QA.json expected count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_9_BROWSER_QA.json exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_9_BROWSER_QA.json valid JSON",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_9_BROWSER_QA.json zero failures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_9_BROWSER_QA.json fully passed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_9_BROWSER_QA.json expected count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_10_BROWSER_QA.json exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_10_BROWSER_QA.json valid JSON",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_10_BROWSER_QA.json zero failures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_10_BROWSER_QA.json fully passed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "UI3_10_BROWSER_QA.json expected count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "B1_2D_QA.json exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "B1_2D_QA.json valid JSON",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "B1_2D_QA.json zero failures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "B1_2D_QA.json fully passed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "B1_2D_QA.json expected count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "LOCAL1_5_WORKER_QA.json exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "LOCAL1_5_WORKER_QA.json valid JSON",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "LOCAL1_5_WORKER_QA.json zero failures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "LOCAL1_5_WORKER_QA.json fully passed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "LOCAL1_5_WORKER_QA.json expected count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "LOCAL1_6_WORKER_QA.json exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "LOCAL1_6_WORKER_QA.json valid JSON",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "LOCAL1_6_WORKER_QA.json zero failures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "LOCAL1_6_WORKER_QA.json fully passed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "LOCAL1_6_WORKER_QA.json expected count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matrix pass",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matrix 27 suites",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matrix all certified",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cert sprint",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cert status",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cert deployable build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cert program complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cert behavior frozen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cert no functional changes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cert runtime freeze",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cert form freeze",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cert post deploy smoke boundary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cert Local NO-GO preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cert no next sprint",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "_routes.json preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "infra certification preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "infra release says behavior freeze",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cert declares infra hotfix",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cert infra QA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "_worker.js present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/config.js present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/coveragefit-launch.js present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/life-secure-submit.js present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/local-attribution.js present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/data/catalog.json present",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

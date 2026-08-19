@@ -1,0 +1,63 @@
+{
+  "sprint": "408-UI-3.13",
+  "name": "Production Design Certification",
+  "status": "certified",
+  "certification_level": "deployable_build",
+  "ui3_program_status": "complete",
+  "version": "408-UI-3.13 + 408-INFRA-1.1 + 408-UI-3.2.1",
+  "behavior_frozen": true,
+  "functional_changes": false,
+  "production_polish_changes": [
+    "metadata/indexing normalization",
+    "responsive WebP delivery for homepage, Buyer, and Life hero imagery",
+    "picture-wrapper geometry rules",
+    "robots.txt and sitemap.xml"
+  ],
+  "qa": {
+    "production_browser_design": "749/749",
+    "metadata": "216/216",
+    "asset_performance": "99/99",
+    "behavior_form_product_delta_freeze": "66/66",
+    "runtime_javascript_syntax": "41/41",
+    "internal_links_assets": "640 checked / 0 broken",
+    "ui3_12_end_to_end": "59/59",
+    "campaign_browser": "51/51",
+    "campaign_accessibility_delta": "56/56",
+    "homepage": "93/93",
+    "home": "108/108",
+    "home_auto": "99/99",
+    "buyer": "115/115",
+    "professional_programs": "452/452",
+    "life": "23/23",
+    "local": "155/155",
+    "utility": "293/293",
+    "mobile": "822/822",
+    "existing_static": "296/296",
+    "merchant_join_worker": "20/20",
+    "local_attribution_worker": "29/29",
+    "home_hidden_required_submit": "12/12",
+    "home_deep_route_assets": "12/12",
+    "advanced_mode_redirect_loop": "10/10",
+    "logo_integration": "14/14",
+    "infra_function_boundary": "22/22",
+    "infra_exact_preservation": "4/4"
+  },
+  "runtime_freeze": {
+    "files": "47/47",
+    "form_contracts": "9/9"
+  },
+  "browser_runtime_scope": "Chromium rendered certification from 320x568 through 1440x900; Safari/Firefox post-deploy smoke remains activation verification because those engines are unavailable in the build sandbox.",
+  "deployment_activation": "pending_post_deploy_smoke",
+  "deployment_note": "This artifact-building process does not deploy to Cloudflare and therefore does not claim the production domain already serves these exact bytes or that live external services accepted a canary from this exact deployment.",
+  "post_deploy_runbook": "UI3_13_DEPLOYMENT_SMOKE_RUNBOOK.md",
+  "local_status": "LOCAL-1.10 planned three-merchant pilot remains production NO-GO pending real Auto + Home merchants and external closeout.",
+  "next_sprint": null,
+  "input_baseline": "408-INFRA-1.1 Pages Function Invocation Boundary Hotfix layered on 408-UI-3.12",
+  "infra_hotfix_preserved": true,
+  "infra_hotfix": {
+    "sprint": "408-INFRA-1.1",
+    "routes_boundary": "_routes.json preserved byte-for-byte from input hotfix",
+    "preexisting_hotfix_files_modified": 0,
+    "infra_boundary_qa": "22/22"
+  }
+}

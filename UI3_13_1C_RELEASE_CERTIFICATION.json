@@ -1,0 +1,164 @@
+{
+  "sprint": "408-UI-3.13.1C \u2014 Core Insurance Humanization",
+  "status": "COMPLETE",
+  "input_baseline": "408-UI-3.13.1B \u2014 Professional Programs Humanization",
+  "governing_principle": "Modern system underneath. Human relationship on the surface.",
+  "routes": [
+    "/",
+    "/home/",
+    "/auto-bundle/",
+    "/buyer/"
+  ],
+  "life_excluded": true,
+  "professional_programs_preserved": true,
+  "intentional_changes": [
+    "earlier compact Dylan Human Trust Signature on all four core routes",
+    "warmer first-person/local-producer framing on the homepage",
+    "restrained Home review humanization without changing campaign-aware hero or form",
+    "consultative household framing for Home + Auto",
+    "light concierge closing tone for Buyer",
+    "selected de-chroming of nonessential benefit/promise UI"
+  ],
+  "protected_behavior": [
+    "Home/Bundle/Buyer forms exactly preserved inside #leadForm",
+    "Workers and _routes.json",
+    "Campaign Entry Registry/runtime and attribution",
+    "Home/Bundle branching",
+    "Buyer referral/closing logic",
+    "Professional Programs 3.13.1B",
+    "Life/Life Ops",
+    "Local",
+    "CoverageFit handoff",
+    "consent, pricing, eligibility, underwriting behavior"
+  ],
+  "qa": {
+    "core_source": {
+      "passed": 146,
+      "total": 146,
+      "failed": 0
+    },
+    "core_browser": {
+      "passed": 196,
+      "total": 196,
+      "failed": 0
+    },
+    "campaign_source": {
+      "passed": 82,
+      "total": 82,
+      "failed": 0
+    },
+    "campaign_browser": {
+      "passed": 51,
+      "total": 51,
+      "failed": 0
+    },
+    "campaign_accessibility": {
+      "passed": 56,
+      "total": 56,
+      "failed": 0
+    },
+    "e2e": {
+      "passed": 59,
+      "total": 59,
+      "failed": 0
+    },
+    "professional_browser_regression": {
+      "passed": 388,
+      "total": 388,
+      "failed": 0
+    },
+    "professional_accessibility_regression": {
+      "passed": 53,
+      "total": 53,
+      "failed": 0
+    },
+    "life_browser_regression": {
+      "passed": 23,
+      "total": 23,
+      "failed": 0
+    },
+    "local_browser_regression": {
+      "passed": 210,
+      "total": 210,
+      "failed": 0
+    },
+    "static_regression": {
+      "passed": 296,
+      "total": 296,
+      "failed": 0
+    },
+    "infra_boundary": {
+      "passed": 22,
+      "total": 22,
+      "failed": 0
+    },
+    "infra_preservation": {
+      "passed": 4,
+      "total": 4,
+      "failed": 0
+    },
+    "merchant_join_worker": {
+      "passed": 20,
+      "total": 20,
+      "failed": 0
+    },
+    "local_attribution_worker": {
+      "passed": 29,
+      "total": 29,
+      "failed": 0
+    },
+    "home_submit": {
+      "passed": 12,
+      "total": 12,
+      "failed": 0
+    },
+    "home_routing": {
+      "passed": 16,
+      "total": 16,
+      "failed": 0
+    },
+    "home_deep_route_assets": {
+      "passed": 12,
+      "total": 12,
+      "failed": 0
+    },
+    "redirect_loop": {
+      "passed": 10,
+      "total": 10,
+      "failed": 0
+    },
+    "js_syntax": {
+      "passed": 41,
+      "total": 41,
+      "failed": 0
+    },
+    "asset_performance": {
+      "passed": 99,
+      "total": 99,
+      "failed": 0
+    },
+    "metadata": {
+      "passed": 216,
+      "total": 216,
+      "failed": 0
+    },
+    "internal_links_assets": {
+      "passed": 680,
+      "total": 680,
+      "failed": 0,
+      "broken": 0
+    }
+  },
+  "affected_hashes": {
+    "index.html": "f478c679e82f5e3852851dbb9dd6ed7669b720e446a8e929865823e360785a66",
+    "home/index.html": "9d2063148ea68301198d5803cbbe845d07fb5e3c9af340ce938c4daf25a0c082",
+    "auto-bundle/index.html": "fe7f74de0f9cfbf8689b3a72bed2446b49f3e19570d591e6b7c6a25a73220ac6",
+    "buyer/index.html": "607edf767e6e577696fc6fe4ca0d85d76fa7230ccfa74d2b2851a182351dc011",
+    "shared/core-insurance-human.css": "528f01e0c684f1f4ce0fbc7d5dc686642a599015374687700041e2d398465df8",
+    "CORE_INSURANCE_HUMANIZATION_CONTRACT.json": "bde51a2ce3ed3fd62922ff0a8732ca51d6ab0653565e364009411494852b1f8c",
+    "HUMAN-TRUST-DESIGN-SYSTEM.md": "2eb27a1d7f18f36a04ce6fd2ef05ce85b315e4ace09969ff4a819e18d83e7b71",
+    "HUMAN-TRUST-COMPONENT-REGISTRY.json": "a129212d690ecd3e5bff4e1a693204455c7888ad716b9b509a56d0b2272a6d27",
+    "408-UI-ROADMAP.md": "2a24f8b369c211eaeaa6b8303f488ba2445b7af05fff3dffd24ae8a7f2c5f19c"
+  },
+  "next_sprint": "408-UI-3.13.1D \u2014 Relationship + Completion Humanization"
+}

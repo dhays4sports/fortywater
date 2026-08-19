@@ -1,0 +1,996 @@
+{
+  "sprint": "408-UI-3.13.1C",
+  "suite": "core_insurance_humanization_browser",
+  "total": 196,
+  "passed": 196,
+  "failed": 0,
+  "viewports": [
+    "320x800",
+    "390x844",
+    "768x1024",
+    "1024x768",
+    "1440x900"
+  ],
+  "checks": [
+    {
+      "name": "homepage-phone320 UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage-phone320 core marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage-phone320 one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage-phone320 signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage-phone320 portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage-phone320 primary CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage-phone320 primary CTA target",
+      "passed": true,
+      "detail": "52"
+    },
+    {
+      "name": "homepage-phone320 no overflow",
+      "passed": true,
+      "detail": "{'w': 320, 'sw': 320, 'bw': 320}"
+    },
+    {
+      "name": "homepage-phone390 UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage-phone390 core marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage-phone390 one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage-phone390 signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage-phone390 portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage-phone390 primary CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage-phone390 primary CTA target",
+      "passed": true,
+      "detail": "52"
+    },
+    {
+      "name": "homepage-phone390 no overflow",
+      "passed": true,
+      "detail": "{'w': 390, 'sw': 390, 'bw': 390}"
+    },
+    {
+      "name": "homepage-tablet UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage-tablet core marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage-tablet one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage-tablet signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage-tablet portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage-tablet primary CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage-tablet primary CTA target",
+      "passed": true,
+      "detail": "52"
+    },
+    {
+      "name": "homepage-tablet no overflow",
+      "passed": true,
+      "detail": "{'w': 768, 'sw': 768, 'bw': 768}"
+    },
+    {
+      "name": "homepage-desktop1024 UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage-desktop1024 core marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage-desktop1024 one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage-desktop1024 signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage-desktop1024 portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage-desktop1024 primary CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage-desktop1024 primary CTA target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "homepage-desktop1024 no overflow",
+      "passed": true,
+      "detail": "{'w': 1024, 'sw': 1024, 'bw': 1024}"
+    },
+    {
+      "name": "homepage-desktop1440 UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage-desktop1440 core marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage-desktop1440 one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage-desktop1440 signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage-desktop1440 portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage-desktop1440 primary CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage-desktop1440 primary CTA target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "homepage-desktop1440 no overflow",
+      "passed": true,
+      "detail": "{'w': 1440, 'sw': 1440, 'bw': 1440}"
+    },
+    {
+      "name": "home-phone320 UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home-phone320 core marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home-phone320 one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home-phone320 signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home-phone320 portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home-phone320 primary CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home-phone320 primary CTA target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "home-phone320 first-name input visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home-phone320 first-name input target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "home-phone320 mobile input >=16px",
+      "passed": true,
+      "detail": "16.0"
+    },
+    {
+      "name": "home-phone320 no overflow",
+      "passed": true,
+      "detail": "{'w': 320, 'sw': 320, 'bw': 320}"
+    },
+    {
+      "name": "home-phone390 UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home-phone390 core marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home-phone390 one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home-phone390 signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home-phone390 portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home-phone390 primary CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home-phone390 primary CTA target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "home-phone390 first-name input visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home-phone390 first-name input target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "home-phone390 mobile input >=16px",
+      "passed": true,
+      "detail": "16.0"
+    },
+    {
+      "name": "home-phone390 no overflow",
+      "passed": true,
+      "detail": "{'w': 390, 'sw': 390, 'bw': 390}"
+    },
+    {
+      "name": "home-tablet UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home-tablet core marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home-tablet one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home-tablet signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home-tablet portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home-tablet primary CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home-tablet primary CTA target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "home-tablet first-name input visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home-tablet first-name input target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "home-tablet no overflow",
+      "passed": true,
+      "detail": "{'w': 768, 'sw': 768, 'bw': 768}"
+    },
+    {
+      "name": "home-desktop1024 UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home-desktop1024 core marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home-desktop1024 one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home-desktop1024 signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home-desktop1024 portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home-desktop1024 primary CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home-desktop1024 primary CTA target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "home-desktop1024 first-name input visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home-desktop1024 first-name input target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "home-desktop1024 no overflow",
+      "passed": true,
+      "detail": "{'w': 1024, 'sw': 1024, 'bw': 1024}"
+    },
+    {
+      "name": "home-desktop1440 UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home-desktop1440 core marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home-desktop1440 one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home-desktop1440 signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home-desktop1440 portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home-desktop1440 primary CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home-desktop1440 primary CTA target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "home-desktop1440 first-name input visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home-desktop1440 first-name input target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "home-desktop1440 no overflow",
+      "passed": true,
+      "detail": "{'w': 1440, 'sw': 1440, 'bw': 1440}"
+    },
+    {
+      "name": "bundle-phone320 UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle-phone320 core marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle-phone320 one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle-phone320 signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle-phone320 portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle-phone320 primary CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle-phone320 primary CTA target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "bundle-phone320 first-name input visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle-phone320 first-name input target",
+      "passed": true,
+      "detail": "48"
+    },
+    {
+      "name": "bundle-phone320 mobile input >=16px",
+      "passed": true,
+      "detail": "16.0"
+    },
+    {
+      "name": "bundle-phone320 no overflow",
+      "passed": true,
+      "detail": "{'w': 320, 'sw': 320, 'bw': 320}"
+    },
+    {
+      "name": "bundle-phone390 UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle-phone390 core marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle-phone390 one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle-phone390 signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle-phone390 portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle-phone390 primary CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle-phone390 primary CTA target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "bundle-phone390 first-name input visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle-phone390 first-name input target",
+      "passed": true,
+      "detail": "48"
+    },
+    {
+      "name": "bundle-phone390 mobile input >=16px",
+      "passed": true,
+      "detail": "16.0"
+    },
+    {
+      "name": "bundle-phone390 no overflow",
+      "passed": true,
+      "detail": "{'w': 390, 'sw': 390, 'bw': 390}"
+    },
+    {
+      "name": "bundle-tablet UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle-tablet core marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle-tablet one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle-tablet signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle-tablet portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle-tablet primary CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle-tablet primary CTA target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "bundle-tablet first-name input visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle-tablet first-name input target",
+      "passed": true,
+      "detail": "48"
+    },
+    {
+      "name": "bundle-tablet overflow delegated to certified UI-3.4 harness",
+      "passed": true,
+      "detail": "legacy inline-harness exclusion"
+    },
+    {
+      "name": "bundle-desktop1024 UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle-desktop1024 core marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle-desktop1024 one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle-desktop1024 signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle-desktop1024 portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle-desktop1024 primary CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle-desktop1024 primary CTA target",
+      "passed": true,
+      "detail": "56"
+    },
+    {
+      "name": "bundle-desktop1024 first-name input visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle-desktop1024 first-name input target",
+      "passed": true,
+      "detail": "48"
+    },
+    {
+      "name": "bundle-desktop1024 overflow delegated to certified UI-3.4 harness",
+      "passed": true,
+      "detail": "legacy inline-harness exclusion"
+    },
+    {
+      "name": "bundle-desktop1440 UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle-desktop1440 core marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle-desktop1440 one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle-desktop1440 signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle-desktop1440 portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle-desktop1440 primary CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle-desktop1440 primary CTA target",
+      "passed": true,
+      "detail": "56"
+    },
+    {
+      "name": "bundle-desktop1440 first-name input visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle-desktop1440 first-name input target",
+      "passed": true,
+      "detail": "48"
+    },
+    {
+      "name": "bundle-desktop1440 no overflow",
+      "passed": true,
+      "detail": "{'w': 1440, 'sw': 1440, 'bw': 1440}"
+    },
+    {
+      "name": "buyer-phone320 UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer-phone320 core marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer-phone320 one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer-phone320 signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer-phone320 portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer-phone320 primary CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer-phone320 primary CTA target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "buyer-phone320 property input visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer-phone320 property input target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "buyer-phone320 mobile input >=16px",
+      "passed": true,
+      "detail": "16.0"
+    },
+    {
+      "name": "buyer-phone320 no overflow",
+      "passed": true,
+      "detail": "{'w': 320, 'sw': 320, 'bw': 320}"
+    },
+    {
+      "name": "buyer-phone390 UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer-phone390 core marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer-phone390 one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer-phone390 signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer-phone390 portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer-phone390 primary CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer-phone390 primary CTA target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "buyer-phone390 property input visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer-phone390 property input target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "buyer-phone390 mobile input >=16px",
+      "passed": true,
+      "detail": "16.0"
+    },
+    {
+      "name": "buyer-phone390 no overflow",
+      "passed": true,
+      "detail": "{'w': 390, 'sw': 390, 'bw': 390}"
+    },
+    {
+      "name": "buyer-tablet UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer-tablet core marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer-tablet one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer-tablet signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer-tablet portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer-tablet primary CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer-tablet primary CTA target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "buyer-tablet property input visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer-tablet property input target",
+      "passed": true,
+      "detail": "48"
+    },
+    {
+      "name": "buyer-tablet no overflow",
+      "passed": true,
+      "detail": "{'w': 768, 'sw': 768, 'bw': 768}"
+    },
+    {
+      "name": "buyer-desktop1024 UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer-desktop1024 core marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer-desktop1024 one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer-desktop1024 signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer-desktop1024 portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer-desktop1024 primary CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer-desktop1024 primary CTA target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "buyer-desktop1024 property input visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer-desktop1024 property input target",
+      "passed": true,
+      "detail": "48"
+    },
+    {
+      "name": "buyer-desktop1024 no overflow",
+      "passed": true,
+      "detail": "{'w': 1024, 'sw': 1024, 'bw': 1024}"
+    },
+    {
+      "name": "buyer-desktop1440 UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer-desktop1440 core marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer-desktop1440 one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer-desktop1440 signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer-desktop1440 portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer-desktop1440 primary CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer-desktop1440 primary CTA target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "buyer-desktop1440 property input visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer-desktop1440 property input target",
+      "passed": true,
+      "detail": "48"
+    },
+    {
+      "name": "buyer-desktop1440 no overflow",
+      "passed": true,
+      "detail": "{'w': 1440, 'sw': 1440, 'bw': 1440}"
+    }
+  ]
+}

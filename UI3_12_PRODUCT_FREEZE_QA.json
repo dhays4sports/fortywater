@@ -1,0 +1,649 @@
+{
+  "sprint": "408-UI-3.12",
+  "suite": "expanded_product_surface_freeze",
+  "total": 160,
+  "passed": 160,
+  "failed": 0,
+  "checks": [
+    {
+      "path": "404.html",
+      "passed": true
+    },
+    {
+      "path": "_redirects",
+      "passed": true
+    },
+    {
+      "path": "_worker.js",
+      "passed": true
+    },
+    {
+      "path": "apple-touch-icon.png",
+      "passed": true
+    },
+    {
+      "path": "auto-bundle/index.html",
+      "passed": true
+    },
+    {
+      "path": "auto-bundle/thank-you.html",
+      "passed": true
+    },
+    {
+      "path": "buyer/index.html",
+      "passed": true
+    },
+    {
+      "path": "buyer/thank-you.html",
+      "passed": true
+    },
+    {
+      "path": "contact/index.html",
+      "passed": true
+    },
+    {
+      "path": "engineers/index.html",
+      "passed": true
+    },
+    {
+      "path": "engineers/thank-you.html",
+      "passed": true
+    },
+    {
+      "path": "favicon-32x32.png",
+      "passed": true
+    },
+    {
+      "path": "favicon.ico",
+      "passed": true
+    },
+    {
+      "path": "handoff-manifest.json",
+      "passed": true
+    },
+    {
+      "path": "healthcare/index.html",
+      "passed": true
+    },
+    {
+      "path": "healthcare/thank-you.html",
+      "passed": true
+    },
+    {
+      "path": "home/index.html",
+      "passed": true
+    },
+    {
+      "path": "home/thank-you.html",
+      "passed": true
+    },
+    {
+      "path": "index.html",
+      "passed": true
+    },
+    {
+      "path": "life/index.html",
+      "passed": true
+    },
+    {
+      "path": "life/thank-you.html",
+      "passed": true
+    },
+    {
+      "path": "life-ops/index.html",
+      "passed": true
+    },
+    {
+      "path": "local/assets/pilot/stevies/qr-counter.png",
+      "passed": true
+    },
+    {
+      "path": "local/assets/pilot/stevies/qr-counter.svg",
+      "passed": true
+    },
+    {
+      "path": "local/assets/pilot/stevies/qr-placard.png",
+      "passed": true
+    },
+    {
+      "path": "local/assets/pilot/stevies/qr-placard.svg",
+      "passed": true
+    },
+    {
+      "path": "local/assets/pilot/stevies/qr-table.png",
+      "passed": true
+    },
+    {
+      "path": "local/assets/pilot/stevies/qr-table.svg",
+      "passed": true
+    },
+    {
+      "path": "local/assets/pilot/stevies/stevies-local-perk-placard.svg",
+      "passed": true
+    },
+    {
+      "path": "local/data/catalog.json",
+      "passed": true
+    },
+    {
+      "path": "local/data/catalog.schema.json",
+      "passed": true
+    },
+    {
+      "path": "local/detail/index.html",
+      "passed": true
+    },
+    {
+      "path": "local/index.html",
+      "passed": true
+    },
+    {
+      "path": "local/join/index.html",
+      "passed": true
+    },
+    {
+      "path": "local/join/thank-you.html",
+      "passed": true
+    },
+    {
+      "path": "neighbor/index.html",
+      "passed": true
+    },
+    {
+      "path": "privacy.html",
+      "passed": true
+    },
+    {
+      "path": "score/index.html",
+      "passed": true
+    },
+    {
+      "path": "shared/Wowstyles.css",
+      "passed": true
+    },
+    {
+      "path": "shared/accessibility-certification.css",
+      "passed": true
+    },
+    {
+      "path": "shared/accessibility-certification.js",
+      "passed": true
+    },
+    {
+      "path": "shared/accessibility.css",
+      "passed": true
+    },
+    {
+      "path": "shared/accessibility.js",
+      "passed": true
+    },
+    {
+      "path": "shared/address-autocomplete.js",
+      "passed": true
+    },
+    {
+      "path": "shared/assets/408-farmers-icon.png",
+      "passed": true
+    },
+    {
+      "path": "shared/assets/408-farmers-logo-506.webp",
+      "passed": true
+    },
+    {
+      "path": "shared/assets/408-farmers-logo-white.png",
+      "passed": true
+    },
+    {
+      "path": "shared/assets/408-farmers-logo.png",
+      "passed": true
+    },
+    {
+      "path": "shared/assets/408-farmers-nav-logo.png",
+      "passed": true
+    },
+    {
+      "path": "shared/assets/auto-bundle-480.webp",
+      "passed": true
+    },
+    {
+      "path": "shared/assets/auto-bundle-800.webp",
+      "passed": true
+    },
+    {
+      "path": "shared/assets/auto-bundle.png",
+      "passed": true
+    },
+    {
+      "path": "shared/assets/auto-bundle.webp",
+      "passed": true
+    },
+    {
+      "path": "shared/assets/buyer-home.jpg",
+      "passed": true
+    },
+    {
+      "path": "shared/assets/coveragefit-logo.svg",
+      "passed": true
+    },
+    {
+      "path": "shared/assets/coveragefit-mark.svg",
+      "passed": true
+    },
+    {
+      "path": "shared/assets/engineers-480.webp",
+      "passed": true
+    },
+    {
+      "path": "shared/assets/engineers-800.webp",
+      "passed": true
+    },
+    {
+      "path": "shared/assets/engineers.png",
+      "passed": true
+    },
+    {
+      "path": "shared/assets/engineers.webp",
+      "passed": true
+    },
+    {
+      "path": "shared/assets/farmers-authorized-agency-320.webp",
+      "passed": true
+    },
+    {
+      "path": "shared/assets/farmers-authorized-agency.png",
+      "passed": true
+    },
+    {
+      "path": "shared/assets/healthcare-480.webp",
+      "passed": true
+    },
+    {
+      "path": "shared/assets/healthcare-800.webp",
+      "passed": true
+    },
+    {
+      "path": "shared/assets/healthcare.png",
+      "passed": true
+    },
+    {
+      "path": "shared/assets/healthcare.webp",
+      "passed": true
+    },
+    {
+      "path": "shared/assets/home-420.webp",
+      "passed": true
+    },
+    {
+      "path": "shared/assets/home-653.webp",
+      "passed": true
+    },
+    {
+      "path": "shared/assets/home.jpg",
+      "passed": true
+    },
+    {
+      "path": "shared/assets/life-family-campaign.jpg",
+      "passed": true
+    },
+    {
+      "path": "shared/assets/teachers-480.webp",
+      "passed": true
+    },
+    {
+      "path": "shared/assets/teachers-800.webp",
+      "passed": true
+    },
+    {
+      "path": "shared/assets/teachers.png",
+      "passed": true
+    },
+    {
+      "path": "shared/assets/teachers.webp",
+      "passed": true
+    },
+    {
+      "path": "shared/assets/tech-480.webp",
+      "passed": true
+    },
+    {
+      "path": "shared/assets/tech-800.webp",
+      "passed": true
+    },
+    {
+      "path": "shared/assets/tech.png",
+      "passed": true
+    },
+    {
+      "path": "shared/assets/tech.webp",
+      "passed": true
+    },
+    {
+      "path": "shared/auto-bundle-conversion-ui.css",
+      "passed": true
+    },
+    {
+      "path": "shared/buyer-experience-ui.css",
+      "passed": true
+    },
+    {
+      "path": "shared/buyer-flow.js",
+      "passed": true
+    },
+    {
+      "path": "shared/buyer-referral.js",
+      "passed": true
+    },
+    {
+      "path": "shared/buyer.css",
+      "passed": true
+    },
+    {
+      "path": "shared/campaign-entry-registry.js",
+      "passed": true
+    },
+    {
+      "path": "shared/campaign-entry.css",
+      "passed": true
+    },
+    {
+      "path": "shared/campaign-entry.js",
+      "passed": true
+    },
+    {
+      "path": "shared/campaign.js",
+      "passed": true
+    },
+    {
+      "path": "shared/config.js",
+      "passed": true
+    },
+    {
+      "path": "shared/contact-choice.css",
+      "passed": true
+    },
+    {
+      "path": "shared/contact-choice.js",
+      "passed": true
+    },
+    {
+      "path": "shared/coveragefit-invitation.css",
+      "passed": true
+    },
+    {
+      "path": "shared/coveragefit-invitation.js",
+      "passed": true
+    },
+    {
+      "path": "shared/coveragefit-launch.js",
+      "passed": true
+    },
+    {
+      "path": "shared/design-system.css",
+      "passed": true
+    },
+    {
+      "path": "shared/flyer-campaign.js",
+      "passed": true
+    },
+    {
+      "path": "shared/home-baseline.js",
+      "passed": true
+    },
+    {
+      "path": "shared/home-campaign.css",
+      "passed": true
+    },
+    {
+      "path": "shared/home-certification.css",
+      "passed": true
+    },
+    {
+      "path": "shared/home-certification.js",
+      "passed": true
+    },
+    {
+      "path": "shared/home-confirmation.css",
+      "passed": true
+    },
+    {
+      "path": "shared/home-confirmation.js",
+      "passed": true
+    },
+    {
+      "path": "shared/home-continuity.css",
+      "passed": true
+    },
+    {
+      "path": "shared/home-continuity.js",
+      "passed": true
+    },
+    {
+      "path": "shared/home-conversion-ui.css",
+      "passed": true
+    },
+    {
+      "path": "shared/home-engagement.css",
+      "passed": true
+    },
+    {
+      "path": "shared/home-engagement.js",
+      "passed": true
+    },
+    {
+      "path": "shared/home-form-first.js",
+      "passed": true
+    },
+    {
+      "path": "shared/home-journey-contract.js",
+      "passed": true
+    },
+    {
+      "path": "shared/home-lead-progressive.css",
+      "passed": true
+    },
+    {
+      "path": "shared/home-lead-progressive.js",
+      "passed": true
+    },
+    {
+      "path": "shared/homepage-conversion-identity.css",
+      "passed": true
+    },
+    {
+      "path": "shared/homepage-optimization.css",
+      "passed": true
+    },
+    {
+      "path": "shared/homepage-optimization.js",
+      "passed": true
+    },
+    {
+      "path": "shared/homepage-platform.css",
+      "passed": true
+    },
+    {
+      "path": "shared/images/dylan-headshot-160.webp",
+      "passed": true
+    },
+    {
+      "path": "shared/images/dylan-headshot-320.webp",
+      "passed": true
+    },
+    {
+      "path": "shared/images/dylan-headshot-640.webp",
+      "passed": true
+    },
+    {
+      "path": "shared/images/dylan-headshot.png",
+      "passed": true
+    },
+    {
+      "path": "shared/life-campaign-platform.css",
+      "passed": true
+    },
+    {
+      "path": "shared/life-campaign.js",
+      "passed": true
+    },
+    {
+      "path": "shared/life-conversion.js",
+      "passed": true
+    },
+    {
+      "path": "shared/life-intake.js",
+      "passed": true
+    },
+    {
+      "path": "shared/life-ops.css",
+      "passed": true
+    },
+    {
+      "path": "shared/life-ops.js",
+      "passed": true
+    },
+    {
+      "path": "shared/life-secure-submit.js",
+      "passed": true
+    },
+    {
+      "path": "shared/life.css",
+      "passed": true
+    },
+    {
+      "path": "shared/local-attribution.js",
+      "passed": true
+    },
+    {
+      "path": "shared/local-data-model.js",
+      "passed": true
+    },
+    {
+      "path": "shared/local-directory.js",
+      "passed": true
+    },
+    {
+      "path": "shared/local-join.js",
+      "passed": true
+    },
+    {
+      "path": "shared/local-merchant.js",
+      "passed": true
+    },
+    {
+      "path": "shared/local-site-integration.css",
+      "passed": true
+    },
+    {
+      "path": "shared/local-visual-convergence.css",
+      "passed": true
+    },
+    {
+      "path": "shared/local.css",
+      "passed": true
+    },
+    {
+      "path": "shared/mobile-interaction.css",
+      "passed": true
+    },
+    {
+      "path": "shared/motion.css",
+      "passed": true
+    },
+    {
+      "path": "shared/motion.js",
+      "passed": true
+    },
+    {
+      "path": "shared/occupational-simplification.css",
+      "passed": true
+    },
+    {
+      "path": "shared/performance.css",
+      "passed": true
+    },
+    {
+      "path": "shared/post-lead-engagement.css",
+      "passed": true
+    },
+    {
+      "path": "shared/post-lead-engagement.js",
+      "passed": true
+    },
+    {
+      "path": "shared/professional-programs-ui.css",
+      "passed": true
+    },
+    {
+      "path": "shared/progressive-intake.css",
+      "passed": true
+    },
+    {
+      "path": "shared/progressive-intake.js",
+      "passed": true
+    },
+    {
+      "path": "shared/prospect-profile.js",
+      "passed": true
+    },
+    {
+      "path": "shared/referral-bridge.css",
+      "passed": true
+    },
+    {
+      "path": "shared/referral-bridge.js",
+      "passed": true
+    },
+    {
+      "path": "shared/root.css",
+      "passed": true
+    },
+    {
+      "path": "shared/score.css",
+      "passed": true
+    },
+    {
+      "path": "shared/score.js",
+      "passed": true
+    },
+    {
+      "path": "shared/script.js",
+      "passed": true
+    },
+    {
+      "path": "shared/styles.css",
+      "passed": true
+    },
+    {
+      "path": "shared/ui-3-foundation.css",
+      "passed": true
+    },
+    {
+      "path": "shared/ui-3-foundation.js",
+      "passed": true
+    },
+    {
+      "path": "shared/visual-polish.css",
+      "passed": true
+    },
+    {
+      "path": "teachers/index.html",
+      "passed": true
+    },
+    {
+      "path": "teachers/thank-you.html",
+      "passed": true
+    },
+    {
+      "path": "tech/index.html",
+      "passed": true
+    },
+    {
+      "path": "tech/thank-you.html",
+      "passed": true
+    },
+    {
+      "path": "terms.html",
+      "passed": true
+    }
+  ]
+}

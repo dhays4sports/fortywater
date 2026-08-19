@@ -1,0 +1,208 @@
+{
+  "sprint": "408-UI-3.12",
+  "name": "End-to-End Functional Regression",
+  "status": "pass",
+  "suites": [
+    {
+      "name": "UI-3.12 end-to-end browser simulation",
+      "artifact": "UI3_12_E2E_QA.json",
+      "passed": 59,
+      "total": 59,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "name": "UI-3.11.1 campaign source contract",
+      "artifact": "UI3_11_1_QA.json",
+      "passed": 82,
+      "total": 82,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "name": "UI-3.11.1 campaign browser matching",
+      "artifact": "UI3_11_1_BROWSER_QA.json",
+      "passed": 51,
+      "total": 51,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "name": "UI-3.11.1 accessibility delta",
+      "artifact": "UI3_11_1_ACCESSIBILITY_QA.json",
+      "passed": 56,
+      "total": 56,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "name": "Homepage UI-3.2.1 browser regression",
+      "artifact": "UI3_2_1_BROWSER_QA.json",
+      "passed": 93,
+      "total": 93,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "name": "Home UI-3.3 browser regression",
+      "artifact": "UI3_3_BROWSER_QA.json",
+      "passed": 108,
+      "total": 108,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "name": "Home + Auto UI-3.4 browser regression",
+      "artifact": "UI3_4_BROWSER_QA.json",
+      "passed": 99,
+      "total": 99,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "name": "Buyer UI-3.5 browser regression",
+      "artifact": "UI3_5_BROWSER_QA.json",
+      "passed": 115,
+      "total": 115,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "name": "Professional Programs UI-3.6 browser regression",
+      "artifact": "UI3_6_BROWSER_QA.json",
+      "passed": 452,
+      "total": 452,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "name": "Life UI-3.7 browser regression",
+      "artifact": "UI3_7_BROWSER_QA.json",
+      "passed": 23,
+      "total": 23,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "name": "Local UI-3.8 browser regression",
+      "artifact": "UI3_8_BROWSER_QA.json",
+      "passed": 155,
+      "total": 155,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "name": "Utility UI-3.9 browser regression",
+      "artifact": "UI3_9_BROWSER_QA.json",
+      "passed": 293,
+      "total": 293,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "name": "Mobile UI-3.10 browser regression",
+      "artifact": "UI3_10_BROWSER_QA.json",
+      "passed": 822,
+      "total": 822,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "name": "LOCAL-1.10 browser regression",
+      "artifact": "LOCAL1_10_BROWSER_QA.json",
+      "passed": 210,
+      "total": 210,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "name": "Existing static regression",
+      "artifact": "B1_2D_QA.json",
+      "passed": 296,
+      "total": 296,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "name": "Merchant Join Worker regression",
+      "artifact": "LOCAL1_5_WORKER_QA.json",
+      "passed": 20,
+      "total": 20,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "name": "Local Attribution Worker regression",
+      "artifact": "LOCAL1_6_WORKER_QA.json",
+      "passed": 29,
+      "total": 29,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "name": "Runtime JavaScript syntax",
+      "artifact": "UI3_12_JS_SYNTAX_QA.json",
+      "passed": 41,
+      "total": 41,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "name": "Home hidden-required submit regression",
+      "artifact": "qa/test-home-submit-hidden-required-fix.js",
+      "passed": 12,
+      "total": 12,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "name": "Home Advanced Mode routing",
+      "artifact": "qa/test-home-2.7-worker-routing.js",
+      "passed": 16,
+      "total": 16,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "name": "Home deep-route assets",
+      "artifact": "qa/test-home-2.7-deep-route-assets.js",
+      "passed": 12,
+      "total": 12,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "name": "Advanced Mode redirect-loop regression",
+      "artifact": "qa/test-advanced-mode-redirect-loop-hotfix.js",
+      "passed": 10,
+      "total": 10,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "name": "FLOW-2.4 explicit invitation runtime",
+      "artifact": "qa/test-flow-2.4-runtime.js",
+      "passed": 5,
+      "total": 5,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "name": "Logo integration",
+      "artifact": "qa/test-logo-integration.py",
+      "passed": 14,
+      "total": 14,
+      "failed": 0,
+      "certified": true
+    },
+    {
+      "name": "Internal links/assets",
+      "artifact": "qa/check-links.py",
+      "passed": 630,
+      "total": 630,
+      "failed": 0,
+      "certified": true
+    }
+  ],
+  "note": "Browser E2E uses the real shipped HTML/JavaScript with deterministic mocked network responses for endpoint transport; deployed-domain/external-service smoke remains a UI-3.13 production certification item."
+}

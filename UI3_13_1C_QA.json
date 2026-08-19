@@ -1,0 +1,741 @@
+{
+  "sprint": "408-UI-3.13.1C",
+  "suite": "core_insurance_humanization_source",
+  "total": 146,
+  "passed": 146,
+  "failed": 0,
+  "internal_links_checked": 156,
+  "broken_links": [],
+  "checks": [
+    {
+      "name": "core stylesheet exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "css homepage-human-signature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "css home-human-signature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "css bundle-human-signature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "css buyer-human-signature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "css forced-colors:active",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "css prefers-reduced-motion:reduce",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "core CSS no professional gold",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "index.html core marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "index.html core css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "index.html one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "index.html signature exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "index.html signature copy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "index.html Dylan portrait",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "index.html Dylan portrait alt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "index.html old hrefs preserved",
+      "passed": true,
+      "detail": "Counter()"
+    },
+    {
+      "name": "index.html runtime scripts preserved",
+      "passed": true,
+      "detail": "Counter()"
+    },
+    {
+      "name": "index.html existing ids preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home/index.html core marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home/index.html core css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home/index.html one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home/index.html signature exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home/index.html signature copy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home/index.html Dylan portrait",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home/index.html Dylan portrait alt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home/index.html old hrefs preserved",
+      "passed": true,
+      "detail": "Counter()"
+    },
+    {
+      "name": "home/index.html runtime scripts preserved",
+      "passed": true,
+      "detail": "Counter()"
+    },
+    {
+      "name": "home/index.html existing ids preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "auto-bundle/index.html core marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "auto-bundle/index.html core css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "auto-bundle/index.html one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "auto-bundle/index.html signature exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "auto-bundle/index.html signature copy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "auto-bundle/index.html Dylan portrait",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "auto-bundle/index.html Dylan portrait alt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "auto-bundle/index.html old hrefs preserved",
+      "passed": true,
+      "detail": "Counter()"
+    },
+    {
+      "name": "auto-bundle/index.html runtime scripts preserved",
+      "passed": true,
+      "detail": "Counter()"
+    },
+    {
+      "name": "auto-bundle/index.html existing ids preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer/index.html core marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer/index.html core css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer/index.html one h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer/index.html signature exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer/index.html signature copy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer/index.html Dylan portrait",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer/index.html Dylan portrait alt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer/index.html old hrefs preserved",
+      "passed": true,
+      "detail": "Counter()"
+    },
+    {
+      "name": "buyer/index.html runtime scripts preserved",
+      "passed": true,
+      "detail": "Counter()"
+    },
+    {
+      "name": "buyer/index.html existing ids preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage first-person support",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage abstract trust chips removed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage coveragefit warmer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home review title humanized",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home campaign title hook preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home campaign CTA hook preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle consultative section",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle no duplicate meet Dylan",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle renter copy preserved concept",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle campaign hooks preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer concierge title",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer campaign hooks preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer referral hook preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home form exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home form action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home form method",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home form attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home form controls exact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home form HTML exact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "auto_bundle form exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "auto_bundle form action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "auto_bundle form method",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "auto_bundle form attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "auto_bundle form controls exact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "auto_bundle form HTML exact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer form exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer form action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer form method",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer form attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer form controls exact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer form HTML exact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "_worker.js protected exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "_worker.js protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "_routes.json protected exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "_routes.json protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "CAMPAIGN_ENTRY_REGISTRY.json protected exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "CAMPAIGN_ENTRY_REGISTRY.json protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/campaign-entry-registry.js protected exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/campaign-entry-registry.js protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/campaign-entry.js protected exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/campaign-entry.js protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/human-trust.css protected exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/human-trust.css protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/professional-programs-human.css protected exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/professional-programs-human.css protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/ui-3-foundation.css protected exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/ui-3-foundation.css protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/ui-3-foundation.js protected exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/ui-3-foundation.js protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/home-baseline.js protected exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/home-baseline.js protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/home-engagement.js protected exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/home-engagement.js protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/home-form-first.js protected exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/home-form-first.js protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/home-lead-progressive.js protected exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/home-lead-progressive.js protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/buyer-flow.js protected exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/buyer-flow.js protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/buyer-referral.js protected exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/buyer-referral.js protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/address-autocomplete.js protected exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/address-autocomplete.js protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/coveragefit-launch.js protected exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/coveragefit-launch.js protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/post-lead-engagement.js protected exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/post-lead-engagement.js protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/coveragefit-invitation.js protected exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/coveragefit-invitation.js protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/local-attribution.js protected exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/local-attribution.js protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/life-secure-submit.js protected exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/life-secure-submit.js protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare/index.html protected exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare/index.html protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers/index.html protected exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers/index.html protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech/index.html protected exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech/index.html protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers/index.html protected exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers/index.html protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "life/index.html protected exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "life/index.html protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "life/thank-you.html protected exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "life/thank-you.html protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/index.html protected exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/index.html protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/index.html protected exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/index.html protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/data/catalog.json protected exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/data/catalog.json protected hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "CORE_INSURANCE_HUMANIZATION_CONTRACT.json exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SPRINT-408-UI-3.13.1C.md exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HUMAN-TRUST-DESIGN-SYSTEM.md exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HUMAN-TRUST-COMPONENT-REGISTRY.json exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "408-UI-ROADMAP.md exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "internal links >=150",
+      "passed": true,
+      "detail": "156"
+    },
+    {
+      "name": "internal links broken 0",
+      "passed": true,
+      "detail": "[]"
+    }
+  ]
+}

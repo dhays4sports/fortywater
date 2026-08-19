@@ -1,0 +1,301 @@
+{
+  "sprint": "408-UI-3.12",
+  "suite": "behavior_critical_freeze",
+  "total": 73,
+  "passed": 73,
+  "failed": 0,
+  "checks": [
+    {
+      "path": "_worker.js",
+      "passed": true
+    },
+    {
+      "path": "_redirects",
+      "passed": true
+    },
+    {
+      "path": "handoff-manifest.json",
+      "passed": true
+    },
+    {
+      "path": "local/data/catalog.json",
+      "passed": true
+    },
+    {
+      "path": "local/data/catalog.schema.json",
+      "passed": true
+    },
+    {
+      "path": "shared/accessibility-certification.js",
+      "passed": true
+    },
+    {
+      "path": "shared/accessibility.js",
+      "passed": true
+    },
+    {
+      "path": "shared/address-autocomplete.js",
+      "passed": true
+    },
+    {
+      "path": "shared/buyer-flow.js",
+      "passed": true
+    },
+    {
+      "path": "shared/buyer-referral.js",
+      "passed": true
+    },
+    {
+      "path": "shared/campaign-entry-registry.js",
+      "passed": true
+    },
+    {
+      "path": "shared/campaign-entry.js",
+      "passed": true
+    },
+    {
+      "path": "shared/campaign.js",
+      "passed": true
+    },
+    {
+      "path": "shared/config.js",
+      "passed": true
+    },
+    {
+      "path": "shared/contact-choice.js",
+      "passed": true
+    },
+    {
+      "path": "shared/coveragefit-invitation.js",
+      "passed": true
+    },
+    {
+      "path": "shared/coveragefit-launch.js",
+      "passed": true
+    },
+    {
+      "path": "shared/flyer-campaign.js",
+      "passed": true
+    },
+    {
+      "path": "shared/home-baseline.js",
+      "passed": true
+    },
+    {
+      "path": "shared/home-certification.js",
+      "passed": true
+    },
+    {
+      "path": "shared/home-confirmation.js",
+      "passed": true
+    },
+    {
+      "path": "shared/home-continuity.js",
+      "passed": true
+    },
+    {
+      "path": "shared/home-engagement.js",
+      "passed": true
+    },
+    {
+      "path": "shared/home-form-first.js",
+      "passed": true
+    },
+    {
+      "path": "shared/home-journey-contract.js",
+      "passed": true
+    },
+    {
+      "path": "shared/home-lead-progressive.js",
+      "passed": true
+    },
+    {
+      "path": "shared/homepage-optimization.js",
+      "passed": true
+    },
+    {
+      "path": "shared/life-campaign.js",
+      "passed": true
+    },
+    {
+      "path": "shared/life-conversion.js",
+      "passed": true
+    },
+    {
+      "path": "shared/life-intake.js",
+      "passed": true
+    },
+    {
+      "path": "shared/life-ops.js",
+      "passed": true
+    },
+    {
+      "path": "shared/life-secure-submit.js",
+      "passed": true
+    },
+    {
+      "path": "shared/local-attribution.js",
+      "passed": true
+    },
+    {
+      "path": "shared/local-data-model.js",
+      "passed": true
+    },
+    {
+      "path": "shared/local-directory.js",
+      "passed": true
+    },
+    {
+      "path": "shared/local-join.js",
+      "passed": true
+    },
+    {
+      "path": "shared/local-merchant.js",
+      "passed": true
+    },
+    {
+      "path": "shared/motion.js",
+      "passed": true
+    },
+    {
+      "path": "shared/post-lead-engagement.js",
+      "passed": true
+    },
+    {
+      "path": "shared/progressive-intake.js",
+      "passed": true
+    },
+    {
+      "path": "shared/prospect-profile.js",
+      "passed": true
+    },
+    {
+      "path": "shared/referral-bridge.js",
+      "passed": true
+    },
+    {
+      "path": "shared/score.js",
+      "passed": true
+    },
+    {
+      "path": "shared/script.js",
+      "passed": true
+    },
+    {
+      "path": "shared/ui-3-foundation.js",
+      "passed": true
+    },
+    {
+      "path": "404.html",
+      "passed": true
+    },
+    {
+      "path": "auto-bundle/index.html",
+      "passed": true
+    },
+    {
+      "path": "auto-bundle/thank-you.html",
+      "passed": true
+    },
+    {
+      "path": "buyer/index.html",
+      "passed": true
+    },
+    {
+      "path": "buyer/thank-you.html",
+      "passed": true
+    },
+    {
+      "path": "contact/index.html",
+      "passed": true
+    },
+    {
+      "path": "engineers/index.html",
+      "passed": true
+    },
+    {
+      "path": "engineers/thank-you.html",
+      "passed": true
+    },
+    {
+      "path": "healthcare/index.html",
+      "passed": true
+    },
+    {
+      "path": "healthcare/thank-you.html",
+      "passed": true
+    },
+    {
+      "path": "home/index.html",
+      "passed": true
+    },
+    {
+      "path": "home/thank-you.html",
+      "passed": true
+    },
+    {
+      "path": "index.html",
+      "passed": true
+    },
+    {
+      "path": "life/index.html",
+      "passed": true
+    },
+    {
+      "path": "life/thank-you.html",
+      "passed": true
+    },
+    {
+      "path": "local/detail/index.html",
+      "passed": true
+    },
+    {
+      "path": "local/index.html",
+      "passed": true
+    },
+    {
+      "path": "local/join/index.html",
+      "passed": true
+    },
+    {
+      "path": "local/join/thank-you.html",
+      "passed": true
+    },
+    {
+      "path": "neighbor/index.html",
+      "passed": true
+    },
+    {
+      "path": "privacy.html",
+      "passed": true
+    },
+    {
+      "path": "score/index.html",
+      "passed": true
+    },
+    {
+      "path": "teachers/index.html",
+      "passed": true
+    },
+    {
+      "path": "teachers/thank-you.html",
+      "passed": true
+    },
+    {
+      "path": "tech/index.html",
+      "passed": true
+    },
+    {
+      "path": "tech/thank-you.html",
+      "passed": true
+    },
+    {
+      "path": "terms.html",
+      "passed": true
+    },
+    {
+      "path": "life-ops/index.html",
+      "passed": true
+    }
+  ]
+}

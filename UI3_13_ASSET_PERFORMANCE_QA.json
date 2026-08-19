@@ -1,0 +1,849 @@
+{
+  "sprint": "408-UI-3.13",
+  "suite": "asset_and_performance_budget",
+  "total": 99,
+  "passed": 99,
+  "failed": 0,
+  "route_sizes": {
+    "index.html": {
+      "encoded_css_js_bytes": 141725,
+      "files": [
+        "shared/styles.css",
+        "shared/root.css",
+        "shared/homepage-optimization.css",
+        "shared/local-site-integration.css",
+        "shared/accessibility.css",
+        "shared/ui-3-foundation.css",
+        "shared/homepage-platform.css",
+        "shared/homepage-conversion-identity.css",
+        "shared/mobile-interaction.css",
+        "shared/human-trust.css",
+        "shared/core-insurance-human.css",
+        "shared/accessibility-certification.css",
+        "shared/accessibility.js",
+        "shared/homepage-optimization.js",
+        "shared/config.js",
+        "shared/coveragefit-launch.js",
+        "shared/ui-3-foundation.js",
+        "shared/accessibility-certification.js"
+      ]
+    },
+    "home/index.html": {
+      "encoded_css_js_bytes": 279940,
+      "files": [
+        "shared/styles.css",
+        "shared/home-lead-progressive.css",
+        "shared/home-campaign.css",
+        "shared/home-continuity.css",
+        "shared/home-certification.css",
+        "shared/accessibility.css",
+        "shared/post-lead-engagement.css",
+        "shared/coveragefit-invitation.css",
+        "shared/ui-3-foundation.css",
+        "shared/home-conversion-ui.css",
+        "shared/mobile-interaction.css",
+        "shared/human-trust.css",
+        "shared/relationship-human.css",
+        "shared/core-insurance-human.css",
+        "shared/accessibility-certification.css",
+        "shared/campaign-entry.css",
+        "shared/accessibility.js",
+        "shared/config.js",
+        "shared/flyer-campaign.js",
+        "shared/coveragefit-launch.js",
+        "shared/prospect-profile.js",
+        "shared/address-autocomplete.js",
+        "shared/home-journey-contract.js",
+        "shared/home-baseline.js",
+        "shared/home-continuity.js",
+        "shared/home-lead-progressive.js",
+        "shared/home-form-first.js",
+        "shared/home-certification.js",
+        "shared/post-lead-engagement.js",
+        "shared/coveragefit-invitation.js",
+        "shared/script.js",
+        "shared/ui-3-foundation.js",
+        "shared/campaign-entry-registry.js",
+        "shared/campaign-entry.js",
+        "shared/accessibility-certification.js"
+      ]
+    },
+    "auto-bundle/index.html": {
+      "encoded_css_js_bytes": 218594,
+      "files": [
+        "shared/styles.css",
+        "shared/accessibility.css",
+        "shared/post-lead-engagement.css",
+        "shared/coveragefit-invitation.css",
+        "shared/ui-3-foundation.css",
+        "shared/auto-bundle-conversion-ui.css",
+        "shared/mobile-interaction.css",
+        "shared/human-trust.css",
+        "shared/relationship-human.css",
+        "shared/core-insurance-human.css",
+        "shared/accessibility-certification.css",
+        "shared/campaign-entry.css",
+        "shared/accessibility.js",
+        "shared/config.js",
+        "shared/address-autocomplete.js",
+        "shared/coveragefit-launch.js",
+        "shared/prospect-profile.js",
+        "shared/post-lead-engagement.js",
+        "shared/coveragefit-invitation.js",
+        "shared/script.js",
+        "shared/ui-3-foundation.js",
+        "shared/campaign-entry-registry.js",
+        "shared/campaign-entry.js",
+        "shared/accessibility-certification.js"
+      ]
+    },
+    "buyer/index.html": {
+      "encoded_css_js_bytes": 240667,
+      "files": [
+        "shared/buyer.css",
+        "shared/performance.css",
+        "shared/accessibility.css",
+        "shared/post-lead-engagement.css",
+        "shared/coveragefit-invitation.css",
+        "shared/ui-3-foundation.css",
+        "shared/buyer-experience-ui.css",
+        "shared/mobile-interaction.css",
+        "shared/human-trust.css",
+        "shared/relationship-human.css",
+        "shared/core-insurance-human.css",
+        "shared/accessibility-certification.css",
+        "shared/campaign-entry.css",
+        "shared/accessibility.js",
+        "shared/config.js",
+        "shared/flyer-campaign.js",
+        "shared/buyer-referral.js",
+        "shared/coveragefit-launch.js",
+        "shared/prospect-profile.js",
+        "shared/address-autocomplete.js",
+        "shared/buyer-flow.js",
+        "shared/post-lead-engagement.js",
+        "shared/coveragefit-invitation.js",
+        "shared/script.js",
+        "shared/ui-3-foundation.js",
+        "shared/campaign-entry-registry.js",
+        "shared/campaign-entry.js",
+        "shared/accessibility-certification.js"
+      ]
+    },
+    "healthcare/index.html": {
+      "encoded_css_js_bytes": 231088,
+      "files": [
+        "shared/styles.css",
+        "shared/accessibility.css",
+        "shared/occupational-simplification.css",
+        "shared/post-lead-engagement.css",
+        "shared/coveragefit-invitation.css",
+        "shared/ui-3-foundation.css",
+        "shared/professional-programs-ui.css",
+        "shared/mobile-interaction.css",
+        "shared/human-trust.css",
+        "shared/relationship-human.css",
+        "shared/professional-programs-human.css",
+        "shared/accessibility-certification.css",
+        "shared/campaign-entry.css",
+        "shared/accessibility.js",
+        "shared/config.js",
+        "shared/address-autocomplete.js",
+        "shared/coveragefit-launch.js",
+        "shared/prospect-profile.js",
+        "shared/post-lead-engagement.js",
+        "shared/coveragefit-invitation.js",
+        "shared/script.js",
+        "shared/ui-3-foundation.js",
+        "shared/campaign-entry-registry.js",
+        "shared/campaign-entry.js",
+        "shared/accessibility-certification.js"
+      ]
+    },
+    "teachers/index.html": {
+      "encoded_css_js_bytes": 231088,
+      "files": [
+        "shared/styles.css",
+        "shared/accessibility.css",
+        "shared/occupational-simplification.css",
+        "shared/post-lead-engagement.css",
+        "shared/coveragefit-invitation.css",
+        "shared/ui-3-foundation.css",
+        "shared/professional-programs-ui.css",
+        "shared/mobile-interaction.css",
+        "shared/human-trust.css",
+        "shared/relationship-human.css",
+        "shared/professional-programs-human.css",
+        "shared/accessibility-certification.css",
+        "shared/campaign-entry.css",
+        "shared/accessibility.js",
+        "shared/config.js",
+        "shared/address-autocomplete.js",
+        "shared/coveragefit-launch.js",
+        "shared/prospect-profile.js",
+        "shared/post-lead-engagement.js",
+        "shared/coveragefit-invitation.js",
+        "shared/script.js",
+        "shared/ui-3-foundation.js",
+        "shared/campaign-entry-registry.js",
+        "shared/campaign-entry.js",
+        "shared/accessibility-certification.js"
+      ]
+    },
+    "tech/index.html": {
+      "encoded_css_js_bytes": 231088,
+      "files": [
+        "shared/styles.css",
+        "shared/accessibility.css",
+        "shared/occupational-simplification.css",
+        "shared/post-lead-engagement.css",
+        "shared/coveragefit-invitation.css",
+        "shared/ui-3-foundation.css",
+        "shared/professional-programs-ui.css",
+        "shared/mobile-interaction.css",
+        "shared/human-trust.css",
+        "shared/relationship-human.css",
+        "shared/professional-programs-human.css",
+        "shared/accessibility-certification.css",
+        "shared/campaign-entry.css",
+        "shared/accessibility.js",
+        "shared/config.js",
+        "shared/address-autocomplete.js",
+        "shared/coveragefit-launch.js",
+        "shared/prospect-profile.js",
+        "shared/post-lead-engagement.js",
+        "shared/coveragefit-invitation.js",
+        "shared/script.js",
+        "shared/ui-3-foundation.js",
+        "shared/campaign-entry-registry.js",
+        "shared/campaign-entry.js",
+        "shared/accessibility-certification.js"
+      ]
+    },
+    "engineers/index.html": {
+      "encoded_css_js_bytes": 231088,
+      "files": [
+        "shared/styles.css",
+        "shared/accessibility.css",
+        "shared/occupational-simplification.css",
+        "shared/post-lead-engagement.css",
+        "shared/coveragefit-invitation.css",
+        "shared/ui-3-foundation.css",
+        "shared/professional-programs-ui.css",
+        "shared/mobile-interaction.css",
+        "shared/human-trust.css",
+        "shared/relationship-human.css",
+        "shared/professional-programs-human.css",
+        "shared/accessibility-certification.css",
+        "shared/campaign-entry.css",
+        "shared/accessibility.js",
+        "shared/config.js",
+        "shared/address-autocomplete.js",
+        "shared/coveragefit-launch.js",
+        "shared/prospect-profile.js",
+        "shared/post-lead-engagement.js",
+        "shared/coveragefit-invitation.js",
+        "shared/script.js",
+        "shared/ui-3-foundation.js",
+        "shared/campaign-entry-registry.js",
+        "shared/campaign-entry.js",
+        "shared/accessibility-certification.js"
+      ]
+    },
+    "life/index.html": {
+      "encoded_css_js_bytes": 164004,
+      "files": [
+        "shared/styles.css",
+        "shared/life.css",
+        "shared/accessibility.css",
+        "shared/ui-3-foundation.css",
+        "shared/life-campaign-platform.css",
+        "shared/mobile-interaction.css",
+        "shared/accessibility-certification.css",
+        "shared/campaign-entry.css",
+        "shared/accessibility.js",
+        "shared/life-campaign.js",
+        "shared/life-conversion.js",
+        "shared/life-intake.js",
+        "shared/life-secure-submit.js",
+        "shared/ui-3-foundation.js",
+        "shared/campaign-entry-registry.js",
+        "shared/campaign-entry.js",
+        "shared/accessibility-certification.js"
+      ]
+    },
+    "local/index.html": {
+      "encoded_css_js_bytes": 188889,
+      "files": [
+        "shared/styles.css",
+        "shared/local.css",
+        "shared/accessibility.css",
+        "shared/ui-3-foundation.css",
+        "shared/local-visual-convergence.css",
+        "shared/mobile-interaction.css",
+        "shared/human-trust.css",
+        "shared/relationship-human.css",
+        "shared/accessibility-certification.css",
+        "shared/accessibility.js",
+        "shared/local-data-model.js",
+        "shared/local-attribution.js",
+        "shared/local-directory.js",
+        "shared/ui-3-foundation.js",
+        "shared/accessibility-certification.js"
+      ]
+    },
+    "local/join/index.html": {
+      "encoded_css_js_bytes": 152974,
+      "files": [
+        "shared/styles.css",
+        "shared/local.css",
+        "shared/accessibility.css",
+        "shared/ui-3-foundation.css",
+        "shared/local-visual-convergence.css",
+        "shared/mobile-interaction.css",
+        "shared/human-trust.css",
+        "shared/relationship-human.css",
+        "shared/accessibility-certification.css",
+        "shared/accessibility.js",
+        "shared/local-join.js",
+        "shared/ui-3-foundation.js",
+        "shared/accessibility-certification.js"
+      ]
+    },
+    "contact/index.html": {
+      "encoded_css_js_bytes": 97562,
+      "files": [
+        "shared/styles.css",
+        "shared/contact-choice.css",
+        "shared/accessibility.css",
+        "shared/ui-3-foundation.css",
+        "shared/mobile-interaction.css",
+        "shared/human-trust.css",
+        "shared/relationship-human.css",
+        "shared/accessibility-certification.css",
+        "shared/accessibility.js",
+        "shared/contact-choice.js",
+        "shared/ui-3-foundation.js",
+        "shared/accessibility-certification.js"
+      ]
+    },
+    "score/index.html": {
+      "encoded_css_js_bytes": 109504,
+      "files": [
+        "shared/score.css",
+        "shared/performance.css",
+        "shared/motion.css",
+        "shared/visual-polish.css",
+        "shared/accessibility.css",
+        "shared/ui-3-foundation.css",
+        "shared/mobile-interaction.css",
+        "shared/human-trust.css",
+        "shared/accessibility-certification.css",
+        "shared/accessibility.js",
+        "shared/motion.js",
+        "shared/config.js",
+        "shared/coveragefit-launch.js",
+        "shared/score.js",
+        "shared/ui-3-foundation.js",
+        "shared/accessibility-certification.js"
+      ]
+    }
+  },
+  "checks": [
+    {
+      "name": "all public HTML local asset refs resolve",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared CSS url refs resolve",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage mobile exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage mobile encoded budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage mobile decodes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage desktop exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage desktop encoded budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage desktop decodes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home mobile exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home mobile encoded budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home mobile decodes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home desktop exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home desktop encoded budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home desktop decodes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle mobile exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle mobile encoded budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle mobile decodes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle desktop exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle desktop encoded budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle desktop decodes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer mobile exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer mobile encoded budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer mobile decodes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer desktop exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer desktop encoded budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer desktop decodes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare mobile exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare mobile encoded budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare mobile decodes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare desktop exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare desktop encoded budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare desktop decodes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers mobile exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers mobile encoded budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers mobile decodes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers desktop exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers desktop encoded budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers desktop decodes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech mobile exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech mobile encoded budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech mobile decodes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech desktop exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech desktop encoded budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech desktop decodes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers mobile exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers mobile encoded budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers mobile decodes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers desktop exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers desktop encoded budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers desktop decodes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "life mobile exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "life mobile encoded budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "life mobile decodes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "life desktop exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "life desktop encoded budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "life desktop decodes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "index.html responsive WebP source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer/index.html responsive WebP source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "life/index.html responsive WebP source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/auto-bundle/ 480 budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/auto-bundle/ 800 budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/auto-bundle/ full budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/healthcare/ 480 budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/healthcare/ 800 budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/healthcare/ full budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/teachers/ 480 budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/teachers/ 800 budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/teachers/ full budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/tech/ 480 budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/tech/ 800 budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/tech/ full budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/engineers/ 480 budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/engineers/ 800 budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/engineers/ full budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "index.html CSS+JS encoded source budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home/index.html CSS+JS encoded source budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "auto-bundle/index.html CSS+JS encoded source budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer/index.html CSS+JS encoded source budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare/index.html CSS+JS encoded source budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers/index.html CSS+JS encoded source budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech/index.html CSS+JS encoded source budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers/index.html CSS+JS encoded source budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "life/index.html CSS+JS encoded source budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/index.html CSS+JS encoded source budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/index.html CSS+JS encoded source budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact/index.html CSS+JS encoded source budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "score/index.html CSS+JS encoded source budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/assets/408-farmers-nav-logo.png exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/assets/408-farmers-nav-logo.png size budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/assets/408-farmers-nav-logo.png decodes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/assets/408-farmers-logo-506.webp exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/assets/408-farmers-logo-506.webp size budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/assets/408-farmers-logo-506.webp decodes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/images/dylan-headshot-320.webp exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/images/dylan-headshot-320.webp size budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/images/dylan-headshot-320.webp decodes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/assets/farmers-authorized-agency-320.webp exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/assets/farmers-authorized-agency-320.webp size budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/assets/farmers-authorized-agency-320.webp decodes",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

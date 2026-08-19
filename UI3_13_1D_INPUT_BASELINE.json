@@ -1,0 +1,37 @@
+{
+  "input_baseline": "408-UI-3.13.1C",
+  "protected_files": {
+    "CAMPAIGN_ENTRY_REGISTRY.json": "6367c616cceb5afed7f58fe86f131b3ab1506a006c156412e714eb077b0e82b7",
+    "_routes.json": "3568f8f7108595e37ae0da752971d749b2d498ef713ac1b4b302c937a73495d6",
+    "_worker.js": "fff94d29593f23a15765e66b6627e0339480e0ca394ad86086b06026392d2690",
+    "life-ops/index.html": "a2e8a1c9f9fa0535fdcdb99ca76c8770c3ca055401fb109d6671f1e3b083fb6b",
+    "life/index.html": "192da909e603efb3ad3468618051b11fea61bb905d64bfd373b38892d37bebcd",
+    "life/thank-you.html": "b80812417206c0c5a53400812235a9f36c226ba2744ef749b0ca3bde977a8acc",
+    "shared/buyer-flow.js": "cbb34820bd134d61ea1fae40cdde759381b9a951e9474dbb1663b1f53e548bc9",
+    "shared/coveragefit-launch.js": "0656746d83b8b54f5b322cd530e9150a9b2fe5274ae865b4808919ccd62191b9",
+    "shared/life-campaign.js": "0c79e9a41bc481841c0e00070b40bc06e2f29658f3df27c100ac39ecf9800b1e",
+    "shared/life-intake.js": "ab484e0019d0ba1091dd4dfefa95b92e813546f68d15db57476225d661875dbb",
+    "shared/life-secure-submit.js": "10b5b1a1a77a11b83a01ddd3818947552d0fecda2e5cb5e77a6b678648a11b08",
+    "shared/local-attribution.js": "f9e04b4214e36805c5443ea88bff4f7978878f414295c960d4787d1c653ea7fe",
+    "shared/local-data-model.js": "ff06f29c256d85adc4d8813187719a640c918a3cb7381b43c24d4469149fa17e",
+    "shared/local-directory.js": "aeee96922378d235b177d229d1949220f17518927c3b4383c1964bdb12bfbb8c",
+    "shared/local-join.js": "69f4a0f5aeb772b4bd98ee6629d527c0510a26d37c1c0c874399127c704dcce0",
+    "shared/local-merchant.js": "806940982132e48d21284a5983a5c02fc535efb79a9a87cb98d2605795e0c55f",
+    "shared/referral-bridge.js": "1c0f08975cbea57dc2929364ac4f19ecce33da1ac4a371adf1ca254cf0d7d4dd",
+    "shared/script.js": "5a5f19a43d237e44b9599fbd6536b228b0e71682cfe5d22a7b77fcdbd3acf6d7"
+  },
+  "form_hashes": {
+    "home": "27c505b47c2dc7c396b89efa6a7e6dce0801fe2aa3d27fb241347715e8fab5aa",
+    "auto_bundle": "10213f6a4285ec8bc364a8621ced610fff9068f320b2f4e87857589c942150c9",
+    "buyer": "829acb3a2a1076fee970b4b6150d8516eb5357dd772e3af45ff3685c784562cc",
+    "healthcare": "a803a11cf4c94225697753b4e516806ca65bdb932704bb48a7f2f87ed63b3a0a",
+    "teachers": "22e7671d41e97353160e5ef546c4cad675ad3f338fd2865ce6cc28eb8ad94b2b",
+    "tech": "2d27d632c737146159f6e0ad505158be2c8ef7444db6b8a757807297107f0737",
+    "engineers": "6f4ecfe80528c3fe4b1abadc7677264a718c6e5708c3b42b257ebf2f31dc1031",
+    "local_join": "879f448bbcbca74fefeebe1dcebb58cd3c82cf91eb0faa133f4c4522b209d28c"
+  },
+  "intentional_presentation_deltas": {
+    "shared/post-lead-engagement.js": "2f63b3aafe7f9112533fc3aba20fe1d7688c2def2027bc516f041d3bc1f90d11",
+    "shared/coveragefit-invitation.js": "e328485e65d1dcc48ee4b1ada845d2975d20eaae07106fcf59e7f20f8c85e454"
+  }
+}

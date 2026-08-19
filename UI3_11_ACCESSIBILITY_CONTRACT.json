@@ -1,0 +1,93 @@
+{
+  "sprint": "408-UI-3.11",
+  "name": "Accessibility Certification",
+  "behavior_frozen": true,
+  "standard": "408FARMERS WCAG 2.2 AA-oriented product accessibility contract",
+  "third_party_attestation": false,
+  "public_pages": [
+    "404.html",
+    "auto-bundle/index.html",
+    "auto-bundle/thank-you.html",
+    "buyer/index.html",
+    "buyer/thank-you.html",
+    "contact/index.html",
+    "engineers/index.html",
+    "engineers/thank-you.html",
+    "healthcare/index.html",
+    "healthcare/thank-you.html",
+    "home/index.html",
+    "home/thank-you.html",
+    "index.html",
+    "life/index.html",
+    "life/thank-you.html",
+    "local/detail/index.html",
+    "local/index.html",
+    "local/join/index.html",
+    "local/join/thank-you.html",
+    "neighbor/index.html",
+    "privacy.html",
+    "score/index.html",
+    "teachers/index.html",
+    "teachers/thank-you.html",
+    "tech/index.html",
+    "tech/thank-you.html",
+    "terms.html"
+  ],
+  "excluded": [
+    "life-ops/index.html"
+  ],
+  "assets": [
+    "shared/accessibility-certification.css",
+    "shared/accessibility-certification.js"
+  ],
+  "requirements": {
+    "keyboard_focus": [
+      "skip-to-main",
+      "opaque focus-visible indicator",
+      "no positive tabindex",
+      "Escape focus return for mobile navigation"
+    ],
+    "semantics": [
+      "lang",
+      "title",
+      "single main",
+      "single h1",
+      "heading sequence",
+      "unique IDs",
+      "valid ARIA IDREFs",
+      "interactive accessible names",
+      "image alt text",
+      "dialog names"
+    ],
+    "forms": [
+      "labels",
+      "native required semantics preserved",
+      "aria-invalid reflection",
+      "atomic live/status regions",
+      "non-color invalid state"
+    ],
+    "contrast": [
+      "AA text pairs",
+      "3:1 control boundaries",
+      "3:1 focus appearance",
+      "Life small-accent correction"
+    ],
+    "preferences": [
+      "prefers-reduced-motion",
+      "forced-colors"
+    ],
+    "zoom_reflow": [
+      "no zoom lock",
+      "text-size-adjust 100%",
+      "viewport-fit cover",
+      "320-360px reflow resilience"
+    ]
+  },
+  "qa": {
+    "accessibility_contract": "597/597",
+    "public_pages": "27/27",
+    "protected_runtime_freeze": "39/39",
+    "form_contract_freeze": "27/27",
+    "contrast_pairs": "10/10"
+  }
+}

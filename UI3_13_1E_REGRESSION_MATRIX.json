@@ -1,0 +1,198 @@
+{
+  "sprint": "408-UI-3.13.1E",
+  "name": "Human Trust Regression + Production Certification",
+  "decision": "PASS \u2014 DEPLOYABLE-CERTIFIED",
+  "suites": [
+    {
+      "name": "human_trust_final_freeze",
+      "artifact": "UI3_13_1E_QA.json",
+      "passed": 244,
+      "total": 244,
+      "failed": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "relationship_source",
+      "artifact": "UI3_13_1D_QA.json",
+      "passed": 159,
+      "total": 159,
+      "failed": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "relationship_browser",
+      "artifact": "UI3_13_1D_BROWSER_QA.json",
+      "passed": 206,
+      "total": 206,
+      "failed": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "core_insurance_browser",
+      "artifact": "UI3_13_1C_BROWSER_QA.json",
+      "passed": 196,
+      "total": 196,
+      "failed": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "professional_browser",
+      "artifact": "UI3_13_1B_BROWSER_QA.json",
+      "passed": 388,
+      "total": 388,
+      "failed": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "professional_accessibility",
+      "artifact": "UI3_13_1B_ACCESSIBILITY_QA.json",
+      "passed": 53,
+      "total": 53,
+      "failed": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "e2e",
+      "artifact": "UI3_12_E2E_QA.json",
+      "passed": 59,
+      "total": 59,
+      "failed": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "production_browser",
+      "artifact": "UI3_13_BROWSER_QA.json",
+      "passed": 749,
+      "total": 749,
+      "failed": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "asset_performance",
+      "artifact": "UI3_13_ASSET_PERFORMANCE_QA.json",
+      "passed": 99,
+      "total": 99,
+      "failed": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "metadata",
+      "artifact": "UI3_13_METADATA_QA.json",
+      "passed": 216,
+      "total": 216,
+      "failed": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "links",
+      "artifact": "UI3_13_LINK_QA.json",
+      "passed": 710,
+      "total": 710,
+      "failed": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "js_syntax",
+      "artifact": "UI3_13_JS_SYNTAX_QA.json",
+      "passed": 41,
+      "total": 41,
+      "failed": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "campaign_browser",
+      "artifact": "UI3_11_1_BROWSER_QA.json",
+      "passed": 51,
+      "total": 51,
+      "failed": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "campaign_accessibility",
+      "artifact": "UI3_11_1_ACCESSIBILITY_QA.json",
+      "passed": 56,
+      "total": 56,
+      "failed": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "local_browser",
+      "artifact": "LOCAL1_10_BROWSER_QA.json",
+      "passed": 210,
+      "total": 210,
+      "failed": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "static_regression",
+      "artifact": "qa/test-static.py",
+      "passed": 296,
+      "total": 296,
+      "failed": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "merchant_join_worker",
+      "artifact": "qa/test-408-local-1.5-worker.mjs",
+      "passed": 20,
+      "total": 20,
+      "failed": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "local_attribution_worker",
+      "artifact": "qa/test-408-local-1.6-worker.mjs",
+      "passed": 29,
+      "total": 29,
+      "failed": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "advanced_mode_redirect_loop",
+      "artifact": "qa/test-advanced-mode-redirect-loop-hotfix.js",
+      "passed": 10,
+      "total": 10,
+      "failed": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "home_hidden_required_submit",
+      "artifact": "qa/test-home-submit-hidden-required-fix.js",
+      "passed": 12,
+      "total": 12,
+      "failed": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "home_pretty_path_routing",
+      "artifact": "qa/test-home-2.7-worker-routing.js",
+      "passed": 16,
+      "total": 16,
+      "failed": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "home_deep_route_assets",
+      "artifact": "qa/test-home-2.7-deep-route-assets.js",
+      "passed": 12,
+      "total": 12,
+      "failed": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "infra_exact_preservation",
+      "artifact": "qa/test-408-ui-3.13-infra-preservation.py",
+      "passed": 4,
+      "total": 4,
+      "failed": 0,
+      "status": "PASS"
+    }
+  ],
+  "all_pass": true,
+  "notes": [
+    "3.13.1E makes no intentional product changes; exact product-byte freeze is to the 3.13.1D input baseline.",
+    "Historical freeze suites that compare against pre-Human-Trust baselines are superseded for this branch and are not final acceptance gates.",
+    "Deployment/external-service validation remains post-deploy.",
+    "LOCAL-1.10 planned three-merchant pilot remains operational NO-GO."
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "sprint": "408-UI-3.13.1E",
+  "name": "Human Trust Regression + Production Certification",
+  "status": "COMPLETE",
+  "decision": "PASS \u2014 DEPLOYABLE-CERTIFIED",
+  "build_type": "ROOT_DEPLOYABLE",
+  "input_baseline": "408-UI-3.13.1D \u2014 Relationship + Completion Humanization",
+  "intentional_customer_facing_changes": [],
+  "freeze": {
+    "product_files_exact": "185/185",
+    "protected_forms_exact": "8/8",
+    "life_scope_exact": "13/13",
+    "infra_1_1": "preserved exact"
+  },
+  "qa": {
+    "human_trust_final_freeze": {
+      "passed": 244,
+      "total": 244,
+      "failed": 0
+    },
+    "relationship_source": {
+      "passed": 159,
+      "total": 159,
+      "failed": 0
+    },
+    "relationship_browser": {
+      "passed": 206,
+      "total": 206,
+      "failed": 0
+    },
+    "core_insurance_browser": {
+      "passed": 196,
+      "total": 196,
+      "failed": 0
+    },
+    "professional_browser": {
+      "passed": 388,
+      "total": 388,
+      "failed": 0
+    },
+    "professional_accessibility": {
+      "passed": 53,
+      "total": 53,
+      "failed": 0
+    },
+    "e2e": {
+      "passed": 59,
+      "total": 59,
+      "failed": 0
+    },
+    "production_browser": {
+      "passed": 749,
+      "total": 749,
+      "failed": 0
+    },
+    "asset_performance": {
+      "passed": 99,
+      "total": 99,
+      "failed": 0
+    },
+    "metadata": {
+      "passed": 216,
+      "total": 216,
+      "failed": 0
+    },
+    "links": {
+      "passed": 710,
+      "total": 710,
+      "failed": 0
+    },
+    "js_syntax": {
+      "passed": 41,
+      "total": 41,
+      "failed": 0
+    },
+    "campaign_browser": {
+      "passed": 51,
+      "total": 51,
+      "failed": 0
+    },
+    "campaign_accessibility": {
+      "passed": 56,
+      "total": 56,
+      "failed": 0
+    },
+    "local_browser": {
+      "passed": 210,
+      "total": 210,
+      "failed": 0
+    },
+    "static_regression": {
+      "passed": 296,
+      "total": 296,
+      "failed": 0
+    },
+    "merchant_join_worker": {
+      "passed": 20,
+      "total": 20,
+      "failed": 0
+    },
+    "local_attribution_worker": {
+      "passed": 29,
+      "total": 29,
+      "failed": 0
+    },
+    "advanced_mode_redirect_loop": {
+      "passed": 10,
+      "total": 10,
+      "failed": 0
+    },
+    "home_hidden_required_submit": {
+      "passed": 12,
+      "total": 12,
+      "failed": 0
+    },
+    "home_pretty_path_routing": {
+      "passed": 16,
+      "total": 16,
+      "failed": 0
+    },
+    "home_deep_route_assets": {
+      "passed": 12,
+      "total": 12,
+      "failed": 0
+    },
+    "infra_exact_preservation": {
+      "passed": 4,
+      "total": 4,
+      "failed": 0
+    }
+  },
+  "production_activation": "POST_DEPLOY_SMOKE_REQUIRED",
+  "deployment_runbook": "UI3_13_1E_DEPLOYMENT_SMOKE_RUNBOOK.md",
+  "local_boundary": "408-LOCAL-1.10 planned three-merchant pilot remains operational NO-GO pending real Auto + Home merchants and external closeout.",
+  "ui_status_after_release": "FROZEN"
+}

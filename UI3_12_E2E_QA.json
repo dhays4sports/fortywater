@@ -1,0 +1,304 @@
+{
+  "sprint": "408-UI-3.12",
+  "suite": "end_to_end_functional_regression",
+  "total": 59,
+  "passed": 59,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "homepage identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage route /home/",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage route /auto-bundle/",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage route /buyer/",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage route /life/",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage route /local/",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage runtime clean",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home proxy called",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home post-lead visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home explicit CoverageFit launch",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home prefill preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home consent preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home assessment route",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home runtime clean",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home failover proxy attempted",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home failover Formspree attempted",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home failover still confirms",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home failover runtime clean",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "auto-bundle lead proxy called",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "auto-bundle post-lead visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "auto-bundle runtime clean",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer lead proxy called",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer post-lead visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer runtime clean",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech lead proxy called",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech post-lead visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech runtime clean",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers lead proxy called",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers post-lead visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers runtime clean",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers lead proxy called",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers post-lead visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers runtime clean",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare lead proxy called",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare post-lead visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare runtime clean",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer referral parser available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer partner normalized",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer referral source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer campaign id bounded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "life secure endpoint called",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "life completion event",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "life schema sent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "life last4 only",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "life runtime clean",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Local directory ready",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Local directory shows Stevie",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Local directory runtime clean",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Local merchant ready",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Local perk independent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Local redemption opens",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Local insurance attribution decorates",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Local merchant runtime clean",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "merchant join validates",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "merchant join proxy confirms",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "merchant join endpoint called",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "merchant join runtime clean",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unknown campaign inactive",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "organic campaign inactive",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

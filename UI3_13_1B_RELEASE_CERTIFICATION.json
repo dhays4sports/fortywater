@@ -1,0 +1,152 @@
+{
+  "sprint": "408-UI-3.13.1B \u2014 Professional Programs Humanization",
+  "status": "COMPLETE",
+  "input_baseline": "408-UI-3.13.1A \u2014 Human Trust Foundation",
+  "governing_principle": "Profession and person first. System second.",
+  "life_excluded": true,
+  "routes": [
+    "/healthcare/",
+    "/teachers/",
+    "/tech/",
+    "/engineers/"
+  ],
+  "intentional_changes": [
+    "profession-first human heroes",
+    "campaign-derived occupation photography",
+    "selective warm-gold identity accents",
+    "editorial benefit lists",
+    "early Dylan Human Trust Signature",
+    "simplified form framing and visible CTA copy",
+    "reduced nonessential container chrome"
+  ],
+  "protected_behavior": [
+    "occupational role controls",
+    "Formspree",
+    "Workers/_routes",
+    "Campaign Entry Registry/runtime",
+    "attribution schema",
+    "discount/eligibility logic",
+    "consent",
+    "CoverageFit handoff",
+    "Life/Life Ops",
+    "Home/Bundle/Buyer/Local"
+  ],
+  "qa": {
+    "professional_source": {
+      "passed": 119,
+      "total": 119,
+      "failed": 0
+    },
+    "professional_browser": {
+      "passed": 388,
+      "total": 388,
+      "failed": 0
+    },
+    "professional_accessibility": {
+      "passed": 53,
+      "total": 53,
+      "failed": 0
+    },
+    "campaign_browser": {
+      "passed": 51,
+      "total": 51,
+      "failed": 0
+    },
+    "campaign_source": {
+      "passed": 82,
+      "total": 82,
+      "failed": 0
+    },
+    "e2e": {
+      "passed": 59,
+      "total": 59,
+      "failed": 0
+    },
+    "infra_preservation": {
+      "passed": 4,
+      "total": 4,
+      "failed": 0,
+      "checked": null,
+      "broken": null
+    },
+    "js_syntax": {
+      "passed": 41,
+      "total": 41,
+      "failed": 0,
+      "checked": null,
+      "broken": null
+    },
+    "metadata": {
+      "passed": 216,
+      "total": 216,
+      "failed": 0,
+      "checked": null,
+      "broken": null
+    },
+    "static": {
+      "passed": 296,
+      "total": 296,
+      "failed": 0
+    },
+    "infra_boundary": {
+      "passed": 22,
+      "total": 22,
+      "failed": 0
+    },
+    "asset_performance": {
+      "passed": 99,
+      "total": 99,
+      "failed": 0
+    },
+    "internal_links_assets": {
+      "passed": 673,
+      "total": 673,
+      "failed": 0,
+      "broken": 0
+    },
+    "home_submit": {
+      "passed": 12,
+      "total": 12,
+      "failed": 0
+    },
+    "home_routing": {
+      "passed": 16,
+      "total": 16,
+      "failed": 0
+    },
+    "home_deep_route_assets": {
+      "passed": 12,
+      "total": 12,
+      "failed": 0
+    },
+    "redirect_loop": {
+      "passed": 10,
+      "total": 10,
+      "failed": 0
+    },
+    "merchant_join_worker": {
+      "passed": 20,
+      "total": 20,
+      "failed": 0
+    },
+    "local_attribution_worker": {
+      "passed": 29,
+      "total": 29,
+      "failed": 0
+    }
+  },
+  "affected_hashes": {
+    "healthcare/index.html": "401073b8029c909995aa97c4eac27c7aa89b3f8e0338562a29f74610ec0c33c6",
+    "teachers/index.html": "a0b28e8bb3dc7a078dd7287377c95300ba4fc87746bfe15810d9226e896b7cd8",
+    "tech/index.html": "9f1f5338d8f36f67ec6219e76993d16612f4a3ddd13a6ea68f48970d41a51e42",
+    "engineers/index.html": "b0b092d9785d55bc922a9dc8a69dae4179350210522835379eb60992b4468f43",
+    "shared/professional-programs-human.css": "0eae9ae9c58a73049b47ac8cd6f88bd262ebe51d3c55b08914e5d99a01e4ad10",
+    "shared/images/professional-healthcare-480.webp": "3538b260574fcb813911c37faa97138e6ff2a466bbdfb2c445c0d1c54b41ea6d",
+    "shared/images/professional-teachers-480.webp": "adadb4c2c54adc332740874231b0681ab4c9bcb9aa7920525821ec970a9073b4",
+    "shared/images/professional-tech-480.webp": "84103602049179e74e96ddf279cdc57d238d437e0ab58b25d89d546fd4930235",
+    "shared/images/professional-engineers-480.webp": "e42f9875602bc78f86416d9b93fc0be65e80a111a5c4c802867fe3192fdde166",
+    "HUMAN-TRUST-DESIGN-SYSTEM.md": "c03a6dcdfc37cfed8debbce38b5ea68f1c31fb6d164454955431df4a8b9d10f0",
+    "HUMAN-TRUST-COMPONENT-REGISTRY.json": "1c025cf9e3e4aa3c38aa18eb7513ea36398d1612d360691b87eb194c23870672"
+  },
+  "next_sprint": "408-UI-3.13.1C \u2014 Core Insurance Humanization"
+}

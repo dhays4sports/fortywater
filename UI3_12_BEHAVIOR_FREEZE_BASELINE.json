@@ -1,0 +1,372 @@
+{
+  "sprint": "408-UI-3.12",
+  "purpose": "behavior-freeze baseline captured from the certified UI-3.11.1 input before 3.12 documentation/version changes",
+  "files": [
+    {
+      "path": "_worker.js",
+      "sha256": "fff94d29593f23a15765e66b6627e0339480e0ca394ad86086b06026392d2690",
+      "bytes": 50344
+    },
+    {
+      "path": "_redirects",
+      "sha256": "14f8a3d3402a93f9828902231354cea99f06a6e3b066a918cdd0b39285c1ec1b",
+      "bytes": 270
+    },
+    {
+      "path": "handoff-manifest.json",
+      "sha256": "1b0a0969dd3ff5129d8f564f7ca819b5f233282701ef42c2f37d43f146597583",
+      "bytes": 36009
+    },
+    {
+      "path": "local/data/catalog.json",
+      "sha256": "4d7b0bb9a1e376b57270f833ec692b50af59cb8084f8c6fde6896ceda516d652",
+      "bytes": 6525
+    },
+    {
+      "path": "local/data/catalog.schema.json",
+      "sha256": "a56f9a6c37878b139c52a9948bbe012d7186a0664c116039cb2bd60e8583b72d",
+      "bytes": 4351
+    },
+    {
+      "path": "shared/accessibility-certification.js",
+      "sha256": "2b1f801507d1836a34ffecfa8012c1c1ea340b818b8af5d466366aca0e2718c2",
+      "bytes": 1849
+    },
+    {
+      "path": "shared/accessibility.js",
+      "sha256": "43ab9e3e82ea16a113684ec85fd1c88ac3e53d57ca428a4ec38941e363aa6b86",
+      "bytes": 840
+    },
+    {
+      "path": "shared/address-autocomplete.js",
+      "sha256": "e457fa24ba4dff7585b7795172b90fbe52c651b918fb54d4a35f2ac3b486f4f0",
+      "bytes": 21004
+    },
+    {
+      "path": "shared/buyer-flow.js",
+      "sha256": "cbb34820bd134d61ea1fae40cdde759381b9a951e9474dbb1663b1f53e548bc9",
+      "bytes": 8347
+    },
+    {
+      "path": "shared/buyer-referral.js",
+      "sha256": "48dec66d8f5abdb58e643b19c95168b5a411664b5272125b0766f70d16e3ce97",
+      "bytes": 3828
+    },
+    {
+      "path": "shared/campaign-entry-registry.js",
+      "sha256": "7e04e758092b44c6c4eff2017671c520ee3dc7bb020ed33bd38a83db3735b843",
+      "bytes": 11881
+    },
+    {
+      "path": "shared/campaign-entry.js",
+      "sha256": "f12cfefd5a703ba6a02defc56a7ff674ff668701a818b675f16d96e86f139a84",
+      "bytes": 3335
+    },
+    {
+      "path": "shared/campaign.js",
+      "sha256": "dd2935996a955394b8818457e700c043ad76d5284e4071a704366ab070280a9b",
+      "bytes": 327
+    },
+    {
+      "path": "shared/config.js",
+      "sha256": "3184a565b13546c556e0183e392b0ff37bd8884a348848565707a23ba8c090c8",
+      "bytes": 639
+    },
+    {
+      "path": "shared/contact-choice.js",
+      "sha256": "404db7a38202a64ea7168438e3d68610adf9ff0113e36620d8cb8ea80c2ea54e",
+      "bytes": 3908
+    },
+    {
+      "path": "shared/coveragefit-invitation.js",
+      "sha256": "e328485e65d1dcc48ee4b1ada845d2975d20eaae07106fcf59e7f20f8c85e454",
+      "bytes": 8830
+    },
+    {
+      "path": "shared/coveragefit-launch.js",
+      "sha256": "0656746d83b8b54f5b322cd530e9150a9b2fe5274ae865b4808919ccd62191b9",
+      "bytes": 12621
+    },
+    {
+      "path": "shared/flyer-campaign.js",
+      "sha256": "f713bd45ea120be072df6b3235cabfad8d8de5637c8dc70d412a513ebe8990f2",
+      "bytes": 11573
+    },
+    {
+      "path": "shared/home-baseline.js",
+      "sha256": "b0ae8e923e21d8392640ce78dc8fd0f7b6c46cee2d841112b30b4d500dbc0dba",
+      "bytes": 5310
+    },
+    {
+      "path": "shared/home-certification.js",
+      "sha256": "3991ea57e8e58e97c54b7881cc4de6d0478fc71039c244b368cdd09bba7c8609",
+      "bytes": 2456
+    },
+    {
+      "path": "shared/home-confirmation.js",
+      "sha256": "428e9a6fc550b6a48e5a157543bcf5f1fc5824415b5f068720d38033f2b50a4b",
+      "bytes": 5348
+    },
+    {
+      "path": "shared/home-continuity.js",
+      "sha256": "ce542cc79420859e3d222edacd6ba860a1c305f1d445502141973fd35a4b3f9d",
+      "bytes": 12314
+    },
+    {
+      "path": "shared/home-engagement.js",
+      "sha256": "8b1e878b22da159c7eb497daff8fc61b49a2a5ad18080e0f91573c2ea8621dc2",
+      "bytes": 13744
+    },
+    {
+      "path": "shared/home-form-first.js",
+      "sha256": "2855b3c2fab0a457203fc76b571a02d0d845806b1231a3abe4c2e36cd1533aac",
+      "bytes": 1716
+    },
+    {
+      "path": "shared/home-journey-contract.js",
+      "sha256": "867d31954774461394936a6cea63cddf7eaac74526570363dce3845079cb79f2",
+      "bytes": 5302
+    },
+    {
+      "path": "shared/home-lead-progressive.js",
+      "sha256": "e71cca1508b06d663f7021ce159cdaa26bd3e7d569fb1f02e776d1f7079a1cb1",
+      "bytes": 7354
+    },
+    {
+      "path": "shared/homepage-optimization.js",
+      "sha256": "3587842768631e48b2fcd55dfeac5d8d90d0b054ef78bd6e3ac9a898449926f5",
+      "bytes": 1768
+    },
+    {
+      "path": "shared/life-campaign.js",
+      "sha256": "0c79e9a41bc481841c0e00070b40bc06e2f29658f3df27c100ac39ecf9800b1e",
+      "bytes": 6694
+    },
+    {
+      "path": "shared/life-conversion.js",
+      "sha256": "662cd5a7925bed73168b5cba8529f1c428a5774bb4cccb624673cf992f1b32ee",
+      "bytes": 3858
+    },
+    {
+      "path": "shared/life-intake.js",
+      "sha256": "ab484e0019d0ba1091dd4dfefa95b92e813546f68d15db57476225d661875dbb",
+      "bytes": 14569
+    },
+    {
+      "path": "shared/life-ops.js",
+      "sha256": "2173122572e12a7d9bc6db80ba96c866899de21cebab2c01f0cea2d6d716f58f",
+      "bytes": 15173
+    },
+    {
+      "path": "shared/life-secure-submit.js",
+      "sha256": "10b5b1a1a77a11b83a01ddd3818947552d0fecda2e5cb5e77a6b678648a11b08",
+      "bytes": 8009
+    },
+    {
+      "path": "shared/local-attribution.js",
+      "sha256": "f9e04b4214e36805c5443ea88bff4f7978878f414295c960d4787d1c653ea7fe",
+      "bytes": 20172
+    },
+    {
+      "path": "shared/local-data-model.js",
+      "sha256": "ff06f29c256d85adc4d8813187719a640c918a3cb7381b43c24d4469149fa17e",
+      "bytes": 11477
+    },
+    {
+      "path": "shared/local-directory.js",
+      "sha256": "aeee96922378d235b177d229d1949220f17518927c3b4383c1964bdb12bfbb8c",
+      "bytes": 10652
+    },
+    {
+      "path": "shared/local-join.js",
+      "sha256": "69f4a0f5aeb772b4bd98ee6629d527c0510a26d37c1c0c874399127c704dcce0",
+      "bytes": 6386
+    },
+    {
+      "path": "shared/local-merchant.js",
+      "sha256": "806940982132e48d21284a5983a5c02fc535efb79a9a87cb98d2605795e0c55f",
+      "bytes": 18204
+    },
+    {
+      "path": "shared/motion.js",
+      "sha256": "b3e44af3972dced6a02d0c7872d1a013cda955508599dab6689cd451111564ec",
+      "bytes": 2510
+    },
+    {
+      "path": "shared/post-lead-engagement.js",
+      "sha256": "2f63b3aafe7f9112533fc3aba20fe1d7688c2def2027bc516f041d3bc1f90d11",
+      "bytes": 20654
+    },
+    {
+      "path": "shared/progressive-intake.js",
+      "sha256": "cbc37c0aa6bb7163b416958fadfdbd5fd4ceee15ec325fab377ba1c4b0fb8c70",
+      "bytes": 13870
+    },
+    {
+      "path": "shared/prospect-profile.js",
+      "sha256": "9b588ad7003ee4e1ce915f5b75a215b7ccc478f262a6c7824bae26a9b08dc7c3",
+      "bytes": 5277
+    },
+    {
+      "path": "shared/referral-bridge.js",
+      "sha256": "1c0f08975cbea57dc2929364ac4f19ecce33da1ac4a371adf1ca254cf0d7d4dd",
+      "bytes": 9041
+    },
+    {
+      "path": "shared/score.js",
+      "sha256": "d23ab501865940dde7071c0772b0e8f6bf964a12a5a106f8bc99b9805192ccec",
+      "bytes": 2807
+    },
+    {
+      "path": "shared/script.js",
+      "sha256": "5a5f19a43d237e44b9599fbd6536b228b0e71682cfe5d22a7b77fcdbd3acf6d7",
+      "bytes": 19379
+    },
+    {
+      "path": "shared/ui-3-foundation.js",
+      "sha256": "979568c3158c9710db8febaa784e55838e6c88cc038b9414a6247076722407e3",
+      "bytes": 5966
+    },
+    {
+      "path": "404.html",
+      "sha256": "ba908baec31953fc23a36a7daeb8eb83339b3216df53cdbb09a3eebf1b5bb1d6",
+      "bytes": 1902
+    },
+    {
+      "path": "auto-bundle/index.html",
+      "sha256": "bba114744d60ca1165bf988f3dacf6557c8e2621ea54a5424b290096b2617acd",
+      "bytes": 11147
+    },
+    {
+      "path": "auto-bundle/thank-you.html",
+      "sha256": "1d2b9483398f53064cf7e3cfd9beba8ade8a9425bd81a70d1977b5bb9d0018c0",
+      "bytes": 3122
+    },
+    {
+      "path": "buyer/index.html",
+      "sha256": "a42d3fa8d63003955be718fe0692ed3347378c225496dc97f1aa15d18afb6ebe",
+      "bytes": 13537
+    },
+    {
+      "path": "buyer/thank-you.html",
+      "sha256": "41849ec8d003160dbca91f9cc668674aaae2313e478c2a1bc6d677acd33e77ae",
+      "bytes": 3500
+    },
+    {
+      "path": "contact/index.html",
+      "sha256": "51c3fdb4e0e02b035d4735a872932063793e36eb2371dd1857bfe98af8f216e2",
+      "bytes": 6029
+    },
+    {
+      "path": "engineers/index.html",
+      "sha256": "32ec53e70ef4e2c04a9dd181065abe48418c075ccd68a3bb78017e10dad49031",
+      "bytes": 11806
+    },
+    {
+      "path": "engineers/thank-you.html",
+      "sha256": "d2e7461c0b24332d5e47ff32ce099f3cc550d26dae7fde1a398cc61cb087f5db",
+      "bytes": 3112
+    },
+    {
+      "path": "healthcare/index.html",
+      "sha256": "2c9d74c7f13cdfa871147239abb2980d9cbcd920eb437a74fbfde87edd4596fa",
+      "bytes": 11768
+    },
+    {
+      "path": "healthcare/thank-you.html",
+      "sha256": "9ca8898fab7f4a2c785468103041772ce1e8947b464b89921e03a82b00272a72",
+      "bytes": 3117
+    },
+    {
+      "path": "home/index.html",
+      "sha256": "7596b920811170211c7684785323b332dc47826d82f20141c27b1b7981a95bc2",
+      "bytes": 24836
+    },
+    {
+      "path": "home/thank-you.html",
+      "sha256": "841635b1ebaf5c58f59c900acd87c293ec054e42135cf9b6db47ec3e0f728a96",
+      "bytes": 3087
+    },
+    {
+      "path": "index.html",
+      "sha256": "a12db36c91948a4849a4d3c6232cf0d497263fb63ceecb821b16c9eb7896164c",
+      "bytes": 22313
+    },
+    {
+      "path": "life/index.html",
+      "sha256": "9a3ab61991fd8d20bb8808d871cfd0ce1b8eb561a8d6a93cdbda895fdfa46b5d",
+      "bytes": 28652
+    },
+    {
+      "path": "life/thank-you.html",
+      "sha256": "b80812417206c0c5a53400812235a9f36c226ba2744ef749b0ca3bde977a8acc",
+      "bytes": 3347
+    },
+    {
+      "path": "local/detail/index.html",
+      "sha256": "aceea46769f8a9ba5d2d68cee2382653a9aef30cf5f44a12ea5bf0980cf66e0e",
+      "bytes": 5201
+    },
+    {
+      "path": "local/index.html",
+      "sha256": "2dd318c7539196ab9d9581ced9746cdcdc98a82ebabe60abf0165ed250cf35f6",
+      "bytes": 10890
+    },
+    {
+      "path": "local/join/index.html",
+      "sha256": "bec2b6239606c16dfb9217c08549e9a1e516ee77f39293d45f0506587cdd7091",
+      "bytes": 12996
+    },
+    {
+      "path": "local/join/thank-you.html",
+      "sha256": "ef4ea29b2c173276c139b6773d4b8e0dd9d9ff7bd8652d0a3a9ab668069eae20",
+      "bytes": 3627
+    },
+    {
+      "path": "neighbor/index.html",
+      "sha256": "8334f4916076adadf028f49c213f95f028b92e2ef468149103eeb9447bf0945b",
+      "bytes": 5318
+    },
+    {
+      "path": "privacy.html",
+      "sha256": "7fc4ae86d9898d30aa00454b287029dbda97353b1a415271692cb7221033fdf3",
+      "bytes": 3977
+    },
+    {
+      "path": "score/index.html",
+      "sha256": "bb6f369bd0e87ea97feb4b940f64c2969ea54f294eb240a8919afa25ac0393fa",
+      "bytes": 10803
+    },
+    {
+      "path": "teachers/index.html",
+      "sha256": "2c6a52a0fc7f7394b4b4298ee56ad3b4848735c5af3b683ae0c5595112ae0342",
+      "bytes": 13403
+    },
+    {
+      "path": "teachers/thank-you.html",
+      "sha256": "0272d3d35ca76b589811dd3bb73ad9e58d7b0fab490f082f5597360bda34731a",
+      "bytes": 4192
+    },
+    {
+      "path": "tech/index.html",
+      "sha256": "46ab76f21078d4d8bc7834d1dbd32d726e7c20990ab13f619dedb7dd41cd877a",
+      "bytes": 11741
+    },
+    {
+      "path": "tech/thank-you.html",
+      "sha256": "df9b344b3318dca0705fae0ddf3d6d637fb6b9e906a99a2ba742f8b8e64d42d4",
+      "bytes": 3087
+    },
+    {
+      "path": "terms.html",
+      "sha256": "c1fd98e4b59d6a1f06640954db127d9b91d3f0c7f634177c42b53c6c003b2487",
+      "bytes": 2090
+    },
+    {
+      "path": "life-ops/index.html",
+      "sha256": "a2e8a1c9f9fa0535fdcdb99ca76c8770c3ca055401fb109d6671f1e3b083fb6b",
+      "bytes": 9195
+    }
+  ],
+  "count": 73
+}

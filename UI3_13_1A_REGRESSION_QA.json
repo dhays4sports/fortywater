@@ -1,0 +1,22 @@
+{
+  "sprint": "408-UI-3.13.1A",
+  "status": "pass",
+  "foundation_qa": "108/108",
+  "ui3_13_browser": "749/749",
+  "ui3_13_metadata": "216/216",
+  "ui3_13_asset_performance": "99/99",
+  "ui3_13_runtime_js": "41/41",
+  "internal_links_assets": "665 checked / 0 broken",
+  "ui3_12_e2e": "59/59",
+  "campaign_accessibility_delta": "56/56",
+  "campaign_browser": "51/51",
+  "campaign_source": "82/82",
+  "static_regression": "296/296",
+  "infra_function_boundary": "22/22",
+  "home_hidden_required_submit": "12/12",
+  "home_routing": "16/16",
+  "home_deep_route_assets": "12/12",
+  "merchant_join_worker": "20/20",
+  "local_attribution_worker": "29/29",
+  "note": "Legacy qa/test-ui-3.11.py is not used as a current release gate because its internal hash baseline predates later certified UI-3.11.1/3.12/3.13 changes; current campaign accessibility delta and UI-3.13 rendered certification passed on this build."
+}

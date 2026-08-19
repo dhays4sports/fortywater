@@ -1,0 +1,1956 @@
+{
+  "sprint": "408-UI-3.13.1B",
+  "suite": "professional_programs_humanization_browser",
+  "total": 388,
+  "passed": 388,
+  "failed": 0,
+  "viewports": [
+    "320x800",
+    "390x844",
+    "768x1024",
+    "1024x768",
+    "1440x900"
+  ],
+  "checks": [
+    {
+      "name": "healthcare-phone320 UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-phone320 human hook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-phone320 h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-phone320 portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-phone320 Dylan signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-phone320 form visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-phone320 family switcher",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-phone320 no meet Dylan duplicate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-phone320 no overflow",
+      "passed": true,
+      "detail": "{'w': 320, 'sw': 320, 'bw': 320}"
+    },
+    {
+      "name": "healthcare-phone320 hero CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-phone320 hero CTA target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "healthcare-phone320 form submit visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-phone320 form submit target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "healthcare-phone320 input visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-phone320 input target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "healthcare-phone320 form CTA red",
+      "passed": true,
+      "detail": "rgb(215, 25, 32)"
+    },
+    {
+      "name": "healthcare-phone320 gold identity accent",
+      "passed": true,
+      "detail": "rgb(166, 111, 0)"
+    },
+    {
+      "name": "healthcare-phone320 1-column mobile hero",
+      "passed": true,
+      "detail": "['288px']"
+    },
+    {
+      "name": "healthcare-phone320 16px mobile input",
+      "passed": true,
+      "detail": "16.0"
+    },
+    {
+      "name": "healthcare-phone320 final overflow",
+      "passed": true,
+      "detail": "{'w': 320, 'sw': 320, 'bw': 320}"
+    },
+    {
+      "name": "healthcare-phone390 UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-phone390 human hook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-phone390 h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-phone390 portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-phone390 Dylan signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-phone390 form visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-phone390 family switcher",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-phone390 no meet Dylan duplicate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-phone390 no overflow",
+      "passed": true,
+      "detail": "{'w': 390, 'sw': 390, 'bw': 390}"
+    },
+    {
+      "name": "healthcare-phone390 hero CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-phone390 hero CTA target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "healthcare-phone390 form submit visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-phone390 form submit target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "healthcare-phone390 input visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-phone390 input target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "healthcare-phone390 form CTA red",
+      "passed": true,
+      "detail": "rgb(215, 25, 32)"
+    },
+    {
+      "name": "healthcare-phone390 gold identity accent",
+      "passed": true,
+      "detail": "rgb(166, 111, 0)"
+    },
+    {
+      "name": "healthcare-phone390 1-column mobile hero",
+      "passed": true,
+      "detail": "['358px']"
+    },
+    {
+      "name": "healthcare-phone390 16px mobile input",
+      "passed": true,
+      "detail": "16.0"
+    },
+    {
+      "name": "healthcare-phone390 final overflow",
+      "passed": true,
+      "detail": "{'w': 390, 'sw': 390, 'bw': 390}"
+    },
+    {
+      "name": "healthcare-tablet UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-tablet human hook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-tablet h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-tablet portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-tablet Dylan signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-tablet form visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-tablet family switcher",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-tablet no meet Dylan duplicate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-tablet no overflow",
+      "passed": true,
+      "detail": "{'w': 768, 'sw': 768, 'bw': 768}"
+    },
+    {
+      "name": "healthcare-tablet hero CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-tablet hero CTA target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "healthcare-tablet form submit visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-tablet form submit target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "healthcare-tablet input visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-tablet input target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "healthcare-tablet form CTA red",
+      "passed": true,
+      "detail": "rgb(215, 25, 32)"
+    },
+    {
+      "name": "healthcare-tablet gold identity accent",
+      "passed": true,
+      "detail": "rgb(166, 111, 0)"
+    },
+    {
+      "name": "healthcare-tablet 2-column editorial hero",
+      "passed": true,
+      "detail": "['424.094px', '279.906px']"
+    },
+    {
+      "name": "healthcare-tablet final overflow",
+      "passed": true,
+      "detail": "{'w': 768, 'sw': 768, 'bw': 768}"
+    },
+    {
+      "name": "healthcare-desktop1024 UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-desktop1024 human hook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-desktop1024 h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-desktop1024 portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-desktop1024 Dylan signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-desktop1024 form visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-desktop1024 family switcher",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-desktop1024 no meet Dylan duplicate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-desktop1024 no overflow",
+      "passed": true,
+      "detail": "{'w': 1024, 'sw': 1024, 'bw': 1024}"
+    },
+    {
+      "name": "healthcare-desktop1024 hero CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-desktop1024 hero CTA target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "healthcare-desktop1024 form submit visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-desktop1024 form submit target",
+      "passed": true,
+      "detail": "52"
+    },
+    {
+      "name": "healthcare-desktop1024 input visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-desktop1024 input target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "healthcare-desktop1024 form CTA red",
+      "passed": true,
+      "detail": "rgb(215, 25, 32)"
+    },
+    {
+      "name": "healthcare-desktop1024 gold identity accent",
+      "passed": true,
+      "detail": "rgb(166, 111, 0)"
+    },
+    {
+      "name": "healthcare-desktop1024 2-column editorial hero",
+      "passed": true,
+      "detail": "['525.297px', '346.688px']"
+    },
+    {
+      "name": "healthcare-desktop1024 final overflow",
+      "passed": true,
+      "detail": "{'w': 1024, 'sw': 1024, 'bw': 1024}"
+    },
+    {
+      "name": "healthcare-desktop1440 UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-desktop1440 human hook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-desktop1440 h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-desktop1440 portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-desktop1440 Dylan signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-desktop1440 form visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-desktop1440 family switcher",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-desktop1440 no meet Dylan duplicate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-desktop1440 no overflow",
+      "passed": true,
+      "detail": "{'w': 1440, 'sw': 1440, 'bw': 1440}"
+    },
+    {
+      "name": "healthcare-desktop1440 hero CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-desktop1440 hero CTA target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "healthcare-desktop1440 form submit visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-desktop1440 form submit target",
+      "passed": true,
+      "detail": "52"
+    },
+    {
+      "name": "healthcare-desktop1440 input visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare-desktop1440 input target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "healthcare-desktop1440 form CTA red",
+      "passed": true,
+      "detail": "rgb(215, 25, 32)"
+    },
+    {
+      "name": "healthcare-desktop1440 gold identity accent",
+      "passed": true,
+      "detail": "rgb(166, 111, 0)"
+    },
+    {
+      "name": "healthcare-desktop1440 3-column hero",
+      "passed": true,
+      "detail": "['387.141px', '254.953px', '509.906px']"
+    },
+    {
+      "name": "healthcare-desktop1440 final overflow",
+      "passed": true,
+      "detail": "{'w': 1440, 'sw': 1440, 'bw': 1440}"
+    },
+    {
+      "name": "teachers-phone320 UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-phone320 human hook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-phone320 h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-phone320 portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-phone320 Dylan signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-phone320 form visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-phone320 family switcher",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-phone320 no meet Dylan duplicate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-phone320 no overflow",
+      "passed": true,
+      "detail": "{'w': 320, 'sw': 320, 'bw': 320}"
+    },
+    {
+      "name": "teachers-phone320 hero CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-phone320 hero CTA target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "teachers-phone320 form submit visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-phone320 form submit target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "teachers-phone320 input visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-phone320 input target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "teachers-phone320 form CTA red",
+      "passed": true,
+      "detail": "rgb(215, 25, 32)"
+    },
+    {
+      "name": "teachers-phone320 gold identity accent",
+      "passed": true,
+      "detail": "rgb(166, 111, 0)"
+    },
+    {
+      "name": "teachers-phone320 1-column mobile hero",
+      "passed": true,
+      "detail": "['288px']"
+    },
+    {
+      "name": "teachers-phone320 16px mobile input",
+      "passed": true,
+      "detail": "16.0"
+    },
+    {
+      "name": "teachers-phone320 final overflow",
+      "passed": true,
+      "detail": "{'w': 320, 'sw': 320, 'bw': 320}"
+    },
+    {
+      "name": "teachers-phone390 UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-phone390 human hook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-phone390 h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-phone390 portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-phone390 Dylan signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-phone390 form visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-phone390 family switcher",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-phone390 no meet Dylan duplicate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-phone390 no overflow",
+      "passed": true,
+      "detail": "{'w': 390, 'sw': 390, 'bw': 390}"
+    },
+    {
+      "name": "teachers-phone390 hero CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-phone390 hero CTA target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "teachers-phone390 form submit visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-phone390 form submit target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "teachers-phone390 input visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-phone390 input target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "teachers-phone390 form CTA red",
+      "passed": true,
+      "detail": "rgb(215, 25, 32)"
+    },
+    {
+      "name": "teachers-phone390 gold identity accent",
+      "passed": true,
+      "detail": "rgb(166, 111, 0)"
+    },
+    {
+      "name": "teachers-phone390 1-column mobile hero",
+      "passed": true,
+      "detail": "['358px']"
+    },
+    {
+      "name": "teachers-phone390 16px mobile input",
+      "passed": true,
+      "detail": "16.0"
+    },
+    {
+      "name": "teachers-phone390 final overflow",
+      "passed": true,
+      "detail": "{'w': 390, 'sw': 390, 'bw': 390}"
+    },
+    {
+      "name": "teachers-tablet UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-tablet human hook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-tablet h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-tablet portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-tablet Dylan signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-tablet form visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-tablet family switcher",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-tablet no meet Dylan duplicate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-tablet no overflow",
+      "passed": true,
+      "detail": "{'w': 768, 'sw': 768, 'bw': 768}"
+    },
+    {
+      "name": "teachers-tablet hero CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-tablet hero CTA target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "teachers-tablet form submit visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-tablet form submit target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "teachers-tablet input visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-tablet input target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "teachers-tablet form CTA red",
+      "passed": true,
+      "detail": "rgb(215, 25, 32)"
+    },
+    {
+      "name": "teachers-tablet gold identity accent",
+      "passed": true,
+      "detail": "rgb(166, 111, 0)"
+    },
+    {
+      "name": "teachers-tablet 2-column editorial hero",
+      "passed": true,
+      "detail": "['424.094px', '279.906px']"
+    },
+    {
+      "name": "teachers-tablet final overflow",
+      "passed": true,
+      "detail": "{'w': 768, 'sw': 768, 'bw': 768}"
+    },
+    {
+      "name": "teachers-desktop1024 UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-desktop1024 human hook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-desktop1024 h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-desktop1024 portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-desktop1024 Dylan signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-desktop1024 form visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-desktop1024 family switcher",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-desktop1024 no meet Dylan duplicate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-desktop1024 no overflow",
+      "passed": true,
+      "detail": "{'w': 1024, 'sw': 1024, 'bw': 1024}"
+    },
+    {
+      "name": "teachers-desktop1024 hero CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-desktop1024 hero CTA target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "teachers-desktop1024 form submit visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-desktop1024 form submit target",
+      "passed": true,
+      "detail": "52"
+    },
+    {
+      "name": "teachers-desktop1024 input visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-desktop1024 input target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "teachers-desktop1024 form CTA red",
+      "passed": true,
+      "detail": "rgb(215, 25, 32)"
+    },
+    {
+      "name": "teachers-desktop1024 gold identity accent",
+      "passed": true,
+      "detail": "rgb(166, 111, 0)"
+    },
+    {
+      "name": "teachers-desktop1024 2-column editorial hero",
+      "passed": true,
+      "detail": "['525.297px', '346.688px']"
+    },
+    {
+      "name": "teachers-desktop1024 final overflow",
+      "passed": true,
+      "detail": "{'w': 1024, 'sw': 1024, 'bw': 1024}"
+    },
+    {
+      "name": "teachers-desktop1440 UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-desktop1440 human hook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-desktop1440 h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-desktop1440 portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-desktop1440 Dylan signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-desktop1440 form visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-desktop1440 family switcher",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-desktop1440 no meet Dylan duplicate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-desktop1440 no overflow",
+      "passed": true,
+      "detail": "{'w': 1440, 'sw': 1440, 'bw': 1440}"
+    },
+    {
+      "name": "teachers-desktop1440 hero CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-desktop1440 hero CTA target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "teachers-desktop1440 form submit visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-desktop1440 form submit target",
+      "passed": true,
+      "detail": "52"
+    },
+    {
+      "name": "teachers-desktop1440 input visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers-desktop1440 input target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "teachers-desktop1440 form CTA red",
+      "passed": true,
+      "detail": "rgb(215, 25, 32)"
+    },
+    {
+      "name": "teachers-desktop1440 gold identity accent",
+      "passed": true,
+      "detail": "rgb(166, 111, 0)"
+    },
+    {
+      "name": "teachers-desktop1440 3-column hero",
+      "passed": true,
+      "detail": "['387.141px', '254.953px', '509.906px']"
+    },
+    {
+      "name": "teachers-desktop1440 final overflow",
+      "passed": true,
+      "detail": "{'w': 1440, 'sw': 1440, 'bw': 1440}"
+    },
+    {
+      "name": "tech-phone320 UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-phone320 human hook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-phone320 h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-phone320 portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-phone320 Dylan signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-phone320 form visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-phone320 family switcher",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-phone320 no meet Dylan duplicate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-phone320 no overflow",
+      "passed": true,
+      "detail": "{'w': 320, 'sw': 320, 'bw': 320}"
+    },
+    {
+      "name": "tech-phone320 hero CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-phone320 hero CTA target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "tech-phone320 form submit visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-phone320 form submit target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "tech-phone320 input visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-phone320 input target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "tech-phone320 form CTA red",
+      "passed": true,
+      "detail": "rgb(215, 25, 32)"
+    },
+    {
+      "name": "tech-phone320 gold identity accent",
+      "passed": true,
+      "detail": "rgb(166, 111, 0)"
+    },
+    {
+      "name": "tech-phone320 1-column mobile hero",
+      "passed": true,
+      "detail": "['288px']"
+    },
+    {
+      "name": "tech-phone320 16px mobile input",
+      "passed": true,
+      "detail": "16.0"
+    },
+    {
+      "name": "tech-phone320 final overflow",
+      "passed": true,
+      "detail": "{'w': 320, 'sw': 320, 'bw': 320}"
+    },
+    {
+      "name": "tech-phone390 UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-phone390 human hook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-phone390 h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-phone390 portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-phone390 Dylan signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-phone390 form visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-phone390 family switcher",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-phone390 no meet Dylan duplicate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-phone390 no overflow",
+      "passed": true,
+      "detail": "{'w': 390, 'sw': 390, 'bw': 390}"
+    },
+    {
+      "name": "tech-phone390 hero CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-phone390 hero CTA target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "tech-phone390 form submit visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-phone390 form submit target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "tech-phone390 input visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-phone390 input target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "tech-phone390 form CTA red",
+      "passed": true,
+      "detail": "rgb(215, 25, 32)"
+    },
+    {
+      "name": "tech-phone390 gold identity accent",
+      "passed": true,
+      "detail": "rgb(166, 111, 0)"
+    },
+    {
+      "name": "tech-phone390 1-column mobile hero",
+      "passed": true,
+      "detail": "['358px']"
+    },
+    {
+      "name": "tech-phone390 16px mobile input",
+      "passed": true,
+      "detail": "16.0"
+    },
+    {
+      "name": "tech-phone390 final overflow",
+      "passed": true,
+      "detail": "{'w': 390, 'sw': 390, 'bw': 390}"
+    },
+    {
+      "name": "tech-tablet UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-tablet human hook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-tablet h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-tablet portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-tablet Dylan signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-tablet form visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-tablet family switcher",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-tablet no meet Dylan duplicate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-tablet no overflow",
+      "passed": true,
+      "detail": "{'w': 768, 'sw': 768, 'bw': 768}"
+    },
+    {
+      "name": "tech-tablet hero CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-tablet hero CTA target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "tech-tablet form submit visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-tablet form submit target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "tech-tablet input visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-tablet input target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "tech-tablet form CTA red",
+      "passed": true,
+      "detail": "rgb(215, 25, 32)"
+    },
+    {
+      "name": "tech-tablet gold identity accent",
+      "passed": true,
+      "detail": "rgb(166, 111, 0)"
+    },
+    {
+      "name": "tech-tablet 2-column editorial hero",
+      "passed": true,
+      "detail": "['424.094px', '279.906px']"
+    },
+    {
+      "name": "tech-tablet final overflow",
+      "passed": true,
+      "detail": "{'w': 768, 'sw': 768, 'bw': 768}"
+    },
+    {
+      "name": "tech-desktop1024 UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-desktop1024 human hook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-desktop1024 h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-desktop1024 portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-desktop1024 Dylan signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-desktop1024 form visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-desktop1024 family switcher",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-desktop1024 no meet Dylan duplicate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-desktop1024 no overflow",
+      "passed": true,
+      "detail": "{'w': 1024, 'sw': 1024, 'bw': 1024}"
+    },
+    {
+      "name": "tech-desktop1024 hero CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-desktop1024 hero CTA target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "tech-desktop1024 form submit visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-desktop1024 form submit target",
+      "passed": true,
+      "detail": "52"
+    },
+    {
+      "name": "tech-desktop1024 input visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-desktop1024 input target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "tech-desktop1024 form CTA red",
+      "passed": true,
+      "detail": "rgb(215, 25, 32)"
+    },
+    {
+      "name": "tech-desktop1024 gold identity accent",
+      "passed": true,
+      "detail": "rgb(166, 111, 0)"
+    },
+    {
+      "name": "tech-desktop1024 2-column editorial hero",
+      "passed": true,
+      "detail": "['525.297px', '346.688px']"
+    },
+    {
+      "name": "tech-desktop1024 final overflow",
+      "passed": true,
+      "detail": "{'w': 1024, 'sw': 1024, 'bw': 1024}"
+    },
+    {
+      "name": "tech-desktop1440 UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-desktop1440 human hook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-desktop1440 h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-desktop1440 portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-desktop1440 Dylan signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-desktop1440 form visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-desktop1440 family switcher",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-desktop1440 no meet Dylan duplicate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-desktop1440 no overflow",
+      "passed": true,
+      "detail": "{'w': 1440, 'sw': 1440, 'bw': 1440}"
+    },
+    {
+      "name": "tech-desktop1440 hero CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-desktop1440 hero CTA target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "tech-desktop1440 form submit visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-desktop1440 form submit target",
+      "passed": true,
+      "detail": "52"
+    },
+    {
+      "name": "tech-desktop1440 input visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech-desktop1440 input target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "tech-desktop1440 form CTA red",
+      "passed": true,
+      "detail": "rgb(215, 25, 32)"
+    },
+    {
+      "name": "tech-desktop1440 gold identity accent",
+      "passed": true,
+      "detail": "rgb(166, 111, 0)"
+    },
+    {
+      "name": "tech-desktop1440 3-column hero",
+      "passed": true,
+      "detail": "['387.141px', '254.953px', '509.906px']"
+    },
+    {
+      "name": "tech-desktop1440 final overflow",
+      "passed": true,
+      "detail": "{'w': 1440, 'sw': 1440, 'bw': 1440}"
+    },
+    {
+      "name": "engineers-phone320 UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-phone320 human hook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-phone320 h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-phone320 portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-phone320 Dylan signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-phone320 form visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-phone320 family switcher",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-phone320 no meet Dylan duplicate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-phone320 no overflow",
+      "passed": true,
+      "detail": "{'w': 320, 'sw': 320, 'bw': 320}"
+    },
+    {
+      "name": "engineers-phone320 hero CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-phone320 hero CTA target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "engineers-phone320 form submit visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-phone320 form submit target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "engineers-phone320 input visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-phone320 input target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "engineers-phone320 form CTA red",
+      "passed": true,
+      "detail": "rgb(215, 25, 32)"
+    },
+    {
+      "name": "engineers-phone320 gold identity accent",
+      "passed": true,
+      "detail": "rgb(166, 111, 0)"
+    },
+    {
+      "name": "engineers-phone320 1-column mobile hero",
+      "passed": true,
+      "detail": "['288px']"
+    },
+    {
+      "name": "engineers-phone320 16px mobile input",
+      "passed": true,
+      "detail": "16.0"
+    },
+    {
+      "name": "engineers-phone320 final overflow",
+      "passed": true,
+      "detail": "{'w': 320, 'sw': 320, 'bw': 320}"
+    },
+    {
+      "name": "engineers-phone390 UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-phone390 human hook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-phone390 h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-phone390 portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-phone390 Dylan signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-phone390 form visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-phone390 family switcher",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-phone390 no meet Dylan duplicate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-phone390 no overflow",
+      "passed": true,
+      "detail": "{'w': 390, 'sw': 390, 'bw': 390}"
+    },
+    {
+      "name": "engineers-phone390 hero CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-phone390 hero CTA target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "engineers-phone390 form submit visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-phone390 form submit target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "engineers-phone390 input visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-phone390 input target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "engineers-phone390 form CTA red",
+      "passed": true,
+      "detail": "rgb(215, 25, 32)"
+    },
+    {
+      "name": "engineers-phone390 gold identity accent",
+      "passed": true,
+      "detail": "rgb(166, 111, 0)"
+    },
+    {
+      "name": "engineers-phone390 1-column mobile hero",
+      "passed": true,
+      "detail": "['358px']"
+    },
+    {
+      "name": "engineers-phone390 16px mobile input",
+      "passed": true,
+      "detail": "16.0"
+    },
+    {
+      "name": "engineers-phone390 final overflow",
+      "passed": true,
+      "detail": "{'w': 390, 'sw': 390, 'bw': 390}"
+    },
+    {
+      "name": "engineers-tablet UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-tablet human hook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-tablet h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-tablet portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-tablet Dylan signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-tablet form visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-tablet family switcher",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-tablet no meet Dylan duplicate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-tablet no overflow",
+      "passed": true,
+      "detail": "{'w': 768, 'sw': 768, 'bw': 768}"
+    },
+    {
+      "name": "engineers-tablet hero CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-tablet hero CTA target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "engineers-tablet form submit visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-tablet form submit target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "engineers-tablet input visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-tablet input target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "engineers-tablet form CTA red",
+      "passed": true,
+      "detail": "rgb(215, 25, 32)"
+    },
+    {
+      "name": "engineers-tablet gold identity accent",
+      "passed": true,
+      "detail": "rgb(166, 111, 0)"
+    },
+    {
+      "name": "engineers-tablet 2-column editorial hero",
+      "passed": true,
+      "detail": "['424.094px', '279.906px']"
+    },
+    {
+      "name": "engineers-tablet final overflow",
+      "passed": true,
+      "detail": "{'w': 768, 'sw': 768, 'bw': 768}"
+    },
+    {
+      "name": "engineers-desktop1024 UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-desktop1024 human hook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-desktop1024 h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-desktop1024 portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-desktop1024 Dylan signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-desktop1024 form visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-desktop1024 family switcher",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-desktop1024 no meet Dylan duplicate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-desktop1024 no overflow",
+      "passed": true,
+      "detail": "{'w': 1024, 'sw': 1024, 'bw': 1024}"
+    },
+    {
+      "name": "engineers-desktop1024 hero CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-desktop1024 hero CTA target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "engineers-desktop1024 form submit visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-desktop1024 form submit target",
+      "passed": true,
+      "detail": "52"
+    },
+    {
+      "name": "engineers-desktop1024 input visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-desktop1024 input target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "engineers-desktop1024 form CTA red",
+      "passed": true,
+      "detail": "rgb(215, 25, 32)"
+    },
+    {
+      "name": "engineers-desktop1024 gold identity accent",
+      "passed": true,
+      "detail": "rgb(166, 111, 0)"
+    },
+    {
+      "name": "engineers-desktop1024 2-column editorial hero",
+      "passed": true,
+      "detail": "['525.297px', '346.688px']"
+    },
+    {
+      "name": "engineers-desktop1024 final overflow",
+      "passed": true,
+      "detail": "{'w': 1024, 'sw': 1024, 'bw': 1024}"
+    },
+    {
+      "name": "engineers-desktop1440 UI3 body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-desktop1440 human hook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-desktop1440 h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-desktop1440 portrait visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-desktop1440 Dylan signature visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-desktop1440 form visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-desktop1440 family switcher",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-desktop1440 no meet Dylan duplicate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-desktop1440 no overflow",
+      "passed": true,
+      "detail": "{'w': 1440, 'sw': 1440, 'bw': 1440}"
+    },
+    {
+      "name": "engineers-desktop1440 hero CTA visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-desktop1440 hero CTA target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "engineers-desktop1440 form submit visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-desktop1440 form submit target",
+      "passed": true,
+      "detail": "52"
+    },
+    {
+      "name": "engineers-desktop1440 input visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers-desktop1440 input target",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "name": "engineers-desktop1440 form CTA red",
+      "passed": true,
+      "detail": "rgb(215, 25, 32)"
+    },
+    {
+      "name": "engineers-desktop1440 gold identity accent",
+      "passed": true,
+      "detail": "rgb(166, 111, 0)"
+    },
+    {
+      "name": "engineers-desktop1440 3-column hero",
+      "passed": true,
+      "detail": "['387.141px', '254.953px', '509.906px']"
+    },
+    {
+      "name": "engineers-desktop1440 final overflow",
+      "passed": true,
+      "detail": "{'w': 1440, 'sw': 1440, 'bw': 1440}"
+    }
+  ]
+}

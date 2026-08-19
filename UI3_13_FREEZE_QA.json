@@ -1,0 +1,392 @@
+{
+  "sprint": "408-UI-3.13",
+  "suite": "behavior_form_and_product_delta_freeze",
+  "runtime_files": 47,
+  "form_contracts": 9,
+  "changed_input_product_files": [
+    "VERSION",
+    "auto-bundle/index.html",
+    "auto-bundle/thank-you.html",
+    "buyer/index.html",
+    "contact/index.html",
+    "engineers/index.html",
+    "engineers/thank-you.html",
+    "healthcare/index.html",
+    "healthcare/thank-you.html",
+    "home/index.html",
+    "home/thank-you.html",
+    "index.html",
+    "life/index.html",
+    "privacy.html",
+    "score/index.html",
+    "shared/buyer-experience-ui.css",
+    "shared/homepage-platform.css",
+    "shared/life-campaign-platform.css",
+    "teachers/index.html",
+    "teachers/thank-you.html",
+    "tech/index.html",
+    "tech/thank-you.html",
+    "terms.html"
+  ],
+  "allowed_product_changes": [
+    "VERSION",
+    "auto-bundle/index.html",
+    "auto-bundle/thank-you.html",
+    "buyer/index.html",
+    "buyer/thank-you.html",
+    "contact/index.html",
+    "engineers/index.html",
+    "engineers/thank-you.html",
+    "healthcare/index.html",
+    "healthcare/thank-you.html",
+    "home/index.html",
+    "home/thank-you.html",
+    "index.html",
+    "life/index.html",
+    "privacy.html",
+    "score/index.html",
+    "shared/buyer-experience-ui.css",
+    "shared/homepage-platform.css",
+    "shared/life-campaign-platform.css",
+    "teachers/index.html",
+    "teachers/thank-you.html",
+    "tech/index.html",
+    "tech/thank-you.html",
+    "terms.html"
+  ],
+  "total": 66,
+  "passed": 66,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "runtime _redirects",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime _routes.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime _worker.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime handoff-manifest.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime local/data/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime local/data/catalog.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime local/data/catalog.schema.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/accessibility-certification.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/accessibility.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/address-autocomplete.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/buyer-flow.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/buyer-referral.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/campaign-entry-registry.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/campaign-entry.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/campaign.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/config.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/contact-choice.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/coveragefit-invitation.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/coveragefit-launch.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/flyer-campaign.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/home-baseline.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/home-certification.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/home-confirmation.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/home-continuity.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/home-engagement.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/home-form-first.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/home-journey-contract.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/home-lead-progressive.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/homepage-optimization.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/life-campaign.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/life-conversion.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/life-intake.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/life-ops.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/life-secure-submit.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/local-attribution.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/local-data-model.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/local-directory.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/local-join.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/local-merchant.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/motion.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/post-lead-engagement.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/progressive-intake.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/prospect-profile.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/referral-bridge.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/score.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/script.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime shared/ui-3-foundation.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "form count frozen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "form contract auto-bundle/index.html#0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "form contract buyer/index.html#0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "form contract engineers/index.html#0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "form contract healthcare/index.html#0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "form contract home/index.html#0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "form contract life/index.html#0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "form contract local/join/index.html#0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "form contract teachers/index.html#0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "form contract tech/index.html#0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "input product files not removed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "product changes limited to certified production-polish files",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all changed product files are intentional",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "new production artifact robots.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "new production artifact sitemap.xml",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "new production artifact shared/assets/buyer-home-420.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "new production artifact shared/assets/buyer-home-595.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "new production artifact shared/assets/life-family-campaign-420.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "new production artifact shared/assets/life-family-campaign-705.webp",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

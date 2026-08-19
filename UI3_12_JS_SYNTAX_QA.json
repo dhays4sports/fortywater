@@ -1,0 +1,214 @@
+{
+  "sprint": "408-UI-3.12",
+  "suite": "runtime_javascript_syntax",
+  "total": 41,
+  "passed": 41,
+  "failed": 0,
+  "checks": [
+    {
+      "path": "_worker.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/accessibility-certification.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/accessibility.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/address-autocomplete.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/buyer-flow.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/buyer-referral.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/campaign-entry-registry.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/campaign-entry.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/campaign.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/config.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/contact-choice.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/coveragefit-invitation.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/coveragefit-launch.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/flyer-campaign.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/home-baseline.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/home-certification.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/home-confirmation.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/home-continuity.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/home-engagement.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/home-form-first.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/home-journey-contract.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/home-lead-progressive.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/homepage-optimization.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/life-campaign.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/life-conversion.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/life-intake.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/life-ops.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/life-secure-submit.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/local-attribution.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/local-data-model.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/local-directory.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/local-join.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/local-merchant.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/motion.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/post-lead-engagement.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/progressive-intake.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/prospect-profile.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/referral-bridge.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/score.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/script.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "path": "shared/ui-3-foundation.js",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

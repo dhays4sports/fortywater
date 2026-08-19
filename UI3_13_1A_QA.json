@@ -1,0 +1,549 @@
+{
+  "sprint": "408-UI-3.13.1A",
+  "suite": "human_trust_foundation",
+  "total": 108,
+  "passed": 108,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "foundation css exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "component .ht-signature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "component .ht-editorial-intro",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "component .ht-human-note",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "component .ht-photo-frame",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "component .ht-professional-accent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "component .ht-local-cue",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "component .ht-personal-receipt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "component .ht-unboxed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "forced colors support",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reduced motion support",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "registry life excluded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "next sprint locked",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "404.html foundation marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "404.html foundation css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "404.html body byte-equivalent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "index.html foundation marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "index.html foundation css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "index.html body byte-equivalent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home/index.html foundation marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home/index.html foundation css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home/index.html body byte-equivalent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home/thank-you.html foundation marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home/thank-you.html foundation css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "home/thank-you.html body byte-equivalent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "auto-bundle/index.html foundation marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "auto-bundle/index.html foundation css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "auto-bundle/index.html body byte-equivalent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "auto-bundle/thank-you.html foundation marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "auto-bundle/thank-you.html foundation css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "auto-bundle/thank-you.html body byte-equivalent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer/index.html foundation marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer/index.html foundation css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer/index.html body byte-equivalent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer/thank-you.html foundation marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer/thank-you.html foundation css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "buyer/thank-you.html body byte-equivalent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare/index.html foundation marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare/index.html foundation css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare/index.html body byte-equivalent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare/thank-you.html foundation marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare/thank-you.html foundation css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "healthcare/thank-you.html body byte-equivalent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers/index.html foundation marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers/index.html foundation css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers/index.html body byte-equivalent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers/thank-you.html foundation marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers/thank-you.html foundation css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "teachers/thank-you.html body byte-equivalent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech/index.html foundation marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech/index.html foundation css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech/index.html body byte-equivalent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech/thank-you.html foundation marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech/thank-you.html foundation css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tech/thank-you.html body byte-equivalent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers/index.html foundation marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers/index.html foundation css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers/index.html body byte-equivalent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers/thank-you.html foundation marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers/thank-you.html foundation css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "engineers/thank-you.html body byte-equivalent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/index.html foundation marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/index.html foundation css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/index.html body byte-equivalent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/detail/index.html foundation marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/detail/index.html foundation css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/detail/index.html body byte-equivalent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/index.html foundation marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/index.html foundation css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/index.html body byte-equivalent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/thank-you.html foundation marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/thank-you.html foundation css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local/join/thank-you.html body byte-equivalent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact/index.html foundation marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact/index.html foundation css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact/index.html body byte-equivalent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "neighbor/index.html foundation marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "neighbor/index.html foundation css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "neighbor/index.html body byte-equivalent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "score/index.html foundation marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "score/index.html foundation css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "score/index.html body byte-equivalent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "privacy.html foundation marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "privacy.html foundation css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "privacy.html body byte-equivalent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "terms.html foundation marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "terms.html foundation css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "terms.html body byte-equivalent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "life/index.html life exact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "life/thank-you.html life exact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "life-ops/index.html life exact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/life-campaign-platform.css life exact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/life-campaign.js life exact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/life-conversion.js life exact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/life-intake.js life exact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/life-ops.css life exact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/life-ops.js life exact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/life-secure-submit.js life exact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared/life.css life exact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "_routes.json infra exact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SPRINT-408-INFRA-1.1.md infra exact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "INFRA1_1_RELEASE_CERTIFICATION.json infra exact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "qa/test-408-infra-1.1-function-boundary.mjs infra exact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "life/index.html no foundation load",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "life/thank-you.html no foundation load",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "life-ops/index.html no foundation load",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "foundation opt-in no body selector",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "foundation opt-in no ui3-page selector",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}\n
